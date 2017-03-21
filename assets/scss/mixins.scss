@@ -1,0 +1,9 @@
+@mixin margin_align() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin align($align: center) {
+  text-align: $align;
+}

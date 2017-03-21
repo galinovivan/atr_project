@@ -1,0 +1,49 @@
+.nomination_sprite {
+  background-image: url('../images/nomination_sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.nomination_sprite-icon_build {
+  width: 78px;
+  height: 65px;
+  background-position: -5px -5px;
+}
+
+.nomination_sprite-icon_light {
+  width: 39px;
+  height: 71px;
+  background-position: -93px -5px;
+}
+
+.nomination_sprite-icon_state {
+  width: 87px;
+  height: 52px;
+  background-position: -5px -86px;
+}
+
+
+.social_sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.social_sprite-fb_icon {
+  width: 34px;
+  height: 34px;
+  background-position: -5px -5px;
+}
+
+.social_sprite-inst {
+  width: 33px;
+  height: 33px;
+  background-position: -49px -5px;
+}
+
+.social_sprite-vk_icon {
+  width: 33px;
+  height: 33px;
+  background-position: -49px -48px;
+}
+

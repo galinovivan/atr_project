@@ -1,0 +1,39 @@
+
+// colors
+
+$white: #ffffff;
+$black: #1f2932;
+
+
+
+
+
+
+
+
+
+// font
+$baseFontSize: 16px;
+$smallFont: $baseFontSize - 4;
+$h2FontSize: $baseFontSize * 2;
+$h3FontSize: $baseFontSize + 8;
+$baseFont: 'PT Serif Regular';
+$boldFont: 'PT Sans Bold';
+
+$baseLineHeight: 18px;
+$largeLineHeight: $baseLineHeight * 2;
+
+$baseFontKerning: 25;
+$largeFontKerning: $baseFontKerning * 2;
+
+
+// button
+
+$buttonFontSize: $baseFontSize - 1;
+$buttonFont: $boldFont;
+$buttonHeight: 33px;
+$baseButtonBorder: 2px solid $white;
+$mediumButtonWidth: 184px;
+
+
+

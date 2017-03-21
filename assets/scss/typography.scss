@@ -1,0 +1,27 @@
+p, span, a {
+  font-size: $baseFontSize;
+  font-family: $baseFont;
+  line-height: $baseLineHeight;
+  letter-spacing: $baseFontKerning;
+  color: $white;
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.small_text {
+  font-size: $smallFont;
+}
+
+h2 {
+  font-size: $h2FontSize;
+}
+
+h3 {
+  font-size: $h3FontSize;
+}

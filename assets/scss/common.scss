@@ -1,9 +1,16 @@
 @import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "fonts";
 @import "variable";
 @import "mixins";
+@import "typography";
 @import "base";
+@import "sprites";
 
 @import "button";
 @import "field";
+
+@import "nav";
+@import "header";
+@import "footer";
 @import "page";

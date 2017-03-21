@@ -1,0 +1,20 @@
+.button {
+  font-size: $buttonFontSize;
+  display: block;
+  text-transform: uppercase;
+  border: $baseButtonBorder;
+  color: $white;
+  @include align();
+  &.white {
+    border-color: $white;
+    color: $color;
+  }
+  &.black {
+    border-color: $black;
+    color: $black;
+  }
+  &.medium {
+    width: $mediumButtonWidth;
+    height: $buttonHeight;
+  }
+}
