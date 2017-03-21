@@ -72,6 +72,17 @@ endif;
 add_action( 'after_setup_theme', 'art_project_setup' );
 
 /**
+ * Подключаем стили
+ */
+function load_resources() {
+	wp_enqueue_style('base_style', get_template_directory_uri() . './assets/css/style.css');
+}
+
+add_action('wp_enqueue_scripts', 'base_style');
+
+
+
+/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
