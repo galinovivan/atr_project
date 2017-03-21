@@ -1,0 +1,16 @@
+.toggle_button {
+  width: 52px;
+  height: 52px;
+  border: $baseBorder;
+  @include flex_align(center, center);
+  flex-direction: column;
+  span {
+    width: 25px;
+    height: 4px;
+    background: $navToggleBackground;
+    display: block;
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,14 +1,15 @@
 
 // colors
-
+$transparent: transparent;
 $white: #ffffff;
 $black: #1f2932;
+$baseColor: #c34519;
 
 
 
 
 
-
+$baseBorder: 1px solid $white;
 
 
 
@@ -18,7 +19,7 @@ $smallFont: $baseFontSize - 4;
 $h2FontSize: $baseFontSize * 2;
 $h3FontSize: $baseFontSize + 8;
 $baseFont: 'PT Serif Regular';
-$boldFont: 'PT Sans Bold';
+$boldFont: 'PT-Sans-Bold';
 
 $baseLineHeight: 18px;
 $largeLineHeight: $baseLineHeight * 2;
@@ -34,6 +35,14 @@ $buttonFont: $boldFont;
 $buttonHeight: 33px;
 $baseButtonBorder: 2px solid $white;
 $mediumButtonWidth: 184px;
+$baseButtonBackground: $transparent;
+
+// nav
+$navToggleBackground: $white;
 
 
+$baseTransitionDuration: 0.3s;
 
+// decor
+$separateLineWidth: 80px;
+$separateLineHeight: 2px;

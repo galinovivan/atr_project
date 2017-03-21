@@ -7,3 +7,51 @@
 @mixin align($align: center) {
   text-align: $align;
 }
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin flex_align($justify-content: center,$align-item: center ) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-item;
+  -webkit-align-items: $align-item;
+}
+
+
+// hovers
+
+@mixin buttonHover() {
+  @include fillingHover();
+}
+@mixin fillingHover($background: $baseColor, $color: $white) {
+  @include transition();
+  &:hover {
+    background: $background;
+    color: $color;
+    border-color: $background;
+  }
+}
+
+@mixin marginClear() {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+// css3
+@mixin transition($prop: all $baseTransitionDuration) {
+  transition: $prop;
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -o-transition: $prop;
+}

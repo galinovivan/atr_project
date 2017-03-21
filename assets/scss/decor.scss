@@ -1,0 +1,14 @@
+.separate_line {
+  height: $separateLineHeight;
+  width: $separateLineWidth;
+  margin: 20px 0;
+  &.center {
+    @include margin_align();
+  }
+  &.black {
+    background: $black;
+  }
+  &.white {
+    background: $white;
+  }
+}

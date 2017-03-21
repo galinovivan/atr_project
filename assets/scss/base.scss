@@ -1,3 +1,12 @@
 .block_center {
   @include margin_align();
 }
+
+.base_background {
+  background: url('../images/grid_background.png') no-repeat;
+  background-size: cover;
+}
+
+a, button, input, textarea {
+  outline: none;
+}

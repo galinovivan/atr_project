@@ -1,0 +1,91 @@
+main {
+  .prize_banner {
+    $blockHeight: 464px;
+    .about_prize {
+      height: $blockHeight;
+      padding: 50px 0 70px 0;
+      .banner_heading {
+        margin-bottom: 15px;
+      }
+      .text {
+        width: 74%;
+        margin-top: 10px;
+      }
+      .button_more {
+        margin-top: 65px;
+      }
+    }
+    .thumb_block {
+      overflow-y: hidden;
+      overflow-x: visible;
+      height: $blockHeight;
+      //background: url('../images/people.png') no-repeat;
+      background-size: cover;
+      img {
+
+      }
+    }
+  }
+  .nominations_banner {
+    .banner_heading {
+      margin-bottom: 30px;
+    }
+    $blockHeight: 441px;
+    padding: 65px 0 70px 0;
+    .wrapper {
+      &:not(:last-child) {
+
+      }
+    }
+    .namination_item {
+      padding-top: 50px;
+      height: $blockHeight;
+      border: $baseBorder;
+      width: 92%;
+      display: inline-block;
+      .icon {
+        height: 65px;
+        margin-bottom: 35px;
+      }
+      .title {
+        padding-bottom: 35px;
+        position: relative;
+        .separate {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          @include align();
+          &::after {
+            content: '';
+            width: 80px;
+            display: inline-block;
+            height: 2px;
+            background: $white;
+          }
+        }
+        margin-bottom: 25px;
+      }
+      .text {
+        padding: 0 25px;
+        height: 55px;
+        p {
+          font-size: $baseFontSize - 2;
+        }
+        margin-bottom: 50px;
+      }
+    }
+    .alt_text {
+      margin-top: 35px;
+      h3 {
+        font-size: $h3FontSize - 3;
+      }
+    }
+  }
+  .condition_banner {
+    padding: 70px 0;
+    .text {
+      margin-bottom: 50px;
+    }
+  }
+}

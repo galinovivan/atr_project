@@ -4,14 +4,18 @@
   text-transform: uppercase;
   border: $baseButtonBorder;
   color: $white;
+  background: $baseButtonBackground;
+  font-weight: 600;
   @include align();
   &.white {
     border-color: $white;
-    color: $color;
+    color: $white;
+    @include buttonHover();
   }
   &.black {
     border-color: $black;
     color: $black;
+    @include buttonHover();
   }
   &.medium {
     width: $mediumButtonWidth;

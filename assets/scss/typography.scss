@@ -20,8 +20,35 @@ p, span, a {
 
 h2 {
   font-size: $h2FontSize;
+  font-weight: 600;
 }
 
 h3 {
   font-size: $h3FontSize;
+  @include marginClear();
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.banner_heading {
+  * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  &.with_separate {
+    position: relative;
+    padding-bottom: 8px;
+    &::after {
+      content: '';
+      display: block;
+      width: 80px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      background: $black;
+    }
+  }
 }
