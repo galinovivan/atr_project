@@ -2,8 +2,11 @@ main {
   .prize_banner {
     $blockHeight: 464px;
     .about_prize {
+      background-image: url('../images/abstract_prize.png');
+      background-repeat: no-repeat;
       height: $blockHeight;
-      padding: 50px 0 70px 0;
+      padding-top: 50px;
+      padding-bottom: 70px;
       .banner_heading {
         margin-bottom: 15px;
       }
@@ -16,10 +19,8 @@ main {
       }
     }
     .thumb_block {
-      overflow-y: hidden;
-      overflow-x: visible;
       height: $blockHeight;
-      //background: url('../images/people.png') no-repeat;
+      background: url('../images/prize_img.png') no-repeat;
       background-size: cover;
       img {
 
@@ -89,15 +90,15 @@ main {
     }
   }
   .participation_banner {
+    background-image: url('../images/abstract_1.png');
+    background-repeat: no-repeat;
     $blockHeight: 460px;
     height: $blockHeight;
     .wrapper {
-      padding: 75px 10% 90px 10%;
+      padding: 75px 10% 90px 8%;
     }
     .thumb_wrapper {
       height: $blockHeight;
-      padding-left: 4%;
-      padding-left: 40px;
       .thumb {
         height: 100%;
         background: url('../images/people_banner-2.png') no-repeat;
