@@ -10,4 +10,16 @@
       right: 0;
     }
   }
+  div {
+    outline: none;
+    height: auto;
+    @include transition();
+    img {
+      vertical-align: middle;
+      @include margin_align();
+    }
+    &.slick-center {
+      @include transform(scale(1.2));
+    }
+  }
 }
