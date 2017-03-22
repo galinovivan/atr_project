@@ -47,3 +47,22 @@
   background-position: -49px -48px;
 }
 
+
+.social_arrow {
+  background-image: url('../images/arrow_sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.social_arrow-arrow_left {
+  width: 19px;
+  height: 43px;
+  background-position: -5px -5px;
+}
+
+.social_arrow-arrow_right {
+  width: 19px;
+  height: 43px;
+  background-position: -34px -5px;
+}
+

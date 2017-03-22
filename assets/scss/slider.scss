@@ -1,0 +1,13 @@
+.center-slider {
+  position: relative;
+  .arrow {
+    position: absolute;
+    top: 50%;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
+  }
+}

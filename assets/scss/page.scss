@@ -42,7 +42,7 @@ main {
       padding-top: 50px;
       height: $blockHeight;
       border: $baseBorder;
-      width: 92%;
+      width: 85%;
       display: inline-block;
       .icon {
         height: 65px;
@@ -150,5 +150,8 @@ main {
         }
       }
     }
+  }
+  .judge_banner {
+    padding: 45px 0;
   }
 }
