@@ -1,0 +1,22 @@
+.helper {
+  height: $helperHeight;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 7px;
+  @include align();
+  * {
+    font-size: $baseFontSize + 1;
+  }
+  &.red {
+    background: $helperRed;
+    * {
+      color: $white;
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+}
