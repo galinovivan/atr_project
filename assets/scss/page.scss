@@ -128,4 +128,27 @@ main {
       margin-top: 50px;
     }
   }
+  .partners_banner {
+    background-image: url('../images/abstract_partners.png');
+    background-repeat: no-repeat;
+    padding: 58px 0;
+    .banner_heading {
+      margin-bottom: 60px;
+    }
+    .partners_list {
+      @include clearfix();
+      li {
+        display: block;
+        float: left;
+        width: 20%;
+        height: 80px;
+        img {
+          @include margin_align();
+        }
+        &:nth-child(3) {
+          margin-top: -20px;
+        }
+      }
+    }
+  }
 }
