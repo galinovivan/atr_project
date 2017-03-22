@@ -6,6 +6,9 @@
   background: url('../images/grid_background.png') no-repeat;
   background-size: cover;
 }
+.light_background {
+  background: $lightBackground;
+}
 
 a, button, input, textarea {
   outline: none;
