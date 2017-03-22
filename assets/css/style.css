@@ -6110,7 +6110,7 @@ header {
 main .prize_banner .about_prize {
   background-image: url("../images/abstract_prize.png");
   background-repeat: no-repeat;
-  height: 464px;
+  height: 460px;
   padding-top: 50px;
   padding-bottom: 70px; }
   main .prize_banner .about_prize .banner_heading {
@@ -6122,7 +6122,7 @@ main .prize_banner .about_prize {
     margin-top: 65px; }
 
 main .prize_banner .thumb_block {
-  height: 464px;
+  height: 460px;
   background: url("../images/prize_img.png") no-repeat;
   background-size: cover; }
 
