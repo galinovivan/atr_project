@@ -88,4 +88,43 @@ main {
       margin-bottom: 50px;
     }
   }
+  .participation_banner {
+    $blockHeight: 460px;
+    height: $blockHeight;
+    .wrapper {
+      padding: 85px 10% 90px 11%;
+    }
+    .thumb_wrapper {
+      height: $blockHeight;
+      padding-left: 4%;
+      padding-left: 40px;
+      .thumb {
+        height: 100%;
+        background: url('../images/people_banner-2.png') no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        img {
+          width: 100%;
+
+        }
+      }
+    }
+    .banner_heading {
+      margin-bottom: 15px;
+    }
+    .text {
+      margin-bottom: 14px;
+    }
+    .more_text {
+      span {
+        line-height: $baseLineHeight - 2;
+      }
+      .text_right {
+        padding-left: 10px;
+      }
+    }
+    .button_more {
+      margin-top: 50px;
+    }
+  }
 }

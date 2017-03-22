@@ -27,6 +27,39 @@
   -webkit-align-items: $align-item;
 }
 
+@mixin decorLine($background: $white, $size: 20px) {
+  position: relative;
+  .separate_line_hover {
+    position: absolute;
+    display: block;
+    background: $background;
+    &.left, &.right {
+      width: $size;
+      height: 1px;
+    }
+    &.top, &.bottom {
+      width: 1px;
+      height: $size;
+    }
+    &.left {
+      left: -$size - 1;
+      top: 50%;
+    }
+    &.right {
+      right: -$size - 1;
+      top: 50%;
+    }
+    &.bottom {
+      bottom: -$size - 1;
+      left: 50%;
+    }
+    &.top {
+      top: -$size - 1;
+      left: 50%;
+    }
+  }
+  @include decorLineHover($size);
+}
 
 // hovers
 
@@ -42,6 +75,33 @@
   }
 }
 
+
+@mixin decorLineHover($size) {
+  .separate_line_hover {
+    @include transition(all .15s);
+    &.left, &.right {
+      width: 0;
+    }
+    &.top, &.bottom {
+      height: 0;
+    }
+  }
+  &:hover {
+    .separate_line_hover {
+      &.left, &.right {
+        width: $size;
+      }
+     &.top, &.bottom {
+      height: $size;
+     }
+    }
+  }
+}
+
+
+
+// hovers
+
 @mixin marginClear() {
   margin-top: 0;
   margin-bottom: 0;
@@ -55,3 +115,12 @@
   -moz-transition: $prop;
   -o-transition: $prop;
 }
+
+@mixin transform($prop) {
+  transform: $prop;
+  -webkit-transform: $prop;
+  -moz-transform: $prop;
+  -o-transform: $prop;
+  -ms-transform: $prop;
+}
+

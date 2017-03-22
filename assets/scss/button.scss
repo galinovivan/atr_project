@@ -5,7 +5,7 @@
   border: $baseButtonBorder;
   color: $white;
   background: $baseButtonBackground;
-  font-weight: 600;
+  font-family: $boldFont;
   @include align();
   &.white {
     border-color: $white;

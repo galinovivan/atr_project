@@ -12,3 +12,8 @@
     background: $white;
   }
 }
+
+
+.line_hover {
+  @include decorLine();
+}

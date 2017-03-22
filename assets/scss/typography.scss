@@ -20,11 +20,12 @@ p, span, a {
 
 h2 {
   font-size: $h2FontSize;
-  font-weight: 600;
+  font-family: $boldFont;
 }
 
 h3 {
   font-size: $h3FontSize;
+  font-family: $boldFont;
   @include marginClear();
 }
 
@@ -39,7 +40,7 @@ h3 {
   }
   &.with_separate {
     position: relative;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     &::after {
       content: '';
       display: block;
