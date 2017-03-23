@@ -15,7 +15,7 @@ footer {
   height: $footerHeight;
   padding: 60px 0 70px 0;
   .arh_logo {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
   }
   .copyright {
     padding-right: 50px;
@@ -24,9 +24,10 @@ footer {
     }
   }
   .contact_block {
+    padding-left: 40px;
     .top_text {
       padding-right: 60px;
-      margin-bottom: 70px;
+      margin-bottom: 100px;
       p {
         margin-bottom: 20px;
       }
@@ -45,8 +46,28 @@ footer {
     }
   }
   .partners_block {
+    padding-left: 40px;
     .logo {
       margin-bottom: 55px;
+    }
+    .partners_list {
+      ul {
+        height: 70px;
+        li {
+          display: block;
+          margin-right: 20px;
+          float: left;
+           a {
+             display: block;
+           }
+          &:nth-child(2) {
+            margin-top: -5px;
+          }
+          &:nth-child(3) {
+            margin-top: -20px;
+          }
+        }
+      }
     }
   }
 }
