@@ -38,3 +38,20 @@
     background: $white;
   }
 }
+
+.top_link {
+  display: block;
+  position: fixed;
+  padding-right: 15px;
+  right: 30px;
+  top: 100px;
+  background: url('../images/top_arrow.png') no-repeat right center;
+  color: $white;
+  font-size: $baseFontSize - 1;
+  @include transition();
+  &:hover {
+    text-decoration: underline;
+    color: $white;
+    text-shadow: 1px 1px 1px $black;
+  }
+}
