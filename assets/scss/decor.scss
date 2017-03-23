@@ -2,6 +2,7 @@
   height: $separateLineHeight;
   width: $separateLineWidth;
   margin: 20px 0;
+  display: inline-block;
   &.center {
     @include margin_align();
   }
@@ -16,4 +17,11 @@
 
 .line_hover {
   @include decorLine();
+}
+
+.small_arrow {
+  display: block;
+  background: url('../images/small_arrow.png') no-repeat;
+  width: 25px;
+  height: 22px;
 }

@@ -1,0 +1,23 @@
+.base_form {
+  input:not([type="submit"]), textarea {
+    border: 1px solid $black;
+    background: $inputBackground;
+    padding-left: 10px;
+  }
+  .field_item {
+    margin-bottom: 20px;
+  }
+  input:not([type="submit"]) {
+    height: $inputHeight;
+    width: 98%;
+    display: inline-block;
+  }
+  textarea {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .submit_field {
+    margin-top: 30px;
+  }
+
+}
