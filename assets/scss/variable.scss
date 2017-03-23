@@ -3,8 +3,9 @@
 $transparent: transparent;
 $white: #ffffff;
 $black: #1f2932;
-$baseColor: #e1430d;
+$baseColor: #c34519;
 $lightBackground: #f0f5f8;
+$navBackground: #001f30;
 
 
 
@@ -51,7 +52,7 @@ $separateLineHeight: 2px;
 
 // helpers
 $helperHeight: 35px;
-$helperRed: #e84e1b;
+$helperRed: $baseColor;
 
 
 // form
