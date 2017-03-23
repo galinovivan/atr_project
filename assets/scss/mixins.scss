@@ -62,6 +62,9 @@
 }
 
 // hovers
+@mixin revertButtonHover() {
+  @include fillingHover($white, $baseColor);
+}
 
 @mixin buttonHover() {
   @include fillingHover();

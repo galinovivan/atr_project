@@ -16,6 +16,7 @@
     @include transition();
     img {
       vertical-align: middle;
+      border: $baseBorder;
       @include margin_align();
     }
     &.slick-center {

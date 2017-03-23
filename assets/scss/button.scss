@@ -21,4 +21,7 @@
     width: $mediumButtonWidth;
     height: $buttonHeight;
   }
+  &.revert_hover {
+    @include revertButtonHover();
+  }
 }
