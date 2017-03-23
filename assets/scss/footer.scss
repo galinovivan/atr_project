@@ -1,0 +1,52 @@
+.pre_footer {
+  padding-bottom: $footerHeight;
+}
+
+footer {
+  .banner_heading {
+    margin-bottom: 20px;
+    h2 {
+      font-size: $h3FontSize - 3;
+    }
+  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footerHeight;
+  padding: 60px 0 70px 0;
+  .arh_logo {
+    margin-bottom: 75px;
+  }
+  .copyright {
+    padding-right: 50px;
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+  .contact_block {
+    .top_text {
+      padding-right: 60px;
+      margin-bottom: 70px;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .bottom_text {
+      padding-right: 60px;
+      margin-bottom: 20px;
+    }
+    .social_block {
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .partners_block {
+    .logo {
+      margin-bottom: 55px;
+    }
+  }
+}
