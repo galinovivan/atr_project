@@ -11,7 +11,8 @@ var gulp = require('gulp'),
     imageMin = require('gulp-imagemin'),
     pngQuant = require('imagemin-pngquant'),
     sass = require('gulp-sass'),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer'),
+    concat = require('gulp-concat');
 
 
 var path = {
@@ -24,7 +25,7 @@ var path = {
 
     src: {
         js: 'assets/js/*.js',
-        img: 'assets/images/*.*',
+        img: 'assets/src/images/*.*',
         style: 'assets/scss/common.scss'
     }
 };
@@ -44,10 +45,10 @@ gulp.task('js:build', function() {
 
     gulp.src(path.src.js)
         .pipe(sourceMaps.init())
+        .pipe(concat('scripts.js'))
         .pipe(uglify())
         .pipe(sourceMaps.write())
         .pipe(gulp.dest(path.build.js))
-        .pipe(reload({stream: true}))
 
 });
 
@@ -60,7 +61,6 @@ gulp.task('style:build', function() {
         .pipe(cssmin())
         .pipe(sourceMaps.write())
         .pipe(gulp.dest(path.build.css))
-        .pipe(reload({stream: true}))
 
 });
 
@@ -73,7 +73,6 @@ gulp.task('image:build', function() {
            interplaced: true
        }))
        .pipe(gulp.dest(path.build.img))
-       .pipe(reload({stream: true}))
 });
 
 gulp.task('watch', function() {
