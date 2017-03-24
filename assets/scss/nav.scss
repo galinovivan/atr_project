@@ -16,5 +16,62 @@
 }
 
 .main_nav {
+  display: none;
   background: $navBackground;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  top: 160px;
+  left: 0;
+  padding: 45px 0;
+  .left_separate {
+    &::before {
+      height: 270px;
+    }
+  }
+  .nav {
+    margin-top: 10px;
+    padding-left: 15px;
+    & > li {
+      margin-bottom: 35px;
+      &:last-child {
+        margin-bottom: 15px;
+      }
+      a {
+        font-family: $boldFont;
+        font-size: $baseFontSize - 1;
+      }
+    }
+    .social_block {
+      padding-left: 15px;
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.nav_close {
+  display: block;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+
+  span {
+    display: block;
+    width: 42px;
+    height: 1px;
+    background: $darkWhite;
+    position: absolute;
+    top: 50%;
+    &:first-child {
+      @include transform(rotate(45deg));
+    }
+    &:last-child {
+      @include transform(rotate(-45deg));
+    }
+  }
 }
