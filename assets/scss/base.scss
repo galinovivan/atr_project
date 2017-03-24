@@ -5,6 +5,10 @@ html {
 body {
   position: relative;
   min-height: 100%;
+  &.light_background {
+    background: url('../images/white_background.png');
+    background-size: cover;
+  }
 }
 
 

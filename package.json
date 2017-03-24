@@ -19,6 +19,7 @@
   "homepage": "https://github.com/galinovivan/atr_project#readme",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
+    "fancybox": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",

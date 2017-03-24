@@ -1,0 +1,8 @@
+.gallery {
+  .gallery_list {
+    @include flex_align(space-between);
+    .gallery_item {
+      width: 235px;
+    }
+  }
+}

@@ -1,16 +1,22 @@
 .toggle_button {
-  width: 52px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   border: $baseBorder;
   @include flex_align(center, center);
   flex-direction: column;
   span {
     width: 25px;
-    height: 4px;
+    height: 3px;
     background: $navToggleBackground;
     display: block;
     &:not(:last-child) {
       margin-bottom: 5px;
+    }
+  }
+  &.base_color_toggle {
+    border-color: $baseColor;
+    span {
+      background: $baseColor;
     }
   }
 }
@@ -40,6 +46,11 @@
       a {
         font-family: $boldFont;
         font-size: $baseFontSize - 1;
+      }
+      &:hover {
+        * {
+          color: $baseColor;
+        }
       }
     }
     .social_block {

@@ -27,4 +27,15 @@ header {
       }
     }
   }
+  &.light_header {
+    padding: 65px 0 27px 0;
+    .toggle_button {
+      margin-top: -4px;
+    }
+    .toggle_container {
+      display: block;
+      float: left;
+      width: 7.5%;
+    }
+  }
 }
