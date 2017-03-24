@@ -19,6 +19,15 @@
   "homepage": "https://github.com/galinovivan/atr_project#readme",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.0",
     "jquery": "^3.2.0"
   }
 }
