@@ -53,25 +53,8 @@
 }
 
 .nav_close {
-  display: block;
-  width: 42px;
-  height: 42px;
   position: absolute;
   right: 30px;
   top: 30px;
-
-  span {
-    display: block;
-    width: 42px;
-    height: 1px;
-    background: $darkWhite;
-    position: absolute;
-    top: 50%;
-    &:first-child {
-      @include transform(rotate(45deg));
-    }
-    &:last-child {
-      @include transform(rotate(-45deg));
-    }
-  }
+  @include closeToggle();
 }

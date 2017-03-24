@@ -19,4 +19,11 @@
   a {
     text-decoration: underline;
   }
+  .helper_close {
+    right: 15px;
+    top: 10px;
+    position: absolute;
+    z-index: 100000;
+    @include closeToggle(15px, $white);
+  }
 }

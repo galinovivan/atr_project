@@ -60,6 +60,25 @@
   }
   @include decorLineHover($size);
 }
+@mixin closeToggle($width: 42px, $background: $darkWhite) {
+  display: block;
+  width: $width;
+  height: $width;
+  span {
+    display: block;
+    width: $width;
+    height: 1px;
+    background: $background;
+    position: absolute;
+    top: 50%;
+    &:first-child {
+      @include transform(rotate(45deg));
+    }
+    &:last-child {
+      @include transform(rotate(-45deg));
+    }
+  }
+}
 
 // hovers
 @mixin revertButtonHover() {

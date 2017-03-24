@@ -17,7 +17,9 @@
        };
 
 
-
+       /**
+        * 
+        */
        function initTopLink() {
            if ($body.scrollTop() > 400) {
                $topLink.show('fast');
