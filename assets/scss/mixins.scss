@@ -129,6 +129,24 @@
   margin-bottom: 0;
 }
 
+@mixin likeHover() {
+
+}
+
+@mixin textHover($color: $baseColor) {
+  @include transition();
+  &:hover {
+    color: $color;
+  }
+}
+
+@mixin changeSpriteHover($position) {
+
+  &:hover {
+    background-position: $position;
+  }
+}
+
 
 // css3
 @mixin transition($prop: all $baseTransitionDuration) {

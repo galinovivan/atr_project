@@ -3,6 +3,37 @@
     @include flex_align(space-between);
     .gallery_item {
       width: 235px;
+      .item_thumb {
+        margin-bottom: 25px;
+        position: relative;
+        border: 1px solid $navBackground;
+        .thumb_overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: url('../images/arh_background.png') no-repeat center center;
+        }
+      }
+      .item_text {
+        position: relative;
+        p {
+          margin: 0;
+          font-size: $baseFontSize - 1;
+          font-weight: 600;
+        }
+        .like_box {
+          position: absolute;
+          right: 0;
+          top: 0;
+          span {
+            font-size: $baseFontSize - 1;
+            font-weight: 600;
+          }
+        }
+      }
     }
   }
 }

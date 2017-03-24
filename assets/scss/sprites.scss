@@ -150,4 +150,29 @@
   background-position: -68px -5px;
 }
 
+.like_sprite {
+  background-image: url('../images/like_sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.like_sprite-like_click {
+  width: 19px;
+  height: 17px;
+  background-position: -5px -5px;
+}
+
+.like_sprite-like_hover {
+  width: 19px;
+  height: 17px;
+  background-position: -34px -5px;
+}
+
+.like_sprite-like_icon {
+  width: 19px;
+  height: 17px;
+  background-position: -5px -31px;
+}
+
+
 

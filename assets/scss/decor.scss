@@ -65,3 +65,13 @@
   padding-left: 35px !important;
   background: url('../images/gold_marker.png') no-repeat 15px center;
 }
+
+.like_sprite {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  @include changeSpriteHover(-34px -5px);
+  &.checked {
+    background-position: -5px -5px;
+  }
+}
