@@ -46,6 +46,11 @@
       a {
         font-family: $boldFont;
         font-size: $baseFontSize - 1;
+        color: $white;
+        text-transform: uppercase;
+        span {
+          font-family: $baseFont;
+        }
       }
       &:hover {
         * {
