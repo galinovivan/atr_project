@@ -105,3 +105,5 @@ add_action( 'wp_enqueue_scripts', 'arh_project_scripts' );
 
 require get_template_directory() . '/function/judge.php';
 
+require get_template_directory() . '/function/partners.php';
+

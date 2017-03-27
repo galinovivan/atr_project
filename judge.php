@@ -9,7 +9,7 @@
 ?>
 
 <?php get_header('custom'); ?>
-<main>
+<main class="judge_page">
     <div class="category_heading">
         <div class="container">
             <div class="row">
@@ -33,13 +33,13 @@ if ($loop->have_posts()): ?>
         $thumbURL = $thumbURL[0];
         ?>
 
-                <div class="col-md-12 judge_person active">
+                <div class="col-md-12 judge_person">
                 <div class="row">
                     <div class="col-md-2 thumb">
                         <img src="<?=$thumbURL?>" class="img-responsive" />
                     </div>
                     <div class="col-md-9 text">
-                        <p class="black"><strong><?php the_title(); ?></strong>
+                        <p class="black"><strong><?php the_title(); ?></strong> -
                         <?=get_the_content();?>
                         </p>
                     </div>

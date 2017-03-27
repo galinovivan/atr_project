@@ -83,7 +83,9 @@
             </div>
             <div class="col-md-5">
                 <div class="header_logo clearfix">
+                    <a href="/">
                     <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png" class="img-responsive pull-left" />
+                        </a>
                 </div>
             </div>
             <div class="col-md-6">
