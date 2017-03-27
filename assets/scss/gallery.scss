@@ -1,8 +1,10 @@
 .gallery {
+  margin-bottom: 70px;
   .gallery_list {
+    margin-bottom: 120px;
     @include flex_align(space-between);
     .gallery_item {
-      width: 235px;
+      width: 232px;
       .item_thumb {
         margin-bottom: 25px;
         position: relative;
@@ -23,11 +25,14 @@
           margin: 0;
           font-size: $baseFontSize - 1;
           font-weight: 600;
+          &.project_name {
+            font-weight: normal;
+          }
         }
         .like_box {
           position: absolute;
           right: 0;
-          top: 0;
+          bottom: 0;
           span {
             font-size: $baseFontSize - 1;
             font-weight: 600;

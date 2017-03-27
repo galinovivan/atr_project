@@ -1,0 +1,24 @@
+.paginate {
+  @include align();
+  .pagination {
+    li {
+      a {
+        border: none;
+        background: $transparent;
+        border-radius: 0;
+        color: $black;
+        width: 34px;
+        height: 34px;
+        font-size: $smallFont;
+        border: 2px solid $transparent;
+        &.active {
+          border-color: $black;
+          font-family: $boldFont;
+        }
+        &.pag_btn {
+          font-size: $baseFontSize;
+        }
+      }
+    }
+  }
+}

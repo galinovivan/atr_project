@@ -37,6 +37,29 @@
     width: 1px;
     background: $white;
   }
+  &.black {
+   &::before {
+     background: $black;
+   }
+  }
+}
+
+.bottom_separate {
+  position: relative;
+  &::after {
+    content: '';
+    height: 5px;
+    width: 110px;
+    background: $black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  &.orange {
+    &::after {
+      background: $orange;
+    }
+  }
 }
 
 .top_link {
@@ -74,4 +97,10 @@
   &.checked {
     background-position: -5px -5px;
   }
+}
+
+.fluid_separate {
+  width: 100%;
+  min-height: 2px;
+  border-top: 2px solid $black;
 }

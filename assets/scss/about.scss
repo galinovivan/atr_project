@@ -1,0 +1,38 @@
+.about_page {
+  margin-bottom: 110px;
+  .about_text {
+    p {
+      font-size: $baseFontSize;
+    }
+  }
+
+.shedule {
+  margin-top: 65px;
+  .date_row {
+    margin-bottom: 20px;
+    .date {
+      padding-left: 20px;
+    }
+    .bottom_separate {
+      &::after {
+        bottom: -23px;
+      }
+    }
+   }
+  .action_row {
+    .action {
+      padding-top: 76px;
+      padding-left: 20px;
+      &.small_padding {
+        padding-top: 40px;
+      }
+    }
+    .left_separate {
+      &::before {
+        height: 170px;
+        top: -23px;
+      }
+    }
+   }
+  }
+}
