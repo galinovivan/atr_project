@@ -15,6 +15,7 @@
     height: auto;
     @include transition();
     img {
+      max-width: 145px;
       vertical-align: middle;
       border: $baseBorder;
       @include margin_align();
@@ -35,5 +36,9 @@
       margin: 0;
       font-size: $baseFontSize - 2;
     }
+  }
+  a {
+    outline: none !important;
+    text-decoration: none !important;
   }
 }

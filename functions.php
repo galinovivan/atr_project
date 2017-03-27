@@ -126,5 +126,5 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-require get_template_directory() . '/function/posts.php';
+require get_template_directory() . '/function/judge.php';
 
