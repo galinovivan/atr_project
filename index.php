@@ -276,7 +276,8 @@ get_header(); ?>
                                     А мы сможем вас найти когда придёт время вручения призов.</p>
                             </div>
                             <div class="registration_button">
-                                <button class="button base medium white revert_hover">Регистрация</button>
+                                <button class="button base medium white revert_hover"
+                                        data-toggle="modal" data-target="#registrationModal">Регистрация</button>
                             </div>
                         </div>
                     </div>

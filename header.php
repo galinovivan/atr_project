@@ -13,6 +13,67 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div class="registration_modal modal fade" id="registrationModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
+            </div>
+            <div class="modal-body">
+                <div class="registration auth_form">
+                    <div class="form_description text-center">
+                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность
+                            принять участие в конкурсе.
+                            Введите адрес электронной почты, и мы отправим
+                            вам пароль от личного кабинета.</p>
+                    </div>
+                    <div class="reg_form">
+                        <form class="base_form">
+                            <div class="row">
+                                <div class="col-md-12 field_item">
+                                    <input type="text" name="name" placeholder="Имя Фамилия" required />
+                                </div>
+                                <div class="col-md-12 field_item">
+                                    <input type="email" name="email" placeholder="Email" required />
+                                </div>
+                                <div class="col-md-12 chekbox_field">
+                                    <input type="checkbox" name="confirm" id="authrConfirm" required/>
+                                    <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>
+                                </div>
+                                <div class="col-md-12 submit_field">
+                                    <button type="submit" class="button base medium">Регистрация</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="login auth_form">
+                    <div class="form_description text-center">
+                        <p class="text-center">Если вы уже зарегистрировались, войдите,
+                            чтобы мы вас узнали.</p>
+                    </div>
+                    <div class="login_form">
+                        <form class="base_form">
+                            <div class="row">
+                                <div class="col-md-12 field_item">
+                                    <input type="email" name="auth_login" placeholder="Email" />
+                                </div>
+                                <div class="col-md-12 field_item">
+                                    <input type="password" name="auth_pass" placeholder="Пароль" />
+                                </div>
+                                <div class="col-md-12 check_field">
+                                    <input type="checkbox" name="auth_remember" id="authRemember"/>
+                                    <label for="authRemember">Запомнить меня</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="main_nav" id="mainNav">
     <a class="nav_close" href="#">
         <span></span><span></span>
@@ -20,34 +81,27 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 left_separate">
-                <?php
-                wp_nav_menu(array(
-                        'theme_location' => 'one',
-                        'container' => 'ul',
-                        'menu_class' => 'nav'
-
-                ));
-                ?>
+                <ul class="nav">
+                    <li><a href="<?=get_page_link(29)?>" class="up white">О конкурсе</a></li>
+                    <li><a href="#" class="up white">Новости</a></li>
+                    <li><a href="<?=get_page_link(40)?>" class="up white">Жюри</a></li>
+                    <li><a href="<?=get_page_link(56)?>" class="up white">Партнеры</a></li>
+                </ul>
             </div>
             <div class="col-md-3 left_separate">
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'two',
-                    'container' => 'ul',
-                    'menu_class' => 'nav'
-
-                ));
-                ?>
+                <ul class="nav">
+                    <li><a href="#" class="up white">Номинации</a></li>
+                    <li><a href="#" class="up white">Призы</a></li>
+                    <li><a href="#" class="up white">Условия участия</a></li>
+                    <li><a href="#" class="up white gold_marker">Участвовать</a></li>
+                </ul>
             </div>
             <div class="col-md-3 left_separate">
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'three',
-                    'container' => 'ul',
-                    'menu_class' => 'nav'
-
-                ));
-                ?>
+                <ul class="nav">
+                    <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
+                    <li><a href="#" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
+                    <li><a href="#" class="up white">Финалисты 2016</a></li>
+                </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
