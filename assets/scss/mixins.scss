@@ -164,4 +164,11 @@
   -ms-transform: $prop;
 }
 
+@mixin boxShadow($prop) {
+  box-shadow: $prop;
+  -webkit-box-shadow: $prop;
+  -moz-box-shadow: $prop;
+  -o-box-shadow: $prop;
+}
+
 

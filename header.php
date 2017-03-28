@@ -17,14 +17,17 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <button class="close" data-dismiss="modal" aria-hidden="true">
+                    <span></span><span></span>
+                </button>
                 <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
             </div>
             <div class="modal-body">
                 <div class="registration auth_form">
                     <div class="form_description text-center">
                         <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность
-                            принять участие в конкурсе.
+                            принять участие в конкурсе.</p>
+                        <p class="black">
                             Введите адрес электронной почты, и мы отправим
                             вам пароль от личного кабинета.</p>
                     </div>
@@ -37,12 +40,12 @@
                                 <div class="col-md-12 field_item">
                                     <input type="email" name="email" placeholder="Email" required />
                                 </div>
-                                <div class="col-md-12 chekbox_field">
+                                <div class="col-md-12 checkbox_field">
                                     <input type="checkbox" name="confirm" id="authrConfirm" required/>
                                     <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>
                                 </div>
                                 <div class="col-md-12 submit_field">
-                                    <button type="submit" class="button base medium">Регистрация</button>
+                                    <button type="submit" class="button base medium black">Регистрация</button>
                                 </div>
                             </div>
                         </form>
@@ -62,7 +65,7 @@
                                 <div class="col-md-12 field_item">
                                     <input type="password" name="auth_pass" placeholder="Пароль" />
                                 </div>
-                                <div class="col-md-12 check_field">
+                                <div class="col-md-12 checkbox_field">
                                     <input type="checkbox" name="auth_remember" id="authRemember"/>
                                     <label for="authRemember">Запомнить меня</label>
                                 </div>
@@ -74,6 +77,68 @@
         </div>
     </div>
 </div>
+
+<div class="registration_modal modal fade" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" aria-hidden="true">
+                    <span></span><span></span>
+                </button>
+                <h4 class="white base_font">Последний шаг</h4>
+            </div>
+            <div class="modal-body">
+                <div class="login auth_form">
+                    <div class="form_description text-center">
+                        <p class="black text-center">Если вы уже зарегистрировались, войдите,
+                            чтобы мы вас узнали.</p>
+                    </div>
+                    <div class="login_form">
+                        <form class="base_form">
+                            <div class="row">
+                                <div class="col-md-12 field_item">
+                                    <input type="email" name="auth_login" placeholder="Email" />
+                                </div>
+                                <div class="col-md-12 field_item">
+                                    <input type="password" name="auth_pass" placeholder="Пароль" />
+                                </div>
+                                <div class="col-md-12 checkbox_field">
+                                    <input type="checkbox" name="auth_remember" id="authRemember"/>
+                                    <label for="authRemember">Запомнить меня</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="registration_modal modal fade" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" aria-hidden="true">
+                    <span></span><span></span>
+                </button>
+                <h4 class="white base_font">Последний шаг</h4>
+            </div>
+            <div class="modal-body">
+                <div class="login auth_form">
+                    <div class="form_description text-center">
+                        <p class="black text-center">Осталось самая малость</p>
+                    </div>
+                    <div class="text text-center">
+                        <p class="black">Мы отправили пароль от личного кабинета вам на почту.
+                            Пожалуйста, откройте наше письмо, чтобы подтвердить
+                            регистрацию на сайте.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="main_nav" id="mainNav">
     <a class="nav_close" href="#">
         <span></span><span></span>

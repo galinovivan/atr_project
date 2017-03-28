@@ -6,6 +6,22 @@
     background: $orange;
     padding: 0;
     height: 40px;
+    position: relative;
     @include align();
+    .close {
+      @include closeToggle(20px, $white);
+      position: absolute;
+      left: auto;
+      right: 10px;
+      top: 12px;
+      opacity: 1;
+    }
+  }
+  .modal-content {
+    border-radius: 0;
+    @include boxShadow(none);
+  }
+  .modal-body {
+    padding: 65px 100px 80px 100px;
   }
 }
