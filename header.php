@@ -50,7 +50,7 @@
                 </div>
                 <div class="login auth_form">
                     <div class="form_description text-center">
-                        <p class="text-center">Если вы уже зарегистрировались, войдите,
+                        <p class="black text-center">Если вы уже зарегистрировались, войдите,
                             чтобы мы вас узнали.</p>
                     </div>
                     <div class="login_form">

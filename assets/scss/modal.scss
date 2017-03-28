@@ -1,0 +1,11 @@
+.modal {
+  .modal-dialog {
+    width: 640px;
+  }
+  .modal-header {
+    background: $orange;
+    padding: 0;
+    height: 40px;
+    @include align();
+  }
+}
