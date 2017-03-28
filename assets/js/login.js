@@ -14,7 +14,7 @@
                 form.find('response').html('<p>Необходимо дождаться ответа предыдущего запроса</p>');
                 return false;
             }
-            form.find('button[type="submit"]').attr('disabled', 'disabled').val('Подождите');
+            form.find('input[type="submit"]').attr('disabled', 'disabled').val('Подождите');
             form.find('.response').html('');
             ajaxGo = true;
         }
@@ -22,10 +22,10 @@
             console.log(arguments);
             if (data.success) {
                 var response = buildMessage(data.data.message, 'success');
-                form.find('button[type="submit"]').prop('disabled', false).val('Готово');
+                form.find('input[type="submit"]').prop('disabled', false).val('Готово');
             } else {
                 var response = buildMessage(data.data.message, 'error');
-                form.find('button[type="subit"]').prop('disabled', false).val('Отправить');
+                form.find('input[type="submit"]').prop('disabled', false).val('Отправить');
             }
             form.find('.response').html(response);
             if (data.data.redirect) {
