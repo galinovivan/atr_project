@@ -35,6 +35,9 @@ h3 {
   font-family: $boldFont;
   @include marginClear();
 }
+h5 {
+  font-family: $boldFont;
+}
 
 .up {
   text-transform: uppercase;

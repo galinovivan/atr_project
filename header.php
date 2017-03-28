@@ -51,28 +51,29 @@
                         </form>
                     </div>
                 </div>
-                <div class="login auth_form">
-                    <div class="form_description text-center">
-                        <p class="black text-center">Если вы уже зарегистрировались, войдите,
-                            чтобы мы вас узнали.</p>
-                    </div>
-                    <div class="login_form">
-                        <form class="base_form">
-                            <div class="row">
-                                <div class="col-md-12 field_item">
-                                    <input type="email" name="auth_login" placeholder="Email" />
-                                </div>
-                                <div class="col-md-12 field_item">
-                                    <input type="password" name="auth_pass" placeholder="Пароль" />
-                                </div>
-                                <div class="col-md-12 checkbox_field">
-                                    <input type="checkbox" name="auth_remember" id="authRemember"/>
-                                    <label for="authRemember">Запомнить меня</label>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<!--                <div class="login auth_form">-->
+<!--                    <div class="form_description text-center">-->
+<!--                        <p class="black text-center">Если вы уже зарегистрировались, войдите,-->
+<!--                            чтобы мы вас узнали.</p>-->
+<!--                    </div>-->
+<!--                    <div class="login_form">-->
+<!--                        <form class="base_form">-->
+<!--                            <div class="row">-->
+<!--                                <div class="col-md-12 field_item">-->
+<!--                                    <input type="email" name="auth_login" placeholder="Email" />-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 field_item">-->
+<!--                                    <input type="password" name="auth_pass" placeholder="Пароль" />-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 checkbox_field">-->
+<!--                                    <input type="checkbox" name="auth_remember" id="authRemember"/>-->
+<!--                                    <label for="authRemember">Запомнить меня</label>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <?php include('template-parts/login-form.php') ?>
             </div>
         </div>
     </div>
