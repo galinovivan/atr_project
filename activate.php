@@ -7,6 +7,7 @@
  * Template name: Activate
  */
 ?>
+<?php  get_header('custom'); ?>
 <?php
 if (is_user_logged_in()): ?>
 <h3>Вы уже активированы</h3>
@@ -29,6 +30,8 @@ else:
 
 endif;
 ?>
+
+<?php get_footer(); ?>
 
 
 

@@ -35,6 +35,7 @@
                 <input type="hidden" name="redirect_to" value="<?=$_SERVER['REQUEST_URI'];?>"/>
                 <input type="hidden" name="nonce" value="<?=wp_create_nonce('register_me_nonce');?>"/>
                 <input type="hidden" name="action" value="register_me" />
+                <input type="hidden" name="step_success" value="#infoRegistration" id="stepSuccess"/>
                 <div class="response black"></div>
             </div>
         </form>

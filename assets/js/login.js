@@ -21,8 +21,18 @@
         function reqCome(data, statusText, xhr, form) {
             console.log(arguments);
             if (data.success) {
-                var response = buildMessage(data.data.message, 'success');
-                form.find('input[type="submit"]').prop('disabled', false).val('Готово');
+
+                var nextStepModal = $('#stepSuccess');
+                nextStepModal = $(nextStepModal.val());
+
+
+                if (nextStepModal != null) {
+                    $('#registrationModal').modal('hide');
+                    nextStepModal.modal('show');
+                } else {
+                    var response = buildMessage(data.data.message, 'success');
+                    form.find('input[type="submit"]').prop('disabled', false).val('Готово');
+                }
             } else {
                 var response = buildMessage(data.data.message, 'error');
                 form.find('input[type="submit"]').prop('disabled', false).val('Отправить');
@@ -52,7 +62,7 @@
             var link = $(this);
             $.ajax({
                 type: 'POST',
-                url: ajax_var.url,
+                url: 'admin-ajax.php',
                 dataType: 'json',
                 data: 'action=logout_me&nonce=' + $(this).data('nonce'),
                 beforeSend: function(data) {

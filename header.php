@@ -116,7 +116,7 @@
         </div>
     </div>
 </div>
-<div class="registration_modal modal fade" id="loginModal">
+<div class="registration_modal modal fade" id="infoRegistration">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
