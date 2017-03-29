@@ -57,5 +57,7 @@ if (is_wp_error($user)) {
     ));
 } else {
 
-    wp_send_json_success(array('message' => 'Вы успешно вошли как' . $user->display_name, 'redirect' => $redirectTo));
+    wp_send_json_success(array(
+        'message' => 'Вы успешно вошли как' . $user->display_name,
+        'redirect' => $redirectTo));
 }

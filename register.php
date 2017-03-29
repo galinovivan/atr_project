@@ -30,7 +30,8 @@ if (!$userConfirm) {
     sendJSONErrorRequest('Необходимо согласие на обработку персональтных данных', false);
 }
 
-$user_id = wp_create_user($userEmail, $userName);
+$user_pass = wp_generate_password( $length=12, $include_standard_special_chars=false );
+$user_id = wp_create_user($userEmail, $user_pass, $userName);
 
 
 if (is_wp_error($user_id) && $user_id->get_error_code() == 'existing__user_email') {
@@ -42,7 +43,8 @@ if (is_wp_error($user_id) && $user_id->get_error_code() == 'existing__user_email
 
 update_user_meta($user_id, 'first_name', $userName);
 $userData = get_userdata($user_id);
-$user_pass = $userData->get('user_pass');
+
+//$user_pass = $userData->get('user_pass');
 
 $code = sha1($user_id . time());
 $activationLink = home_url() . '/activate/?key=' . $code . '&user=' . $user_id;
