@@ -23,34 +23,35 @@
                 <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
             </div>
             <div class="modal-body">
-                <div class="registration auth_form">
-                    <div class="form_description text-center">
-                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность
-                            принять участие в конкурсе.</p>
-                        <p class="black">
-                            Введите адрес электронной почты, и мы отправим
-                            вам пароль от личного кабинета.</p>
-                    </div>
-                    <div class="reg_form">
-                        <form class="base_form">
-                            <div class="row">
-                                <div class="col-md-12 field_item">
-                                    <input type="text" name="name" placeholder="Имя Фамилия" required />
-                                </div>
-                                <div class="col-md-12 field_item">
-                                    <input type="email" name="email" placeholder="Email" required />
-                                </div>
-                                <div class="col-md-12 checkbox_field">
-                                    <input type="checkbox" name="confirm" id="authrConfirm" required/>
-                                    <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>
-                                </div>
-                                <div class="col-md-12 submit_field">
-                                    <button type="submit" class="button base medium black">Регистрация</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<!--                <div class="registration auth_form">-->
+<!--                    <div class="form_description text-center">-->
+<!--                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность-->
+<!--                            принять участие в конкурсе.</p>-->
+<!--                        <p class="black">-->
+<!--                            Введите адрес электронной почты, и мы отправим-->
+<!--                            вам пароль от личного кабинета.</p>-->
+<!--                    </div>-->
+<!--                    <div class="reg_form">-->
+<!--                        <form class="base_form">-->
+<!--                            <div class="row">-->
+<!--                                <div class="col-md-12 field_item">-->
+<!--                                    <input type="text" name="name" placeholder="Имя Фамилия" required />-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 field_item">-->
+<!--                                    <input type="email" name="email" placeholder="Email" required />-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 checkbox_field">-->
+<!--                                    <input type="checkbox" name="confirm" id="authrConfirm" required/>-->
+<!--                                    <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 submit_field">-->
+<!--                                    <button type="submit" class="button base medium black">Регистрация</button>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <?php include('template-parts/registration.php') ?>
 <!--                <div class="login auth_form">-->
 <!--                    <div class="form_description text-center">-->
 <!--                        <p class="black text-center">Если вы уже зарегистрировались, войдите,-->
