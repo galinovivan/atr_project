@@ -114,7 +114,7 @@ function logoutMe() {
 	require_once dirname(__FILE__) . '/logout.php';
 }
 
-add_action('wp_ajax_nopriv_register_me', 'register_me');
+add_action('wp_ajax_nopriv_register_me', 'registerMe');
 
 
 function registerMe() {

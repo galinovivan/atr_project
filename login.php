@@ -36,7 +36,8 @@ if (get_user_meta($user->ID, 'has_to_be_activated', true) != false) {
     wp_send_json_error(array('messages' => 'Учетная запись не активирована', 'redirect' => false));
 }
 
-$log = $user->user_login();
+//$log = $user->user_login();
+
 
 $creds = array(
     'user_login' => $log,
@@ -44,7 +45,17 @@ $creds = array(
     'remember' => $rememberMe
 );
 
+
 $user = wp_signon($creds, false);
 
-if (is_wp_error($user)) wp_send_json_error(array('messages' => 'Ошибочный логин или пароль', 'redirect' => false));
-else wp_send_json_success(array('message' => 'Вы успешно вошли как' . $user->display_name , 'redirect' => $redirectTo));
+
+
+if (is_wp_error($user)) {
+    wp_send_json_error(array(
+        'message' => $user->get_error_message(),
+        'redirect' => false
+    ));
+} else {
+
+    wp_send_json_success(array('message' => 'Вы успешно вошли как' . $user->display_name, 'redirect' => $redirectTo));
+}
