@@ -2,7 +2,7 @@
 if (is_user_logged_in()):
   $current_user = wp_get_current_user(); ?>
     <div class="user_name"><p class="black"><?=$current_user->display_name;?></p></div>
-    <a href="#" class="logout" data-nonce="<?php echo wp_create_nonce('logout_me_nonce')?>">Выйти</a>
+    <a href="#" class="logout black" data-nonce="<?php echo wp_create_nonce('logout_me_nonce')?>">Выйти</a>
 <?php else: ?>
 
 <div class="login auth_form">
@@ -27,9 +27,9 @@ if (is_user_logged_in()):
                     <input type="submit" class="button base medium black" value="Войти" />
                 </div>
                 <input type="hidden" name="redrect_to" value="<?=$_SERVER['REQUEST_URI'];?>" />
-                <input type="hidden" name="nonce" value="<?=wp_create_nonce('logout_me_nonce');?>" />
+                <input type="hidden" name="nonce" value="<?=wp_create_nonce('login_me_nonce');?>" />
                 <input type="hidden" name="action" value="login_me"/>
-                <div class="responce responce_message"></div>
+                <div class="response response_message"></div>
             </div>
         </form>
     </div>
