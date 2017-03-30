@@ -1,0 +1,14 @@
+.tooltip {
+  .tooltip-arrow {
+    border-bottom-color: $tooltipColor !important;
+    left: 50% !important;
+  }
+  .tooltip-inner {
+    background: $tooltipColor;
+    opacity: 1;
+    border-radius: 0;
+    max-width: 170px;
+    padding: 15px 10px;
+    font-size: $baseFontSize;
+  }
+}

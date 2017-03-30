@@ -149,6 +149,14 @@
   }
 }
 
+@mixin revertGrayScaleHover() {
+  @include filter(grayscale(100%) brightness(10%) contrast(100%) invert(100%));
+  @include transition();
+  &:hover {
+    @include filter(none);
+  }
+}
+
 
 // css3
 @mixin transition($prop: all $baseTransitionDuration) {
@@ -171,6 +179,30 @@
   -webkit-box-shadow: $prop;
   -moz-box-shadow: $prop;
   -o-box-shadow: $prop;
+}
+
+@mixin filter($prop) {
+  filter: $prop;
+  -webkit-filter: $prop;
+}
+
+
+@mixin webkitPlaceholderStyle($fontSize: $baseFontSize, $fontColor: $black) {
+  &::-webkit-input-placeholder {
+    font-size: $fontSize;
+    color: $fontColor;
+  }
+}
+
+@mixin mozPlaceholderStyle($fontSize: $baseFontSize, $fontColor: $black) {
+  &:-moz-placeholder {
+    font-size: $fontSize;
+    color: $fontColor;
+  }
+  &::-moz-placeholder {
+    font-size: $fontSize;
+    color: $fontColor;
+  }
 }
 
 

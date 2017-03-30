@@ -24,7 +24,7 @@ if (is_user_logged_in()):
                     <label for="authRemember">Запомнить меня</label>
                 </div>
                 <div class="submit_field">
-                    <input type="submit" class="button base medium black" value="Войти" />
+                    <input type="submit" class="button base medium black block_center" value="Войти" />
                 </div>
                 <input type="hidden" name="redrect_to" value="<?=$_SERVER['REQUEST_URI'];?>" />
                 <input type="hidden" name="nonce" value="<?=wp_create_nonce('login_me_nonce');?>" />

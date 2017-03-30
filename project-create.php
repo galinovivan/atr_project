@@ -20,6 +20,18 @@
             </div>
         </div>
     </div>
+    <div class="text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="black">
+                        Заполните анкету с информацией о себе, загрузите работу и нажмите кнопку «Отправить». После проверки модератором работа будет опубликована в галерее, а вам
+                        останется только дождаться объявления результатов.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="category_filter">
         <div class="container">
             <div class="row">
@@ -41,12 +53,12 @@
                     <div class="dropdown">
                         <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="black bold_font">Категория участников</span>
+                            <span class="black bold_font">Число участников</span>
                             <span class="dropdown_caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                            <li><a href="#">Студенты</a></li>
-                            <li><a href="#">Выпускники</a></li>
+                            <li><a href="#">Один участник</a></li>
+                            <li><a href="#">Группа (2-3 участника)</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,12 +66,13 @@
                     <div class="dropdown">
                         <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="black bold_font">Категория участников</span>
+                            <span class="black bold_font">Номинация</span>
                             <span class="dropdown_caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                            <li><a href="#">Студенты</a></li>
-                            <li><a href="#">Выпускники</a></li>
+                            <li><a href="#">Интерьер квартиры</a></li>
+                            <li><a href="#">Павильон/беседка</a></li>
+                            <li><a href="#">Остановка транстпорта</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +82,7 @@
     <div class="create_post_project">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 clearfix">
                     <div class="create_form">
                         <form class="base_form create_project_form" method="post" action="">
                             <div class="row">
@@ -114,6 +127,8 @@
                                 </div>
                                 <div class="col-md-12 submit_field">
                                     <button type="submit" class="button base medium black">Отправить</button>
+                                </div>
+                                <div class="col-md-12 checkbox_field">
                                     <input type="checkbox" id="confirmCheckbox" name="user_confirm" />
                                     <label for="confirmCheckbox">Я прочитал(а) правила и согласен с ними</label>
                                 </div>

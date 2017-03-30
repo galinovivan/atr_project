@@ -212,7 +212,9 @@
             </div>
             <div class="col-md-6">
                 <div class="header_logo text-right clearfix">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds.png" class="img-responsive pull-right" />
+                    <img src="<?=get_template_directory_uri()?>/assets/images/header_cds_color.png" 
+                         class="img-responsive pull-right revert_grayscale"
+                         title="Учредитель и организатор конкурса"  data-toggle="tooltip" data-placement="bottom"/>
                 </div>
             </div>
         </div>
@@ -232,7 +234,7 @@
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
                 </div>
                 <div class="button_more">
-                    <button class="button base medium block_center white">Узнать больше</button>
+                    <a href="<?=get_page_link(29)?>" class="button base medium block_center white">Узнать больше</a>
                 </div>
             </div>
             <span class="separate_line_hover left"></span>

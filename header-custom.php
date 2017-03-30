@@ -21,10 +21,10 @@
         <div class="row">
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="#" class="up white">О конкурсе</a></li>
+                    <li><a href="<?=get_page_link(29)?>" class="up white">О конкурсе</a></li>
                     <li><a href="#" class="up white">Новости</a></li>
-                    <li><a href="#" class="up white">Жюри</a></li>
-                    <li><a href="#" class="up white">Партнеры</a></li>
+                    <li><a href="<?=get_page_link(40)?>" class="up white">Жюри</a></li>
+                    <li><a href="<?=get_page_link(56)?>" class="up white">Партнеры</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="gallery.html" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
+                    <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="#" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
                 </ul>
@@ -90,7 +90,9 @@
             </div>
             <div class="col-md-6">
                 <div class="cds_heder_logo clearfix">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds_color.png" class="img-responsive pull-right"/>
+                    <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds_color.png"
+                         class="img-responsive pull-right" title="Учредитель и организатор конкурса"
+                         data-toggle="tooltip" data-placement="bottom"/>
                 </div>
             </div>
         </div>

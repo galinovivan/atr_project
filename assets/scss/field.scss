@@ -20,4 +20,24 @@
     margin-top: 30px;
   }
 
+  .checkbox_field {
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      border-radius: 0;
+      border-color: $black;
+      background: $transparent;
+      -webkit-appearance: none;
+      outline: none;
+      &:checked {
+        background: url('../images/checked.png') no-repeat center center;
+      }
+    }
+    label {
+      font-size: $baseFontSize - 2;
+      padding-left: 10px;
+      text-decoration: underline;
+    }
+  }
+
 }

@@ -1,0 +1,16 @@
+.create_post_project {
+  .create_form {
+    width: 72.8%;
+    float: left;
+  }
+  .create_project_form {
+    input,
+    textarea {
+      @include webkitPlaceholderStyle();
+      @include mozPlaceholderStyle();
+    }
+    .field_item {
+      margin-bottom: 35px;
+    }
+  }
+}

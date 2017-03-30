@@ -25,3 +25,9 @@
     @include revertButtonHover();
   }
 }
+a, input {
+  &.button {
+    padding: 5px 0;
+    text-decoration: none !important;
+  }
+}

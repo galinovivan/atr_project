@@ -30,7 +30,7 @@
                     <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>
                 </div>
                 <div class="col-md-12 submit_field">
-                    <input type="submit" class="button base medium black" placeholder="Регистрация"/>
+                    <input type="submit" class="button base medium black block_center" placeholder="Регистрация"/>
                 </div>
                 <input type="hidden" name="redirect_to" value="<?=$_SERVER['REQUEST_URI'];?>"/>
                 <input type="hidden" name="nonce" value="<?=wp_create_nonce('register_me_nonce');?>"/>
