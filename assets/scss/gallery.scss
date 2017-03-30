@@ -11,6 +11,9 @@
         position: relative;
         border: 1px solid $navBackground;
         height: 230px;
+        .separate_line_hover {
+          background: $black;
+        }
         .thumb_overlay {
           position: absolute;
           top: 0;

@@ -48,6 +48,9 @@
         font-size: $baseFontSize - 1;
         color: $white;
         text-transform: uppercase;
+        &:hover {
+          background: transparent;
+        }
         span {
           font-family: $baseFont;
         }

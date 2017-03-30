@@ -133,3 +133,5 @@ require get_template_directory() . '/function/judge.php';
 
 require get_template_directory() . '/function/partners.php';
 
+require get_template_directory() . '/function/projects.php';
+
