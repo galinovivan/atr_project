@@ -4,7 +4,7 @@
  * User: master
  * Date: 27.03.2017
  * Time: 13:25
- * Template Name: Галерея
+ * Template Name: Галерея - финалисты
  */
 ?>
 <?php get_header('custom'); ?>
@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="up white">Работы <span class="up base_font">(Студенты)</span></h4>
+                        <h4 class="up white">Работы <span class="up base_font">(Финалисты '16')</span></h4>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
                                <li><a href="/галерея-работ/студенты/">Студенты</a></li>
                                <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
-                               <li><a href="/галерея-работ/финалисты-16/">Финалисты`16</a></li>
+                               <li><a href="">Финалисты`16</a></li>
                            </ul>
                        </div>
                     </div>
@@ -42,28 +42,28 @@
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class="black bold_font">Категория участников</span>
+                                <span class="black bold_font">Номинация</span>
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="/галерея-работ/студенты/">Студенты</a></li>
-                                <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
+                                <li><a href="#">Интерьер квартиры</a></li>
+                                <li><a href="#">Остановка транспорта</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class="black bold_font">Категория участников</span>
-                                <span class="dropdown_caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="/галерея-работ/студенты/">Студенты</a></li>
-                                <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
-                            </ul>
-                        </div>
-                    </div>
+<!--                    <div class="col-md-3">-->
+<!--                        <div class="dropdown">-->
+<!--                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
+<!--                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
+<!--                                <span class="black bold_font">Категория участников</span>-->
+<!--                                <span class="dropdown_caret"></span>-->
+<!--                            </button>-->
+<!--                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
+<!--                                <li><a href="/галерея-работ/студенты/">Студенты</a></li>-->
+<!--                                <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -83,11 +83,18 @@
                                 </div>
                             </div>
                             <?php
-                                $works = new WP_Query( array(
-                                'post_type' => array('projects_tax', 'projects'),
-                                'post_per_page' => -1)); ?>
-                                <?php if ($works->have_posts() ): ?>
-                                <?php while ($works->have_posts() ) : $works->the_post(); ?>
+                                $works_students = new WP_Query( array(
+                                    'post_type' => 'projects',
+                                    'tax_query'=> array (
+                                        array (
+                                            'taxonomy' => 'projects_tax',
+                                            'field' => 'slug',
+                                            'terms' => 'old_projects'
+                                            )
+                                        ) ));
+                                    ?>
+                                <?php if ($works_students->have_posts() ):
+                                     while ($works_students->have_posts() ) : $works_students->the_post(); ?>
                                 <?php
                                     $thumb_id = get_post_thumbnail_id();
                                     $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);                                    
@@ -124,14 +131,14 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="paginate">-->
-<!--                <ul class="pagination">-->
-<!--                    <li><a href="#" class="active">1</a></li>-->
-<!--                    <li><a href="#">2</a></li>-->
-<!--                    <li><a href="#">3</a></li>-->
-<!--                    <li><a href="#" class="pag_btn">...</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
+            <div class="paginate">
+                <ul class="pagination">
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#" class="pag_btn">...</a></li>
+                </ul>
+            </div>
         </div>
     </main>
 

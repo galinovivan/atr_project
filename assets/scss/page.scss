@@ -310,6 +310,13 @@ main {
     span.required {
       display: none;
     }
+    input[type="submit"] {
+      width: 28.5% !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      border: 1px solid $black !important;
+      color: $black !important;
+    }
   }
   .entry-header {
     display: none;
@@ -322,6 +329,13 @@ main {
   }
   ul.wpuf-form li .wpuf-fields select {
     width: 300px;
+  }
+  .file-selector {
+    width: 38% !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    border: 1px solid $black !important;
+    color: $black !important;
   }
 }
 
