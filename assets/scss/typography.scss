@@ -3,7 +3,7 @@ p, span, a {
   font-family: $baseFont;
   line-height: $baseLineHeight;
   letter-spacing: $baseFontKerning;
-  color: $white;
+  color: $black;
 }
 
 .bold_font {
@@ -67,4 +67,15 @@ h5 {
 .category_heading {
   margin-bottom: 35px;
   background: $categoryHeadingBackground;
+}
+#loginform {
+  label {
+    width: 300px;
+  }
+  .button-primary {
+    width: 200px;
+    border: 1px solid $black;
+    display: block;
+    color: $black;
+  }
 }
