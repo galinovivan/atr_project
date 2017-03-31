@@ -24,7 +24,6 @@
             <div class="col-md-8">
     <div class="hel_block">
         <div class="heading">
-        <h4 class="black">Здравствуйте, Петя!</h4>
             </div>
         <div class="text">
             <p class="black">

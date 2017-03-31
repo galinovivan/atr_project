@@ -8,6 +8,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/fav.png" type="image/x-icon">
 
 <?php wp_head(); ?>
 </head>
@@ -164,32 +165,32 @@
                         <li><a href="<?=get_page_link(168);?>" target="_blank">Остановка транспорта</a></li>
                     </ul>
                     </li>
-                    <li><a href="#" class="up white">Призы</a></li>
-                    <li><a href="#" class="up white">Условия участия</a></li>
+                    <li><a href="" class="up white">Призы</a></li>
+                    <li><a href="http://arhproekt.pro/wp-content/themes/arh_project/instruction.doc" class="up white">Условия участия</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
-                    <li><a href="<?=get_page_link(171);?>" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
+                    <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
                     <li><a href="<?=get_page_link(68);?>" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="#" class="up white">Личный кабинет</a></li>
+                    <li><a href="<?=get_page_link(177);?>" class="up white">Личный кабинет</a></li>
                     <li><a href="#" class="up white">Задать вопрос</a></li>
                     <li><a href="#" class="up white">Контакты</a></li>
                     <li>
                         <div class="social_block">
                             <ul>
-                                <li><a href="#">
+                                <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
                                         <i class="social_icon social_icon-fb_icon"></i>
                                     </a></li>
-                                <li><a href="#"></a>
+                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank"></a>
                                     <i class="social_icon social_icon-vk_icon"></i></li>
-                                <li><a href="#">
+                                <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
                                         <i class="social_icon social_icon-inst"></i>
                                     </a></li>
                             </ul>
@@ -218,9 +219,11 @@
             </div>
             <div class="col-md-6">
                 <div class="header_logo text-right clearfix">
+                    <a href="http://www.cds.spb.ru" target="_blank">
                     <img src="<?=get_template_directory_uri()?>/assets/images/header_cds_color.png" 
                          class="img-responsive pull-right revert_grayscale"
                          title="Учредитель и организатор конкурса"  data-toggle="tooltip" data-placement="bottom"/>
+                        </a>
                 </div>
             </div>
         </div>

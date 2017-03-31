@@ -13,7 +13,7 @@
     <?php wp_head(); ?>
 </head>
 <body class="light_background">
-<div class="main_nav" id="mainNav">
+<<div class="main_nav" id="mainNav">
     <a class="nav_close" href="#">
         <span></span><span></span>
     </a>
@@ -21,8 +21,8 @@
         <div class="row">
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="<?=get_page_link(29)?>" class="up white">О конкурсе</a></li>
-                    <li><a href="<?=get_page_link(175)?>" class="up white">Новости</a></li>
+                    <li><a href="<?=get_page_link(29);?>" class="up white">О конкурсе</a></li>
+                    <li><a href="<?=get_page_link(175);?>" class="up white">Новости</a></li>
                     <li><a href="<?=get_page_link(40)?>" class="up white">Жюри</a></li>
                     <li><a href="<?=get_page_link(56)?>" class="up white">Партнеры</a></li>
                 </ul>
@@ -36,32 +36,32 @@
                             <li><a href="<?=get_page_link(168);?>" target="_blank">Остановка транспорта</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?=get_page_link(171);?>" class="up white">Призы</a></li>
-                    <li><a href="#" class="up white">Условия участия</a></li>
+                    <li><a href="<?=get_page_link(177);?>" class="up white">Призы</a></li>
+                    <li><a href="http://arhproekt.pro/wp-content/themes/arh_project/instruction.doc" class="up white">Условия участия</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
-                    <li><a href="" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
+                    <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
-                    <li><a href="<?=get_page_link(68)?>" class="up white gold_marker">Участвовать</a></li>
+                    <li><a href="<?=get_page_link(68);?>" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="#" class="up white">Личный кабинет</a></li>
+                    <li><a href="<?=get_page_link(177);?>" class="up white">Личный кабинет</a></li>
                     <li><a href="#" class="up white">Задать вопрос</a></li>
                     <li><a href="#" class="up white">Контакты</a></li>
                     <li>
                         <div class="social_block">
                             <ul>
-                                <li><a href="#">
+                                <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
                                         <i class="social_icon social_icon-fb_icon"></i>
                                     </a></li>
-                                <li><a href="#"></a>
+                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank"></a>
                                     <i class="social_icon social_icon-vk_icon"></i></li>
-                                <li><a href="#">
+                                <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
                                         <i class="social_icon social_icon-inst"></i>
                                     </a></li>
                             </ul>
@@ -96,9 +96,11 @@
             </div>
             <div class="col-md-6">
                 <div class="cds_heder_logo clearfix">
+                    <a href="http://www.cds.spb.ru" target="_blank">
                     <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds_color.png"
                          class="img-responsive pull-right" title="Учредитель и организатор конкурса"
                          data-toggle="tooltip" data-placement="bottom"/>
+                        </a>
                 </div>
             </div>
         </div>

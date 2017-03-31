@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="button_more">
-                        <button class="button base medium black">Смотреть</button>
+                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/instruction.doc" target="_blank" class="black">Смотреть</a></button>
                     </div>
                 </div>
                 <div class="col-md-5 thumb_wrapper">
@@ -141,7 +141,7 @@
                             и полезные призы.</p>
                     </div>
                     <div class="button_more">
-                        <a class="button base medium black" href="<?=get_page_link(171);?>">Подробнее</a>
+                        <a class="button base medium black" href="<?=get_page_link(177);?>">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 thumb_block">
@@ -172,7 +172,7 @@
                                     ?>
 
                             <div>
-                                <a href="<?php the_permalink();?>" target="_blank">
+                                <a href="<?=get_page_link(40);?>" target="_blank">
                                 <div class="person_avatar">
                                   <img src="<?=$thumbURL?>" class="img-responsive" />
                                 </div>

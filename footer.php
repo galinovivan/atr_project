@@ -35,10 +35,10 @@
                             <h2 class="up white">Контакты</h2>
                         </div>
                         <div class="top_text">
-                            <p class="white">С нами можно связаться по телефону:
-                                +7&#160;(812) 000 00 00</p>
-                            <p class="white">Или написать на почту:
-                                arhproekt@arhproekt.ru</p>
+<!--                            <p class="white">С нами можно связаться по телефону:-->
+<!--                                +7&#160;(812) 000 00 00</p>-->
+                            <p class="white">
+                                pro@zvezdaudachi.com</p>
                         </div>
                         <div class="bottom_text">
                             <p class="white">
@@ -48,12 +48,13 @@
                         </div>
                         <div class="social_block">
                             <ul>
-                                <li><a href="#">
+                                <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
                                         <i class="social_icon social_icon-fb_icon"></i>
                                     </a></li>
-                                <li><a href="#"></a>
-                                    <i class="social_icon social_icon-vk_icon"></i></li>
-                                <li><a href="#">
+                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank">
+                                    <i class="social_icon social_icon-vk_icon"></i>
+                                </a></li>
+                                <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
                                         <i class="social_icon social_icon-inst"></i>
                                     </a></li>
                             </ul>
@@ -66,7 +67,9 @@
                     <h2 class="up white">Учредитель и организатор</h2>
                 </div>
                 <div class="logo">
+                    <a href="http://www.cds.spb.ru" target="_blank">
                     <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds.png" class="img-responsive" />
+                        </a>
                 </div>
                 <div class="banner_heading">
                     <h2 class="up white">Партнеры</h2>
@@ -88,10 +91,10 @@
                     </ul>
                 </div>
                 <div class="banner_heading">
-                    <h2 class="up white">При поддержке</h2>
+<!--                    <h2 class="up white">При поддержке</h2>-->
                 </div>
                 <div class="comitets">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/comitatets.png" class="img-responsive" />
+<!--                    <img src="--><?//=get_template_directory_uri()?><!--/assets/images/comitatets.png" class="img-responsive" />-->
                 </div>
             </div>
         </div>

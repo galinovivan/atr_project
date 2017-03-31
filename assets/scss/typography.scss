@@ -3,9 +3,14 @@ p, span, a {
   font-family: $baseFont;
   line-height: $baseLineHeight;
   letter-spacing: $baseFontKerning;
-  color: $black;
+  color: $white;
 }
-
+a {
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
 .bold_font {
   font-family: $boldFont;
 }
