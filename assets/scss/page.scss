@@ -297,5 +297,31 @@ main {
       margin-bottom: 30px;
     }
   }
+  &.prize_page {
+    padding-bottom: 70px;
+  }
+  &.nomination_page {
+    padding-bottom: 70px;
+    .submit_row {
+      margin-top: 40px;
+    }
+  }
+  .wpuf-form {
+    span.required {
+      display: none;
+    }
+  }
+  .entry-header {
+    display: none;
+  }
+  ul.wpuf-form li .wpuf-label {
+    display: none;
+  }
+  ul.wpuf-form li .wpuf-fields textarea {
+    width: 38.3%;
+  }
+  ul.wpuf-form li .wpuf-fields select {
+    width: 300px;
+  }
 }
 

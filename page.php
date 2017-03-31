@@ -12,11 +12,20 @@
  * @package Arh_project
  */
 
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+get_header('custom'); ?>
+<main>
+	<div class="category_heading">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="up white"><?php wp_title('');?></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="primary" class="container">
+		<div id="main" class="row" role="main">
+<div class="col-md-12">
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -29,10 +38,10 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
+</div>
+		</div><!-- #main -->
+	</div>
+</main>
 <?php
-get_sidebar();
 get_footer();
+?>

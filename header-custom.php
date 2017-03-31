@@ -22,24 +22,30 @@
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(29)?>" class="up white">О конкурсе</a></li>
-                    <li><a href="#" class="up white">Новости</a></li>
+                    <li><a href="<?=get_page_link(175)?>" class="up white">Новости</a></li>
                     <li><a href="<?=get_page_link(40)?>" class="up white">Жюри</a></li>
                     <li><a href="<?=get_page_link(56)?>" class="up white">Партнеры</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="#" class="up white">Номинации</a></li>
-                    <li><a href="#" class="up white">Призы</a></li>
+                    <li class="sub_menu"><span class="sub sub_padd">Номинации</span>
+                        <ul class="sub_nav">
+                            <li><a href="<?=get_page_link(115);?>" target="_blank">Интерьер квартиры</a></li>
+                            <li><a href="<?=get_page_link(165);?>" target="_blank">Павильон/беседка</a></li>
+                            <li><a href="<?=get_page_link(168);?>" target="_blank">Остановка транспорта</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<?=get_page_link(171);?>" class="up white">Призы</a></li>
                     <li><a href="#" class="up white">Условия участия</a></li>
-                    <li><a href="#" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
-                    <li><a href="#" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
+                    <li><a href="" class="up white">Призы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
+                    <li><a href="<?=get_page_link(68)?>" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">

@@ -1,8 +1,7 @@
 <?php
 if (is_user_logged_in()):
   $current_user = wp_get_current_user(); ?>
-    <div class="user_name"><p class="black"><?=$current_user->display_name;?></p></div>
-    <a href="#" class="logout black" data-nonce="<?php echo wp_create_nonce('logout_me_nonce')?>">Выйти</a>
+   
 <?php else: ?>
 
 <div class="login auth_form">

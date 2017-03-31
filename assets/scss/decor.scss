@@ -108,3 +108,21 @@
 .revert_grayscale {
   @include revertGrayScaleHover();
 }
+
+.orange_marker {
+  li {
+  list-style: none;
+  position: relative;
+    padding-left: 15px;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    display: block;
+    background: $orange;
+    width: 5px;
+    height: 5px;
+  }
+  }
+}

@@ -3,6 +3,7 @@
   .gallery_list {
     margin-bottom: 120px;
     @include flex_align(space-between);
+    flex-wrap: wrap;
     .gallery_item {
       width: 232px;
       height: 280px;

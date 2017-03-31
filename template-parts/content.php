@@ -41,7 +41,5 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php arh_project_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	 .entry-footer -->
 </article><!-- #post-## -->

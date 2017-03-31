@@ -39,11 +39,14 @@
     margin-top: 10px;
     padding-left: 15px;
     & > li {
+      &.sub_menu {
+        margin-bottom: 53px;
+      }
       margin-bottom: 35px;
       &:last-child {
         margin-bottom: 15px;
       }
-      a {
+      a, .sub {
         font-family: $boldFont;
         font-size: $baseFontSize - 1;
         color: $white;
@@ -55,9 +58,23 @@
           font-family: $baseFont;
         }
       }
+      .sub_padd {
+        padding: 10px 15px;
+        display: block;
+      }
       &:hover {
         * {
           color: $baseColor;
+        }
+      }
+      .sub_nav {
+        li {
+          a {
+            font-size: $baseFontSize - 3;
+            font-family: $baseFont;
+            text-transform: capitalize;
+            padding: 10px 15px;
+          }
         }
       }
     }

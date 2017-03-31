@@ -62,7 +62,7 @@
                                 квартиры ГКt «ЦДС»</p>
                         </div>
                         <div class="watch_button">
-                            <button class="button base medium white block_center">Смотреть</button>
+                            <button class="button base medium white block_center"><a href="<?=get_page_link(115);?>" target="_blank"> Смотреть</a></button>
                         </div>
                         <span class="separate_line_hover left"></span>
                         <span  class="separate_line_hover right"></span>
@@ -87,7 +87,7 @@
                             </p>
                         </div>
                         <div class="watch_button">
-                            <button class="button base medium white block_center">Смотреть</button>
+                            <button class="button base medium white block_center"><a href="<?=get_page_link(165);?>" target="_blank">Смотреть</a></button>
                         </div>
                         <span class="separate_line_hover left"></span>
                         <span  class="separate_line_hover right"></span>
@@ -110,7 +110,7 @@
                                 транспорта</p>
                         </div>
                         <div class="watch_button">
-                            <button class="button base medium white block_center">Смотреть</button>
+                            <button class="button base medium white block_center"><a href="<?=get_page_link(168);?>" target="_blank"> Смотреть</a></button>
                         </div>
                         <span class="separate_line_hover left"></span>
                         <span  class="separate_line_hover right"></span>
@@ -141,7 +141,7 @@
                             и полезные призы.</p>
                     </div>
                     <div class="button_more">
-                        <button class="button base medium black">Подробнее</button>
+                        <a class="button base medium black" href="<?=get_page_link(171);?>">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 thumb_block">
