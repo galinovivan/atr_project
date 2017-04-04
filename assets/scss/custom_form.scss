@@ -1,4 +1,24 @@
+.wpuf-form {
+  @include clearfix();
+}
+
 .select_field {
-  width: 33%;
-  
+  width: 25%;
+  float: left;
+  .wpuf-fields {
+    width: 100% !important;
+  }
+  select {
+    width: 100% !important;
+    height: 35px !important;
+    display: block;
+    outline: none;
+    background: $lightBackground;
+    border: 1px solid $black !important;
+    border-radius: 0 !important;
+  }
+}
+.text_field {
+  float: left;
+  width: 50%;
 }
