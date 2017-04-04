@@ -5,12 +5,7 @@ p, span, a {
   letter-spacing: $baseFontKerning;
   color: $white;
 }
-a {
-  color: $white;
-  &:hover {
-    color: $white;
-  }
-}
+
 .bold_font {
   font-family: $boldFont;
 }
@@ -72,15 +67,4 @@ h5 {
 .category_heading {
   margin-bottom: 35px;
   background: $categoryHeadingBackground;
-}
-#loginform {
-  label {
-    width: 300px;
-  }
-  .button-primary {
-    width: 200px;
-    border: 1px solid $black;
-    display: block;
-    color: $black;
-  }
 }

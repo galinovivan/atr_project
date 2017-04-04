@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="button_more">
-                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/instruction.doc" target="_blank" class="black">Смотреть</a></button>
+                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black">Смотреть</a></button>
                     </div>
                 </div>
                 <div class="col-md-5 thumb_wrapper">
@@ -141,7 +141,7 @@
                             и полезные призы.</p>
                     </div>
                     <div class="button_more">
-                        <a class="button base medium black" href="<?=get_page_link(177);?>">Подробнее</a>
+                        <a class="button base medium black" href="<?=get_page_link(171);?>">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 thumb_block">
@@ -162,7 +162,7 @@
                 <div class="col-md-12">
                     <div class="judge_slider">
                         <div class="center-slider" id="centerSlider">
-                            <?php $loop = new WP_Query(array('post_type' => 'judge'));
+                            <?php $loop = new WP_Query(array('post_type' => 'judge', 'orderby' => 'date', 'order' => 'asc'));
                             if ($loop->have_posts()): ?>
                             <?php while($loop->have_posts()): $loop->the_post();?>
                                     <?php
