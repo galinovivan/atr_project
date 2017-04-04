@@ -4,6 +4,10 @@ p, span, a {
   line-height: $baseLineHeight;
   letter-spacing: $baseFontKerning;
   color: $white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .bold_font {

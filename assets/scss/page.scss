@@ -82,6 +82,13 @@ main {
         font-size: $h3FontSize - 3;
       }
     }
+    .button {
+      a {
+        &:hover {
+          color: $white;
+        }
+      }
+    }
   }
   .condition_banner {
     padding: 70px 0;
