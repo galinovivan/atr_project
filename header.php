@@ -14,6 +14,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="pagePreloader" class="preloader">
+    <div class="spinner">
+        <img src="<?=get_template_directory_uri();?>/assets/images/preloader.gif" />
+    </div>
+</div>
 <div class="registration_modal modal fade" id="registrationModal">
     <div class="modal-dialog">
         <div class="modal-content">

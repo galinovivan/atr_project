@@ -14,6 +14,11 @@
     <?php wp_head(); ?>
 </head>
 <body class="light_background">
+<div id="pagePreloader" class="preloader">
+    <div class="spinner">
+        <img src="<?=get_template_directory_uri();?>/assets/images/preloader.gif" />
+    </div>
+</div>
 <div class="main_nav" id="mainNav">
     <a class="nav_close" href="#">
         <span></span><span></span>
