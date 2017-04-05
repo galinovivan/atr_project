@@ -46,7 +46,7 @@
   }
 }
 
-.auth_form {
+
   .wpuf-form {
     li {
       .wpuf-label {
@@ -57,7 +57,7 @@
         @include customFormsStyle();
         @include webkitPlaceholderStyle($baseFontSize - 2, $textGray);
         @include mozPlaceholderStyle($baseFontSize - 2, $textGray);
-        @include margin_align();
+        //@include margin_align();
       }
       input[type="submit"] {
         @include customSubmitStyle();
@@ -95,10 +95,12 @@
       input[type="submit"] {
         @include customSubmitStyle();
         border: 2px solid $black !important;
+        border-radius: 0 !important;
+        color: $black !important;
         &:hover {
           border-color: $baseColor !important;
           background: $baseColor !important;
-          color: $white;
+          color: $white !important;
           @include transition();
         }
       }
@@ -132,7 +134,7 @@
       }
     }
   }
-}
+
 
 .file_input,
 .file_field {
@@ -182,5 +184,41 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
   width: $mediumButtonWidth !important;
 }
 
+#loginform {
+  label {
+  display: block !important;
+    color: $black;
+  }
+  input:not([type="submit"]) {
+    color: $black;
+    background: $white;
+    @include webkitPlaceholderStyle();
+    @include mozPlaceholderStyle();
+  }
+  input[type="submit"] {
+    width: $mediumButtonWidth;
+    border-color: $black;
+    color: $black;
+  }
+}
+
+#registrationModal > div > div > div.modal-body > div.registration.auth_form > div.reg_form > form > ul > li.wpuf-submit > input[type="submit"]:nth-child(7) {
+  border-radius: 0 !important;
+  color: $black !important;
+  height: 35px !important;
+}
+#loginform > p.forgetmenot > label {
+  display: inline-block !important;
+}
+.wpuf-form {
+  li {
+    .wpuf-label {
+      display: none !important;
+      label {
+        display: none !important;
+      }
+  }
+  }
+}
 
 
