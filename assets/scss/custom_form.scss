@@ -36,11 +36,89 @@
   width: 100%;
   textarea {
     width: 50% !important;
-    background: $transparent !important;
-    padding-top: 5px;
-    padding-left: 20px !important;
-    border: 1px solid $black !important;
-    @include webkitPlaceholderStyle();
-    @include mozPlaceholderStyle();
+    @include customFormsStyle();
   }
 }
+
+.auth_form {
+  .wpuf-form {
+    li {
+      .wpuf-label {
+        display: none;
+      }
+      input {
+        width: 100%;
+        @include customFormsStyle();
+        @include webkitPlaceholderStyle($baseFontSize - 2, $textGray);
+        @include mozPlaceholderStyle($baseFontSize - 2, $textGray);
+        @include margin_align();
+      }
+      input[type="submit"] {
+        @include customSubmitStyle();
+        &:hover {
+          border-color: $baseColor !important;
+          background: $baseColor !important;
+          color: $white;
+          @include transition();
+        }
+      }
+    }
+    .wpuf-fields {
+      width: 100% !important;
+    }
+  }
+  .login {
+    .wpuf-login-form {
+      & > p {
+        margin-bottom: 25px;
+        color: $black;
+      }
+      label {
+        display: none !important;
+      }
+      input:not([type="submit"]) {
+        width: 100%;
+        @include customFormsStyle();
+        @include webkitPlaceholderStyle($baseFontSize - 2, $textGray);
+        @include mozPlaceholderStyle($baseFontSize - 2, $textGray);
+      }
+      input[type="submit"] {
+        @include customSubmitStyle();
+        &:hover {
+          border-color: $baseColor !important;
+          background: $baseColor !important;
+          color: $white;
+          @include transition();
+        }
+      }
+      .forgetmenot {
+        label {
+          display: inline-block !important;
+          color: $black !important;
+          font-size: $baseFontSize - 2;
+          font-family: $baseFont;
+        }
+        input {
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+          vertical-align: middle;
+          display: inline-block !important;
+          width: 20px !important;
+          height: 20px !important;
+          -webkit-appearance: none;
+          border: 1px solid $black;
+          background: $transparent;
+          border-radius: 0;
+          outline: none;
+          margin-right: 5px;
+          &:checked {
+            background: url('../images/checked.png') no-repeat center center !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
