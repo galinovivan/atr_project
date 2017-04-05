@@ -17,7 +17,7 @@
                     <div class="pull-left">
                     <h4 class="up white"><?php wp_title('');?></h4>
                         </div>
-                    <div class="pull-right">
+                    <div class="pull-right logout_link">
                         <a class="white" href="<?=wp_logout_url('/');?>">Выйти</a>
                     </div>
                 </div>

@@ -18,14 +18,14 @@
         $passwordField.attr('placeholder', passLabel);
         $repeatPasswordField.attr('placeholder', repeatPassLabel);
 
-        var $regForm = $('.reg_form').find('form'),
-            $infoModal = $('#infoRegistration'),
-            $registrationModal = $('#registrationModal');
-
-        $regForm.on('submit', function() {
-            $registrationModal.modal('hide');
-            $infoModal.modal('show');
-        });
+        // var $regForm = $('.reg_form').find('form'),
+        //     $infoModal = $('#infoRegistration'),
+        //     $registrationModal = $('#registrationModal');
+        //
+        // $regForm.on('submit', function() {
+        //     $registrationModal.modal('hide');
+        //     $infoModal.modal('show');
+        // });
 
 
 
@@ -39,6 +39,12 @@
 
         $thumbField.text(thumbFieldLabel);
     });
+
+    var $categoryList = $('.wpuf_category_select_261_141 select'),
+        categoryLabel = 'Категория';
+
+    $categoryList = $categoryList.children(':first');
+    $categoryList.text(categoryLabel);
 
 
 
