@@ -29,6 +29,11 @@
                 <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
             </div>
             <div class="modal-body">
+                <?php  if (is_user_logged_in()): 
+                    $currentUser = wp_get_current_user();
+                    ?>
+                    <p><h4>Вы вошли как <?=$currentUser->user_lastname;?></h4></p>
+                    <h3 class="black"><a href="<?=wp_logout_url('/');?>" class="black"> Выйти.</a></h3>
 <!--                <div class="registration auth_form">-->
 <!--                    <div class="form_description text-center">-->
 <!--                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность-->
@@ -57,6 +62,7 @@
 <!--                        </form>-->
 <!--                    </div>-->
 <!--                </div>-->
+                <?php else: ?>
                 <?php include('template-parts/registration.php') ?>
 <!--                <div class="login auth_form">-->
 <!--                    <div class="form_description text-center">-->
@@ -81,6 +87,7 @@
 <!--                    </div>-->
 <!--                </div>-->
                 <?php include('template-parts/login-form.php') ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>

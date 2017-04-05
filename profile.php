@@ -13,8 +13,13 @@
     <div class="category_heading">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 clearfix">
+                    <div class="pull-left">
                     <h4 class="up white"><?php wp_title('');?></h4>
+                        </div>
+                    <div class="pull-right">
+                        <a class="white" href="<?=wp_logout_url('/');?>">Выйти</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -26,6 +31,10 @@
         <div class="heading">
             </div>
         <div class="text">
+            <?php
+            $user = wp_get_current_user();
+            ?>
+            <h5>Здравствуйте, <?=$user->user_lastname;?> </h5>
             <p class="black">
                 Здесь вы можете загрузить свою работу для участия во Всероссийском профессиональном студенческом конкурсе
                 архитектурных и дизайнерских проектов «АРХпроект».
@@ -35,9 +44,9 @@
             <a href="<?=get_page_link(68);?>" class="button base medium black">Загрузить работу</a>
         </div>
     </div>
-    <div class="actions_list">
-        <h4 class="black">Активности</h4>
-    </div>
+<!--    <div class="actions_list">-->
+<!--        <h4 class="black">Активности</h4>-->
+<!--    </div>-->
             </div>
             </div>
         </div>
