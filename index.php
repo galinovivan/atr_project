@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="button_more">
-                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black">Смотреть</a></button>
+                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black button base ">Смотреть</a></button>
                     </div>
                 </div>
                 <div class="col-md-5 thumb_wrapper">
