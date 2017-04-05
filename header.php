@@ -186,7 +186,7 @@
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
-                    <li><a href="<?=get_page_link(68);?>" class="up white gold_marker">Участвовать</a></li>
+                    <li><a href="#registrationModal" data-toggle="modal" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">

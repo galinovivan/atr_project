@@ -6,7 +6,7 @@ body {
   position: relative;
   min-height: 100%;
   &.light_background {
-    background: $lightBackground url('../images/white_background.png');
+    background: $lightBackground;
     background-size: cover;
   }
 }

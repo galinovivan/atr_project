@@ -19,6 +19,79 @@
         <img src="<?=get_template_directory_uri();?>/assets/images/preloader.gif" />
     </div>
 </div>
+<div class="registration_modal modal fade" id="registrationModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" aria-hidden="true">
+                    <span></span><span></span>
+                </button>
+                <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
+            </div>
+            <div class="modal-body">
+                <?php  if (is_user_logged_in()):
+                    $currentUser = wp_get_current_user();
+                    ?>
+                    <p><h4>Вы вошли как <?=$currentUser->user_lastname;?></h4></p>
+                    <h3 class="black"><a href="<?=wp_logout_url('/');?>" class="black"> Выйти.</a></h3>
+                    <!--                <div class="registration auth_form">-->
+                    <!--                    <div class="form_description text-center">-->
+                    <!--                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность-->
+                    <!--                            принять участие в конкурсе.</p>-->
+                    <!--                        <p class="black">-->
+                    <!--                            Введите адрес электронной почты, и мы отправим-->
+                    <!--                            вам пароль от личного кабинета.</p>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="reg_form">-->
+                    <!--                        <form class="base_form">-->
+                    <!--                            <div class="row">-->
+                    <!--                                <div class="col-md-12 field_item">-->
+                    <!--                                    <input type="text" name="name" placeholder="Имя Фамилия" required />-->
+                    <!--                                </div>-->
+                    <!--                                <div class="col-md-12 field_item">-->
+                    <!--                                    <input type="email" name="email" placeholder="Email" required />-->
+                    <!--                                </div>-->
+                    <!--                                <div class="col-md-12 checkbox_field">-->
+                    <!--                                    <input type="checkbox" name="confirm" id="authrConfirm" required/>-->
+                    <!--                                    <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>-->
+                    <!--                                </div>-->
+                    <!--                                <div class="col-md-12 submit_field">-->
+                    <!--                                    <button type="submit" class="button base medium black">Регистрация</button>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                <?php else: ?>
+                    <?php include('template-parts/registration.php') ?>
+                    <!--                <div class="login auth_form">-->
+                    <!--                    <div class="form_description text-center">-->
+                    <!--                        <p class="black text-center">Если вы уже зарегистрировались, войдите,-->
+                    <!--                            чтобы мы вас узнали.</p>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="login_form">-->
+                    <!--                        <form class="base_form">-->
+                    <!--                            <div class="row">-->
+                    <!--                                <div class="col-md-12 field_item">-->
+                    <!--                                    <input type="email" name="auth_login" placeholder="Email" />-->
+                    <!--                                </div>-->
+                    <!--                                <div class="col-md-12 field_item">-->
+                    <!--                                    <input type="password" name="auth_pass" placeholder="Пароль" />-->
+                    <!--                                </div>-->
+                    <!--                                <div class="col-md-12 checkbox_field">-->
+                    <!--                                    <input type="checkbox" name="auth_remember" id="authRemember"/>-->
+                    <!--                                    <label for="authRemember">Запомнить меня</label>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <?php include('template-parts/login-form.php') ?>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="main_nav" id="mainNav">
     <a class="nav_close" href="#">
         <span></span><span></span>
@@ -51,7 +124,7 @@
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
-                    <li><a href="<?=get_page_link(68);?>" class="up white gold_marker">Участвовать</a></li>
+                    <li><a href="#registrationModal" data-toggle="modal" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">

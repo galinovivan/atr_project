@@ -35,8 +35,8 @@
                             <h2 class="up white">Контакты</h2>
                         </div>
                         <div class="top_text">
-<!--                            <p class="white">С нами можно связаться по телефону:-->
-<!--                                +7&#160;(812) 000 00 00</p>-->
+                            <p class="white">С нами можно связаться по телефону:
+                                +7&#160;(800) 250 78 40</p>
                             <p class="white">
                                 pro@zvezdaudachi.com</p>
                         </div>

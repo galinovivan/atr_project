@@ -10,6 +10,10 @@
 
 <?php get_header('custom');?>
 <main>
+    <?php if (!is_user_logged_in()) {
+      wp_redirect('/');
+    }
+    ?>
     <div class="category_heading">
         <div class="container">
             <div class="row">
