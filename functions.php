@@ -127,6 +127,8 @@ function set_html_content_type() {
 /**
  * Implement the Custom Header feature.
  */
+//
+show_admin_bar(false);
 
 
 require get_template_directory() . '/function/judge.php';
