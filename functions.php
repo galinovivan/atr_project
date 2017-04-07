@@ -131,9 +131,25 @@ function set_html_content_type() {
 show_admin_bar(false);
 
 
+function js_variables(){
+	$variables = array (
+		'ajax_url' => admin_url('admin-ajax.php'),
+		'is_mobile' => wp_is_mobile()
+
+	);
+	echo(
+	'<script type="text/javascript">window.wp_data = ' .
+        json_encode($variables) .
+        ';</script>'
+    );
+}
+add_action('wp_head','js_variables');
+
 require get_template_directory() . '/function/judge.php';
 
 require get_template_directory() . '/function/partners.php';
 
 require get_template_directory() . '/function/projects.php';
+
+require get_template_directory() . '/function/contact-form.php';
 

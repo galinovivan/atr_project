@@ -1,6 +1,23 @@
 <?php get_header(); ?>
 <main>
-
+    <div class="registration_modal modal fade" id="contactModal">
+        <div class="modal-dialog modal-xs">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" aria-hidden="true">
+                        <span></span><span></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="login auth_form">
+                        <div class="text text-center">
+                            <p class="black">Спасибо, ваше письмо успешно отправлено!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="participation_banner light_background">
         <div class="container-fluid">
@@ -301,10 +318,12 @@
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="contact_form">
-                    <form action="action" class="base_form" id="contactForm">
+                    <form action=""
+                          class="base_form" id="contactForm" method="post">
                         <div class="row">
                             <div class="col-md-6 field_item text-left">
-                                <input id="name" type="text" placeholder="Имя" name="name" />
+                                <input id="name" type="text" placeholder="Имя" name="first_name" />
+                                <input type="hidden" name="action" value="contct_form" />
                             </div>
                             <div class="col-md-6 field_item text-right">
                                 <input id="email" type="email" placeholder="email" name="email" />
