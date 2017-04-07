@@ -250,7 +250,6 @@
                         <div class="text text-center">
                             <p class="black bold_font">Дождаться обьявления результатов</p>
                         </div>
-                        <span class="small_arrow"></span>
                     </div>
                 </div>
             </div>

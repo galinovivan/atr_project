@@ -83,7 +83,7 @@
                         <li><a href="http://www.graphisoft.ru" target="_blank">
                                 <i class="partners_logo partners_logo-graphisoft"></i>
                             </a></li>
-                        <li><a href="#" target="_blank">
+                        <li><a href="https://www.schueco.com/web2/ru" target="_blank">
                                 <i class="partners_logo partners_logo-schuco"></i>
                             </a></li>
                         <li><a href="http://www.architime.ru" target="_blank">
