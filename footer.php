@@ -95,10 +95,10 @@
                     </ul>
                 </div>
                 <div class="banner_heading">
-<!--                    <h2 class="up white">При поддержке</h2>-->
+                  <h2 class="up white">При поддержке</h2>
                 </div>
                 <div class="comitets">
-<!--                    <img src="--><?//=get_template_directory_uri()?><!--/assets/images/comitatets.png" class="img-responsive" />-->
+                  <img src="<?=get_template_directory_uri()?>/assets/images/comitatets.png" class="img-responsive" />
                 </div>
             </div>
         </div>
