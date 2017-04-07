@@ -3,6 +3,7 @@
   height: 50px;
   border: $baseBorder;
   cursor: pointer;
+  @include transition();
   @include flex_align(center, center);
   flex-direction: column;
   span {
@@ -22,8 +23,9 @@
     }
   }
   &:hover {
+    border-color: $navToggleHover;
     span {
-      background: $baseColor;
+      background: $navToggleHover;
     }
   }
 }
