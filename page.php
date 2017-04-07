@@ -14,6 +14,24 @@
 
 get_header('custom'); ?>
 <main>
+	<div class="registration_modal modal fade" id="successSendProject">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" aria-hidden="true">
+						<span></span><span></span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login auth_form">
+						<div class="text text-center">
+							<p class="black">Спасибо, ваша работа работа направлена на модерацию.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="category_heading">
 		<div class="container">
 			<div class="row">
@@ -22,6 +40,7 @@ get_header('custom'); ?>
 				</div>
 			</div>
 		</div>
+		
 	</div>
 	<div id="primary" class="container">
 		<div id="main" class="row" role="main">

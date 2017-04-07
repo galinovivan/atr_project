@@ -24,7 +24,7 @@
             });
         }
         /**
-         * @param $link
+         * @param {jQuery} $link
          */
         function makeScrollLink($link) {
             var href = $link.attr('href');
@@ -38,7 +38,7 @@
 
         /**
          * 
-         * @param $el
+         * @param {jQuery} $el
          * @returns {Integer}
          */
         function getScroll($el) {
