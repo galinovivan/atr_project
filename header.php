@@ -217,7 +217,7 @@
 </div>
 <a href="#" class="top_link">Наверх</a>
 <div class="helper red" id="topHelper">
-    <span>С 1 апреля до 15 сентября 2017 идёт приём работ. Загрузить работу на конкурс можно <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
+    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. ​Загрузить работу на конкурс можно <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
