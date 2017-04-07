@@ -131,8 +131,8 @@
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(177);?>" class="up white">Личный кабинет</a></li>
-                    <li><a href="#" class="up white">Задать вопрос</a></li>
-                    <li><a href="#" class="up white">Контакты</a></li>
+                    <li><a href="/#contactForm" class="up white">Задать вопрос</a></li>
+                    <li><a href="/#contactForm" class="up white">Контакты</a></li>
                     <li>
                         <div class="social_block">
                             <ul>
