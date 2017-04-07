@@ -40,6 +40,6 @@
 <!--                <div class="response black"></div>-->
 <!--            </div>-->
 <!--        </form>-->
-        <?=do_shortcode('[wpuf_profile type="registration" id="263"]')?>
+        <?=do_shortcode('[wpuf_profile type="registration" id="348"]')?>
     </div>
 </div>

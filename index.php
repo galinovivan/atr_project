@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="button_more">
-                        <button class="button base medium black"><a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black button base ">Смотреть</a></button>
+                        <a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black button base medium ">Смотреть</a>
                     </div>
                 </div>
                 <div class="col-md-5 thumb_wrapper">
@@ -59,7 +59,7 @@
                         <div class="text text-center">
                             <p class="white">Лучшее предложение
                                 по дизайну интерьера типовой
-                                квартиры ГКt «ЦДС»</p>
+                                квартиры ГК «ЦДС»</p>
                         </div>
                         <div class="watch_button">
                             <button class="button base medium white block_center"><a href="<?=get_page_link(115);?>" target="_blank"> Смотреть</a></button>

@@ -26,6 +26,11 @@ get_header('custom'); ?>
 	<div id="primary" class="container">
 		<div id="main" class="row" role="main">
 <div class="col-md-12">
+<?php if (!is_user_logged_in()): ?>
+	<script>
+		$('registrationModal').modal('show');
+	</script>
+<?php endif; ?>
 			<?php
 			while ( have_posts() ) : the_post();
 

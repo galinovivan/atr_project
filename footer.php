@@ -18,11 +18,15 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="arh_logo">
+                        <a href="/">
                             <img src="<?=get_template_directory_uri()?>/assets/images/footer_logo.png" />
+                            </a>
                         </div>
                         <div class="copyright">
                             <div class="logo">
+                            <a href="http://kira-all.ru/" target="_blank">
                                 <img src="<?=get_template_directory_uri()?>/assets/images/akira_logo.png"  class="img-responsive" />
+                                </a>
                             </div>
                             <div class="text">
                             <span class="small_text">Сайт разработан
@@ -35,8 +39,8 @@
                             <h2 class="up white">Контакты</h2>
                         </div>
                         <div class="top_text">
-                            <p class="white">С нами можно связаться по телефону:
-                                +7&#160;(800) 250 78 40</p>
+                            <p class="white">С нами можно связаться по телефону:<br />
+                                8(800) 250 78 40</p>
                             <p class="white">
                                 pro@zvezdaudachi.com</p>
                         </div>
@@ -76,16 +80,16 @@
                 </div>
                 <div class="partners_list">
                     <ul class="clearfix">
-                        <li><a href="#">
+                        <li><a href="http://www.graphisoft.ru" target="_blank">
                                 <i class="partners_logo partners_logo-graphisoft"></i>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="#" target="_blank">
                                 <i class="partners_logo partners_logo-schuco"></i>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="http://www.architime.ru" target="_blank">
                                 <i class="partners_logo partners_logo-arh_time"></i>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="http://www.rockwool.ru" target="_blank">
                                 <i class="partners_logo partners_logo-rockwol"></i>
                             </a></li>
                     </ul>

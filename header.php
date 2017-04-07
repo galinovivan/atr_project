@@ -8,6 +8,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=1280">
+
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
 
 <?php wp_head(); ?>
@@ -186,7 +188,7 @@
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
-                    <li><a href="#registrationModal" data-toggle="modal" class="up white gold_marker">Участвовать</a></li>
+                    <li><a href="<?=get_page_link(68)?>" class="up white gold_marker">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
@@ -215,7 +217,7 @@
 </div>
 <a href="#" class="top_link">Наверх</a>
 <div class="helper red" id="topHelper">
-    <span>С 1 апреля до 15 сентября 2017 идёт приём работ. Загрузить работу на конкурс можно <a href="#"> здесь</a>.</span>
+    <span>С 1 апреля до 15 сентября 2017 идёт приём работ. Загрузить работу на конкурс можно <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
@@ -247,9 +249,7 @@
             </div>
             <div class="col-md-12 nav_text">
                 <div class="text">
-                    <h3 class="text-center white">«АРХпроект» — всероссийский профессиональный студенческий конкурс
-                        архитектурных и дизайнерских проектов, дающий возможность выиграть стажировку
-                        в крупнейшей строительной компании Северо-Запада</h3>
+                    <h3 class="text-center white">АРХпроект» — Всероссийский конкурс архитектурных и дизайнерских проектов, открытый для участия как студентам, так и молодым архитекторам.</h3>
                 </div>
                 <div class="cursor">
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
