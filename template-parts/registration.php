@@ -13,9 +13,7 @@
     <div class="form_description text-center">
         <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность
             принять участие в конкурсе.</p>
-        <p class="black">
-            Введите адрес электронной почты, и мы отправим
-            вам пароль от личного кабинета.</p>
+        
     </div>
     <div class="reg_form">
 <!--        <form class="base_form userform" method="post" action="">-->

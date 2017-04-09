@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-2">
                 <div class="date">
-                    <span class="black">10.17</span>
+                    <span class="black">02.10.17</span>
                 </div>
             </div>
         </div>
