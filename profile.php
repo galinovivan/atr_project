@@ -13,6 +13,14 @@
     <?php if (!is_user_logged_in()) {
       wp_redirect('/');
     }
+
+    /**
+     * @param $date
+     * @return bool|string
+     */
+    function makeDateFormat($date) {
+        return date('m.d', mktime($date));
+    }
     ?>
     <div class="category_heading">
         <div class="container">
@@ -48,6 +56,20 @@
             <a href="<?=get_page_link(68);?>" class="button base medium black">Загрузить работу</a>
         </div>
     </div>
+                <div class="user_info_block">
+                    <div class="block_heading">
+                    <h4 class="black">Активности:</h4>
+                        </div>
+                    <div class="info_list">
+                        <ul>
+                            <li class="black">
+                                <span class="black data"><?=makeDateFormat($user->user_registered);?></span>
+                                регистрация на сайте
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
 <!--    <div class="actions_list">-->
 <!--        <h4 class="black">Активности</h4>-->
 <!--    </div>-->
