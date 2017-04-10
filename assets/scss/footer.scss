@@ -15,12 +15,18 @@ footer {
   height: $footerHeight;
   padding: 60px 0 70px 0;
   .arh_logo {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
   .copyright {
     padding-right: 50px;
     .logo {
       margin-bottom: 10px;
+    }
+    .rules_protection {
+      margin-top: 35px;
+      span {
+
+      }
     }
   }
   .contact_block {

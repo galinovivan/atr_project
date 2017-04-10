@@ -40,3 +40,14 @@ header {
     }
   }
 }
+
+.logo_header_icon {
+  display: block;
+  width: 145px;
+  height: 45px;
+  background: url('../images/logo_cds.png') no-repeat;
+  @include transition();
+  &:hover {
+    background: url('../images/logo_cds_hover.png') no-repeat;
+  }
+}

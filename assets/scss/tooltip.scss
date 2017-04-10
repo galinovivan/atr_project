@@ -11,4 +11,17 @@
     padding: 15px 10px;
     font-size: $baseFontSize;
   }
+
+  &.top {
+    left: 0px !important;
+    .tooltip-arrow {
+      left: 7% !important;
+      border-top-color: $tooltipColor !important;
+    }
+    .tooltip-inner {
+      width: 500px;
+      max-width: 1000px;
+      font-size: $baseFontSize - 4;
+    }
+  }
 }

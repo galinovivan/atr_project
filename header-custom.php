@@ -125,7 +125,7 @@
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="#" class="up white">Финалисты 2016</a></li>
-                    <li><a href="<?=get_page_link(68);?>"  class="up white gold_marker">Участвовать</a></li>
+                    <li><a href="#registrationModal"  class="up white gold_marker" data-toggle="modal">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
@@ -154,7 +154,7 @@
 </div>
 <a href="#" class="top_link">Наверх</a>
 <div class="helper red">
-    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите  <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
+    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите  <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
