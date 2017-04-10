@@ -179,7 +179,7 @@
                 <div class="col-md-12">
                     <div class="judge_slider">
                         <div class="center-slider" id="centerSlider">
-                            <?php $loop = new WP_Query(array('post_type' => 'judge', 'orderby' => 'date', 'order' => 'asc'));
+                            <?php $loop = new WP_Query(array('post_type' => 'judge', 'orderby' => 'menu_order', 'order' => 'asc'));
                             if ($loop->have_posts()): ?>
                             <?php while($loop->have_posts()): $loop->the_post();?>
                                     <?php
