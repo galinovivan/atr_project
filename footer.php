@@ -25,7 +25,7 @@
                         <div class="copyright">
                             <div class="logo">
                             <a href="http://kira-all.ru/" target="_blank">
-                                <img src="<?=get_template_directory_uri()?>/assets/images/akira_logo.png"  class="img-responsive" />
+                                <img src="<?=get_template_directory_uri()?>/assets/images/logo_akira_small.png"  class="img-responsive" />
                                 </a>
                             </div>
                             <div class="text">

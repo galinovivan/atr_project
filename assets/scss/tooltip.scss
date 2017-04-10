@@ -19,9 +19,11 @@
       border-top-color: $tooltipColor !important;
     }
     .tooltip-inner {
-      width: 500px;
+      width: 520px;
       max-width: 1000px;
       font-size: $baseFontSize - 4;
+      padding: 15px 10px;
+      @include align();
     }
   }
 }
