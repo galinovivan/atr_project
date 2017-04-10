@@ -202,8 +202,8 @@
                                 <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
                                         <i class="social_icon social_icon-fb_icon"></i>
                                     </a></li>
-                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank"></a>
-                                    <i class="social_icon social_icon-vk_icon"></i></li>
+                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank">
+                                    <i class="social_icon social_icon-vk_icon"></i></a></li>
                                 <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
                                         <i class="social_icon social_icon-inst"></i>
                                     </a></li>

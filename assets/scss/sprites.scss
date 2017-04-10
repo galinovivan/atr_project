@@ -21,10 +21,15 @@
   height: 52px;
   background-position: -5px -86px;
 }
-
+.last_nomination_sprite {
+  width: 90px;
+  height: 90px;
+  background: url('../images/last_namination.png') no-repeat;
+  @include margin_align();
+}
 
 .social_sprite {
-  background-image: url(spritesheet.png);
+  //background-image: url(spritesheet.png);
   background-repeat: no-repeat;
   display: block;
 }
