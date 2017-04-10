@@ -40,7 +40,7 @@
         $thumbField.text(thumbFieldLabel);
     });
 
-    var $categoryList = $('.wpuf_category_select_261_141 select'),
+    var $categoryList = $('.wpuf_category_select_353_352 select'),
         categoryLabel = 'Категория';
 
     $categoryList = $categoryList.children(':first');
