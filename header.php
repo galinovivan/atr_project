@@ -217,10 +217,18 @@
 </div>
 <a href="#" class="top_link">Наверх</a>
 <div class="helper red" id="topHelper">
-    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите  <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
+    <?php if (!is_user_logged_in()): ?>
+    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
+        <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
+<?php else: ?>
+    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
+        <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
+    <a class="helper_close" href="#">
+        <span></span><span></span>
+    <?php endif; ?>
 </div>
 
 <header class="base_background">
