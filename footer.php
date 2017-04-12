@@ -29,7 +29,7 @@
                                 </a>
                             </div>
                             <div class="text">
-                            <span class="small_text">Сайт разработан
+                            <span class="small_text white">Сайт разработан
                                 Рекламным агентством Киры Аллейновой</span>
                             </div>
                             <div class="rules_protection">
@@ -85,7 +85,9 @@
                         </a>
                 </div>
                 <div class="banner_heading">
+                    <a href="<?=get_page_link(56)?>" >
                     <h2 class="up white">Партнеры</h2>
+                        </a>
                 </div>
                 <div class="partners_list">
                     <ul class="clearfix">
