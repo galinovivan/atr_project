@@ -236,7 +236,9 @@
         <div class="row top_header_section">
             <div class="col-md-6">
                 <div class="header_logo text-left">
+                    <a href="/">
                     <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png" class="img-responsive" />
+                        </a>
                 </div>
             </div>
             <div class="col-md-6">
