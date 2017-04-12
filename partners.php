@@ -24,7 +24,7 @@
     <div class="partners_list">
         <div class="container">
             <div class="row">
-                <?php $loop = new WP_Query(array('post_type' => 'partners'));
+                <?php $loop = new WP_Query(array('post_type' => 'partners', 'orderby' => 'menu_order', 'order' => 'asc'));
                 if ($loop->have_posts()): ?>
                 <?php while($loop->have_posts()): $loop->the_post();?>
                 <?php
