@@ -32,7 +32,7 @@ if (isset($name) && isset($email) && isset($messages)) {
 
     mail($mailTo, $subject, $body, $headers);
 
-}
+    }
 }
 
 

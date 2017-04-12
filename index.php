@@ -122,7 +122,7 @@
                             <span class="separate"></span>
                         </div>
                         <div class="text text-center">
-                            <p>Лучшее предложение
+                            <p class="white">Лучшее предложение
                                 по дизайну остановки общественного
                                 транспорта</p>
                         </div>

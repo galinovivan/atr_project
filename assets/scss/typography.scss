@@ -9,6 +9,9 @@ p, span, a {
     text-decoration: none;
   }
 }
+p, span, input {
+  color: $black;
+}
 
 .bold_font {
   font-family: $boldFont;
