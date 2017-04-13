@@ -19,7 +19,7 @@
      * @return bool|string
      */
     function makeDateFormat($date) {
-        return date('m.d', mktime($date));
+        return date('d.m', mktime($date));
     }
     ?>
     <div class="category_heading">
@@ -58,13 +58,14 @@
     </div>
                 <div class="user_info_block">
                     <div class="block_heading">
-                    <h4 class="black">Активности:</h4>
+                    <h4 class="black">Активность:</h4>
                         </div>
                     <div class="info_list">
                         <ul>
                             <li class="black">
+
+                               Дата регистрации на сайте:
                                 <span class="black data"><?=makeDateFormat($user->user_registered);?></span>
-                                регистрация на сайте
                             </li>
 
                         </ul>
