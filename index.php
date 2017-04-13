@@ -278,6 +278,7 @@
             <div class="row">
                 <div class="col-md-7 info_block">
                     <div class="base_color_background">
+                        <?php if (!is_user_logged_in()): ?>
                         <div class="fluid_wrapper">
                             <div class="banner_heading with_separate">
                                 <h2 class="up white">участвовать</h2>
@@ -293,9 +294,30 @@
                                         data-toggle="modal" data-target="#registrationModal">Регистрация</button>
                             </div>
                         </div>
+    <?php else: ?>
+                            <div class="fluid_wrapper">
+                                <div class="banner_heading with_separate">
+                                    <h2 class="up white">Отправить работу</h2>
+                                </div>
+                                <div class="text">
+                                    <p class="white">Здесь вы можете отправить выполненную
+                                        работу в конкурсную базу "АРХпроекта". Советуем
+                                        предварительно еще раз ознакомиться с правилами оформления
+                                        проектов в разделе "Номинации" и желаем удачи!</p>
+                                </div>
+                                <div class="registration_button">
+                                    <a class="button base medium white revert_hover"
+                                            data-toggle="modal" href="<?=get_page_link(68);?>">Отправить работу</a>
+                                </div>
+                            </div>
+    <?php endif; ?>
                     </div>
                 </div>
+                <?php if (!is_user_logged_in()): ?>
                 <div class="col-md-5 thumb_block"></div>
+    <?php else: ?>
+                    <div class="col-md-5 thumb_block is_logged"></div>
+    <?php endif; ?>
             </div>
         </div>
     </div>
