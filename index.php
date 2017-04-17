@@ -301,9 +301,9 @@
                                 </div>
                                 <div class="text">
                                     <p class="white">Здесь вы можете отправить выполненную
-                                        работу в конкурсную базу "АРХпроекта". Советуем
+                                        работу в конкурсную базу &laquo;АРХпроекта&raquo;. Советуем
                                         предварительно еще раз ознакомиться с правилами оформления
-                                        проектов в разделе "Номинации" и желаем удачи!</p>
+                                        проектов в разделе &laquo;Номинации&raquo; и желаем удачи!</p>
                                 </div>
                                 <div class="registration_button">
                                     <a class="button base medium white revert_hover"
@@ -340,25 +340,26 @@
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="contact_form">
-                    <form action=""
-                          class="base_form" id="contactForm" method="post">
-                        <div class="row">
-                            <div class="col-md-6 field_item text-left">
-                                <input id="name" type="text" placeholder="Имя" name="first_name" required />
-                                <input type="hidden" name="action" value="contact_form" />
-                            </div>
-                            <div class="col-md-6 field_item text-right">
-                                <input id="email" type="email" placeholder="email" name="email" required />
-                            </div>
-                            <div class="col-md-12 field_item textarea">
-                            <textarea name="message" id="message" cols="30" rows="5"
-                                      placeholder="Текст сообщения" required></textarea>
-                            </div>
-                            <div class="col-md-12 submit_field">
-                                <button class="button base black medium block_center" type="submit">Отправить</button>
-                            </div>
-                        </div>
-                    </form>
+<!--                    <form action=""-->
+<!--                          class="base_form" id="contactForm" method="post">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6 field_item text-left">-->
+<!--                                <input id="name" type="text" placeholder="Имя" name="first_name" required />-->
+<!--                                <input type="hidden" name="action" value="contact_form" />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6 field_item text-right">-->
+<!--                                <input id="email" type="email" placeholder="email" name="email" required />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-12 field_item textarea">-->
+<!--                            <textarea name="message" id="message" cols="30" rows="5"-->
+<!--                                      placeholder="Текст сообщения" required></textarea>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-12 submit_field">-->
+<!--                                <button class="button base black medium block_center" type="submit">Отправить</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+                    <?= do_shortcode('[contact-form-7 id="431" title="Контактная форма на главной"]'); ?>
                 </div>
             </div>
         </div>
