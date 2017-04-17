@@ -8,7 +8,7 @@
         $('#contactForm').submit(function(event) {
             event.preventDefault();
            var formData = $(this).serialize();
-           var action = formData['form_action'];
+           var action = formData['action'];
 
             $.ajax({
                 type: "POST",
