@@ -360,3 +360,23 @@ main {
   width: 100% !important;
 }
 
+.news_list {
+  .partner_item {
+    .thumb {
+      img {
+        width: 90%;
+        @include margin_align();
+      }
+    }
+    .news_link {
+      float: right;
+      @include textHover();
+    }
+  }
+  margin-bottom: 90px;
+}
+
+.single_news_page {
+  margin-bottom: 90px;
+}
+
