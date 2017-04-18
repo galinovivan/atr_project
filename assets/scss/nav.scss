@@ -47,6 +47,13 @@
   .nav {
     margin-top: 10px;
     padding-left: 15px;
+    li {
+      a {
+        &:focus, &:active {
+          background: none !important;
+        }
+      }
+    }
     & > li {
       &.sub_menu {
         margin-bottom: 53px;
