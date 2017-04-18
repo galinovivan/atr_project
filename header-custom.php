@@ -11,7 +11,7 @@
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
 <meta name="viewport" content="width=1280">
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
-
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-106461-5F5Ub';</script>
     <?php wp_head(); ?>
 </head>
 <body class="light_background">
