@@ -151,5 +151,10 @@ require get_template_directory() . '/function/partners.php';
 
 require get_template_directory() . '/function/projects.php';
 
+require get_template_directory() . '/function/articles.php';
+
 require get_template_directory() . '/function/contact-form.php';
+
+
+
 
