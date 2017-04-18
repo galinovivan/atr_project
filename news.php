@@ -14,24 +14,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="up white"><?php wp_title('');?></h4>
+                    <h4 class="up white">
+                        <?php wp_title('');?></h4>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="text">
-                    <h3 class="black">
-                        Новостей пока нет
-                    </h3>
-                    <br />
-                    <br />
-                    <br />
+        <div class="news_list">
+            <div class="container">
+                <div class="row">
+                    <?php $loop = new WP_Query(array('post_type' => 'articles1'));
+                    if ($loop->have_posts()): ?>
+                        <?php while($loop->have_posts()): $loop->the_post();?>
+                            <?php
+                            $thumbId = get_post_thumbnail_id();
+                            $thumbURL = wp_get_attachment_image_src($thumbId, 'small', true);
+                            $thumbURL = $thumbURL[0];
+                            ?>
+                            <div class="col-md-12 partner_item">
+                                <div class="row">
+                                    <div class="col-md-2 thumb">
+                                        <img src="<?=$thumbURL?>" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-10 text">
+                                        <p class="black bold_font"><?php the_title();?></p>
+                                        <p class="black"><?=the_excerpt();?></p>
+                                        <a class="black news_link" href="<?php the_permalink();?>">
+
+                                      [Читать]
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <?php
+                        endwhile;
+                    else:
+                        ?>
+                    <h4 class="black" style="margin-bottom: 50px;">
+                        Ни одной новости пока нет
+                    </h4>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
-    </div>
 </main>
 <?php get_footer();?>
