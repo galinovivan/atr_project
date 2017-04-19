@@ -155,6 +155,8 @@ require get_template_directory() . '/function/articles.php';
 
 require get_template_directory() . '/function/contact-form.php';
 
+require get_template_directory() . '/function/reg_setting.php';
+
 
 
 
