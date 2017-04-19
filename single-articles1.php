@@ -31,11 +31,20 @@
                 <img src="<?=$thumbURL?>" class="img-responsive"/>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-11">
             <div class="content">
                 <p class="black">
-                    <?php echo get_the_content(); ?>
+                  <?php if(have_posts()): ?>
+                  <?php while(have_posts()): the_post(); ?>
+                      <?=get_the_content();?>
+                  <?php endwhile; ?>
+                  <?php endif; ?>
                 </p>
+            </div>
+        </div>
+        <div class="col-md-11">
+            <div class="back_news_link text-right">
+                <a href="<?=get_page_link(175);?>" class="black">[К другим новостям]</a>
             </div>
         </div>
     </div>
