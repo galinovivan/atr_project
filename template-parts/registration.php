@@ -11,7 +11,7 @@
 
 <div class="registration auth_form">
     <div class="form_description text-center">
-        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность
+        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы
             принять участие в конкурсе.</p>
         
     </div>
