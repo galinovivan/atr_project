@@ -35,10 +35,14 @@
                             <div class="col-md-12 partner_item">
                                 <div class="row">
                                     <div class="col-md-2 thumb">
+                                        <a href="<?php the_permalink(); ?>">
                                         <img src="<?=$thumbURL?>" class="img-responsive" />
+                                            </a>
                                     </div>
                                     <div class="col-md-10 text">
+                                        <a href="<?php the_permalink(); ?>" style="text-decoration: none !important;">
                                         <p class="black bold_font"><?php the_title();?></p>
+                                            </a>
                                         <p class="black"><?=the_excerpt();?></p>
                                         <a class="black news_link" href="<?php the_permalink();?>">
 
