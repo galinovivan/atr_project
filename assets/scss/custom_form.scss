@@ -197,4 +197,41 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
 }
 
 
+.login {
+  a {
+    color: $black;
+  }
+}
+
+  .arh_custom_block {
+  display: inline-block;
+  width: 49%;
+  &.custom_forgot_link {
+    @include align(right);
+    a {
+      font-size: $baseFont - 3;
+      font-family: $boldFont;
+      @include textHover();
+    }
+  }
+}
+  .wppb-username-email {
+    input {
+      &.text-input {
+        width: 30% !important;
+      }
+    }
+  }
+
+  p.form-submit {
+    input[type="submit"] {
+      border: 1px solid $black;
+      font-size: $baseFontSize - 3;
+      color: $black;
+      display: block;
+      padding: 8px 15px;
+      @include buttonHover();
+    }
+  }
+
 
