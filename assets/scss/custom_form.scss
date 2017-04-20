@@ -238,6 +238,11 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
       label {
         display: block !important;
       }
+      input {
+        &.text-input {
+          width: 200px !important;
+        }
+      }
     }
   }
 
