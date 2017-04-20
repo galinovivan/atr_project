@@ -199,7 +199,7 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
 
 .login {
   a {
-    color: $black;
+    //color: $black;
   }
 }
 
@@ -243,6 +243,11 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
           width: 200px !important;
         }
       }
+    }
+  }
+  #wpuf-login-form {
+    .wpuf-message {
+      display: none !important;
     }
   }
 
