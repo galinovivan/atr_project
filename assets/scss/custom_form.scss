@@ -233,5 +233,12 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
       @include buttonHover();
     }
   }
+  #wppb-recover-password-container {
+    .wppb-form-field {
+      label {
+        display: block !important;
+      }
+    }
+  }
 
 
