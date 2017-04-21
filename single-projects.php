@@ -103,6 +103,8 @@
             </div>
         </div>
     </div>
+    <?php $projectDesc = do_shortcode('[wpuf-meta name="project_desc"]'); ?>
+    <?php if ($projectDesc !=''|| $projectDesc != null): ?>
    <div class="about_project">
        <div class="container">
            <div class="row">
@@ -111,12 +113,14 @@
                    <h5 class="black">Описание проекта:</h5>
                        </div>
                    <div class="text">
-                       <p class="black"><?php echo do_shortcode('[wpuf-meta name="project_desc"]')?></p>
+                       <p class="black"><?=$projectDesc;?></p>
                    </div>
+
                </div>
            </div>
        </div>
    </div>
+    <?php endif; ?>
 <!--    <div class="back_button">-->
 <!--        <button class="button base medium black block_center" href="/галерея-работ/">Вернуться в галерею</button>-->
 <!--    </div>-->
