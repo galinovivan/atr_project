@@ -84,6 +84,8 @@ main {
     }
     .button {
       a {
+        display: block;
+        width: 100%;
         &:hover {
           color: $white;
         }
