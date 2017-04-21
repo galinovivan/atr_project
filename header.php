@@ -180,7 +180,7 @@
                     </ul>
                     </li>
                     <li><a href="<?=get_page_link(171);?>" class="up white">Призы</a></li>
-                    <li><a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" class="up white">Условия участия</a></li>
+                    <li><a href="<?=get_page_link(469);?>" class="up white">Условия участия</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
