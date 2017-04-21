@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="up white">Работы <span class="up base_font">(Финалисты '16')</span></h4>
+                        <h4 class="up white">Работы <span class="up base_font white">(Финалисты '16')</span></h4>
                     </div>
                 </div>
             </div>
@@ -113,13 +113,13 @@
                                 <div class="item_text">
                                     <p class="black name name"><?php the_title(); ?></p>
                                     <p class="black project_name"><?php echo do_shortcode('[wpuf-meta name="project_name"]')?></p>
-                                    <div class="like_box">
-                                <span class="black">
-                                    0
-                                    <span class="like_icon">
-                                <i class="like_sprite like_sprite-like_icon"></i>
-                                    </span></span>
-                                    </div>
+<!--                                    <div class="like_box">-->
+<!--                                <span class="black">-->
+<!--                                    0-->
+<!--                                    <span class="like_icon">-->
+<!--                                <i class="like_sprite like_sprite-like_icon"></i>-->
+<!--                                    </span></span>-->
+<!--                                    </div>-->
                                 </div>
                             </div>
 
@@ -131,14 +131,14 @@
                     </div>
                 </div>
             </div>
-            <div class="paginate">
-                <ul class="pagination">
-                    <li><a href="#" class="active">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#" class="pag_btn">...</a></li>
-                </ul>
-            </div>
+<!--            <div class="paginate">-->
+<!--                <ul class="pagination">-->
+<!--                    <li><a href="#" class="active">1</a></li>-->
+<!--                    <li><a href="#">2</a></li>-->
+<!--                    <li><a href="#">3</a></li>-->
+<!--                    <li><a href="#" class="pag_btn">...</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div>
     </main>
 
