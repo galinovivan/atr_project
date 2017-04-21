@@ -1,0 +1,39 @@
+.nav-tabs {
+  border: none;
+  margin-bottom: 25px;
+  & > li {
+    & > a {
+      border: none;
+      @include textHover;
+      color: $black;
+      position: relative;
+      padding-bottom: 5px;
+      font-family: $boldFont;
+      &:hover {
+        background: $transparent;
+      }
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: $baseColor;
+        width: 0;
+        height: 2px;
+        @include transition();
+      }
+    }
+    &.active {
+      border: none !important;
+      background: $transparent;
+      & > a {
+        color: $black !important;
+        border: none !important;
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
