@@ -92,29 +92,29 @@
                                     $thumb_id = get_post_thumbnail_id();
                                     $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);                                    
                                 ?>
-                            <div class="gallery_item">
-                            <a href="<?php the_permalink(); ?>">
-                                <div class="item_thumb line_hover">
-                                    <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
-                                    <div class="thumb_overlay"></div>
-                                    <span class="separate_line_hover left"></span>
-                                    <span  class="separate_line_hover right"></span>
-                                    <span class="separate_line_hover top"></span>
-                                    <span class="separate_line_hover bottom"></span>
-                                </div>
-                                </a>
-                                <div class="item_text">
-                                    <p class="black name name"><?php the_title(); ?></p>
-                                    <p class="black project_name"><?php echo do_shortcode('[wpuf-meta name="project_name"]')?></p>
-                                    <div class="like_box">
-                                <span class="black">
-                                    0
-                                    <span class="like_icon">
-                                <i class="like_sprite like_sprite-like_icon"></i>
-                                    </span></span>
-                                    </div>
-                                </div>
-                            </div>
+<!--                            <div class="gallery_item">-->
+<!--                            <a href="--><?php //the_permalink(); ?><!--">-->
+<!--                                <div class="item_thumb line_hover">-->
+<!--                                    <img src="--><?php //echo $thumb_url[0]; ?><!--" class="img-responsive" />-->
+<!--                                    <div class="thumb_overlay"></div>-->
+<!--                                    <span class="separate_line_hover left"></span>-->
+<!--                                    <span  class="separate_line_hover right"></span>-->
+<!--                                    <span class="separate_line_hover top"></span>-->
+<!--                                    <span class="separate_line_hover bottom"></span>-->
+<!--                                </div>-->
+<!--                                </a>-->
+<!--                                <div class="item_text">-->
+<!--                                    <p class="black name name">--><?php //the_title(); ?><!--</p>-->
+<!--                                    <p class="black project_name">--><?php //echo do_shortcode('[wpuf-meta name="project_name"]')?><!--</p>-->
+<!--                                    <div class="like_box">-->
+<!--                                <span class="black">-->
+<!--                                    0-->
+<!--                                    <span class="like_icon">-->
+<!--                                <i class="like_sprite like_sprite-like_icon"></i>-->
+<!--                                    </span></span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
 
                                 <?php endwhile; ?>
                                 <?php endif ?>
