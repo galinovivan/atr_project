@@ -404,5 +404,8 @@ main {
 main {
   &.concurs_rules {
     margin-bottom: 75px;
+    .button_row {
+      margin-top: 25px;
+    }
   }
 }
