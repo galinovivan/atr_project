@@ -21,36 +21,36 @@
                 </div>
             </div>
         </div>
-        <div class="category_filter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                       <div class="dropdown">
-                           <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                               <span class="black bold_font">Категория участников</span>
-                               <span class="dropdown_caret"></span>
-                           </button>
-                           <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                               <li><a href="/галерея-работ/студенты/">Студенты</a></li>
-                               <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
-                               <li><a href="">Финалисты`16</a></li>
-                           </ul>
-                       </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class="black bold_font">Номинация</span>
-                                <span class="dropdown_caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#">Интерьер квартиры</a></li>
-                                <li><a href="#">Остановка транспорта</a></li>
-                            </ul>
-                        </div>
-                    </div>
+<!--        <div class="category_filter">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-3">-->
+<!--                       <div class="dropdown">-->
+<!--                           <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
+<!--                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
+<!--                               <span class="black bold_font">Категория участников</span>-->
+<!--                               <span class="dropdown_caret"></span>-->
+<!--                           </button>-->
+<!--                           <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
+<!--                               <li><a href="/галерея-работ/студенты/">Студенты</a></li>-->
+<!--                               <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>-->
+<!--                               <li><a href="">Финалисты`16</a></li>-->
+<!--                           </ul>-->
+<!--                       </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3">-->
+<!--                        <div class="dropdown">-->
+<!--                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
+<!--                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
+<!--                                <span class="black bold_font">Номинация</span>-->
+<!--                                <span class="dropdown_caret"></span>-->
+<!--                            </button>-->
+<!--                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
+<!--                                <li><a href="#">Интерьер квартиры</a></li>-->
+<!--                                <li><a href="#">Остановка транспорта</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
 <!--                    <div class="col-md-3">-->
 <!--                        <div class="dropdown">-->
 <!--                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
@@ -64,9 +64,9 @@
 <!--                            </ul>-->
 <!--                        </div>-->
 <!--                    </div>-->
-                </div>
-            </div>
-        </div>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="gallery">
             <div class="container">
                 <div class="row">
