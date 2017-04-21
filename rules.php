@@ -42,6 +42,11 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12">
+                <div class="button_row">
+                    <a href="<?=get_template_directory_uri();?>/rules.zip" class="button base medium black">Скачать</a>
+                </div>
+            </div>
         </div>
     </div>
 </main>
