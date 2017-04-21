@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="button_more">
-                        <a href="http://arhproekt.pro/wp-content/themes/arh_project/Uslovia.zip" target="_blank" class="black button base medium ">Смотреть</a>
+                        <a href="<?=get_page_link(469);?>" target="_blank" class="black button base medium ">Смотреть</a>
                     </div>
                 </div>
                 <div class="col-md-5 thumb_wrapper">
@@ -301,7 +301,7 @@
                                 <div class="text">
                                     <p class="white">Здесь вы можете отправить выполненную
                                         работу в конкурсную базу &laquo;АРХпроекта&raquo;. Советуем
-                                        предварительно еще раз ознакомиться с правилами оформления
+                                         еще раз ознакомиться с правилами оформления
                                         проектов в разделе &laquo;Номинации&raquo; и желаем удачи!</p>
                                 </div>
                                 <div class="registration_button">
