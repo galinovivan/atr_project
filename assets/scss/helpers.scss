@@ -27,4 +27,12 @@
     z-index: 100000;
     @include closeToggle(15px, $white);
   }
+  @media screen and (max-width: $smScreen) {
+    height: $mobileHelperHeight;
+    padding: 4px;
+    * {
+      font-size: $baseMobileFontSize - 2;
+    }
+
+  }
 }
