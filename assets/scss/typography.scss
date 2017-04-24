@@ -32,6 +32,14 @@ p, span, input {
   font-size: $smallFont;
 }
 
+h1 {
+  &.big_font {
+    font-size: $bigH1Font;
+    font-family: $ghostFont;
+    font-weight: 100;
+  }
+}
+
 h2 {
   font-size: $h2FontSize;
   font-family: $boldFont;
