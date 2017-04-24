@@ -30,6 +30,7 @@
       & > a {
         color: $black !important;
         border: none !important;
+        background-color: $transparent;
         &::after {
           width: 100%;
         }
