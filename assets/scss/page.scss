@@ -136,6 +136,32 @@ main {
     .button_more {
       margin-top: 50px;
     }
+    @media screen and (max-width: $smScreen) {
+      height: auto;
+      .thumb_wrapper {
+        height: 190px;
+        .thumb {
+          background: url('../images/mobile_people_banner.png') no-repeat;
+          padding-top: 60px;
+          position: relative;
+          .bottom_separate_line {
+            display: block;
+            width: 100%;
+            position: absolute;
+            bottom: 30%;
+            @include align();
+            &::after {
+              content:'';
+              display: inline-block;
+              width: 80px;
+              height: 2px;
+              background: $white;
+              bottom: -10px;
+            }
+          }
+        }
+      }
+    }
   }
   .partners_banner {
     background-image: url('../images/abstract_partners.png');
