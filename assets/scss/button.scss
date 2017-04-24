@@ -24,6 +24,12 @@
   &.revert_hover {
     @include revertButtonHover();
   }
+  @media screen and(max-width: $smScreen) {
+    &.medium {
+      width: $mobileMediumButtomWith;
+      font-size: $mobileButtonFontSize;
+    }
+  }
 }
 a, input {
   &.button {
