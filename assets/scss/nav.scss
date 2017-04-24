@@ -28,6 +28,20 @@
       background: $navToggleHover;
     }
   }
+  @media screen and (max-width: $smScreen) {
+    width: 30px;
+    height: 30px;
+    border: 2px solid $orange;
+    span {
+      width: 15px;
+      background: $orange;
+      height: 2px;
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+
+  }
 }
 
 .main_nav {
@@ -100,6 +114,50 @@
       li {
         display: inline-block;
         margin-right: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: $smScreen) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    .nav {
+      margin-top: 0;
+      li {
+        a, span, .sub {
+          font-size: $baseFontSize + 6 !important;
+        }
+        .sub_nav {
+          padding-left: 15px;
+          li {
+            margin-top: 15px;
+            a {
+              font-size: $baseFontSize + 6 !important;
+            }
+          }
+        }
+        &.sub_menu {
+          margin-bottom: 0;
+          position: relative;
+          &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 16px;
+            top: 47px;
+            background: $white;
+            width: 1px;
+            height: 100px;
+          }
+        }
+      }
+    }
+    .nav_close {
+      top: 40px;
+    }
+    .left_separate {
+      &::before {
+        display: none !important;
       }
     }
   }
