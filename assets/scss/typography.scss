@@ -8,6 +8,9 @@ p, span, a {
   &:hover {
     text-decoration: none;
   }
+  @media screen and (max-width: $smScreen) {
+    font-size: $baseMobileFontSize;
+  }
 }
 p, span, input {
   color: $black;
@@ -43,6 +46,10 @@ h1 {
 h2 {
   font-size: $h2FontSize;
   font-family: $boldFont;
+  @media screen and (max-width: $smScreen) {
+    font-size: $h3FontSize;
+    font-weight: 200;
+  }
 }
 
 h3 {
