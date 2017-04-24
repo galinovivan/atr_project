@@ -42,6 +42,49 @@ header {
   &.primary_header_container {
     height: 100vh;
   }
+  @media screen and (max-width: $smScreen) {
+    padding: 45px 15px;
+    .top_header_section {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 25px;
+      .mobile_block_cds {
+        h5 {
+          font-size: $baseMobileFontSize - 3;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-weight: 100;
+          font-family: $baseFont;
+        }
+        img {
+          margin-top: 7px;
+          display: inline-block;
+        }
+      }
+    }
+    .nav_header_section {
+      padding: 50px 0 0 0;
+      .nav_text {
+        .text {
+          padding: 0 15px;
+          h3 {
+            font-size: $baseMobileFontSize + 2;
+            line-height: $baseLineHeight;
+            font-weight: 100;
+          }
+        }
+        .button_more {
+          margin-top: 25px;
+          padding-bottom: 45px;
+        }
+      }
+    }
+    .cursor {
+      img {
+        width: 40px;
+      }
+    }
+  }
 }
 
 .logo_header_icon {
