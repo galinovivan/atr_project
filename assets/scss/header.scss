@@ -39,6 +39,9 @@ header {
       width: 7.5%;
     }
   }
+  &.primary_header_container {
+    height: 100vh;
+  }
 }
 
 .logo_header_icon {
@@ -49,5 +52,15 @@ header {
   @include transition();
   &:hover {
     background: url('../images/logo_cds_hover.png') no-repeat;
+  }
+}
+
+.header_primary {
+  height: 375px;
+  h3 {
+    font-weight: 100;
+  }
+  .button_row {
+    margin-top: 30px;
   }
 }
