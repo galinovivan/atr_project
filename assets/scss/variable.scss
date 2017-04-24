@@ -31,6 +31,8 @@ $h2FontSize: $baseFontSize * 2;
 $h3FontSize: $baseFontSize + 8;
 $bigH1Font: 125px;
 
+$baseMobileFontSize: $baseFontSize - 3;
+
 
 $baseFont: 'PT Serif Regular';
 $boldFont: 'PT Serif Bold';
@@ -50,7 +52,9 @@ $buttonFont: $boldFont;
 $buttonHeight: 33px;
 $baseButtonBorder: 2px solid $white;
 $mediumButtonWidth: 184px;
+$mobileMediumButtomWith: $mediumButtonWidth - 40;
 $baseButtonBackground: $transparent;
+$mobileButtonFontSize: $buttonFontSize - 2;
 
 // nav
 $navToggleBackground: $white;
@@ -66,6 +70,7 @@ $separateLineHeight: 2px;
 // helpers
 $helperHeight: 35px;
 $helperRed: $baseColor;
+$mobileHelperHeight: $helperHeight - 5;
 
 
 // form
@@ -76,3 +81,6 @@ $inputBackground: $transparent;
 // footer
 
 $footerHeight: 445px;
+
+// adaptive var
+$smScreen: 991px;
