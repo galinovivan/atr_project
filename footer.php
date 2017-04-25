@@ -14,10 +14,67 @@
 <footer class="base_background">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 visible-xs visible-sm">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="contact_mobile">
+                            <span class="white">8 800 250 78 40</span> <br />
+                            <span class="white">pro@zvezdaudachi.com</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="social_block mobile">
+                            <ul>
+                                <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
+                                        <i class="soc_hov_new soc_hov_new-fb"></i>
+                                    </a></li>
+                                <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank">
+                                        <i class="soc_hov_new soc_hov_new-vk"></i>
+                                    </a></li>
+                                <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
+                                        <i class="soc_hov_new soc_hov_new-inst"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 visible-xs visible-sm">
+                <div class="about_cds_footer_mobile">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h3 class="white up">Учредитель и организатор:</h3>
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="<?=get_template_directory_uri();?>/images/logo_cds.png"
+                                 class="img-responsive" alt="cds" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 visible-xs visible-sm">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="arh_logo">
+                        <h3 class="white up">Партнеры</h3>
+                    </div>
+                    <div class="col-md-4">
+
+                        <li><a href="https://www.schueco.com/web2/ru" target="_blank">
+                                <i class="partners_logo partners_logo-schuco"></i>
+                            </a></li>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <li><a href="https://www.schueco.com/web2/ru" target="_blank">
+                                <i class="partners_logo partners_logo-schuco"></i>
+                            </a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="arh_logo hidden-xs hidden-sm">
                         <a href="/">
                             <img src="<?=get_template_directory_uri()?>/assets/images/footer_logo.png" />
                             </a>
