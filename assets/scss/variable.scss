@@ -32,6 +32,7 @@ $h3FontSize: $baseFontSize + 8;
 $bigH1Font: 125px;
 
 $baseMobileFontSize: $baseFontSize - 3;
+$mobileH3FontSize: $baseFontSize + 1;
 
 
 $baseFont: 'PT Serif Regular';
@@ -81,6 +82,7 @@ $inputBackground: $transparent;
 // footer
 
 $footerHeight: 445px;
+$mobileFooterHeight: 350px;
 
 // adaptive var
 $smScreen: 991px;
