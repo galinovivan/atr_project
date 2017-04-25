@@ -126,3 +126,21 @@
     }
   }
 }
+
+@media screen and (max-width: $smScreen) {
+  .bottom_separate_line {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 30%;
+    @include align();
+    &::after {
+      content:'';
+      display: inline-block;
+      width: 80px;
+      height: 2px;
+      background: $white;
+      bottom: -10px;
+    }
+  }
+}
