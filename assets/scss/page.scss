@@ -26,6 +26,29 @@ main {
 
       }
     }
+    @media screen and (max-width: $smScreen) {
+      $thumbBlockHeight: 190px;
+      .thumb_block {
+        background: url('../images/mobile_prize_img.png') no-repeat;
+        height: $thumbBlockHeight;
+        padding-top: 55px;
+      }
+      .about_prize {
+        $aboutPrizeBlockHeight: 250px;
+        height: $aboutPrizeBlockHeight;
+        padding: 30px 20px 45px 20px;
+        background-position: -45px -167px;
+        .text {
+          width: auto;
+        }
+        .button_more {
+          margin-top: 35px;
+          .button {
+            @include margin_align();
+          }
+        }
+      }
+    }
   }
   .nominations_banner {
     .banner_heading {
@@ -91,6 +114,23 @@ main {
         }
       }
     }
+    @media screen and (max-width: $smScreen) {
+      padding: 20px 30px 30px 30px;
+      $itemHeight: 180px;
+      .wrapper {
+        margin-bottom: 25px;
+        @include align();
+      }
+      .namination_item {
+        height: $itemHeight;
+        padding-top: 30px;
+        width: 90%;
+        .icon {
+          height: 60px;
+          margin-bottom: 25px;
+        }
+      }
+    }
   }
   .condition_banner {
     padding: 70px 0;
@@ -137,6 +177,7 @@ main {
       margin-top: 50px;
     }
     @media screen and (max-width: $smScreen) {
+      background-position: -171px 189px;
       height: auto;
       .thumb_wrapper {
         height: 190px;
@@ -144,21 +185,20 @@ main {
           background: url('../images/mobile_people_banner.png') no-repeat;
           padding-top: 60px;
           position: relative;
-          .bottom_separate_line {
-            display: block;
-            width: 100%;
-            position: absolute;
-            bottom: 30%;
-            @include align();
-            &::after {
-              content:'';
-              display: inline-block;
-              width: 80px;
-              height: 2px;
-              background: $white;
-              bottom: -10px;
-            }
-          }
+          background-size: cover;
+        }
+      }
+      .about_wrapper {
+        padding: 30px 10px 35px 10px;
+        img {
+          width: 35px;
+          margin: 15px auto;
+        }
+      }
+      .button_more {
+        margin-top: 35px;
+        .button {
+          @include margin_align();
         }
       }
     }
@@ -217,6 +257,37 @@ main {
         bottom: 45px;
       }
     }
+    @media screen and (max-width: $smScreen) {
+      background: url('../images/mobile_grid_background.png') no-repeat;
+      background-size: cover;
+      padding: 25px 40px 40px 40px;
+      .banner_heading {
+        margin-bottom: 25px;
+        * {
+          color: $white;
+        }
+      }
+      .text {
+        * {
+          color: $white;
+        }
+      }
+      .small_arrow {
+        background-image: url('../images/white_small_arrow.png');
+        right: -10px !important;
+        bottom: 13px!important;
+      }
+      .item_wrapper {
+        $itemHeight: 120px;
+        height: $itemHeight;
+        padding: 0 12px;
+        margin-bottom: 20px;
+        .icon {
+          height: 40px;
+          margin-bottom: 15px;
+        }
+      }
+    }
   }
   .registration_banner {
     $blockHeight: 410px;
@@ -246,12 +317,47 @@ main {
         background-size: cover;
       }
     }
+    @media screen and (max-width: $smScreen) {
+      $bannerHeight: 180px;
+      .thumb_block {
+        height: $bannerHeight;
+        padding-top: 65px;
+        background: url('../images/mobile_registration_thumb.png') no-repeat;
+        h2 {
+          margin-top: 0;
+        }
+      }
+      .info_block {
+        height: auto;
+        & > div {
+          padding: 35px 0;
+        }
+        .text {
+          padding: 0 20px;
+          margin-bottom: 30px;
+        }
+        .registration_button {
+          .button {
+            @include margin_align();
+          }
+        }
+      }
+    }
   }
   .contact_form_banner {
+    $bannerHeight: 500px;
+    height: $bannerHeight;
     background: url('../images/abstract_contact.png') no-repeat right top;
     padding: 65px 0 55px 0;
     .text {
       margin-bottom: 35px;
+    }
+    @media screen and (max-width: $smScreen) {
+      padding: 35px 0;
+      background-position: -551px 0px;
+      .text {
+        padding: 15px 20px 0 20px;
+      }
     }
   }
   &.judge_page {
