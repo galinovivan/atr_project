@@ -256,3 +256,35 @@
 }
 
 
+.mobile_win {
+  background-image: url('../images/mobile_win_sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.mobile_win-mibile_win_cloud_output {
+  width: 42px;
+  height: 40px;
+  background-position: -5px -5px;
+}
+
+.mobile_win-mobile_win_cloud {
+  width: 42px;
+  height: 41px;
+  background-position: -57px -5px;
+}
+
+.mobile_win-mobile_win_prize {
+  width: 43px;
+  height: 40px;
+  background-position: -5px -56px;
+}
+
+.mobile_win-mobile_win_tabl {
+  width: 29px;
+  height: 39px;
+  background-position: -109px -5px;
+}
+
+
+
