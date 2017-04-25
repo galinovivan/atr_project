@@ -19,6 +19,9 @@ body {
 .base_background {
   background: url('../images/grid_background.png') no-repeat;
   background-size: cover;
+  @media screen and (max-width: $smScreen) {
+    background: url('../images/mobile_grid_background.png') no-repeat;
+  }
 }
 
 .base_color_background {
@@ -39,7 +42,7 @@ a, button, input, textarea {
 
 .logout_link {
   vertical-align: middle;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 
