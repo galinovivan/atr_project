@@ -1,5 +1,8 @@
 .pre_footer {
   padding-bottom: $footerHeight;
+  @media screen and (max-width: $smScreen) {
+    padding-bottom: $mobileFooterHeight;
+  }
 }
 
 footer {
@@ -80,5 +83,9 @@ footer {
         }
       }
     }
+  }
+
+  @media screen and (max-width: $smScreen) {
+    height: $mobileFooterHeight;
   }
 }
