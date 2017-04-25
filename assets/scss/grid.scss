@@ -4,4 +4,7 @@ body {
 
 .fluid_wrapper {
   padding-left: 8%;
+  @media screen and (max-width: $smScreen) {
+    padding-left: 0;
+  }
 }
