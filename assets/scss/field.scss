@@ -55,6 +55,15 @@
       border-color: $baseColor;
     }
   }
+  @media screen and (max-width: $smScreen) {
+    padding: 0 20px;
+    input:not([type="submit"]), textarea {
+      width: 100%;
+    }
+    .submit_field {
+      margin-top: 40px;
+    }
+  }
 }
 .contact_form {
   textarea {
