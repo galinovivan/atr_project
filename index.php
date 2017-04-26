@@ -466,8 +466,8 @@
 <!--                            </div>-->
 <!--                        </div>-->
 <!--                    </form>-->
-                    <?= do_shortcode('[contact-form-7 id="313" title="Контактная форма 1"]'); ?>
-                </div>
+                    <?= do_shortcode('[contact-form-7 id="431" title="Контактная форма на главной"]'); ?>
+            </div>
             </div>
         </div>
     </div>
