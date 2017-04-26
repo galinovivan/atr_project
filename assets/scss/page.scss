@@ -381,6 +381,24 @@ main {
         border: 2px solid $orange;
       }
     }
+    @media screen and (max-width: $smScreen) {
+      .judge_list {
+        padding: 0 20px;
+        .judge_person {
+          .thumb {
+            img {
+              max-width: 140px;
+            }
+          }
+          .text {
+            .person_name {
+              font-family: $boldFont;
+              padding-right: 41%;
+            }
+          }
+        }
+      }
+    }
   }
   &.partners_page {
     margin-bottom: 75px;
