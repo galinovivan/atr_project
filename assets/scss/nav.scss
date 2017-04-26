@@ -93,7 +93,7 @@
         padding: 10px 15px;
         display: block;
       }
-      &:hover {
+      &:not(.not_hover):hover {
         * {
           color: $navHover;
         }
@@ -105,6 +105,11 @@
             font-family: $baseFont;
             text-transform: capitalize;
             padding: 10px 15px;
+          }
+          &:hover {
+            a {
+              color: $navHover;
+            }
           }
         }
       }
