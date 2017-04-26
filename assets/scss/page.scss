@@ -464,6 +464,11 @@ main {
   }
   &.prize_page {
     padding-bottom: 70px;
+    @media screen and (max-width: $smScreen) {
+      & > div {
+        padding: 0 20px;
+      }
+    }
   }
   &.nomination_page {
     padding-bottom: 70px;
