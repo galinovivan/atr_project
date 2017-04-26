@@ -24,4 +24,18 @@
   .modal-body {
     padding: 65px 100px 80px 100px;
   }
+  @media screen and (max-width: $smScreen) {
+    .modal-dialog {
+      width: 100%;
+      margin: 29px 0 0 0;
+      .modal-body {
+        padding: 30px 20px 0 20px;
+      }
+      .modal-header {
+        * {
+          font-size: $baseFontSize + 1;
+        }
+      }
+    }
+  }
 }
