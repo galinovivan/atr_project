@@ -128,7 +128,7 @@ function set_html_content_type() {
  * Implement the Custom Header feature.
  */
 //
-show_admin_bar(false);
+add_filter('show_admin_bar', '__return_false');
 
 
 function js_variables(){
