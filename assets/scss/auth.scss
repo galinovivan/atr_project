@@ -39,4 +39,7 @@
       @include margin_align();
     }
   }
+  @media screen and (max-width: $smScreen) {
+    margin-bottom: 0;
+  }
 }
