@@ -14,7 +14,7 @@
 <footer class="base_background">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 visible-xs visible-sm">
+            <div class="col-xs-12 visible-xs visible-sm bottom_separate_mobile">
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="contact_mobile">
@@ -42,11 +42,11 @@
             <div class="col-xs-12 visible-xs visible-sm">
                 <div class="about_cds_footer_mobile">
                     <div class="row">
-                        <div class="col-xs-6">
+                        <div class="col-xs-8">
                             <h3 class="white up">Учредитель и организатор:</h3>
                         </div>
-                        <div class="col-xs-6">
-                            <img src="<?=get_template_directory_uri();?>/images/logo_cds.png"
+                        <div class="col-xs-4">
+                            <img src="<?=get_template_directory_uri();?>/assets/images/logo_cds.png"
                                  class="img-responsive" alt="cds" />
                         </div>
                     </div>
@@ -54,20 +54,21 @@
             </div>
             <div class="col-xs-12 visible-xs visible-sm">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-4">
                         <h3 class="white up">Партнеры</h3>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-4">
 
-                        <li><a href="https://www.schueco.com/web2/ru" target="_blank">
-                                <i class="partners_logo partners_logo-schuco"></i>
-                            </a></li>
+                        <a href="http://www.architime.ru" target="_blank">
+                                <img src="<?=get_template_directory_uri();?>/assets/images/arh_time_logo_mobile.png?>"
+                                     class="img-responsive" />
+                            </a>
                         </div>
+                    <div class="col-md-4 col-xs-4">
+                       <a href="https://www.schueco.com/web2/ru" target="_blank">
+                               <img src="<?=get_template_directory_uri();?>/assets/images/schooco_logo_mobile.png" />
+                            </a>
                     </div>
-                    <div class="col-md-4">
-                        <li><a href="https://www.schueco.com/web2/ru" target="_blank">
-                                <i class="partners_logo partners_logo-schuco"></i>
-                            </a></li>
                     </div>
                 </div>
             </div>
@@ -79,17 +80,20 @@
                             <img src="<?=get_template_directory_uri()?>/assets/images/footer_logo.png" />
                             </a>
                         </div>
-                        <div class="copyright">
+                        <div class="copyright bottom_separate_mobile">
+                            <div class="copyright_mobile_text visible-xs visible-sm">
+                                <h3 class="white up">Сайт разработан:</h3>
+                            </div>
                             <div class="logo">
                             <a href="http://kira-all.ru/" target="_blank">
                                 <img src="<?=get_template_directory_uri()?>/assets/images/logo_akira_small.png"  class="img-responsive" />
                                 </a>
                             </div>
                             <div class="text">
-                            <span class="small_text white">Сайт разработан
+                            <span class="small_text white"><span class="hidden-xs hidden-sm">Сайт разработан</span>
                                 Рекламным агентством Киры Аллейновой</span>
                             </div>
-                            <div class="rules_protection">
+                            <div class="rules_protection hidden-xs hidden-sm">
                                 <span class="white small_text" data-toggle="tooltip" data-placement="top"
                                 title="Перепечатка, копирование (в том числе запись на носители информации),
 воспроизведение, переработка, распространение, передача в эфир, иное
@@ -100,7 +104,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 contact_block left_separate">
+                    <div class="col-xs-12 visible-xs visible-sm">
+                        <div class="mobile_rules_protection text-center">
+                            <p class="white">Перепечатка, копирование (в том числе запись
+                                на носители информации), воспроизведение, переработка,
+                                распространение, передача в эфир, иное использование статей
+                                и других материалов веб-сайта arhproekt.pro любым способом
+                                без письменного разрешения редакции запрещено и влечет
+                                ответственность, предусмотренную действующим
+                                законодательством РФ о защите авторских прав.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 contact_block left_separate hidden-xs hidden-sm">
                         <div class="banner_heading">
                             <h2 class="up white">Контакты</h2>
                         </div>
@@ -132,7 +147,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 partners_block left_separate">
+            <div class="col-md-6 partners_block left_separate hidden-xs hidden-sm">
                 <div class="banner_heading">
                     <h2 class="up white">Учредитель и организатор</h2>
                 </div>
