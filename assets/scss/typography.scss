@@ -106,3 +106,12 @@ h5 {
     }
   }
 }
+
+@media screen and (max-width: $smScreen) {
+  li {
+    font-weight: 600;
+    font-size: $baseMobileFontSize;
+    color: $black;
+    font-family: $baseFont;
+  }
+}
