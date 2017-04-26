@@ -61,6 +61,12 @@ h3 {
     font-size: $mobileH3FontSize;
   }
 }
+
+h4 {
+  @media screen and (max-width: $smScreen) {
+    font-size: $baseMobileFontSize;
+  }
+}
 h5 {
   font-family: $boldFont;
 }
@@ -91,6 +97,12 @@ h5 {
 }
 
 .category_heading {
+  padding: 0 20px;
   margin-bottom: 35px;
   background: $categoryHeadingBackground;
+  @media screen and (max-width: $smScreen) {
+    * {
+      margin: 4px 0;
+    }
+  }
 }
