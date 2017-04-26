@@ -172,7 +172,7 @@
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li class="sub_menu"><span class="sub sub_padd">Номинации</span>
+                    <li class="sub_menu not_hover"><span class="sub sub_padd">Номинации</span>
                     <ul class="sub_nav">
                         <li><a href="<?=get_page_link(115);?>" target="_blank">Интерьер квартиры</a></li>
                         <li><a href="<?=get_page_link(165);?>" target="_blank">Павильон/беседка</a></li>
