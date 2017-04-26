@@ -250,7 +250,8 @@
                     <a href="/">
                     <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png"
                          class="img-responsive hidden-xs hidden-sm" />
-                        <img src="<?=get_template_directory_uri();?>/assets/images/mobile_arh_logo.png" class="visible-xs visible-sm" />
+                        <img src="<?=get_template_directory_uri();?>/assets/images/mobile_arh_logo.png" 
+                             class="visible-xs visible-sm" />
                         </a>
                 </div>
             </div>
