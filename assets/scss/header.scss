@@ -38,6 +38,24 @@ header {
       float: left;
       width: 7.5%;
     }
+    @media screen and (max-width: $smScreen) {
+      padding: 50px 20px;
+      .toggle_container {
+        width: 15%;
+        margin-top: 3px;
+      }
+      .mobile_block_cds {
+        @include align(right);
+        img {
+          display: inline-block;
+        }
+
+        h5 {
+          font-size: $baseMobileFontSize - 3;
+          margin: 0;
+        }
+      }
+    }
   }
   &.primary_header_container {
     height: 100vh;
