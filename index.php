@@ -118,7 +118,7 @@
                             <i class="nomination_sprite nomination_sprite-icon_build block_center"></i>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Павильон/беседка</h3>
+                            <h3 class="white">Павильон/<br class="visible-xs visible-sm" />беседка</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
