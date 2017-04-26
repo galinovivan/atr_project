@@ -287,7 +287,7 @@
                 </div>
             </div>
             <div class="row item_list">
-                <div class="col-xs-6 col-md-4">
+                <div class="col-xs-6 col-md-3">
                     <div class="item_wrapper">
                         <div class="icon">
                             <i class="win_sprite win_sprite-win_tabl hidden-xs hidden-sm"></i>
