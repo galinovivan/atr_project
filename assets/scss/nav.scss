@@ -121,6 +121,10 @@
     position: absolute;
     left: 0;
     top: 0;
+    .nav_close {
+      z-index: 10000;
+      cursor: pointer;
+    }
     .nav {
       margin-top: 0;
       li {
