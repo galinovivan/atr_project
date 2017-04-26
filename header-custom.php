@@ -160,7 +160,7 @@
         </div>
     </div>
 </div>
-<a href="#" class="top_link">Наверх</a>
+<a href="#" class="top_link "><span class="hidden-xs hidden-sm white">Наверх</span></a>
 <div class="helper red" id="topHelper">
     <?php if (!is_user_logged_in()): ?>
         <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
