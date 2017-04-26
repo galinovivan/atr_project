@@ -101,6 +101,7 @@ h5 {
   margin-bottom: 35px;
   background: $categoryHeadingBackground;
   @media screen and (max-width: $smScreen) {
+    margin-bottom: 20px;
     * {
       margin: 4px 0;
     }
