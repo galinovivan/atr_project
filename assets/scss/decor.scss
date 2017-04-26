@@ -82,6 +82,12 @@
   &:visited {
     color: $white;
   }
+  @media screen and (max-width: $smScreen) {
+    width: 30px;
+    height: 20px;
+    background: url('../images/mobile_arrow_up.png') no-repeat center center;
+    right: 5px;
+  }
 }
 
 .gold_marker {
