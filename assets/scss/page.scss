@@ -567,4 +567,17 @@ main {
       margin-top: 25px;
     }
   }
+  &.about_page {
+    @media screen and (max-width: $smScreen) {
+      .about_text {
+        padding: 0 20px;
+        strong {
+          font-family: $boldFont;
+        }
+      }
+      .shedule {
+        margin-top: 30px;
+      }
+    }
+  }
 }
