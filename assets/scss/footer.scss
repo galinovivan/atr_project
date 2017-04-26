@@ -87,5 +87,50 @@ footer {
 
   @media screen and (max-width: $smScreen) {
     height: $mobileFooterHeight;
+    padding: 30px 15px;
+    .social_block {
+      &.mobile {
+        ul {
+          li {
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    h3 {
+      font-size: $baseMobileFontSize;
+      margin-top: 3px;
+    }
+    .about_cds_footer_mobile {
+      margin-bottom: 10px;
+    }
+    .copyright {
+      padding-right: 0;
+      @include clearfix();
+      & > div {
+        float: left;
+        &.copyright_mobile_text {
+          width: 40%;
+          h3 {
+            margin-top: 11px;
+          }
+        }
+        &.logo {
+          width: 15%;
+          @include align(right);
+          * {
+            display: inline-block;
+          }
+        }
+        &.text {
+          width: 45%;
+          padding-left: 9px;
+        }
+      }
+      .mobile_rules_protection {
+        padding: 20px 10px 30px 10px;
+      }
+    }
   }
 }
