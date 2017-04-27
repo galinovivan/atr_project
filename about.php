@@ -116,7 +116,7 @@
     <div class="visible-xs visible-sm shedule">
         <div class="container">
             <div class="row">
-               <div class="col-xs-12 action_item">
+               <div class="col-xs-12 action_item active">
                    <div class="action_date">
                        <span class="black">1.04.17</span>
                    </div>
@@ -148,9 +148,9 @@
                     </div>
                     <div class="action_title">
                         <span class="black">
-                            Окончание <br />
-                            приема <br />
-                            работ
+                            Обьявление <br />
+                            Имен <br />
+                            победителей
                         </span>
                     </div>
                 </div>
@@ -158,13 +158,6 @@
                     <div class="action_date">
                         <span class="balck">
                             02.10.17
-                        </span>
-                    </div>
-                    <div class="action_title">
-                        <span class="black">
-                            Обьявление <br />
-                            Имен <br />
-                            победителей
                         </span>
                     </div>
                 </div>
