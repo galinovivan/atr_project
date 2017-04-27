@@ -7929,7 +7929,7 @@ main .how_win_banner {
       main .how_win_banner .small_arrow {
         background-image: url("../images/white_small_arrow.png");
         right: -10px !important;
-        bottom: 13px !important; }
+        bottom: 25px !important; }
       main .how_win_banner .item_wrapper {
         height: 120px;
         padding: 0 12px;
