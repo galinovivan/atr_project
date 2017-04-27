@@ -90,12 +90,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-md-4 wrapper">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
                             <i class="nomination_sprite nomination_sprite-icon_light block_center"></i>
                         </div>
-                        <div class="title text-center"><h3 class="white">Интерьер квартиры</h3>
+                        <div class="title text-center"><h3 class="white">Интерьер <br /> квартиры</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -112,13 +112,13 @@
                         <span class="separate_line_hover bottom"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-4 wrapper text-center">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
                             <i class="nomination_sprite nomination_sprite-icon_build block_center"></i>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Павильон/<br class="visible-xs visible-sm" />беседка</h3>
+                            <h3 class="white">Павильон/<br />беседка</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -137,13 +137,13 @@
                         <span class="separate_line_hover bottom"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-4 wrapper text-right">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
                             <i class="nomination_sprite nomination_sprite-icon_state block_center"></i>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Остановка транспорта</h3>
+                            <h3 class="white">Остановка <br /> транспорта</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -160,20 +160,22 @@
                         <span class="separate_line_hover bottom"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 visible-xs visible-sm wrapper text-center">
-                    <div class="namination_item line_hover">
+                <div class="col-xs-6 col-md-3 wrapper">
+                    <div class="namination_item line_hover relative">
+                        <span class="sticker orange">Arh future</span>
                         <div class="icon">
-                            <i class="nomination_sprite nomination_sprite-icon_build block_center"></i>
+                           <img src="<?=get_template_directory_uri();?>/assets/images/last_namination.png"
+                                class="img-responsive block_center" />
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Город на воде</h3>
+                            <h3 class="white">Город <br /> на воде</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
                             <p class="white">
-                                Лучшее предложение по дизайну
-                                общественного пространства – павильона
-                                или беседки в микрорайоне
+                                Лучшая концепция
+                                урбанистического
+                                пространства
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
