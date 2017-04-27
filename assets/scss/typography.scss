@@ -105,6 +105,11 @@ h5 {
     * {
       margin: 4px 0;
     }
+    &.with_logout {
+      * {
+        margin: 1px 0 !important;
+      }
+    }
   }
 }
 
