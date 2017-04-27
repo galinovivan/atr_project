@@ -50,8 +50,8 @@
                 </div>
                 <div class="col-xs-12 col-md-5 thumb_wrapper">
                     <div class="thumb">
-                       <h2 class="up white text-center">Условия участия</h2>
-                        <div class="bottom_separate_line"></div>
+                       <h2 class="up white text-center visible-xs visible-sm">Условия участия</h2>
+                        <div class="bottom_separate_line visible-xs visible-sm"></div>
                     </div>
                 </div>
                 <div class="col-xs-12 visible-xs visible-sm about_wrapper text-center">
