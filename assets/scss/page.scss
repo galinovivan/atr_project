@@ -559,10 +559,38 @@ main {
     }
   }
   margin-bottom: 90px;
+  @media screen and (max-width: $smScreen) {
+    .partner_item {
+      padding-top: 0;
+      .mobile_news_title {
+        padding: 0 20px;
+        h4 {
+          font-size: $baseFontSize;
+          font-family: $boldFont;
+        }
+      }
+      .thumb {
+        padding: 0 20px;
+        margin-bottom: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        padding: 0 20px;
+        p {
+          font-weight: 200;
+        }
+      }
+    }
+  }
 }
 
 .single_news_page {
   margin-bottom: 90px;
+  @media screen and (max-width: $smScreen) {
+    padding: 0 20px;
+  }
 }
 .news_thumb_full {
   margin-bottom: 35px;
