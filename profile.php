@@ -22,10 +22,10 @@
         return date('d.m', mktime($date));
     }
     ?>
-    <div class="category_heading">
+    <div class="category_heading with_logout">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 clearfix">
+                <div class="col-md-12 col-xs-12 clearfix">
                     <div class="pull-left">
                     <h4 class="up white"><?php wp_title('');?></h4>
                         </div>
@@ -38,7 +38,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-xs-12 col-md-8">
     <div class="hel_block">
         <div class="heading">
             </div>
