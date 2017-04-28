@@ -24,7 +24,7 @@
         <div class="category_filter">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-6">
                        <div class="dropdown">
                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -38,7 +38,7 @@
                            </ul>
                        </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-6">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -51,7 +51,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-6">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -70,7 +70,7 @@
         <div class="gallery">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-xs-12">
                         <div class="gallery_list">
                             <div class="gallery_item">
                                 <div class="item_thumb line_hover">
