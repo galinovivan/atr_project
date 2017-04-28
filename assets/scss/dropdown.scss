@@ -47,4 +47,35 @@
       }
     }
   }
+  @media screen and (max-width: $smScreen) {
+    .dropdown-menu {
+      width: 95%;
+      min-width: 0;
+      top: 55%;
+      li {
+        height: 20px;
+        padding: 5px;
+        a {
+          padding-top: 0;
+          font-size: $baseMobileFontSize - 4;
+          font-family: $boldFont;
+          padding-left: 3px;
+        }
+      }
+    }
+    .btn {
+      width: 95%;
+      height: 20px;
+      padding: 0;
+      padding-left: 3px;
+      margin-bottom: 20px;
+      padding-bottom: 23px;
+      span {
+        font-size: $baseMobileFontSize - 4;
+      }
+      .dropdown_caret {
+        width: 20px;
+      }
+    }
+  }
 }
