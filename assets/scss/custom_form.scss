@@ -35,7 +35,9 @@
     @include mozPlaceholderStyle();
   }
   @media screen and (max-width: $smScreen) {
-    width: 100% !important;
+    input {
+      width: 100% !important;
+    }
   }
 }
 
@@ -46,6 +48,11 @@
     width: 50% !important;
     @include customFormsStyle();
     height: auto !important;
+  }
+  @media screen and (max-width: $smScreen) {
+    textarea {
+      width: 100% !important;
+    }
   }
 }
 
