@@ -386,11 +386,13 @@ main {
         padding: 0 20px;
         .judge_person {
           .thumb {
+            margin-bottom: 15px;
             img {
               max-width: 140px;
             }
           }
           .text {
+            padding-left: 15px;
             .person_name {
               font-family: $boldFont;
               padding-right: 41%;
@@ -416,6 +418,20 @@ main {
         p {
           margin-top: 0;
           margin-bottom: 0;
+        }
+      }
+    }
+    @media screen and (max-width: $smScreen) {
+      .partners_list {
+        padding: 0 20px;
+        .partner_item {
+          padding-top: 10px;
+          .thumb {
+            margin-bottom: 10px;
+            img {
+              @include margin_align();
+            }
+          }
         }
       }
     }
@@ -492,6 +508,9 @@ main {
     padding-bottom: 70px;
     .submit_row {
       margin-top: 40px;
+    }
+    @media screen and (max-width: $smScreen) {
+      padding: 0 20px;
     }
   }
   .wpuf-form {
@@ -630,6 +649,9 @@ main {
     margin-bottom: 75px;
     .button_row {
       margin-top: 25px;
+    }
+    @media screen and (max-width: $smScreen) {
+      padding: 0 20px;
     }
   }
   &.about_page {
