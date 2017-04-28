@@ -701,3 +701,9 @@ main {
     }
   }
 }
+
+#primary {
+  @media screen and (max-width: $smScreen) {
+    padding: 0 20px;
+  }
+}
