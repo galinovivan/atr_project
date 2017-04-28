@@ -37,4 +37,9 @@
       }
     }
   }
+  @media screen and (max-width: $smScreen) {
+    .nav > li > a {
+      padding: 10px 10px !important;
+    }
+  }
 }
