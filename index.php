@@ -179,7 +179,7 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(165);?>" target="_blank">Смотреть</a></button>
+                            <button class="button base medium white block_center"><a href="<?=get_page_link(525);?>" target="_blank">Смотреть</a></button>
                         </div>
                         <span class="separate_line_hover left"></span>
                         <span  class="separate_line_hover right"></span>
