@@ -38,6 +38,10 @@
                     </div>
                 </div>
             </div>
+            <?php
+            $projectTemplateLink = get_field('template_link');
+            if ($projectTemplateLink != null || $projectTemplateLink != ''):
+            ?>
             <div class="row">
                 <div class="col-md-12 submit_row">
                     <a href="<?=get_field('template_link');?>" target="_blank" class="button base black medium">
@@ -45,6 +49,7 @@
                     </a>
                 </div>
             </div>
+            <?php endif; ?>
         </div>
     </div>
 </main>
