@@ -34,6 +34,9 @@
     @include webkitPlaceholderStyle();
     @include mozPlaceholderStyle();
   }
+  @media screen and (max-width: $smScreen) {
+    width: 100% !important;
+  }
 }
 
 .textarea_field {
