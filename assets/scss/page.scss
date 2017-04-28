@@ -511,6 +511,9 @@ main {
     }
     @media screen and (max-width: $smScreen) {
       padding: 0 20px;
+      .submit_row {
+        margin-bottom: 40px;
+      }
     }
   }
   .wpuf-form {
