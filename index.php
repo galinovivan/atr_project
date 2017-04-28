@@ -50,8 +50,8 @@
                 </div>
                 <div class="col-xs-12 col-md-5 thumb_wrapper">
                     <div class="thumb">
-                       <h2 class="up white text-center">Условия участия</h2>
-                        <div class="bottom_separate_line"></div>
+                       <h2 class="up white text-center visible-xs visible-sm">Условия участия</h2>
+                        <div class="bottom_separate_line visible-xs visible-sm"></div>
                     </div>
                 </div>
                 <div class="col-xs-12 visible-xs visible-sm about_wrapper text-center">
@@ -90,12 +90,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-md-4 wrapper">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
+                            <a href="<?=get_page_link(115);?>">
                             <i class="nomination_sprite nomination_sprite-icon_light block_center"></i>
+                                </a>
                         </div>
-                        <div class="title text-center"><h3 class="white">Интерьер квартиры</h3>
+                        <div class="title text-center"><h3 class="white">Интерьер <br /> квартиры</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -106,19 +108,21 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base medium white block_center"><a href="<?=get_page_link(115);?>" target="_blank"> Смотреть</a></button>
                         </div>
-                        <span class="separate_line_hover left"></span>
-                        <span  class="separate_line_hover right"></span>
-                        <span class="separate_line_hover top"></span>
-                        <span class="separate_line_hover bottom"></span>
+                        <span class="separate_line_hover left hidden-xs hidden-sm"></span>
+                        <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover top hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover bottom hidden-xs hidden-sm"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-4 wrapper text-center">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
+                            <a href="<?=get_page_link(165);?>">
                             <i class="nomination_sprite nomination_sprite-icon_build block_center"></i>
+                                </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Павильон/<br class="visible-xs visible-sm" />беседка</h3>
+                            <h3 class="white">Павильон/<br />беседка</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -131,19 +135,21 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base medium white block_center"><a href="<?=get_page_link(165);?>" target="_blank">Смотреть</a></button>
                         </div>
-                        <span class="separate_line_hover left"></span>
-                        <span  class="separate_line_hover right"></span>
-                        <span class="separate_line_hover top"></span>
-                        <span class="separate_line_hover bottom"></span>
+                        <span class="separate_line_hover left hidden-xs hidden-sm"></span>
+                        <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover top hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover bottom hidden-xs hidden-sm"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-4 wrapper text-right">
+                <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover">
                         <div class="icon">
+                            <a href="<?=get_page_link(168);?>">
                             <i class="nomination_sprite nomination_sprite-icon_state block_center"></i>
+                                </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Остановка транспорта</h3>
+                            <h3 class="white">Остановка <br /> транспорта</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
@@ -154,35 +160,39 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base medium white block_center"><a href="<?=get_page_link(168);?>" target="_blank"> Смотреть</a></button>
                         </div>
-                        <span class="separate_line_hover left"></span>
-                        <span  class="separate_line_hover right"></span>
-                        <span class="separate_line_hover top"></span>
-                        <span class="separate_line_hover bottom"></span>
+                        <span class="separate_line_hover left hidden-xs hidden-sm"></span>
+                        <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover top hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover bottom hidden-xs hidden-sm"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 visible-xs visible-sm wrapper text-center">
-                    <div class="namination_item line_hover">
+                <div class="col-xs-6 col-md-3 wrapper">
+                    <div class="namination_item line_hover relative">
+                        <span class="sticker orange">Arh future</span>
                         <div class="icon">
-                            <i class="nomination_sprite nomination_sprite-icon_build block_center"></i>
+                            <a href="<?=get_page_link(525);?>">
+                           <img src="<?=get_template_directory_uri();?>/assets/images/last_namination.png"
+                                class="img-responsive block_center" />
+                                </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Город на воде</h3>
+                            <h3 class="white">Город <br /> на воде</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
                             <p class="white">
-                                Лучшее предложение по дизайну
-                                общественного пространства – павильона
-                                или беседки в микрорайоне
+                                Лучшая концепция
+                                урбанистического
+                                пространства
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(165);?>" target="_blank">Смотреть</a></button>
+                            <button class="button base medium white block_center"><a href="<?=get_page_link(525);?>" target="_blank">Смотреть</a></button>
                         </div>
-                        <span class="separate_line_hover left"></span>
-                        <span  class="separate_line_hover right"></span>
-                        <span class="separate_line_hover top"></span>
-                        <span class="separate_line_hover bottom"></span>
+                        <span class="separate_line_hover left hidden-xs hidden-sm"></span>
+                        <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover top hidden-xs hidden-sm"></span>
+                        <span class="separate_line_hover bottom hidden-xs hidden-sm"></span>
                     </div>
                 </div>
             </div>
