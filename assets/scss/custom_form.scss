@@ -151,6 +151,9 @@
   .wpuf-fields {
     width: 100% !important;
   }
+  @media screen and (max-width: $smScreen) {
+    width: 60% !important;
+  }
 }
 .wpuf-fields {
   float: left !important;
