@@ -8,8 +8,8 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
-<meta name="viewport" content="width=1280">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="viewport" content="width=1280">-->
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
     <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-106461-5F5Ub';</script>
     <?php wp_head(); ?>
@@ -161,7 +161,7 @@
     </div>
 </div>
 <a href="#" class="top_link "><span class="hidden-xs hidden-sm white">Наверх</span></a>
-<div class="helper red" id="topHelper">
+<div class="helper red hidden-xs hidden-sm" id="topHelper">
     <?php if (!is_user_logged_in()): ?>
         <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
         <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
@@ -175,6 +175,9 @@
         <span></span><span></span>
         <?php endif; ?>
 </div>
+<div class="helper red visible-xs visible-sm">
+    <span class="white">С 1 апреля до 15 сентября 2017 идёт приём работ.</span>
+</div>
 <header class="light_header">
     <div class="container">
         <div class="row">
@@ -183,19 +186,26 @@
                     <span></span><span></span><span></span>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-xs-4 col-md-5">
                 <div class="header_logo clearfix">
                     <a href="/">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png" class="img-responsive pull-left" />
+                    <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png"
+                         class="img-responsive pull-left hidden-xs hidden-sm" />
+                        <img src="<?=get_template_directory_uri();?>/assets/images/mobile_arh_logo.png" class="visible-xs visible-sm" />
                         </a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-6 col-md-6">
                 <div class="cds_heder_logo clearfix">
                     <a href="http://www.cds.spb.ru" target="_blank">
                     <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds_color.png"
-                         class="img-responsive pull-right" title="Учредитель и организатор конкурса"
+                         class="img-responsive pull-right hidden-xs hidden-sm" title="Учредитель и организатор конкурса"
                          data-toggle="tooltip" data-placement="bottom"/>
+                        <div class="mobile_block_cds visible-xs visible-sm">
+                            <h5 class="black">Учредитель и организатор:</h5>
+                            <img src="<?=get_template_directory_uri();?>/assets/images/mobile_cds_logo.png"
+                                 class="img-responsive" />
+                        </div>
                         </a>
                 </div>
             </div>

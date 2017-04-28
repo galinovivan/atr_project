@@ -73,7 +73,7 @@
     <div class="project">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-xs-12">
                     <div class="thumb">
                         <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
                     </div>

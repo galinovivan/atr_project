@@ -2,7 +2,6 @@
   margin-bottom: 70px;
   .gallery_list {
     margin-bottom: 120px;
-    //@include flex_align(space-between);
     flex-wrap: wrap;
     .gallery_item {
       width: 232px;
@@ -58,12 +57,36 @@
         height: 100%;
         top: 0;
         left: 0;
-        width: 100%;
         background: url('../images/add_btn.png') no-repeat center center;
+      }
+    }
+  }
+  @media screen and (max-width: $smScreen) {
+    .gallery_list {
+      padding: 0 20px;
+      .gallery_item {
+        margin-right: 5px;
+        margin-bottom: 65px;
+        margin-left: 0;
+        $itemSize: 135px;
+        width: $itemSize;
+        height: $itemSize;
+         .item_thumb {
+           margin-bottom: 10px;
+           height: $itemSize;
+           .thumb_overlay {
+             background: url('../images/mobile_ath_background.png') no-repeat center center;
+           }
+         }
+
       }
     }
   }
 }
 .category_filter {
   margin-bottom: 70px;
+  @media screen and (max-width: $smScreen) {
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
 }

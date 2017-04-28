@@ -33,15 +33,20 @@ if ($loop->have_posts()): ?>
         $thumbURL = $thumbURL[0];
         ?>
 
-                <div class="col-md-12 judge_person">
+                <div class=" col-xs-12 col-md-12 judge_person">
                 <div class="row">
-                    <div class="col-md-2 thumb">
+                    <div class="col-xs-6 col-md-2 thumb">
+                        
                         <img src="<?=$thumbURL?>" class="img-responsive" />
                     </div>
-                    <div class="col-md-9 text">
-                        <p class="black"><strong><?php the_title(); ?></strong> -
-                        <?=get_the_content();?>
+                    <div class="col-xs-6 col-md-9 text">
+                        <p class="black"><strong class="person_name"><?php the_title(); ?></strong> <span class="hidden-xs hidden-sm black">
+                                -</span>
+                        <span class="black hidden-xs hidden-sm"><?=get_the_content();?></span>
                         </p>
+                    </div>
+                    <div class="col-xs-12 visible-xs visible-sm">
+                        <p class="black"><?=get_the_content();?></p>
                     </div>
                 </div>
                 </div>

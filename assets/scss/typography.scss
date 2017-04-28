@@ -61,6 +61,12 @@ h3 {
     font-size: $mobileH3FontSize;
   }
 }
+
+h4 {
+  @media screen and (max-width: $smScreen) {
+    font-size: $baseMobileFontSize;
+  }
+}
 h5 {
   font-family: $boldFont;
 }
@@ -91,6 +97,27 @@ h5 {
 }
 
 .category_heading {
+  padding: 0 20px;
   margin-bottom: 35px;
   background: $categoryHeadingBackground;
+  @media screen and (max-width: $smScreen) {
+    margin-bottom: 20px;
+    * {
+      margin: 4px 0;
+    }
+    &.with_logout {
+      * {
+        margin: 1px 0 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $smScreen) {
+  li {
+    font-weight: 600;
+    font-size: $baseMobileFontSize;
+    color: $black;
+    font-family: $baseFont;
+  }
 }

@@ -15,7 +15,7 @@
         <div class="category_heading">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-xs-12">
                         <h4 class="up white">Работы <span class="up base_font white">(Финалисты '16')</span></h4>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
         <div class="gallery">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-xs-12">
                         <div class="gallery_list">
                             <div class="gallery_item">
                                 <div class="item_thumb line_hover">
