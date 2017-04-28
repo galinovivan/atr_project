@@ -21,6 +21,9 @@
     border: 1px solid $black !important;
     border-radius: 0 !important;
   }
+  @media screen and (max-width: $smScreen) {
+    width: 50%;
+  }
 }
 .text_field {
   float: left;
