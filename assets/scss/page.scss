@@ -456,6 +456,24 @@ main {
       }
       margin-bottom: 55px;
     }
+    @media screen and (max-width: $smScreen) {
+      .project {
+        padding: 0 20px;
+        .thumb {
+          width: 100%;
+          img {
+            @include margin_align();
+          }
+        }
+        .project_desc {
+          width: 100%;
+          padding-left: 0;
+          p {
+            font-weight: 100;
+          }
+        }
+      }
+    }
   }
   &.create_project_page {
     .text {
