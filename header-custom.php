@@ -125,7 +125,7 @@
                     <li><a href="<?=get_page_link(26)?>" class="up white">Работы<span class="base_font"> (Студенты)</span></a></li>
                     <li><a href="<?=get_page_link(26);?>" class="up white">Работы<span class="base_font"> (Выпускники)</span></a></li>
                     <li><a href="<?=get_page_link(188);?>" class="up white">Финалисты 2016</a></li>
-                    <li><a href="#registrationModal"  class="up white gold_marker" data-toggle="modal">Участвовать</a></li>
+                    <li><a href="<?php is_user_logged_in() ? print get_page_link(69) : print "#registrationModal" ?>"  class="up white gold_marker" data-toggle="modal">Участвовать</a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
