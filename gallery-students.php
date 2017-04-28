@@ -74,12 +74,14 @@
                         <div class="gallery_list">
                             <div class="gallery_item">
                                 <div class="item_thumb line_hover">
+                                    <a href="<?=get_page_link(68);?>">
                                     <button class="add_btn"></button>
                                     <div class="thumb_overlay"></div>
                                     <span class="separate_line_hover left"></span>
                                     <span  class="separate_line_hover right"></span>
                                     <span class="separate_line_hover top"></span>
                                     <span class="separate_line_hover bottom"></span>
+                                        </a>
                                 </div>
                             </div>
                             <?php
