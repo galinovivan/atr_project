@@ -65,11 +65,14 @@
     .gallery_list {
       padding: 0 20px;
       .gallery_item {
+        margin-right: 5px;
+        margin-bottom: 65px;
         margin-left: 0;
         $itemSize: 135px;
         width: $itemSize;
         height: $itemSize;
          .item_thumb {
+           margin-bottom: 10px;
            height: $itemSize;
            .thumb_overlay {
              background: url('../images/mobile_ath_background.png') no-repeat center center;
