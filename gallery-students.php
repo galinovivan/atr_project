@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="up white">Работы <span class="up base_font">(Студенты)</span></h4>
+                        <h4 class="up white">Работы <span class="up base_font"><span class="white">(Студенты)</span></span></h4>
                     </div>
                 </div>
             </div>
@@ -46,8 +46,23 @@
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#">Интерьер квартиры</a></li>
-                                <li><a href="#">Остановка транспорта</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Интерьер квартиры">Интерьер квартиры</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Павильон/Беседка">Павильон/Беседка</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Остановка транспорта">Остановка транспорта</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Город на воде">Город на воде</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span class="black bold_font">Сортировка</span>
+                                <span class="dropdown_caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a href="#">По дате загрузки</a></li>
+                                <li><a href="#">По популярности</a></li>
                             </ul>
                         </div>
                     </div>
@@ -91,7 +106,7 @@
                                         array (
                                             'taxonomy' => 'projects_tax',
                                             'field' => 'slug',
-                                            'terms' => 'studentsprojects'
+                                            'terms' => 'students_projects'
                                             )
                                         ) ));
                                     ?>
@@ -101,7 +116,7 @@
                                     $thumb_id = get_post_thumbnail_id();
                                     $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);                                    
                                 ?>
-                            <div class="gallery_item">
+                            <div class="gallery_item filterable" data-nomination="<?=do_shortcode('[wpuf-meta name="nomination"]');?>">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="item_thumb line_hover">
                                     <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
@@ -133,14 +148,14 @@
                     </div>
                 </div>
             </div>
-            <div class="paginate">
-                <ul class="pagination">
-                    <li><a href="#" class="active">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#" class="pag_btn">...</a></li>
-                </ul>
-            </div>
+<!--            <div class="paginate">-->
+<!--                <ul class="pagination">-->
+<!--                    <li><a href="#" class="active">1</a></li>-->
+<!--                    <li><a href="#">2</a></li>-->
+<!--                    <li><a href="#">3</a></li>-->
+<!--                    <li><a href="#" class="pag_btn">...</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div>
     </main>
 
