@@ -7533,7 +7533,7 @@ header {
   @media screen and (max-width: 991px) {
     .pre_footer {
       padding-bottom: 430px; } }
-  @media screen and (max-width: 319px) {
+  @media screen and (max-width: 320px) {
     .pre_footer {
       height: 485px; } }
 
@@ -7618,7 +7618,7 @@ footer {
             padding-left: 9px; }
         footer .copyright .mobile_rules_protection {
           padding: 20px 10px 30px 10px; } }
-  @media screen and (max-width: 319px) {
+  @media screen and (max-width: 320px) {
     footer {
       height: 460px; } }
 
