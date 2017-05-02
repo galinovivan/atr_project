@@ -3,6 +3,9 @@
   @media screen and (max-width: $smScreen) {
     padding-bottom: $mobileFooterHeight;
   }
+  @media screen and (max-width: $phoneScreen) {
+    height: $mobileFooterHeight + 40px;
+  }
 }
 
 footer {
@@ -132,5 +135,8 @@ footer {
         padding: 20px 10px 30px 10px;
       }
     }
+  }
+  @media screen and (max-width: $phoneScreen) {
+    height: $mobileFooterHeight + 30px;
   }
 }
