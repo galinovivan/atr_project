@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
-                        <h4 class="up white">Работы <span class="up base_font">(Выпускники)</span></h4>
+                        <h4 class="up white">Работы <span class="up base_font"><span class="white">(Выпускники)</span></span></h4>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                            </ul>
                        </div>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-md-3 col-xs-6">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -46,8 +46,23 @@
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#">Интерьер квартиры</a></li>
-                                <li><a href="#">Остановка транспорта</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Интерьер квартиры">Интерьер квартиры</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Павильон/Беседка">Павильон/Беседка</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Остановка транспорта">Остановка транспорта</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Город на воде">Город на воде</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span class="black bold_font">Сортировка</span>
+                                <span class="dropdown_caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a href="#">По дате загрузки</a></li>
+                                <li><a href="#">По популярности</a></li>
                             </ul>
                         </div>
                     </div>
