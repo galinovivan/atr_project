@@ -57,7 +57,7 @@
                             <li class="black">
 
                                Дата регистрации на сайте:
-                                <span class="black data"><?=getUserRegistered($user->ID);?>.</span>
+                                <span class="black data"><?=getUserRegistered($user->ID);?></span>
                             </li>
 
                         </ul>
