@@ -7533,9 +7533,9 @@ header {
   @media screen and (max-width: 991px) {
     .pre_footer {
       padding-bottom: 430px; } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 319px) {
     .pre_footer {
-      height: 470px; } }
+      height: 485px; } }
 
 footer {
   position: absolute;
@@ -7618,7 +7618,7 @@ footer {
             padding-left: 9px; }
         footer .copyright .mobile_rules_protection {
           padding: 20px 10px 30px 10px; } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 319px) {
     footer {
       height: 460px; } }
 
