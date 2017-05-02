@@ -13,14 +13,6 @@
     <?php if (!is_user_logged_in()) {
       wp_redirect('/');
     }
-
-    /**
-     * @param $date
-     * @return bool|string
-     */
-    function makeDateFormat($date) {
-        return date('d.m', mktime($date));
-    }
     ?>
     <div class="category_heading with_logout">
         <div class="container">
@@ -65,7 +57,7 @@
                             <li class="black">
 
                                Дата регистрации на сайте:
-                                <span class="black data"><?=makeDateFormat($user->user_registered);?></span>
+                                <span class="black data"><?=getUserRegistered($user->ID);?>.</span>
                             </li>
 
                         </ul>
