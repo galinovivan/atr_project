@@ -26,7 +26,7 @@
     }
     &.active {
       border: none !important;
-      background: $transparent;
+      background: $lightBackground;
       & > a {
         color: $black !important;
         border: none !important;
