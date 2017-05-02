@@ -178,4 +178,7 @@
     height: 15px;
     font-size: $stickerFontSize - 2;
   }
+  @media screen and (max-width: $phoneScreen) {
+    width: auto;
+  }
 }
