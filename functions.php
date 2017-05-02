@@ -146,6 +146,20 @@ function js_variables(){
     );
 }
 
+/**
+ *	Ввозвращает дату регистрацию пользователя
+ * 	@param $userId
+ *	 @return string date
+ */
+function getUserRegistered($userId) {
+	$userData = get_userdata($userId);
+	$registerDate = $userData->user_registered;
+
+	$registerDate = strtotime($registerDate);
+	$registerDate = date('d-m', $registerDate);
+	return $registerDate;
+}
+
 
 add_action('wp_head','js_variables');
 
