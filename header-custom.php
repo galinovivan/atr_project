@@ -114,6 +114,7 @@
                             <li><a href="<?=get_page_link(115);?>" target="_blank">Интерьер квартиры</a></li>
                             <li><a href="<?=get_page_link(165);?>" target="_blank">Павильон/беседка</a></li>
                             <li><a href="<?=get_page_link(168);?>" target="_blank">Остановка транспорта</a></li>
+                            <li><a href="<?=get_page_link(525);?>" target="_blank">Город на воде</a></li>
                         </ul>
                     </li>
                     <li><a href="<?=get_page_link(171);?>" class="up white">Призы</a></li>
