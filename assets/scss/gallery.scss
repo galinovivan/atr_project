@@ -60,6 +60,22 @@
         background: url('../images/add_btn.png') no-repeat center center;
       }
     }
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    .gallery_list {
+      .gallery_item {
+        $itemWidth: 260px;
+        $itemHeight: $itemWidth;
+        width: $itemWidth;
+        height: $itemHeight;
+        margin-right: 6.5%;
+      }
+    }
   }
   @media screen and (max-width: $smScreen) {
     .gallery_list {
