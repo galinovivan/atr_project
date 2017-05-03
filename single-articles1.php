@@ -21,9 +21,10 @@
 <div class="container single_news_page">
     <div class="row">
         <div class="col-md-9"><?php
-            $thumbId = get_post_thumbnail_id();
-            $thumbURL = wp_get_attachment_image_src($thumbId, 'full', true);
-            $thumbURL = $thumbURL[0];?>
+//            $thumbId = get_post_thumbnail_id();
+//            $thumbURL = wp_get_attachment_image_src($thumbId, 'full', true);
+//            $thumbURL = $thumbURL[0];
+            ?>
             <div class="head" style="margin-bottom: 15px;">
                <h3 class="up black"><?php the_title();?></h3>
             </div>
