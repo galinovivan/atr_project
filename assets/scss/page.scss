@@ -177,6 +177,9 @@ main {
     .button_more {
       margin-top: 50px;
     }
+    //@media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    //  padding-left: 5%;
+    //}
     @media screen and (max-width: $smScreen) {
       background-position: -171px 189px;
       height: auto;
