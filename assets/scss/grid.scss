@@ -7,4 +7,7 @@ body {
   @media screen and (max-width: $smScreen) {
     padding-left: 0;
   }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    padding-left: 5% !important;
+  }
 }
