@@ -155,6 +155,8 @@ function getUserRegistered($userId, $dateFormat = 'd.m') {
 	$userData = get_userdata($userId);
 	$registerDate = $userData->user_registered;
 
+
+
 	$registerDate = strtotime($registerDate);
 	$registerDate = date($dateFormat, $registerDate);
 	return $registerDate;
