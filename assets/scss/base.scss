@@ -59,4 +59,13 @@ a, button, input, textarea {
   }
 }
 
+// custom arh bootstrap start
+@media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+  .container {
+    width: $customMdContainerWidth;
+  }
+}
+
+//custom arh bootstrap end
+
 
