@@ -39,9 +39,9 @@ footer {
     padding-left: 40px;
     .top_text {
       padding-right: 60px;
-      margin-bottom: 100px;
+      margin-bottom: 60px;
       p {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
     }
     .bottom_text {
@@ -133,6 +133,16 @@ footer {
       }
       .mobile_rules_protection {
         padding: 20px 10px 30px 10px;
+      }
+    }
+  }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    .copyright {
+      padding-right: 30px;
+    }
+    .contact_block {
+      .top_text {
+        padding-right: 15px;
       }
     }
   }
