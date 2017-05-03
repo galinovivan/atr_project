@@ -90,7 +90,7 @@
                                 </a>
                             </div>
                             <div class="text">
-                            <span class="small_text white"><span class="hidden-xs hidden-sm">Сайт разработан</span>
+                            <span class="small_text white"><span class="hidden-xs hidden-sm white small_text">Сайт разработан</span>
                                 Рекламным агентством Киры Аллейновой</span>
                             </div>
                             <div class="rules_protection hidden-xs hidden-sm">
@@ -123,6 +123,7 @@
                             <p class="white">С нами можно связаться по телефону:<br />
                                 8(800) 250 78 40</p>
                             <p class="white">
+                                Или написать на почту: <br />
                                 pro@zvezdaudachi.com</p>
                         </div>
                         <div class="bottom_text">
