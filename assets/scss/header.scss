@@ -103,6 +103,9 @@ header {
       }
     }
   }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+
+  }
 }
 
 .logo_header_icon {
