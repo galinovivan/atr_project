@@ -122,6 +122,11 @@
       }
     }
   }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    .nav_close {
+      z-index: 10000;
+    }
+  }
   @media screen and (max-width: $smScreen) {
     position: absolute;
     left: 0;
