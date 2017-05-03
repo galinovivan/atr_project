@@ -78,4 +78,17 @@
       }
     }
   }
+  @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
+    .dropdown-toggle {
+      span {
+        font-size: $baseFontSize - 2;
+      }
+    }
+    .dropdown-menu {
+      width: 90%;
+    }
+    .btn {
+      width: 90%;
+    }
+  }
 }
