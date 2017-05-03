@@ -455,7 +455,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-lg-8 col-md-offset-2 col-md-9 contact_form_wrapper">
                 <div class="contact_form">
 <!--                    <form action=""-->
 <!--                          class="base_form" id="contactForm" method="post">-->
