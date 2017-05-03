@@ -585,7 +585,7 @@ main {
       height: 145px;
       overflow: hidden;
       img {
-        min-height: 100%;
+        //min-height: 100%;
         width: 95%;
         @include margin_align();
       }
