@@ -57,14 +57,14 @@
                     <div class="col-md-4 col-xs-4">
                         <h3 class="white up">Партнеры</h3>
                     </div>
-                    <div class="col-md-4 col-xs-4">
+                    <div class="col-md-4 col-xs-4 col-sm-2">
 
                         <a href="http://www.architime.ru" target="_blank">
                                 <img src="<?=get_template_directory_uri();?>/assets/images/arh_time_logo_mobile.png?>"
                                      class="img-responsive" />
                             </a>
                         </div>
-                    <div class="col-md-4 col-xs-4">
+                    <div class="col-md-4 col-xs-4 col-sm-2">
                        <a href="https://www.schueco.com/web2/ru" target="_blank">
                                <img src="<?=get_template_directory_uri();?>/assets/images/schooco_logo_mobile.png" />
                             </a>
