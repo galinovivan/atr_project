@@ -12,6 +12,9 @@ p, span, a {
     font-size: $baseMobileFontSize;
     font-weight: 600;
   }
+  @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+    font-size: $baseTabletFontSize;
+  }
 }
 p, span, input {
   color: $black;
@@ -103,7 +106,7 @@ h5 {
   @media screen and (max-width: $smScreen) {
     margin-bottom: 20px;
     * {
-      margin: 4px 0;
+      //margin: 4px 0;
     }
     &.with_logout {
       * {
