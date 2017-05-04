@@ -156,6 +156,13 @@
   }
 }
 
+
+@media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+   .bottom_separate_line {
+     bottom: auto;
+   }
+}
+
 .sticker {
   display: block;
   width: 90px;
