@@ -56,6 +56,11 @@ header {
         }
       }
     }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      .toggle_container {
+        width: 5%;
+      }
+    }
   }
   &.primary_header_container {
     height: 100vh;
