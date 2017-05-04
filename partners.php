@@ -31,8 +31,11 @@
                 $thumbId = get_post_thumbnail_id();
                 $thumbURL = wp_get_attachment_image_src($thumbId, 'small', true);
                 $thumbURL = $thumbURL[0];
+                $parnerLink = get_field('source');
+
                 ?>
                 <div class="col-md-12 partner_item">
+                    <a href="<?=$parnerLink;?>" target="_blank">
                     <div class="row">
                         <div class="col-md-2 thumb">
                             <img src="<?=$thumbURL?>" class="img-responsive" />
@@ -42,6 +45,7 @@
                          <p class="black"><?=get_the_content();?></p>
                         </div>
                     </div>
+                        </a>
                 </div>
 
             <?php
