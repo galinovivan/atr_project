@@ -35,11 +35,11 @@ if ($loop->have_posts()): ?>
 
                 <div class=" col-xs-12 col-md-12 judge_person">
                 <div class="row">
-                    <div class="col-xs-6 col-md-2 thumb">
+                    <div class="col-xs-6 col-sm-3 col-md-2 thumb">
                         
                         <img src="<?=$thumbURL?>" class="img-responsive" />
                     </div>
-                    <div class="col-xs-6 col-md-9 text">
+                    <div class="col-xs-6 col-sm-8 col-md-9 text">
                         <p class="black"><strong class="person_name"><?php the_title(); ?></strong> <span class="hidden-xs hidden-sm black">
                                 -</span>
                         <span class="black hidden-xs hidden-sm"><?=get_the_content();?></span>
