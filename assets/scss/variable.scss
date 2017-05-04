@@ -34,6 +34,8 @@ $bigH1Font: 125px;
 $baseMobileFontSize: $baseFontSize - 3;
 $mobileH3FontSize: $baseFontSize + 1;
 
+$baseTabletFontSize: $baseFontSize;
+
 
 $baseFont: 'PT Serif Regular';
 $boldFont: 'PT Serif Bold';
@@ -90,6 +92,7 @@ $smScreen: 991px;
 $phoneScreen: 320px;
 $tabletScreen: 1024px;
 $mdScreen: 1199px;
-
+$xsScreen: 560px;
 
 $customMdContainerWidth: 970px;
+$customSmContainerWidth: 880px;
