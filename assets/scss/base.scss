@@ -21,7 +21,7 @@ body {
 .base_background {
   background: url('../images/grid_background.png') no-repeat;
   background-size: cover;
-  @media screen and (max-width: $smScreen) {
+  @media screen and (max-width: $xsScreen) {
     background: url('../images/mobile_grid_background.png') no-repeat;
     background-size: cover;
   }
@@ -63,6 +63,12 @@ a, button, input, textarea {
 @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
   .container {
     width: $customMdContainerWidth;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: $smScreen) {
+  .container {
+    width: $customSmContainerWidth;
   }
 }
 
