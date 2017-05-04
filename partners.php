@@ -35,17 +35,17 @@
 
                 ?>
                 <div class="col-md-12 partner_item">
-                    <a href="<?=$parnerLink;?>" target="_blank">
                     <div class="row">
                         <div class="col-md-2 thumb">
+                            <a href="<?=$parnerLink;?>" target="_blank">
                             <img src="<?=$thumbURL?>" class="img-responsive" />
+                                </a>
                         </div>
                         <div class="col-md-10 text">
                         <p class="black bold_font"><?php the_title(); ?></p>
                          <p class="black"><?=get_the_content();?></p>
                         </div>
                     </div>
-                        </a>
                 </div>
 
             <?php
