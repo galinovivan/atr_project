@@ -6,6 +6,9 @@
   @media screen and (max-width: $phoneScreen) {
     height: $mobileFooterHeight + 55px;
   }
+  @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+    padding-bottom: 380px;
+  }
 }
 
 footer {
@@ -148,5 +151,13 @@ footer {
   }
   @media screen and (max-width: $phoneScreen) {
     height: $mobileFooterHeight + 30px;
+  }
+  @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+    height: 380px;
+    .social_block {
+      &.mobile {
+        @include align(right);
+      }
+    }
   }
 }
