@@ -187,7 +187,7 @@
                     <span></span><span></span><span></span>
                 </div>
             </div>
-            <div class="col-xs-4 col-md-5">
+            <div class="col-xs-4 col-md-5 col-sm-5">
                 <div class="header_logo clearfix">
                     <a href="/">
                     <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png"
