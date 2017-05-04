@@ -50,6 +50,11 @@ main {
         }
       }
     }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      .thumb_block {
+        height: 310px;
+      }
+    }
   }
   .nominations_banner {
     .banner_heading {
@@ -206,6 +211,13 @@ main {
         }
       }
     }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      background-position: 0 0;
+      background-size: cover;
+      .thumb_wrapper {
+        height: 310px;
+      }
+    }
   }
   .partners_banner {
     background-image: url('../images/abstract_partners.png');
@@ -292,6 +304,10 @@ main {
         }
       }
     }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      background: url('../images/grid_background.png') no-repeat;
+      background-size: cover;
+    }
   }
   .registration_banner {
     $blockHeight: 410px;
@@ -348,6 +364,15 @@ main {
         }
       }
     }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      $bannerHeight: 310px;
+      .thumb_block {
+        height: $bannerHeight;
+      }
+      .info_block {
+        height: $bannerHeight * 0.6;
+      }
+    }
   }
   .contact_form_banner {
     $bannerHeight: 500px;
@@ -363,6 +388,9 @@ main {
       .text {
         padding: 15px 20px 0 20px;
       }
+    }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+      background-position: 50% 0;
     }
   }
   &.judge_page {
@@ -661,7 +689,7 @@ main {
     }
   }
   &.about_page {
-    @media screen and (max-width: $smScreen) {
+    @media screen and (max-width: 768px) {
       .about_text {
         padding: 0 20px;
         strong {
@@ -725,6 +753,12 @@ main {
           left: 35px;
           top: 0;
         }
+        //@media screen and (min-width: $)
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: $smScreen) {
+      .about_text {
+        padding: 0;
       }
     }
   }
