@@ -185,6 +185,7 @@ main {
     //@media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
     //  padding-left: 5%;
     //}
+
     @media screen and (max-width: $smScreen) {
       background-position: -171px 189px;
       height: auto;
@@ -212,10 +213,12 @@ main {
       }
     }
     @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+    }
+    @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
       background-position: 0 0;
       background-size: cover;
       .thumb_wrapper {
-        height: 310px;
+        height: 320px;
       }
     }
   }
