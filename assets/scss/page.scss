@@ -658,6 +658,13 @@ main {
       }
     }
   }
+  @media screen and (max-width: $xsScreen) {
+    .partner_item {
+      .thumb {
+        height: 200px;
+      }
+    }
+  }
 }
 
 .single_news_page {
