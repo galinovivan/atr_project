@@ -281,10 +281,10 @@
                 <div class="text">
                     <h3 class="text-center white hidden-xs hidden-sm">«АРХпроект» — Всероссийский конкурс
                         архитектурных и дизайнерских проектов, открытый для участия как студентам,
-                        так и молодым архитекторам.</h3>
+                        так и молодым архитекторам</h3>
                     <h3 class="text-center white up visible-xs visible-sm">«АРХпроект» — Всероссийский конкурс
                         архитектурных и дизайнерских проектов, открытый для участия как студентам,
-                        так и молодым архитекторам.</h3>
+                        так и молодым архитекторам</h3>
                 </div>
                 <div class="cursor">
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
