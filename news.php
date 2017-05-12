@@ -41,12 +41,12 @@
                                         </h4>
                                           </a>
                                     </div>
-                                    <div class="col-xs-12 col-md-2 thumb">
+                                    <div class="col-xs-12 col-sm-2 col-md-2 thumb">
                                         <a href="<?php the_permalink(); ?>">
                                         <img src="<?=$thumbURL?>" class="img-responsive" />
                                             </a>
                                     </div>
-                                    <div class="col-xs-12 col-md-10 text">
+                                    <div class="col-xs-12 col-sm-10 col-md-10 text">
                                         <a href="<?php the_permalink(); ?>" style="text-decoration: none !important;">
                                         <p class="black bold_font hidden-xs hidden-sm"><?php the_title();?></p>
                                             </a>
