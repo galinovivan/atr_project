@@ -10,7 +10,7 @@
 
 
     /**
-     * Инициализация прелоадера
+     * 
      */
     function initPreloader() {
         var $preloader = $('#pagePreloader'),
