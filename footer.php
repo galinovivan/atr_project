@@ -77,8 +77,7 @@
                     <div class="col-md-4">
                         <div class="arh_logo hidden-xs hidden-sm">
                         <a href="/">
-                            <img src="<?=get_template_directory_uri()?>/assets/images/footer_logo.png" />
-                            </a>
+                        </a>
                         </div>
                         <div class="copyright bottom_separate_mobile">
                             <div class="copyright_mobile_text visible-xs visible-sm">
@@ -86,7 +85,6 @@
                             </div>
                             <div class="logo">
                             <a href="http://kira-all.ru/" target="_blank">
-                                <img src="<?=get_template_directory_uri()?>/assets/images/logo_akira_small.png"  class="img-responsive" />
                                 </a>
                             </div>
                             <div class="text">
