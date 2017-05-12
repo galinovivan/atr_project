@@ -34,7 +34,7 @@
                             ?>
                             <div class="col-xs-12 col-md-12 partner_item">
                                 <div class="row">
-                                    <div class="mobile_news_title">
+                                    <div class="mobile_news_title visible-xs visible-sm">
                                       <a href="<?php the_permalink();?>">
                                         <h4 class="black">
                                             <?php the_title(); ?>
