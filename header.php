@@ -209,12 +209,13 @@
                         <div class="social_block">
                             <ul>
                                 <li><a href="https://www.facebook.com/pro.zvezdaudachi/" target="_blank">
-                                        <i class="social_icon social_icon-fb_icon"></i>
+                                        <i class="soc_hov_new soc_hov_new-fb"></i>
                                     </a></li>
                                 <li><a href="https://vk.com/pro.zvezdaudachi" target="_blank">
-                                    <i class="social_icon social_icon-vk_icon"></i></a></li>
+                                        <i class="soc_hov_new soc_hov_new-vk"></i>
+                                    </a></li>
                                 <li><a href="http://instagram.com/pro.zvezdaudachi" target="_blank">
-                                        <i class="social_icon social_icon-inst"></i>
+                                        <i class="soc_hov_new soc_hov_new-inst"></i>
                                     </a></li>
                             </ul>
                         </div>
