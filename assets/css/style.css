@@ -8374,7 +8374,7 @@ main .file-selector {
   @media screen and (max-width: 991px) {
     .single_news_page {
       padding: 0 20px; }
-      .single_news_page .content img.size_full {
+      .single_news_page .content img.size-full {
         max-width: 100% !important;
         height: auto !important; } }
 
