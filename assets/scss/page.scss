@@ -658,7 +658,7 @@ main {
       }
     }
   }
-  @media screen and (max-width: $xsScreen) {
+  @media screen and (max-width: 767px) {
     .partner_item {
       .thumb {
         height: auto;
