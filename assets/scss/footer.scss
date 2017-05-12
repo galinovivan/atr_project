@@ -113,11 +113,12 @@ footer {
     }
     .copyright {
       padding-right: 0;
+      margin-top: 10px;
       @include clearfix();
       & > div {
         float: left;
         &.copyright_mobile_text {
-          width: 40%;
+          width: 27%;
           h3 {
             margin-top: 11px;
           }
@@ -136,6 +137,15 @@ footer {
       }
       .mobile_rules_protection {
         padding: 20px 10px 30px 10px;
+      }
+    }
+  }
+  @media screen and (min-width: $xsScreen) and (max-width: $smScreen) {
+    .copyright {
+      & > div {
+        &.copyright_mobile_text {
+          width: 25%;
+        }
       }
     }
   }
