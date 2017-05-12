@@ -8368,7 +8368,7 @@ main .file-selector {
         padding: 0 20px; }
         .news_list .partner_item .text p {
           font-weight: 200; } }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 767px) {
     .news_list .partner_item .thumb {
       height: auto; } }
 
