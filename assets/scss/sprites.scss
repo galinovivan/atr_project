@@ -77,28 +77,28 @@
   display: block;
 }
 
-.win_sprite-win_cloud {
-  width: 86px;
-  height: 82px;
+.win_sprite-win_tabl {
+  width: 42px;
+  height: 57px;
   background-position: -5px -5px;
 }
 
+.win_sprite-win_cloud {
+  width: 61px;
+  height: 59px;
+  background-position: -57px -5px;
+}
+
 .win_sprite-win_cloud_output {
-  width: 86px;
-  height: 81px;
-  background-position: -101px -5px;
+  width: 61px;
+  height: 58px;
+  background-position: -128px -5px;
 }
 
 .win_sprite-win_prize {
-  width: 86px;
-  height: 78px;
-  background-position: -101px -96px;
-}
-
-.win_sprite-win_tabl {
-  width: 59px;
-  height: 79px;
-  background-position: -197px -5px;
+  width: 62px;
+  height: 58px;
+  background-position: -128px -73px;
 }
 
 .social_icon {
@@ -285,6 +285,9 @@
   height: 39px;
   background-position: -109px -5px;
 }
+
+
+
 
 
 
