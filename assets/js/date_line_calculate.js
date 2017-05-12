@@ -40,7 +40,7 @@
     DateLine.prototype.getDateDelta = function() {
         var start = this.dateStart;
         var end = this.dateEnd;
-        var current = Date.parse('09.01.2017');
+        var current = this.currentDate;
 
 
         var delta = (start - end) / (current - end);
