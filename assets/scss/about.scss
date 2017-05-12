@@ -14,8 +14,11 @@
       padding-left: 20px;
     }
     .bottom_separate {
-      &::after {
+      .date_line {
         bottom: -23px;
+      }
+      .date_line {
+
       }
     }
    }
