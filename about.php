@@ -42,8 +42,10 @@
         <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <div class="date bottom_separate orange">
+                <div class="date bottom_separate orange" id="dateLineContainer" data-datestart="04.01.2017"
+                data-dateend="09.15.2017">
                     <span class="black">1.04.17</span>
+                    <div class="date_line"></div>
                 </div>
             </div>
             <div class="col-md-2 col-sm-2">
