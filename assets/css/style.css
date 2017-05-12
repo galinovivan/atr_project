@@ -6414,10 +6414,10 @@ a.button, input.button {
       height: 20px; }
     .line_hover .separate_line_hover.left {
       left: -21px;
-      top: 50%; }
+      top: 46%; }
     .line_hover .separate_line_hover.right {
       right: -21px;
-      top: 50%; }
+      top: 46%; }
     .line_hover .separate_line_hover.bottom {
       bottom: -21px;
       left: 50%; }
@@ -7464,7 +7464,7 @@ header {
       top: 17px; }
     header .nav_header_section .nav_text .text {
       padding: 0 76px 0 110px;
-      margin-bottom: 60px; }
+      margin-bottom: 32px; }
       header .nav_header_section .nav_text .text h3 {
         margin: 0;
         line-height: 36px;
