@@ -105,7 +105,6 @@
                             <a href="<?php the_permalink(); ?>">
                                 <div class="item_thumb line_hover">
                                     <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
-                                    <div class="thumb_overlay"></div>
                                     <span class="separate_line_hover left"></span>
                                     <span  class="separate_line_hover right"></span>
                                     <span class="separate_line_hover top"></span>
