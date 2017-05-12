@@ -72,18 +72,18 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <div class="gallery_list">
-                            <div class="gallery_item">
-                                <div class="item_thumb line_hover">
-                                    <a href="<?=get_page_link(68);?>">
-                                    <button class="add_btn"></button>
-                                    <div class="thumb_overlay"></div>
-                                    <span class="separate_line_hover left"></span>
-                                    <span  class="separate_line_hover right"></span>
-                                    <span class="separate_line_hover top"></span>
-                                    <span class="separate_line_hover bottom"></span>
-                                        </a>
-                                </div>
-                            </div>
+<!--                            <div class="gallery_item">-->
+<!--                                <div class="item_thumb line_hover">-->
+<!--                                    <a href="--><?//=get_page_link(68);?><!--">-->
+<!--                                    <button class="add_btn"></button>-->
+<!--                                    <div class="thumb_overlay"></div>-->
+<!--                                    <span class="separate_line_hover left"></span>-->
+<!--                                    <span  class="separate_line_hover right"></span>-->
+<!--                                    <span class="separate_line_hover top"></span>-->
+<!--                                    <span class="separate_line_hover bottom"></span>-->
+<!--                                        </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
                             <?php
                                 $works_students = new WP_Query( array(
                                     'post_type' => 'projects',
