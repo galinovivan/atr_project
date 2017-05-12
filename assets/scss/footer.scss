@@ -25,11 +25,35 @@ footer {
   padding: 60px 0 70px 0;
   .arh_logo {
     margin-bottom: 80px;
+    a {
+      display: block;
+      width: 71px;
+      height: 71px;
+      background: url('../images/footer_logo.png') no-repeat;
+      background-size: contain;
+      @include transition();
+      &:hover {
+        background: url('../images/footer_arh_logo.png') no-repeat;
+        background-size: contain;
+      }
+    }
   }
   .copyright {
     padding-right: 50px;
     .logo {
       margin-bottom: 10px;
+      a {
+        display: block;
+        width: 35px;
+        height: 36px;
+        background: url('../images/akira_logo.png') no-repeat;
+        background-size: contain;
+        @include transition();
+        &:hover {
+          background: url('../images/akira_red_logo.png') no-repeat;
+          background-size: contain;
+        }
+      }
     }
     .rules_protection {
       margin-top: 35px;
