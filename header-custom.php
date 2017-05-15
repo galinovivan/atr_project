@@ -188,7 +188,7 @@
                 <ul class="user_info_list">
                     <li class="dropdown">
                     <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
-                       Вы вошли как: <?=$user->user_firstname;?>
+                       Вы вошли как: <?=$user->user_lastname;?>
                     </a>
                         <span class="caret"></span>
                         <ul class="dropdown-menu">
