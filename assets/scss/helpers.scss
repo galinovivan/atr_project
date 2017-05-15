@@ -35,4 +35,37 @@
     }
 
   }
+  @media screen and (min-width: $smScreen) {
+    .loggined_helper {
+      * {
+        font-size: $baseFontSize;
+      }
+      .helper_user_info {
+        * {
+          font-size: $smallFont;
+        }
+        .user_info_list {
+          width: 55%;
+          a {
+            text-decoration: none;
+          }
+          .dropdown-menu {
+            top: auto;
+            bottom: -115px;
+            min-width: 1px;
+            left: auto;
+            width: 100%;
+            background: $helperRed;
+            border: none;
+            li {
+              border: none !important;
+              a {
+                text-transform: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
