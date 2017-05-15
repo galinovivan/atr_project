@@ -173,10 +173,45 @@
             <span></span><span></span>
         </a>
     <?php else: ?>
+    <div class="row loggined_helper">
+        <div class="col-md-8 col-md-offset-1">
     <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы отправить выполненный проект, нажмите
         <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
-    <a class="helper_close" href="#">
-        <span></span><span></span>
+
+            </div>
+        <div class="col-md-2 col-md-offset-1 hidden-xs hidden-sm">
+            <?php
+            $user = wp_get_current_user();
+            ?>
+            <div class="helper_user_info">
+
+                <ul class="user_info_list">
+                    <li class="dropdown">
+                    <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                       Вы вошли как: <?=$user->user_firstname;?>
+                    </a>
+                        <span class="caret"></span>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="<?=get_page_link(177);?>">Личный кабинет</a>
+                            </li>
+                            <li>
+                                <a href="<?=get_page_link(68);?>">
+                                    Загрузить работу
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?=wp_logout_url('/')?>">Выйти</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <a class="helper_close" href="#">
+            <span></span><span></span>
+        </a>
         <?php endif; ?>
 </div>
 <div class="helper red visible-xs visible-sm">
