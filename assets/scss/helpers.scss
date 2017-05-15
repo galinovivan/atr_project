@@ -45,7 +45,7 @@
           font-size: $smallFont;
         }
         .user_info_list {
-          width: 55%;
+          //width: 55%;
           a {
             text-decoration: none;
           }
@@ -54,6 +54,7 @@
             bottom: -115px;
             min-width: 1px;
             left: auto;
+            right: 0;
             width: 100%;
             background: $helperRed;
             border: none;
