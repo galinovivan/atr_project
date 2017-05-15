@@ -179,7 +179,7 @@
         <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
 
             </div>
-        <div class="col-md-2 col-md-offset-1 hidden-xs hidden-sm">
+        <div class="col-md-2 hidden-xs hidden-sm">
             <?php
             $user = wp_get_current_user();
             ?>
