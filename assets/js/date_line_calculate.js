@@ -23,9 +23,7 @@
       this.dateStart =  Date.parse($elementContainer.attr('data-datestart'));
       this.dateEnd = Date.parse($elementContainer.attr('data-dateend'));
       this.currentDate = Date.now();
-
-        console.log(this);
-  };
+    };
 
     /**
      *
@@ -42,10 +40,10 @@
         var end = this.dateEnd;
         var current = this.currentDate;
 
+        var startDelta = end - start;
+        var currentDelta = current - start;
+        var delta = (currentDelta * 100) / startDelta;
 
-        var delta = (start - end) / (current - end);
-
-        console.log(end - current);
         console.log(delta);
 
         return delta;
