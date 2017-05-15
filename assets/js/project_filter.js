@@ -61,7 +61,7 @@
             }
 
         })
-
+        console.log('filter is done: ' + exp);
     };
 
 
