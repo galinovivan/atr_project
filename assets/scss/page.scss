@@ -749,8 +749,7 @@ main {
             margin-bottom: 50px;
           }
           &.active {
-            &::after {
-              content: '';
+            .date_line_mobile {
               position: absolute;
               left: 15px;
               top: 42px;
