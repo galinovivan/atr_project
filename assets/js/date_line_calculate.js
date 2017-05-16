@@ -23,13 +23,21 @@
       this.dateStart =  Date.parse($elementContainer.attr('data-datestart'));
       this.dateEnd = Date.parse($elementContainer.attr('data-dateend'));
       this.currentDate = Date.now();
+      this.mobileParentHeight = 276;
+      this.mobileLine = $('.date_line_mobile');
+      this.mobileWidth = '767';
     };
 
     /**
-     *
+     * @returns {boolean}
      */
     DateLine.prototype.init = function() {
-        this.setWidth();
+        if (!this.isMobile()) {
+            this.setWidth();
+            return true;
+        }
+        this.setMobileHeight();
+        return true;
     };
 
     /**
@@ -51,6 +59,13 @@
     };
 
     /**
+     * @returns {boolean}
+     */
+    DateLine.prototype.isMobile = function() {
+        return $(window).width() < this.mobileWidth;
+    };
+
+    /**
      *
      */
     DateLine.prototype.setWidth = function() {
@@ -62,8 +77,22 @@
     DateLine.prototype.calculateWidth = function() {
         var delta = this.getDateDelta();
        return delta + '%';
-    }
+    };
+    
+    
+    DateLine.prototype.setMobileHeight = function() {
+        var height = this.calculateMobileHeight();
+        console.log(height);
+        this.mobileLine.css('height', height);
+    };
+    
+    DateLine.prototype.calculateMobileHeight = function() {
+        var delta = this.getDateDelta();
+        var parentHeight = this.mobileParentHeight;
+        var height = Math.floor(parentHeight * (delta / 100));
 
+        return height + 'px';
+    };
 
 
 
