@@ -165,6 +165,11 @@
     </div>
 </div>
 <a href="#" class="top_link "><span class="hidden-xs hidden-sm white">Наверх</span></a>
+<div class="helper_toggle orange">
+    <a href="#" id="helperToggle">
+        <i class="fa fa-user-o"></i>
+    </a>
+</div>
 <div class="helper red hidden-xs hidden-sm" id="topHelper">
     <?php if (!is_user_logged_in()): ?>
         <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
