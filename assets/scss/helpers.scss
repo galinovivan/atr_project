@@ -75,11 +75,11 @@
   top: 10px;
   right: 15px;
   opacity: 0.8;
-  @include transition();
+  @include transition(all 0.1s);
   * {
     cursor: pointer;
     color: $white;
-    @include transition(all 0.2s);
+    @include transition(all 0.1s);
   }
   &:hover {
     opacity: 1;
