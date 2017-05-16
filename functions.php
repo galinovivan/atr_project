@@ -15,6 +15,10 @@ if ( ! function_exists( 'arh_project_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
+
+
+
 function arh_project_setup() {
 	/*
 	 * Make theme available for translation.
@@ -124,6 +128,10 @@ function registerMe() {
 function set_html_content_type() {
 	return 'text/html';
 }
+
+function updateUserUrl($userId, $url) {
+	wp_update_user(array('ID' => $userId, 'user_url' => $url));
+}
 /**
  * Implement the Custom Header feature.
  */
@@ -164,6 +172,8 @@ function getUserRegistered($userId, $dateFormat = 'd.m') {
 
 
 add_action('wp_head','js_variables');
+
+require get_template_directory() . '/function/update_user.php';
 
 require get_template_directory() . '/function/judge.php';
 
