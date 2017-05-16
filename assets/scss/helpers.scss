@@ -73,13 +73,13 @@
 .helper_toggle {
   position: fixed;
   top: 10px;
-  right: 40px;
+  right: 15px;
   opacity: 0.8;
   @include transition();
   * {
     cursor: pointer;
     color: $white;
-    @include transition(all, 0.2s);
+    @include transition(all 0.2s);
   }
   &:hover {
     opacity: 1;
