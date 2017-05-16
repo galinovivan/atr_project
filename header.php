@@ -231,7 +231,7 @@
 <a href="#" class="top_link"><span class="hidden-xs hidden-sm white">Наверх</span></a>
 <div class="helper_toggle">
     <a href="#" id="helperToggle">
-        <i class="fa fa-user-o"></i>
+        <i class="fa fa-toggle-down"></i>
         </a>
 </div>
 <div class="helper red hidden-xs hidden-sm" id="topHelper">
