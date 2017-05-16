@@ -69,3 +69,21 @@
     }
   }
 }
+
+.helper_toggle {
+  position: fixed;
+  top: 10px;
+  right: 40px;
+  opacity: 0.5;
+  @include transition();
+  * {
+    color: $white;
+    @include transition();
+  }
+  &:hover {
+    opacity: 1;
+    * {
+      color: $orange;
+    }
+  }
+}
