@@ -306,7 +306,7 @@
                         </div>
                         <div class="text text-center">
                             <p class="black bold_font">Выбрать <br class="visible-xs visible-sm" />
-                                одну из трёх
+                                одну из четырех
                                 номинаций</p>
                         </div>
                         <span class="small_arrow"></span>
