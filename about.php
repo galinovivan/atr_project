@@ -129,6 +129,7 @@
                              работ
                            </span>
                    </div>
+                   <span class="date_line_mobile"></span>
                </div>
                 <div class="col-xs-12 action_item">
                     <div class="action_date">
