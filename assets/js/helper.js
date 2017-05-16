@@ -8,6 +8,13 @@
 
       var $helper = $('.helper');
       var $closeToggle = $helper.find('.helper_close');
+      var $helperToggle = $('#helperToggle');
+
+      $helperToggle.on('click', function(event) {
+         $helper.slideToggle('fast');
+          event.preventDefault();
+
+      });
 
         $closeToggle.on('click', function(event) {
            $helper.slideToggle('fast');
