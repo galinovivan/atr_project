@@ -54,13 +54,14 @@
         exp = exp.toLowerCase();
 
         elementList.each(function(key, value) {
+            $(this).show();
             elemAttr = $(this).attr('data-' + attrVal);
             elemAttr = elemAttr.toLowerCase();
             if (elemAttr != exp) {
                 $(this).hide();
             }
 
-        })
+        });
         console.log('filter is done: ' + exp);
     };
 
