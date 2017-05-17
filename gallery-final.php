@@ -85,8 +85,11 @@
 <!--                                </div>-->
 <!--                            </div>-->
                             <?php
+                            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                                 $works_students = new WP_Query( array(
                                     'post_type' => 'projects',
+                                    'post_per_page' => '10',
+                                    'paged' => $paged,
                                     'tax_query'=> array (
                                         array (
                                             'taxonomy' => 'projects_tax',
