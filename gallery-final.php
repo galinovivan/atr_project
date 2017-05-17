@@ -117,16 +117,15 @@
                               <?php
                                 if (function_exists('wp_ulike')) {
                                         wp_ulike('get');
-                                        }
+                                        };
                                     ?>
 
-
+                            </div>
+                                </div>
                                 <?php endwhile; ?>
                                 <?php endif ?>
 
-                        
-                        </div>
-                    </div>
+                            
                 </div>
             </div>
 <!--            <div class="paginate">-->
