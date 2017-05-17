@@ -32,3 +32,8 @@
     }
   }
 }
+
+.wpulike .counter a.loading {
+  background: url('../images/preloader.gif') no-repeat center center !important;
+  background-size: contain !important;
+}
