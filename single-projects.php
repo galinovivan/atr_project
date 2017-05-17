@@ -75,7 +75,9 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <div class="thumb">
+                        <a href="<?=$thumb_url[0]; ?>" data-fancybox>
                         <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
+                            </a>
                     </div>
                     <div class="project_desc">
                         <div class="person_name">
@@ -91,13 +93,6 @@
                             }
                             ?>
                         </div>
-<!--                        <div class="like_box">-->
-<!--                                <span class="black">-->
-<!--                                    0-->
-<!--                                    <span class="like_icon">-->
-<!--                                <i class="like_sprite like_sprite-like_icon"></i>-->
-<!--                                    </span></span>-->
-<!--                        </div>-->
                         <div class="person_info">
                             <p class="black"><strong>Место учёбы: </strong><?php echo do_shortcode('[wpuf-meta name="univer"]')?></p>
                             <p class="black"><strong>Специальность: </strong><?php echo do_shortcode('[wpuf-meta name="spec"]')?></p>
