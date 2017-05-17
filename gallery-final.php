@@ -133,7 +133,7 @@
                                 'show_all' => true,
                                 'prev_next' => true
                             );
-                            the_posts_pagination(); ?>
+                            the_posts_pagination($arg); ?>
                 </div>
             </div>
 <!--            <div class="paginate">-->
