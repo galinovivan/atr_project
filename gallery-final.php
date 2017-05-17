@@ -123,7 +123,7 @@
                             </div>
                                 </div>
                                          <!-- paginate -->
-                                         <?php //the_posts_pagination_link(); ?>
+                                         <?php the_posts_pagination(); ?>
 
                                 <?php endwhile; ?>
                                 <?php endif ?>
