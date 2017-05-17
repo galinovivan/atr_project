@@ -122,6 +122,9 @@
 
                             </div>
                                 </div>
+                                         <!-- paginate -->
+                                         <?php the_posts_pagination_link(); ?>
+
                                 <?php endwhile; ?>
                                 <?php endif ?>
 
@@ -137,6 +140,7 @@
 <!--                </ul>-->
 <!--            </div>-->
         </div>
+
     </main>
 
 
