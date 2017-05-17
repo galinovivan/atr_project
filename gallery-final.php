@@ -88,7 +88,7 @@
                             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                                 $works_students = new WP_Query( array(
                                     'post_type' => 'projects',
-                                    'post_per_page' => '10',
+                                    'post_per_page' => 10,
                                     'paged' => $paged,
                                     'tax_query'=> array (
                                         array (
@@ -136,7 +136,10 @@
                                 'show_all' => true,
                                 'prev_next' => true
                             );
-                          echo get_the_posts_pagination($arg); ?>
+                        if (function_exists('pagination')) {
+                            pagination(10);
+                        }
+                            ?>
                 </div>
             </div>
 <!--            <div class="paginate">-->
