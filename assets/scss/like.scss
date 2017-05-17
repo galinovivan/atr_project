@@ -8,6 +8,15 @@
       border: none;
       padding: 10px !important;
       margin-right: 5px;
+      @include transition();
+      &:hover {
+        background-color: $transparent;
+      }
+      &.image {
+        &:hover {
+          background-image: url('../images/like_hover.png') !important;
+        }
+      }
     }
     .count-box {
       display: block;
