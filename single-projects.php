@@ -84,6 +84,13 @@
                         <div class="project_name">
                             <p class="black"><?php echo do_shortcode('[wpuf-meta name="project_name"]')?></p>
                         </div>
+                        <div class="project_like">
+                            <?php
+                            if (function_exists('wp_ulike')) {
+                                wp_ulike('like');
+                            }
+                            ?>
+                        </div>
 <!--                        <div class="like_box">-->
 <!--                                <span class="black">-->
 <!--                                    0-->
@@ -116,11 +123,13 @@
                        <p class="black"><?=$projectDesc;?></p>
                    </div>
 
+
                </div>
            </div>
        </div>
    </div>
     <?php endif; ?>
+
 <!--    <div class="back_button">-->
 <!--        <button class="button base medium black block_center" href="/галерея-работ/">Вернуться в галерею</button>-->
 <!--    </div>-->
