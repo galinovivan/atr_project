@@ -78,6 +78,7 @@
                         <a href="<?=$thumb_url[0]; ?>" data-fancybox>
                         <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
                             </a>
+                        <div class="thumb_overlay"></div>
                     </div>
                     <div class="project_desc">
                         <div class="person_name">
