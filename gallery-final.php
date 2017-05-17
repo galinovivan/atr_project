@@ -136,7 +136,7 @@
                                 'show_all' => true,
                                 'prev_next' => true
                             );
-                          echo get_the_posts_pagination(); ?>
+                          echo get_the_posts_pagination($arg); ?>
                 </div>
             </div>
 <!--            <div class="paginate">-->
