@@ -30,6 +30,7 @@
         }
       }
       .item_text {
+        padding-right: 30px;
         position: relative;
         p {
           margin: 0;
@@ -47,6 +48,11 @@
             font-size: $baseFontSize - 1;
             font-weight: 600;
           }
+        }
+        .wpulike {
+          position: absolute;
+          right: 0;
+          top: 5px;
         }
       }
       .add_btn {
