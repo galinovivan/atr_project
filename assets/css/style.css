@@ -10138,11 +10138,11 @@ footer {
         .gallery .gallery_list .gallery_item .item_thumb img {
           max-height: 100%; }
       .gallery .gallery_list .gallery_item .item_text {
-        padding-right: 30px;
+        padding-right: 35px;
         position: relative; }
         .gallery .gallery_list .gallery_item .item_text p {
           margin: 0;
-          font-size: 15px;
+          font-size: 14px;
           font-weight: 600; }
           .gallery .gallery_list .gallery_item .item_text p.project_name {
             font-weight: normal; }
