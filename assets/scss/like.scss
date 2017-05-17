@@ -1,0 +1,25 @@
+.wpulike {
+  .counter {
+    @include clearfix();
+    a {
+      display: block;
+      float: left;
+      background-color: $transparent;
+      border: none;
+      padding: 10px !important;
+      margin-right: 5px;
+    }
+    .count-box {
+      display: block;
+      float: right;
+      border: none;
+      font-size: $baseFontSize;
+      padding: 0 !important;
+      margin: 0 !important;
+      min-width: 1px;
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
