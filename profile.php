@@ -80,10 +80,6 @@
                             <button class="button base transparent medium black">Сохранить</button>
                         </form>
                     </div>
-                </div>
-<!--    <div class="actions_list">-->
-<!--        <h4 class="black">Активности</h4>-->
-<!--    </div>-->
             </div>
             </div>
         </div>
