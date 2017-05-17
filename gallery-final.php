@@ -122,18 +122,18 @@
 
                             </div>
                                 </div>
-                                         <!-- paginate -->
-                                         <?php
-                                         $arg = array(
-                                           'show_all' => true,
-                                             'prev_next' => true
-                                         );
-                                         the_posts_pagination(); ?>
+
 
                                 <?php endwhile; ?>
                                 <?php endif ?>
 
-                            
+                            <!-- paginate -->
+                            <?php
+                            $arg = array(
+                                'show_all' => true,
+                                'prev_next' => true
+                            );
+                            the_posts_pagination(); ?>
                 </div>
             </div>
 <!--            <div class="paginate">-->
