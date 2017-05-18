@@ -6,6 +6,7 @@
  * Time: 17:26
  */
 
+
 function pagination($pages = '', $range = 4) {
     $showItems = ($range * 2) + 1;
 
@@ -21,21 +22,23 @@ function pagination($pages = '', $range = 4) {
         }
     }
         if ($pages != 1) {
-            echo "<div class=\"pagination\"><span>Page ".$paged." of ".$pages."</span>";
-         if($paged > 2 && $paged > $range+1 && $showItems < $pages) echo "<a href='".get_pagenum_link(1)."'>&laquo; First</a>";
-         if($paged > 1 && $showItems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo; Previous</a>";
+            echo "<ul class=\"pagination\">";
+         if($paged > 2 && $paged > $range+1 && $showItems < $pages) echo "<li><a href='".get_pagenum_link(1)."'>&laquo; First</a></li>";
+         if($paged > 1 && $showItems < $pages) echo "<li><a href='".get_pagenum_link($paged - 1)."'>Предыдущая</a></li>";
         }
 
         for ($i = 1; $i <= $pages; $i++) {
             if ($pages != 1 && (!($i >= $pages + $range + 1 || $i <= $paged - $range -1)
                     || $pages <= $showItems)) {
-                echo ($paged == $i)? "<span class=\"current\">".$i."</span>":"<a href='"
-                    .get_pagenum_link($i)."' class=\"inactive\">".$i."</a>";
+//                echo ($paged == $i)? "<li class=\"active\">".$i."</li>":"<li><a href='"
+//                    .get_pagenum_link($i)."' class=\"inactive\">".$i."</a></li>";
+
+
             }
         }
     if ($paged < $pages && $showItems < $pages) {
-        echo "<a href=\"".get_pagenum_link($paged + 1)."\">Next &rsaquo;</a>";
+        echo "<li><a href=\"".get_pagenum_link($paged + 1)."\">Следущая</a></li>";
     }
-    echo "</div>\n";
+    echo "</ul>\n";
 
 }
