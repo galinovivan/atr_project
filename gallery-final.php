@@ -131,26 +131,17 @@
                                 <?php endif ?>
 
                             <!-- paginate -->
+                            <div class="col-md-12">
+                                <div class="paginate">
                             <?php
-                            $arg = array(
-                                'show_all' => true,
-                                'prev_next' => true
-                            );
                         if (function_exists('pagination')) {
-                            pagination(10);
+                            pagination();
                         }
                             ?>
+                                </div>
                 </div>
             </div>
-<!--            <div class="paginate">-->
-<!--                <ul class="pagination">-->
-<!--                    <li><a href="#" class="active">1</a></li>-->
-<!--                    <li><a href="#">2</a></li>-->
-<!--                    <li><a href="#">3</a></li>-->
-<!--                    <li><a href="#" class="pag_btn">...</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-        </div>
+                </div>
 
     </main>
 
