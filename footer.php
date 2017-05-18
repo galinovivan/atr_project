@@ -8,6 +8,8 @@
  *
  * @package Arh_project
  */
+
+
 ?>
 
 <div class="pre_footer"></div>
@@ -175,6 +177,12 @@
                                 <i class="partners_logo partners_logo-rockwol"></i>
                             </a></li>
                     </ul>
+                </div>
+                <div class="language_selector">
+                    <?php
+                    echo qtranxf_generateLanguageSelectCode('text');
+                    ?>
+                    <?php echo __('[:en]Map[:ru]Карта'); ?>
                 </div>
 <!--                <div class="banner_heading">-->
 <!--                  <h2 class="up white">При поддержке</h2>-->
