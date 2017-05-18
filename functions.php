@@ -187,7 +187,7 @@ require get_template_directory() . '/function/contact-form.php';
 
 require get_template_directory() . '/function/reg_setting.php';
 
-require get_template_directory() . '/function/pagination.php';
+
 
 
 
