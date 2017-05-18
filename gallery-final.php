@@ -134,9 +134,9 @@
                             <div class="col-md-12">
                                 <div class="paginate">
                             <?php
-                        if (function_exists('pagination')) {
-                            pagination();
-                        }
+                            if (function_exists('wp_paginate')) {
+                                wp_paginate();
+                            }
                             ?>
                                 </div>
                 </div>
