@@ -10,10 +10,11 @@ function getUserLocation($ip = '') {
 
     $ip = ($ip) ? $ip : $_SERVER['REMOTE_ADDR'];
 
-    $xmlGeo = simplexml_load_file("http://ipgeobase.ru:7020/geo?ip='.$ip");
+    $xmlGeo = simplexml_load_file("http://ipgeobase.ru:7020/geo?ip=$ip");
 
-    if ($xmlGeo->ip->message) {
-        return $xmlGeo->id->message;
-    }
-    return 'fail';
+    return $xmlGeo->ip->region;
 };
+
+function isTargetLocation() {
+   return getUserLocation() == 'Санкт-Петербург';
+}
