@@ -3,6 +3,8 @@
  * @package Arh_project
  */
 
+$lang = qtrans_getLanguage();
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -323,12 +325,26 @@
             </div>
             <div class="col-md-12 nav_text">
                 <div class="text">
-                    <h3 class="text-center white hidden-xs hidden-sm">«АРХпроект» — Всероссийский конкурс
+                    <h3 class="text-center white hidden-xs hidden-sm">
+                        <?php if ($lang == 'ru'): ?>
+                        «АРХпроект» — Всероссийский конкурс
+                        архитектурных и дизайнерских проектов, открытый для участия как студентам,
+                        так и молодым архитекторам
+                        <?php elseif ($lang == 'en'): ?>
+                            "ARHPROEKT" — competition of architectural and design projects, 
+                            opened for participation to students and young architects.
+
+                        <?php endif; ?>
+                        </h3>
+                    <h3 class="text-center white up visible-xs visible-sm">
+                        <?php if ($lang == 'ru'): ?>
+                        «АРХпроект» — Всероссийский конкурс
                         архитектурных и дизайнерских проектов, открытый для участия как студентам,
                         так и молодым архитекторам</h3>
-                    <h3 class="text-center white up visible-xs visible-sm">«АРХпроект» — Всероссийский конкурс
-                        архитектурных и дизайнерских проектов, открытый для участия как студентам,
-                        так и молодым архитекторам</h3>
+                        <?php elseif ($lang == 'en'): ?>
+                            "ARHPROEKT" — competition of architectural and design projects,
+                            opened for participation to students and young architects.
+                        <?php endif; ?>
                 </div>
                 <div class="cursor">
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
