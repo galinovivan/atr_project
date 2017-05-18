@@ -141,8 +141,11 @@
                                     $paginationPaged = ceil($count / 10);
                                     if ($paginationPaged < 1) $paginationPaged = 1;
                                     ?>
-                            <?php if (function_exists('pagination')) {
-                                    pagination($paginationPaged);
+                            <?php if (function_exists('wp_paginate')) {
+                                    wp_paginate(array(
+                                        'pages' => $paginationPaged,
+                                        'page' => $paged
+                                        ));
                                     }
                             ?>
 
