@@ -24,13 +24,21 @@
             <div class="row">
                 <div class="hidden-xs hidden-sm col-md-7 about wrapper fluid_wrapper">
                     <div class="banner_heading with_separate">
-                        <h2 class="up black">Условия участия</h2>
+                        <h2 class="up black"><?php echo __('[:en]THE TERMS OF PARTICIPATION
+[:ru]Условия участия');
+                           ?>
+                        </h2>
                     </div>
                     <div class="text">
-                        <p class="black">В конкурсе могут принимать участие студенты, бакалавры, магистры,
+                        <p class="black">
+
+                            <?php echo __('[:ru]В конкурсе могут принимать участие студенты, бакалавры, магистры,
                             аспиранты, учащиеся и выпускники 2011-2017 гг. высших учебных заведений РФ,
                             а также средних профессиональных образовательных учреждений старше 16 лет.
-                            Как индивидуальные авторы, так и творческие коллективы до 3 человек.</p>
+                            Как индивидуальные авторы, так и творческие коллективы до 3 человек.[:en]Students, 
+                            bachelors, masters, graduate students and graduates of 2011-2017 can take part in the 
+                            competition (older than 16 years). 
+                            We accept the works from individual authors and creative teams of up to 3 people') ?></p>
                     </div>
                     <div class="more_text">
                         <div class="row">
@@ -38,14 +46,16 @@
                                 <img src="<?=get_template_directory_uri()?>/assets/images/pencil_icon.png" class="img-responsive" />
                             </div>
                             <div class="col-md-11 text_right">
-                                <span class="small_text black">Студенты и выпускники соревнуются в разных категориях.
+                                <span class="small_text black"><?php echo __('[:ru]Студенты и выпускники соревнуются в разных категориях.
 В каждой из трёх номинаций для студентов присуждается три призовых места.
-В каждой из трёх номинаций для выпускников присуждается по одному призовому месту.</span>
+В каждой из трёх номинаций для выпускников присуждается по одному призовому месту.[:en]Students and graduates compete in different categories. In each of the three nominations for students, three prizes are awarded. In each of the three nominations for alumni, one prize place is awarded.
+') ?></span>
                             </div>
                         </div>
                     </div>
                     <div class="button_more">
-                        <a href="<?=get_page_link(469);?>" target="_blank" class="black button base medium ">Смотреть</a>
+                        <a href="<?=get_page_link(469);?>" target="_blank" class="black button base medium ">
+                            <?=__('[:ru]Смотреть[:en]watch')?></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-5 thumb_wrapper">
@@ -205,20 +215,28 @@
             <div class="row">
                 <div class="col-lg-4 col-md-5 hidden-xs hidden-sm about_prize fluid_wrapper">
                     <div class="banner_heading with_separate">
-                        <h2 class="up black">Призы</h2>
+                        <h2 class="up black">
+                            <?=__('[:ru]Призы[:en]Prizes')?></h2>
                     </div>
                     <div class="text">
-                        <p class="black">Главный приз конкурса —
+                        <p class="black"><?=__('[:ru]Главный приз конкурса —
                             стажировка в одной из крупнейших
                             строительных компаний
                             Санкт&nbsp;&mdash;&nbsp;Петербурга ГК «ЦДС».
                             Финалисты конкурса также получат
                             3d-принтеры, графические
                             планшеты и другие ценные
-                            и полезные призы.</p>
+                            и полезные призы.
+                            [:en]The main prize of the competition is an internship in one of
+                             the largest construction companies of St. Petersburg Group of 
+                             Companies "ЦДС". The finalists of the contest will also receive 3D-printers, 
+                             digital art boards and other useful prizes.')?></p>
                     </div>
                     <div class="button_more">
-                        <a class="button base medium black" href="<?=get_page_link(171);?>">Подробнее</a>
+                        <a class="button base medium black" href="<?=get_page_link(171);?>">
+
+                            <?=__('[:ru]Подробнее[:en]more')?>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-8 col-md-7 thumb_block">
