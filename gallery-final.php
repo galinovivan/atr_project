@@ -85,6 +85,7 @@
 <!--                                </div>-->
 <!--                            </div>-->
                             <?php
+
                             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                                 $works_students = new WP_Query( array(
                                     'post_type' => 'projects',
@@ -133,11 +134,18 @@
                             <!-- paginate -->
                             <div class="col-md-12">
                                 <div class="paginate">
-                            <?php
-                            if (function_exists('wp_paginate')) {
-                                wp_paginate();
-                            }
+                                    <?php
+                                    $category = get_category(7);
+                                    $count = $category->category_count;
+
+                                    $paginationPaged = ceil($count / 10);
+                                    if ($paginationPaged < 1) $paginationPaged = 1;
+                                    ?>
+                            <?php if (function_exists('pagination')) {
+                                    pagination($paginationPaged);
+                                    }
                             ?>
+
                                 </div>
                 </div>
             </div>
