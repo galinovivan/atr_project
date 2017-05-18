@@ -10,5 +10,5 @@
 
 <?php get_header('primary'); ?>
 
-
+<?php echo getUserLocation(); ?>
 <?php get_footer('primary'); ?>
