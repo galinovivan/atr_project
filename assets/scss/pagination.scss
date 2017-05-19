@@ -24,6 +24,11 @@
   .wp-paginate {
     &.wpp-modern-grey {
       li {
+        a {
+          border: none !important;
+          background: $transparent;
+          @include  textHover();
+        }
         span {
           background: $transparent;
           color: $black;
