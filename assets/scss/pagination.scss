@@ -27,6 +27,7 @@
         span {
           background: $transparent;
           color: $black;
+          border: none;
           &.current {
             opacity: 1;
             border: 2px solid $black;
