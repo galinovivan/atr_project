@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="hidden-xs hidden-sm col-md-7 about wrapper fluid_wrapper">
                     <div class="banner_heading with_separate">
-                        <h2 class="up black"><?php echo __('[:en]THE TERMS OF PARTICIPATION
+                        <h2 class="up black"><?=__('[:en]THE TERMS OF PARTICIPATION
 [:ru]Условия участия');
                            ?>
                         </h2>
@@ -32,7 +32,7 @@
                     <div class="text">
                         <p class="black">
 
-                            <?php echo __('[:ru]В конкурсе могут принимать участие студенты, бакалавры, магистры,
+                            <?=__('[:ru]В конкурсе могут принимать участие студенты, бакалавры, магистры,
                             аспиранты, учащиеся и выпускники 2011-2017 гг. высших учебных заведений РФ,
                             а также средних профессиональных образовательных учреждений старше 16 лет.
                             Как индивидуальные авторы, так и творческие коллективы до 3 человек.[:en]Students, 
@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner_heading">
-                        <h2 class="up black text-center">Как победить</h2>
+                        <h2 class="up black text-center"><?=__('[:ru]Как победить[:en]How to win')?></h2>
                     </div>
                 </div>
             </div>
@@ -323,9 +323,11 @@
 
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font">Выбрать <br class="visible-xs visible-sm" />
-                                одну из четырех
-                                номинаций</p>
+                            <p class="black bold_font">
+
+                                <?=__('[:ru]Выбрать[:en]Choose')?> <br class="visible-xs visible-sm" />
+                                <?=__('[:ru]одну из четырех
+                                номинаций[:en]one of the three nominations')?></p>
                         </div>
                         <span class="small_arrow"></span>
                     </div>
@@ -337,9 +339,9 @@
                             <i class="mobile_win mobile_win-mobile_win_cloud visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font">Скачать шаблон
+                            <p class="black bold_font"><?=__('[:ru]Скачать шаблон
                                 для выполнения
-                                работы</p>
+                                работы[:en]Download the templates for implement the project')?></p>
                         </div>
                         <span class="small_arrow hidden-xs hidden-sm"></span>
                     </div>
@@ -351,9 +353,11 @@
                             <i class="mobile_win mobile_win-mibile_win_cloud_output visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font">Загрузить <br class="visible-xs visible-sm" />
-                                свою работу
-                                на сайт</p>
+                            <p class="black bold_font"><?=__('[:ru]Загрузить[:en]Upload')?>
+                                <br class="visible-xs visible-sm" />
+                                <?=__('[:ru]свою работу
+                                на сайт{:en]your project to the site')?>
+                            </p>
                         </div>
                         <span class="small_arrow"></span>
                     </div>
@@ -365,7 +369,8 @@
                             <i class="mobile_win mobile_win-mobile_win_prize visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font">Дождаться обьявления результатов</p>
+                            <p class="black bold_font"><?=__('[:ru]Дождаться обьявления результатов
+                            [:en]Wait for announcement of results')?></p>
                         </div>
                     </div>
                 </div>
@@ -381,16 +386,24 @@
                         <?php if (!is_user_logged_in()): ?>
                         <div class="fluid_wrapper">
                             <div class="banner_heading with_separate">
-                                <h2 class="up white">участвовать</h2>
+                                <h2 class="up white"><?=__('[:ru]участвовать[:en]PARTICIPATE
+')?></h2>
                             </div>
                             <div class="text">
-                                <p class="white">Прежде чем загрузить работу, мы просим вас заполнить
-                                    краткую форму регистрации. После её заполнения вы сможете принять участие в конкурсе,
-                                    а мы сможем вас найти когда придёт время вручения призов.</p>
+                                <p class="white">
+                                    <?=__('[:ru]Прежде чем загрузить работу, мы просим вас заполнить
+                                    краткую форму регистрации. После её заполнения вы сможете принять
+                                     участие в конкурсе,
+                                    а мы сможем вас найти когда придёт время вручения призов.[:en]
+                                    Before uploading the project to the contest, we request you to 
+                                    write in a short registration form. You will be able to take 
+                                    part in the contest, and we will be able to find you when the 
+                                    time comes to award the prizes.')?></p>
                             </div>
                             <div class="registration_button">
                                 <button class="button base medium white revert_hover"
-                                        data-toggle="modal" data-target="#registrationModal">Регистрация</button>
+                                        data-toggle="modal" data-target="#registrationModal">
+                                    <?=__('[:ru]Регистрация[:en]Registration')?></button>
                             </div>
                         </div>
     <?php else: ?>
@@ -462,14 +475,18 @@
             <div class="row">
                 <div class="col-md-10 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-1">
                     <div class="banner_heading text-center">
-                        <h2 class="up black">Остались вопросы?</h2>
+                        <h2 class="up black">
+                            <?=__('[:ru]Остались вопросы?[:en]Have any questions?')?></h2>
                         <span class="separate_line black hidden-xs hidden-sm"></span>
                     </div>
                 </div>
                 <div class="col-md-10 col-md-offset-1">
                     <div class="text text-center">
-                        <p class="black">Мы готовы ответить на все интересующие вас вопросы,
-                            связанные с конкурсом «АРХпроект». Просто напишите нам.</p>
+                        <p class="black">
+                            <?=__('[:ru]Мы готовы ответить на все интересующие вас вопросы,
+                            связанные с конкурсом «АРХпроект». Просто напишите нам.[:en]
+                            We are glad to answer all your questions about the "ARHPROEKT". 
+                            Just write your message in special form.')?></p>
                     </div>
                 </div>
             </div>
