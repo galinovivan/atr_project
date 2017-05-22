@@ -243,7 +243,7 @@
     </a>
 <?php else: ?>
         <div class="row loggined_helper">
-            <div class="col-md-8 col-md-offset-1">
+            <div class="col-md-9 col-md-offset-0 col-lg-8 col-lg-offset-1">
     <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы отправить выполненный проект, нажмите
         <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
 
