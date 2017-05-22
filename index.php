@@ -82,7 +82,7 @@
         </div>
     </div>
 
-    <div class="nominations_banner base_background">
+    <div class="nominations_banner base_background" id="nominations">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 banner_heading">
