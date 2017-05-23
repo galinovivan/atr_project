@@ -75,7 +75,7 @@
   @media screen and (min-width: $smScreen) and (max-width: $mdScreen) {
     .gallery_list {
       .gallery_item {
-        $itemWidth: 260px;
+        $itemWidth: 360px;
         $itemHeight: $itemWidth;
         width: $itemWidth;
         height: $itemHeight;
