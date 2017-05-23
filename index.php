@@ -96,7 +96,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 banner_heading">
-                    <h2 class="up white text-center">Номинации</h2>
+                    <h2 class="up white text-center">
+                        <?=__('[:ru]Номинации[:en]Nominations');?></h2>
                 </div>
             </div>
             <div class="row">
@@ -107,7 +108,10 @@
                             <i class="nomination_sprite nomination_sprite-icon_light block_center"></i>
                                 </a>
                         </div>
-                        <div class="title text-center"><h3 class="white">Интерьер <br /> квартиры</h3>
+                        <div class="title text-center"><h3 class="white">
+                                <?=__('[:ru]Интерьер[:en]Interior');?> <br />
+                                <?=__('[:ru]квартиры[:en]of apartament');?>
+                            </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
