@@ -2,6 +2,7 @@
 /**
 * @package Arh_project
 */
+$lang = qtrans_getLanguage();
 ?>
 
 <!doctype html>
@@ -35,58 +36,10 @@
                     ?>
                     <p><h4>Вы вошли как <?=$currentUser->user_lastname;?></h4></p>
                     <h3 class="black"><a href="<?=wp_logout_url('/');?>" class="black"> Выйти.</a></h3>
-                    <!--                <div class="registration auth_form">-->
-                    <!--                    <div class="form_description text-center">-->
-                    <!--                        <p class="black">Пожалуйста, зарегистрируйтесь, чтобы иметь возможность-->
-                    <!--                            принять участие в конкурсе.</p>-->
-                    <!--                        <p class="black">-->
-                    <!--                            Введите адрес электронной почты, и мы отправим-->
-                    <!--                            вам пароль от личного кабинета.</p>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="reg_form">-->
-                    <!--                        <form class="base_form">-->
-                    <!--                            <div class="row">-->
-                    <!--                                <div class="col-md-12 field_item">-->
-                    <!--                                    <input type="text" name="name" placeholder="Имя Фамилия" required />-->
-                    <!--                                </div>-->
-                    <!--                                <div class="col-md-12 field_item">-->
-                    <!--                                    <input type="email" name="email" placeholder="Email" required />-->
-                    <!--                                </div>-->
-                    <!--                                <div class="col-md-12 checkbox_field">-->
-                    <!--                                    <input type="checkbox" name="confirm" id="authrConfirm" required/>-->
-                    <!--                                    <label for="authrConfirm">Я согласен на обработку своих персональных данных</label>-->
-                    <!--                                </div>-->
-                    <!--                                <div class="col-md-12 submit_field">-->
-                    <!--                                    <button type="submit" class="button base medium black">Регистрация</button>-->
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                    <!--                        </form>-->
-                    <!--                    </div>-->
-                    <!--                </div>-->
+
                 <?php else: ?>
                     <?php include('template-parts/registration.php') ?>
-                    <!--                <div class="login auth_form">-->
-                    <!--                    <div class="form_description text-center">-->
-                    <!--                        <p class="black text-center">Если вы уже зарегистрировались, войдите,-->
-                    <!--                            чтобы мы вас узнали.</p>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="login_form">-->
-                    <!--                        <form class="base_form">-->
-                    <!--                            <div class="row">-->
-                    <!--                                <div class="col-md-12 field_item">-->
-                    <!--                                    <input type="email" name="auth_login" placeholder="Email" />-->
-                    <!--                                </div>-->
-                    <!--                                <div class="col-md-12 field_item">-->
-                    <!--                                    <input type="password" name="auth_pass" placeholder="Пароль" />-->
-                    <!--                                </div>-->
-                    <!--                                <div class="col-md-12 checkbox_field">-->
-                    <!--                                    <input type="checkbox" name="auth_remember" id="authRemember"/>-->
-                    <!--                                    <label for="authRemember">Запомнить меня</label>-->
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                    <!--                        </form>-->
-                    <!--                    </div>-->
-                    <!--                </div>-->
+
                     <?php include('template-parts/login-form.php') ?>
                 <?php endif; ?>
             </div>
