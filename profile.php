@@ -74,6 +74,8 @@
                               action="<?php echo esc_url(admin_url('admin-post.php'));?>">
                             <input type="hidden" value="update_user" name="action" id="formAction" />
                             <input type="hidden" value="<?=$user->ID;?>" name="user_id" id="userId" />
+                            <label for="userName">Ваше имя:</label>
+                            <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
                             <label for="userUrl">Я в социальных сетях</label>
                             <input type="text" placeholder="Ссылка на профиль в социальных сетях"
                                    value="<?=$userUrl;?>" name="user_url" id="userUrl" />
