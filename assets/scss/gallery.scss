@@ -77,7 +77,7 @@
       .gallery_item {
         $itemWidth: 360px;
         $itemHeight: $itemWidth;
-        width: $itemWidth;
+        width: $itemWidth - 100;
         height: $itemHeight;
         margin-right: 6.5%;
       }
