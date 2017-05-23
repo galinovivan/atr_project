@@ -236,7 +236,9 @@ $lang = qtrans_getLanguage();
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
                 </div>
                 <div class="button_more">
-                    <a href="<?=get_page_link(29)?>" class="button base medium block_center white">Узнать больше</a>
+                    <a href="<?=get_page_link(29)?>" class="button base medium block_center white">
+                        <?=__('[:ru]Узнать больше[:en]Learn more');?>
+                    </a>
                 </div>
             </div>
             <span class="separate_line_hover left"></span>
