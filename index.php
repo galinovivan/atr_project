@@ -271,7 +271,9 @@
         <div class="container">
             <div class="row">
                 <div class="banner_heading">
-                    <h2 class="white up text-center">Жюри</h2>
+                    <h2 class="white up text-center">
+                        <?=__('[:ru]Жюри[:en]Judge');?>
+                    </h2>
                 </div>
             </div>
             <div class="row">
