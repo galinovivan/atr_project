@@ -54,6 +54,11 @@
           right: 0;
           top: 5px;
         }
+        @media screen and (max-width: $mdScreen) {
+          p {
+            font-size: 10px;
+          }
+        }
       }
       .add_btn {
         border: none;
