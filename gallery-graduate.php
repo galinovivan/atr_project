@@ -11,7 +11,6 @@
 
 
 <main>
-    <main>
         <div class="category_heading">
             <div class="container">
                 <div class="row">
@@ -159,6 +158,5 @@
     </main>
 
 
-</main>
 
 <?php get_footer(); ?>
