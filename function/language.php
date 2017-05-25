@@ -46,13 +46,13 @@ function loadTranslate($lang) {
     global $arhLang;
     switch ($lang) {
         case ('ru'):
-         $arhLang = require_once get_template_directory() . '/languages/!18n_ru.php';
+         $arhLang = require_once get_template_directory() . '/languages/18n_ru.php';
           break;
         case ('en'):
-          $arhLang = require_once get_template_directory() . '/languages/!18n_en.php';
+          $arhLang = require_once get_template_directory() . '/languages/18n_en.php';
           break;
         default:
-          $arhLang = require_once get_template_directory() . '/languages/!18n_ru.php';
+          $arhLang = require_once get_template_directory() . '/languages/18n_ru.php';
           break;
     }
 }
