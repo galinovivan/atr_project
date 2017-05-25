@@ -14,12 +14,14 @@
             var userUrl = $('#userUrl').val();
             var userName = $('#userName').val();
             var formAction = $('#formAction').val();
+            var currentLang = $('#currentLang').val();
 
             var formData = {
                 action: formAction,
                 user_id: userId,
                 user_url: userUrl,
-                user_name: userName
+                user_name: userName,
+                current_lang: currentLang
             };
 
             $.post(ajax_var, formData, function(response) {
