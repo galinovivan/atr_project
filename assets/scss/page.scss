@@ -104,6 +104,18 @@ main {
         }
         margin-bottom: 50px;
       }
+      @media screen and (min-width: 991px) {
+        .title {
+          h3 {
+            height: 51px;
+          }
+        }
+        .text {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          height: 105px;
+        }
+      }
     }
     .alt_text {
       margin-top: 35px;
