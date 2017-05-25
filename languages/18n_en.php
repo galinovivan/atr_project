@@ -102,4 +102,5 @@ return [
     'data saved successfully' => 'Data saved successfully',
     'works alt' => 'Projects',
     'finalists alt' => 'Finalists',
+    'back' => 'Back',
 ];
