@@ -24,21 +24,14 @@
             <div class="row">
                 <div class="hidden-xs hidden-sm col-md-7 about wrapper fluid_wrapper">
                     <div class="banner_heading with_separate">
-                        <h2 class="up black"><?=__('[:en]THE TERMS OF PARTICIPATION
-[:ru]Условия участия');
-                           ?>
+                        <h2 class="up black">
+                            <?=lang('the terms of partication');?>
                         </h2>
                     </div>
                     <div class="text">
                         <p class="black">
-
-                            <?=__('[:ru]В конкурсе могут принимать участие студенты, бакалавры, магистры,
-                            аспиранты, учащиеся и выпускники 2011-2017 гг. высших учебных заведений РФ,
-                            а также средних профессиональных образовательных учреждений старше 16 лет.
-                            Как индивидуальные авторы, так и творческие коллективы до 3 человек.[:en]Students, 
-                            bachelors, masters, graduate students and graduates of 2011-2017 can take part in the 
-                            competition (older than 16 years). 
-                            We accept the works from individual authors and creative teams of up to 3 people') ?></p>
+                    <?=lang('partication main descript');?>
+                        </p>
                     </div>
                     <div class="more_text">
                         <div class="row">
@@ -46,30 +39,31 @@
                                 <img src="<?=get_template_directory_uri()?>/assets/images/pencil_icon.png" class="img-responsive" />
                             </div>
                             <div class="col-md-11 text_right">
-                                <span class="small_text black"><?php echo __('[:ru]Студенты и выпускники соревнуются в разных категориях.
-В каждой из трёх номинаций для студентов присуждается три призовых места.
-В каждой из трёх номинаций для выпускников присуждается по одному призовому месту.[:en]Students and graduates compete in different categories. In each of the three nominations for students, three prizes are awarded. In each of the three nominations for alumni, one prize place is awarded.
-') ?></span>
+                                <span class="small_text black">
+                                    <?=lang('partication second descript');?>
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="button_more">
                         <a href="<?=get_page_link(469);?>" target="_blank" class="black button base medium ">
-                            <?=__('[:ru]Смотреть[:en]watch')?></a>
+                            <?=lang('watch');?>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-5 thumb_wrapper">
                     <div class="thumb">
-                       <h2 class="up white text-center visible-xs visible-sm">Условия участия</h2>
+                       <h2 class="up white text-center visible-xs visible-sm">
+                           <?=lang('the terms of partication');?>
+                       </h2>
                         <div class="bottom_separate_line visible-xs visible-sm"></div>
                     </div>
                 </div>
                 <div class="col-xs-12 visible-xs visible-sm about_wrapper text-center">
                     <div class="text">
-                        <p class="black">В конкурсе могут принимать участие студенты, бакалавры, магистры,
-                            аспиранты, учащиеся и выпускники 2011-2017 гг. высших учебных заведений РФ,
-                            а также средних профессиональных образовательных учреждений старше 16 лет.
-                            Как индивидуальные авторы, так и творческие коллективы до 3 человек.</p>
+                        <p class="black">
+                            <?=lang('partication main descript')?>
+                        </p>
                     </div>
                     <div class="more_text">
                         <div class="row">
@@ -78,14 +72,17 @@
                                      class="img-responsive" />
                             </div>
                             <div class="col-md-11 text_right">
-                                <span class="black">Студенты и выпускники соревнуются в разных категориях.
-В каждой из трёх номинаций для студентов присуждается три призовых места.
-В каждой из трёх номинаций для выпускников присуждается по одному призовому месту.</span>
+                                <span class="black">
+                                   <?=lang('partication second descript');?>
+                        </span>
                             </div>
                         </div>
                     </div>
                     <div class="button_more">
-                        <a href="<?=get_page_link(469);?>" target="_blank" class="black button base medium ">Смотреть</a>
+                        <a href="<?=get_page_link(469);?>" target="_blank"
+                           class="black button base medium ">
+                            <?=lang('watch');?>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -97,7 +94,8 @@
             <div class="row">
                 <div class="col-xs-12 col-md-12 banner_heading">
                     <h2 class="up white text-center">
-                        <?=__('[:ru]Номинации[:en]Nominations');?></h2>
+                        <?=lang('nominations');?>
+                    </h2>
                 </div>
             </div>
             <div class="row">
@@ -109,18 +107,21 @@
                                 </a>
                         </div>
                         <div class="title text-center"><h3 class="white">
-                                <?=__('[:ru]Интерьер[:en]Interior');?> <br />
-                                <?=__('[:ru]квартиры[:en]of apartament');?>
+                               <?=lang('interior of apartament');?>
                             </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
-                            <p class="white">Лучшее предложение
-                                по дизайну интерьера типовой
-                                квартиры ГК «ЦДС»</p>
+                            <p class="white">
+                               <?=lang('appartament nomination desc');?>
+                            </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(115);?>" target="_blank"> Смотреть</a></button>
+                            <button class="button base medium white block_center">
+                                <a href="<?=get_page_link(115);?>" target="_blank">
+                                    <?=lang('watch');?>
+                                </a>
+                            </button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -163,16 +164,20 @@
                                 </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Остановка <br /> транспорта</h3>
+                            <h3 class="white">
+                                <?=lang('bus station');?>
+                            </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
-                            <p class="white">Лучшее предложение
-                                по дизайну остановки общественного
-                                транспорта</p>
+                            <p class="white">
+                              <?=lang('station nomination desc');?>
+                                </p>
+
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(168);?>" target="_blank"> Смотреть</a></button>
+                            <button class="button base medium white block_center">
+                                <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('watch');?></a></button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -190,18 +195,22 @@
                                 </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Город <br /> на воде</h3>
+                            <h3 class="white">
+                                <?=lang('city on the water');?>
+</h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
                             <p class="white">
-                                Лучшая концепция
-                                урбанистического
-                                пространства
+                                <?=lang('city on the water desc');?>
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(525);?>" target="_blank">Смотреть</a></button>
+                            <button class="button base medium white block_center">
+                                <a href="<?=get_page_link(525);?>" target="_blank">
+                                    <?=lang('watch');?>
+                                </a>
+                            </button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -220,26 +229,18 @@
                 <div class="col-lg-4 col-md-5 hidden-xs hidden-sm about_prize fluid_wrapper">
                     <div class="banner_heading with_separate">
                         <h2 class="up black">
-                            <?=__('[:ru]Призы[:en]Prizes')?></h2>
+                            <?=lang('prizes');?>
+                        </h2>
                     </div>
                     <div class="text">
-                        <p class="black"><?=__('[:ru]Главный приз конкурса —
-                            стажировка в одной из крупнейших
-                            строительных компаний
-                            Санкт&nbsp;&mdash;&nbsp;Петербурга ГК «ЦДС».
-                            Финалисты конкурса также получат
-                            3d-принтеры, графические
-                            планшеты и другие ценные
-                            и полезные призы.
-                            [:en]The main prize of the competition is an internship in one of
-                             the largest construction companies of St. Petersburg Group of 
-                             Companies "ЦДС". The finalists of the contest will also receive 3D-printers, 
-                             digital art boards and other useful prizes.')?></p>
+                        <p class="black">
+                            <?=lang('prizes banner desc');?>
+                        </p>
                     </div>
                     <div class="button_more">
                         <a class="button base medium black" href="<?=get_page_link(171);?>">
 
-                            <?=__('[:ru]Подробнее[:en]more')?>
+                            <?=lang('more');?>
                         </a>
                     </div>
                 </div>
@@ -249,17 +250,15 @@
                 </div>
                 <div class="col-xs-12 visible-xs visible-sm about_prize fluid_wrapper">
                     <div class="text text-center">
-                        <p class="black">Главный приз конкурса —
-                            стажировка в одной из крупнейших
-                            строительных компаний
-                            Санкт&nbsp;&mdash;&nbsp;Петербурга ГК «ЦДС».
-                            Финалисты конкурса также получат
-                            3d-принтеры, графические
-                            планшеты и другие ценные
-                            и полезные призы.</p>
+                        <p class="black">
+                            <?=lang('prizes banner desc');?>
+                        </p>
                     </div>
                     <div class="button_more">
-                        <a class="button base medium black" href="<?=get_page_link(171);?>">Подробнее</a>
+                        <a class="button base medium black"
+                           href="<?=get_page_link(171);?>">
+                           <?=lang('more');?>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -272,7 +271,7 @@
             <div class="row">
                 <div class="banner_heading">
                     <h2 class="white up text-center">
-                        <?=__('[:ru]Жюри[:en]Judge');?>
+                        <?=lang('judge');?>
                     </h2>
                 </div>
             </div>
@@ -316,7 +315,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner_heading">
-                        <h2 class="up black text-center"><?=__('[:ru]Как победить[:en]How to win')?></h2>
+                        <h2 class="up black text-center">
+                            <?=lang('how to win');?>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -330,10 +331,8 @@
                         </div>
                         <div class="text text-center">
                             <p class="black bold_font">
-
-                                <?=__('[:ru]Выбрать[:en]Choose')?> <br class="visible-xs visible-sm" />
-                                <?=__('[:ru]одну из четырех
-                                номинаций[:en]one of the three nominations')?></p>
+                                <?=lang('choose one of the three nominations');?>
+                            </p>
                         </div>
                         <span class="small_arrow"></span>
                     </div>
@@ -345,9 +344,9 @@
                             <i class="mobile_win mobile_win-mobile_win_cloud visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font"><?=__('[:ru]Скачать шаблон
-                                для выполнения
-                                работы[:en]Download the templates for implement the project')?></p>
+                            <p class="black bold_font">
+                                <?=lang('download the templates for implement the project');?>
+                            </p>
                         </div>
                         <span class="small_arrow hidden-xs hidden-sm"></span>
                     </div>
@@ -361,8 +360,7 @@
                         <div class="text text-center">
                             <p class="black bold_font"><?=__('[:ru]Загрузить[:en]Upload')?>
                                 <br class="visible-xs visible-sm" />
-                                <?=__('[:ru]свою работу
-                                на сайт{:en]your project to the site')?>
+                                <?=lang('upload your project to the site');?>
                             </p>
                         </div>
                         <span class="small_arrow"></span>
@@ -375,8 +373,9 @@
                             <i class="mobile_win mobile_win-mobile_win_prize visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font"><?=__('[:ru]Дождаться обьявления результатов
-                            [:en]Wait for announcement of results')?></p>
+                            <p class="black bold_font">
+                                <?=lang('wait for announcement of results');?>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -392,40 +391,40 @@
                         <?php if (!is_user_logged_in()): ?>
                         <div class="fluid_wrapper">
                             <div class="banner_heading with_separate">
-                                <h2 class="up white"><?=__('[:ru]участвовать[:en]PARTICIPATE
-')?></h2>
+                                <h2 class="up white">
+                                    <?=lang('participate');?>
+                                </h2>
                             </div>
                             <div class="text">
                                 <p class="white">
-                                    <?=__('[:ru]Прежде чем загрузить работу, мы просим вас заполнить
-                                    краткую форму регистрации. После её заполнения вы сможете принять
-                                     участие в конкурсе,
-                                    а мы сможем вас найти когда придёт время вручения призов.[:en]
-                                    Before uploading the project to the contest, we request you to 
-                                    write in a short registration form. You will be able to take 
-                                    part in the contest, and we will be able to find you when the 
-                                    time comes to award the prizes.')?></p>
+                                <?=lang('orange banner not log desc');?>
+                                </p>
                             </div>
                             <div class="registration_button">
                                 <button class="button base medium white revert_hover"
                                         data-toggle="modal" data-target="#registrationModal">
-                                    <?=__('[:ru]Регистрация[:en]Registration')?></button>
+                                    <?=lang('registration');?>
+                                </button>
                             </div>
                         </div>
     <?php else: ?>
                             <div class="fluid_wrapper">
                                 <div class="banner_heading with_separate">
-                                    <h2 class="up white">Отправить работу</h2>
+                                    <h2 class="up white">
+                                        <?=lang('send work');?>
+                                    </h2>
                                 </div>
                                 <div class="text">
-                                    <p class="white">Здесь вы можете отправить выполненную
-                                        работу в конкурсную базу &laquo;АРХпроекта&raquo;. Советуем
-                                         еще раз ознакомиться с правилами оформления
-                                        проектов в разделе &laquo;Номинации&raquo; и желаем удачи!</p>
+                                    <p class="white">
+                                       <?=lang('orange banner log desc');?>
+                                </p>
                                 </div>
                                 <div class="registration_button">
                                     <a class="button base medium white revert_hover"
-                                            data-toggle="modal" href="<?=get_page_link(68);?>">Отправить работу</a>
+                                            data-toggle="modal"
+                                       href="<?=get_page_link(68);?>">
+                                      <?=lang('send work');?>
+                                    </a>
                                 </div>
                             </div>
     <?php endif; ?>
@@ -433,12 +432,16 @@
                 </div>
                 <?php if (!is_user_logged_in()): ?>
                 <div class="col-md-5 thumb_block">
-                    <h2 class="up white text-center visible-xs visible-sm">Участвовать</h2>
+                    <h2 class="up white text-center visible-xs visible-sm">
+                        <?=lang('participate');?>
+                    </h2>
                     <div class="bottom_separate_line visible-xs visible-sm"></div>
                 </div>
     <?php else: ?>
                     <div class="col-md-5 thumb_block is_logged">
-                        <h2 class="up white text-center visible-xs visible-sm">Участвовать</h2>
+                        <h2 class="up white text-center visible-xs visible-sm">
+                            <?=lang('participate');?>
+                        </h2>
                         <div class="bottom_separate_line visible-xs visible-sm"></div>
                     </div>
     <?php endif; ?>
@@ -447,26 +450,30 @@
                     <?php if (!is_user_logged_in()): ?>
                         <div class="fluid_wrapper">
                             <div class="text text-center">
-                                <p class="white">Прежде чем загрузить работу, мы просим вас заполнить
-                                    краткую форму регистрации. После её заполнения вы сможете принять участие в конкурсе,
-                                    а мы сможем вас найти когда придёт время вручения призов.</p>
+                                <p class="white">
+                                  <?=lang('orange banner not log desc');?>
+                                </p>
                             </div>
                             <div class="registration_button">
                                 <button class="button base medium white revert_hover"
-                                        data-toggle="modal" data-target="#registrationModal">Регистрация</button>
+                                        data-toggle="modal" data-target="#registrationModal">
+                                    <?=lang('registration');?>
+                                </button>
                             </div>
                         </div>
                     <?php else: ?>
                         <div class="fluid_wrapper">
                             <div class="text text-center">
-                                <p class="white">Здесь вы можете отправить выполненную
-                                    работу в конкурсную базу &laquo;АРХпроекта&raquo;. Советуем
-                                    еще раз ознакомиться с правилами оформления
-                                    проектов в разделе &laquo;Номинации&raquo; и желаем удачи!</p>
+                                <p class="white">
+                                    <?=lang('orange banner log desc');?>
+                                </p>
                             </div>
                             <div class="registration_button">
                                 <a class="button base medium white revert_hover"
-                                   data-toggle="modal" href="<?=get_page_link(68);?>">Отправить работу</a>
+                                   data-toggle="modal"
+                                   href="<?=get_page_link(68);?>">
+                                    <?=lang('send work');?>
+                                </a>
                             </div>
                         </div>
                     <?php endif; ?>
@@ -482,17 +489,16 @@
                 <div class="col-md-10 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-1">
                     <div class="banner_heading text-center">
                         <h2 class="up black">
-                            <?=__('[:ru]Остались вопросы?[:en]Have any questions?')?></h2>
+                        <?=lang('have any questions');?>?
+                        </h2>
                         <span class="separate_line black hidden-xs hidden-sm"></span>
                     </div>
                 </div>
                 <div class="col-md-10 col-md-offset-1">
                     <div class="text text-center">
                         <p class="black">
-                            <?=__('[:ru]Мы готовы ответить на все интересующие вас вопросы,
-                            связанные с конкурсом «АРХпроект». Просто напишите нам.[:en]
-                            We are glad to answer all your questions about the "ARHPROEKT". 
-                            Just write your message in special form.')?></p>
+                            <?=lang('have any questions desc');?>
+                        </p>
                     </div>
                 </div>
             </div>
