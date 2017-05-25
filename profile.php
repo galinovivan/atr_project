@@ -89,8 +89,6 @@
                             </label>
                             <input type="text" placeholder="<?=lang('link to profile in social networks');?>"
                              name="user_url" id="userUrl" value="<?=$userUrl?>" />
-                            
-                           
                             <button class="button base transparent medium black">
                                 <?=lang('save');?>
                             </button>
