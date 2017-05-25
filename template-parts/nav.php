@@ -91,7 +91,7 @@
                             </a>
                         <?php else: ?>
                             <a href="#registrationModal" data-toggle="modal" class="up white">
-                                <?=__('[:ru]Регистрация[:en]Registration');?>
+                                <?=lang('personal area');?>
                             </a>
                         <?php endif; ?>
 
