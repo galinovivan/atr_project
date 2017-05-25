@@ -95,6 +95,12 @@
                             ?>
                         </div>
                         <div class="person_info">
+                            <p class="black">
+                                <strong>
+                                    <?=lang('nomination');?>:
+                                    <?=do_shortcode('[wpuf-meta name="nomination"]');?>
+                                </strong>
+                            </p>
                             <p class="black"><strong>
                                     <?=lang('place of study');?>:
                                 </strong><?php echo do_shortcode('[wpuf-meta name="univer"]')?></p>
