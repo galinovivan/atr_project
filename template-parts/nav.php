@@ -15,60 +15,69 @@
         <div class="row">
             <div class="col-md-3 left_separate">
                 <ul class="nav">
-                    <li><a href="<?=get_page_link(29);?>" class="up white"><?=__('[:ru]О конкурсе[:en]about');?></a></li>
-                    <li><a href="<?=get_page_link(175);?>" class="up white"><?=__('[:ru]Новости[:en]news');?></a></li>
-                    <li><a href="<?=get_page_link(40)?>" class="up white"><?=__('[:ru]Жюри[:en]Judge');?></a></li>
-                    <li><a href="<?=get_page_link(56)?>" class="up white"><?=__('[:ru]Партнеры[:en]Partners');?></a></li>
+                    <li><a href="<?=get_page_link(29);?>" class="up white">
+                            <?=lang('about');?>
+                        </a></li>
+                    <li><a href="<?=get_page_link(175);?>" class="up white">
+                            <?=lang('news');?>
+                        </a></li>
+                    <li><a href="<?=get_page_link(40)?>" class="up white">
+                            <?=lang('judge');?>
+                        </a></li>
+                    <li><a href="<?=get_page_link(56)?>" class="up white">
+                            <?=lang('partners');?>
+                        </a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li class="sub_menu not_hover"><span class="sub sub_padd">
-                            <?=__('[:ru]Номинации[:en]Nomination');?></span>
+                        <?=lang('nominations');?>
+                        </span>
                         <ul class="sub_nav">
                             <li><a href="<?=get_page_link(115);?>" target="_blank">
-                                    <?=__('[:ru]Интерьер квартиры[:en]Interior of apartment');?>
+                                    <?=lang('interior of apartment');?>
                                 </a></li>
                             <li><a href="<?=get_page_link(165);?>" target="_blank">
 <?=__('[:ru]Павильон/беседка[:en]nothing');?></a></li>
                             <li><a href="<?=get_page_link(168);?>" target="_blank">
-                                    <?=__('[:ru]Остановка транспорта[:en]Bus station');?>
+                                    <?=lang('bus station');?>
                                 </a></li>
                             <li><a href="<?=get_page_link(525);?>" target="_blank">
-                                    <?=__('[:ru]Город на воде[:en]City on the water');?>
+                                    <?=lang('city on the water');?>
                                 </a></li>
                         </ul>
                     </li>
                     <li><a href="<?=get_page_link(171);?>" class="up white">
-                            <?=__('[:ru]Призы[:en]Prizez');?>
+                            <?=lang('prizes');?>
                         </a></li>
                     <li><a href="<?=get_page_link(469);?>" class="up white">
-                            <?=__('[:ru]Условия участия[:en]The terms of partication');?>
+                            <?=lang('the terms of partication');?>
                         </a></li>
                 </ul>
             </div>
             <div class="col-md-3 left_separate">
                 <ul class="nav">
                     <li><a href="<?=get_page_link(190)?>" class="up white">
-                            <?=__('[:ru]Работы[:en]Projects');?>
+                           <?=lang('works');?>
                             <span class="base_font">
-                                <?=__('[:ru](Студенты)[:en](Students]');?>
+                                <?=lang('students');?>
                             </span>
                         </a></li>
                     <li><a href="<?=get_page_link(186);?>" class="up white">
-                            <?=__('[:ru]Работы[:en]Projects')?>
+                            <?=lang('works');?>
                             <span class="base_font">
-                                <?=__('[:ru](Выпускники)[:en]Graduates');?>
+                                <?=lang('graduates');?>
                             </span></a></li>
                     <li><a href="<?=get_page_link(188);?>" class="up white">
-                            <?=__('[:ru]Финалисты 2016[:en]The finalists');?>
+                           <?=lang('finalists');?>
                         </a></li>
                     <li><a href="<?php is_user_logged_in() ? print get_page_link(68) : print "#registrationModal" ?>"
                            class="up white gold_marker" data-toggle="modal">
                             <?php
                             is_user_logged_in()
-                                ? print __('[:ru]Загрузить работу[:en]Download the work') :
-                                print __('[:ru]Участвовать[:en]Participate'); ?>
+                                ? print lang('download the work') :
+                                print lang('participate') ?>
                         </a></li>
                 </ul>
             </div>
@@ -78,20 +87,20 @@
 
                         <?php if (is_user_logged_in()): ?>
                             <a href="<?=get_page_link(177);?>" class="up white">
-                                <?=__('[:ru]Личный кабинет[:en]profile');?>
+                                <?=lang('personal area');?>
                             </a>
                         <?php else: ?>
                             <a href="#registrationModal" data-toggle="modal" class="up white">
-                                <?=('[:ru]Регистрация[:en]Registration');?>
+                                <?=__('[:ru]Регистрация[:en]Registration');?>
                             </a>
                         <?php endif; ?>
 
                     </li>
                     <li><a href="#contactForm" class="up white scroll_link">
-                            <?=__('[:ru]Задать вопрос[:en]Ask questions');?>
+                           <?=lang('Ask questions');?>
                         </a></li>
                     <li><a href="#contactForm" class="up white scroll_link">
-                            <?=__('[:ru]Контакты[:en]Contacts');?>
+                         <?=lang('contacts');?>
                         </a></li>
                     <li>
                         <div class="social_block">
