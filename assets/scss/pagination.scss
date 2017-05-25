@@ -21,4 +21,26 @@
       }
     }
   }
+  .wp-paginate {
+    &.wpp-modern-grey {
+      li {
+        a {
+          border: none !important;
+          background: $transparent;
+          @include  textHover();
+        }
+        span {
+          background: $transparent;
+          color: $black;
+          border: none;
+          &.current {
+            opacity: 1;
+            border: 2px solid $black;
+            border-radius: 0;
+            background: $transparent;
+          }
+        }
+      }
+    }
+  }
 }

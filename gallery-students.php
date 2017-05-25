@@ -11,7 +11,6 @@
 
 
 <main>
-    <main>
         <div class="category_heading">
             <div class="container">
                 <div class="row">
@@ -192,7 +191,6 @@
 <!--                </ul>-->
 <!--            </div>-->
         </div>
-    </main>
 
 
 </main>

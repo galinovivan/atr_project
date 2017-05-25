@@ -133,12 +133,14 @@ loadTranslate(qtrans_getLanguage());
     </a>
 <?php else: ?>
         <div class="row loggined_helper">
-            <div class="col-md-8 col-md-offset-1">
+
+            <div class="col-md-9 col-md-offset-0 col-lg-8 col-lg-offset-1">
     <span>
         <?=lang('top helper log');?>
         <a href="<?=get_page_link(68);?>" data-toggle="modal">
             <?=lang('here');?>
         </a>.</span>
+
 
             </div>
             <div class="col-md-3 hidden-xs hidden-sm">

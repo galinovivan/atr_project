@@ -11,7 +11,7 @@
 
 
 <main>
-    <main>
+
         <div class="category_heading">
             <div class="container">
                 <div class="row">
@@ -134,7 +134,7 @@
                                 <?php endif ?>
 
                             <!-- paginate -->
-                            <div class="col-md-12">
+                            <div class="col-md-12 col-xs-12">
                                 <div class="paginate">
                                     <?php
                                     $category = get_category(7);
@@ -159,6 +159,5 @@
     </main>
 
 
-</main>
 
 <?php get_footer(); ?>

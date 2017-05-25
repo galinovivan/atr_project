@@ -129,8 +129,19 @@ function set_html_content_type() {
 	return 'text/html';
 }
 
+/**
+ * @param $userId
+ * @param $url
+ */
 function updateUserUrl($userId, $url) {
 	wp_update_user(array('ID' => $userId, 'user_url' => $url));
+}
+
+function updateUserInfo($userId, $field, $value) {
+    wp_update_user(array('ID' => $userId, $field => $value));
+    if (is_wp_error($userId)) {
+        return 'some problem';
+    }
 }
 /**
  * Implement the Custom Header feature.

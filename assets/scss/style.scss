@@ -1,0 +1,39 @@
+@import "reset";
+@import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../libs/font-awesome/scss/font-awesome";
+
+@import "fonts";
+@import "variable";
+@import "mixins";
+@import "typography";
+@import "base";
+@import "sprites";
+
+@import "button";
+@import "field";
+@import "decor";
+@import "grid";
+@import "helpers";
+@import "pagination";
+@import "dropdown";
+@import "tooltip";
+@import "tabs";
+
+@import "../../libs/slick/sass/slick";
+
+
+
+@import "custom_form";
+@import "preloader";
+@import "modal";
+@import "nav";
+@import "header";
+@import "footer";
+@import "slider";
+@import "gallery";
+@import "like";
+@import "create_post";
+@import "auth";
+@import "about";
+@import "page";
+

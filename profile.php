@@ -81,11 +81,14 @@
                               action="<?php echo esc_url(admin_url('admin-post.php'));?>">
                             <input type="hidden" value="update_user" name="action" id="formAction" />
                             <input type="hidden" value="<?=$user->ID;?>" name="user_id" id="userId" />
+
                             <label for="userUrl">
                                 <?=lang('im in social networks');?>
                             </label>
                             <input type="text" placeholder="<?=lang('link to profile in social networks');?>"
-                                   value="<?=$userUrl;?>" name="user_url" id="userUrl" />
+
+                   <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
+                           
                             <button class="button base transparent medium black">
                                 <?=lang('save');?>
                             </button>

@@ -13,6 +13,11 @@ function update_user() {
         updateUserUrl($id, $url);
     }
 
+    if (isset($_POST['user_id']) && isset($_POST['user_name'])) {
+        $id = $_POST['user_id'];
+        $name = $_POST['user_name'];
+        updateUserInfo($id, 'last_name', $name);
+    }
     echo "Данные успешно сохранены.";
     wp_die();
 }

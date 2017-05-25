@@ -12,12 +12,14 @@
 
             var userId = $('#userId').val();
             var userUrl = $('#userUrl').val();
+            var userName = $('#userName').val();
             var formAction = $('#formAction').val();
 
             var formData = {
                 action: formAction,
                 user_id: userId,
-                user_url: userUrl
+                user_url: userUrl,
+                user_name: userName
             };
 
             $.post(ajax_var, formData, function(response) {
