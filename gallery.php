@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="up white">Работы</h4>
+                        <h4 class="up white"><?=lang('works');?></h4>
                     </div>
                 </div>
             </div>
@@ -28,13 +28,21 @@
                        <div class="dropdown">
                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                               <span class="black bold_font">Категория участников</span>
+                               <span class="black bold_font">
+                                   <?=lang('category of participants');?>
+                               </span>
                                <span class="dropdown_caret"></span>
                            </button>
                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                               <li><a href="/галерея-работ/студенты/">Студенты</a></li>
-                               <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
-                               <li><a href="/галерея-работ/финалисты-16/">Финалисты`16</a></li>
+                               <li><a href="/галерея-работ/студенты/">
+                                       <?=lang('students');?>
+                                   </a></li>
+                               <li><a href="/галерея-работ/выпускники/">
+                                       <?=lang('graduates');?>
+                                   </a></li>
+                               <li><a href="/галерея-работ/финалисты-16/">
+                                       <?=lang('finalists');?>
+                                       `16</a></li>
                            </ul>
                        </div>
                     </div>
