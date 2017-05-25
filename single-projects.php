@@ -98,8 +98,8 @@
                             <p class="black">
                                 <strong>
                                     <?=lang('nomination');?>:
-                                    <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                                 </strong>
+                                    <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                             </p>
                             <p class="black"><strong>
                                     <?=lang('place of study');?>:
