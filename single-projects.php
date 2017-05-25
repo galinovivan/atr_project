@@ -16,7 +16,6 @@
 <div class="category_heading">
     <a href="<?=$_SERVER['HTTP_REFERER'];?>" class="heading_back_link">
         <i class="fa fa-arrow-left"></i>
-
     </a>
     <div class="container">
         <div class="row">
