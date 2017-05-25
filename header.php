@@ -3,7 +3,9 @@
  * @package Arh_project
  */
 
-$lang = qtrans_getLanguage();
+//$lang = qtrans_getLanguage();
+
+loadTranslate(qtrans_getLanguage());
 
 ?>
 <!DOCTYPE html>
@@ -112,7 +114,7 @@ $lang = qtrans_getLanguage();
 
 <?php include ('template-parts/nav.php'); ?>
 <a href="#" class="top_link"><span class="hidden-xs hidden-sm white">
-        <?=__('[:ru]Наверх[:en]Up');?>
+        <?=lang('up');?>
     </span></a>
 <div class="helper_toggle">
     <a href="#" id="helperToggle">
@@ -121,16 +123,22 @@ $lang = qtrans_getLanguage();
 </div>
 <div class="helper red hidden-xs hidden-sm" id="topHelper">
     <?php if (!is_user_logged_in()): ?>
-    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
-        <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
+    <span>
+        <?=lang('top helper not log');?>
+        <a href="#registrationModal" data-toggle="modal">
+            <?=lang('here');?>
+        </a>.</span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
 <?php else: ?>
         <div class="row loggined_helper">
             <div class="col-md-8 col-md-offset-1">
-    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы отправить выполненный проект, нажмите
-        <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
+    <span>
+        <?=lang('top helper log');?>
+        <a href="<?=get_page_link(68);?>" data-toggle="modal">
+            <?=lang('here');?>
+        </a>.</span>
 
             </div>
             <div class="col-md-3 hidden-xs hidden-sm">
@@ -142,23 +150,23 @@ $lang = qtrans_getLanguage();
                     <ul class="user_info_list">
                         <li class="dropdown">
                             <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <?=__('[:ru]Вы вошли как:[:en]You loggined as');?> <?=$user->user_lastname;?>
+                                <?=lang('you loggined as');?> <?=$user->user_lastname;?>
                             </a>
                             <span class="caret"></span>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="<?=get_page_link(177);?>">
-                                        <?=__('[:ru]Личный кабинет[:en]Profile');?>
+                                        <?php echo lang('personal area');?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="<?=get_page_link(68);?>">
-                                        <?=__('[:ru]Загрузить работу[:en]Download the work');?>
+                                        <?=lang('Download the work');?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="<?=wp_logout_url('/')?>">
-                                        <?=__('[:ru]Выйти[:en]Logout');?>
+                                        <?=lang('logout');?>
                                     </a>
                                 </li>
                             </ul>
@@ -173,7 +181,7 @@ $lang = qtrans_getLanguage();
     <?php endif; ?>
 </div>
 <div class="helper red visible-xs visible-sm">
-    <span class="white">С 1 апреля до 15 сентября 2017 идёт приём работ.</span>
+    <span class="white"><?=lang('top helper mobile');?></span>
 </div>
 
 <header class="base_background">
@@ -193,10 +201,12 @@ $lang = qtrans_getLanguage();
                 <div class="header_logo text-right clearfix">
                     <a href="http://www.cds.spb.ru" target="_blank">
                     <i class="pull-right logo_header_icon hidden-xs hidden-sm"
-                         title="Учредитель и организатор конкурса"  data-toggle="tooltip" data-placement="bottom">
+                         title="<?=lang('founder and organizer of counkurse');?>"  data-toggle="tooltip" data-placement="bottom">
                        </i>
                         <div class="mobile_block_cds visible-xs visible-sm">
-                         <h5 class="white">Учредитель и организатор:</h5>
+                         <h5 class="white">
+                             <?=lang('founder and organizer');?>
+                             :</h5>
                         <img src="<?=get_template_directory_uri();?>/assets/images/mobile_cds_logo.png"
                              class="img-responsive" />
                             </div>
@@ -213,32 +223,17 @@ $lang = qtrans_getLanguage();
             <div class="col-md-12 nav_text">
                 <div class="text">
                     <h3 class="text-center white hidden-xs hidden-sm">
-                        <?php if ($lang == 'ru'): ?>
-                        «АРХпроект» — Всероссийский конкурс
-                        архитектурных и дизайнерских проектов, открытый для участия как студентам,
-                        так и молодым архитекторам
-                        <?php elseif ($lang == 'en'): ?>
-                            "ARHPROEKT" — competition of architectural and design projects, 
-                            opened for participation to students and young architects.
-
-                        <?php endif; ?>
+                        <?=lang('main header description');?>
                         </h3>
                     <h3 class="text-center white up visible-xs visible-sm">
-                        <?php if ($lang == 'ru'): ?>
-                        «АРХпроект» — Всероссийский конкурс
-                        архитектурных и дизайнерских проектов, открытый для участия как студентам,
-                        так и молодым архитекторам</h3>
-                        <?php elseif ($lang == 'en'): ?>
-                            "ARHPROEKT" — competition of architectural and design projects,
-                            opened for participation to students and young architects.
-                        <?php endif; ?>
+                        <?=lang('main header description');?>
                 </div>
                 <div class="cursor">
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
                 </div>
                 <div class="button_more">
                     <a href="<?=get_page_link(29)?>" class="button base medium block_center white">
-                        <?=__('[:ru]Узнать больше[:en]Learn more');?>
+                       <?=lang('learn more');?>
                     </a>
                 </div>
             </div>
