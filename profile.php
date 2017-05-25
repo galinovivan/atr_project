@@ -81,13 +81,14 @@
                               action="<?php echo esc_url(admin_url('admin-post.php'));?>">
                             <input type="hidden" value="update_user" name="action" id="formAction" />
                             <input type="hidden" value="<?=$user->ID;?>" name="user_id" id="userId" />
-
+                            <input type="hidden" name="lang" value="<?=qtrans_getLanguage();?>" id="currentLang" />
+                            <label for="userName"><?=lang('your name');?></label>
+                            <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
                             <label for="userUrl">
                                 <?=lang('im in social networks');?>
                             </label>
-                            <input type="text" placeholder="<?=lang('link to profile in social networks');?>"
-
-                   <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
+                            <input type="text" placeholder="<?=lang('link to profile in social networks');?>" />
+                            
                            
                             <button class="button base transparent medium black">
                                 <?=lang('save');?>
