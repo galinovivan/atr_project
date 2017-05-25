@@ -25,8 +25,11 @@
             <div class="col-md-12">
                 <div class="rules_control">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#aboutConkurs" data-toggle="tab"><h4>Положение о конкурсе</h4></a></li>
-                        <li><a href="#aboutRules" data-toggle="tab"><h4>Правила конкурса</h4></a></li>
+                        <li class="active"><a href="#aboutConkurs" data-toggle="tab"><h4>
+                                    <?=lang('regulations on the competition');?>
+                                </h4></a></li>
+                        <li><a href="#aboutRules" data-toggle="tab"><h4>
+                                    <?=lang('competition rules');?></h4></a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +47,9 @@
             </div>
             <div class="col-md-12">
                 <div class="button_row">
-                    <a href="<?=get_template_directory_uri();?>/rules.zip" class="button base medium black">Скачать</a>
+                    <a href="<?=get_template_directory_uri();?>/rules.zip" class="button base medium black">
+                        <?=lang('download');?>
+                    </a>
                 </div>
             </div>
         </div>
