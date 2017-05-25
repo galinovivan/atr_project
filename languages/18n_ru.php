@@ -101,7 +101,8 @@ return [
     'your name' => 'Ваше имя',
     'data saved successfully' => 'Данные успешно сохранены',
     'works alt' => 'Работ',
-    'finalists alt' => 'Финалистов'
+    'finalists alt' => 'Финалистов',
+    'back' => 'Назад',
 
 ];
 
