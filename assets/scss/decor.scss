@@ -190,3 +190,22 @@
     width: auto;
   }
 }
+
+.category_heading {
+  position: relative;
+  .heading_back_link {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    i {
+      @include transition(all 0.1s);
+      &:hover {
+        color: $white;
+        @include transform(scale(1.1));
+      }
+    }
+  }
+  &:hover {
+    color: $white;
+  }
+}
