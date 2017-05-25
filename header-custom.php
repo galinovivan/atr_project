@@ -2,7 +2,8 @@
 /**
 * @package Arh_project
 */
-loadTranslate(qtrans_getLanguage());
+$currentLang = qtrans_getLanguage();
+loadTranslate($currentLang);
 ?>
 
 <!doctype html>
