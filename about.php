@@ -75,38 +75,39 @@
                 <div class="col-md-6 col-sm-6 left_separate black">
                     <div class="action">
                         <p class="black">
-                            Старт<br />
-                            приема<br />
-                            работ<br />
+                            <?=lang('start');?><br />
+                            <?=lang('reception');?><br />
+                            <?=lang('works');?><br />
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action">
                         <p class="black bold_font">
-                            Окончание<br />
-                            приема<br />
-                            работ<br />
+                            <?=lang('end');?><br />
+                            <?=lang('reception');?><br />
+                            <?=lang('works');?><br />
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action">
                         <p class="black">
-                            Обьявление<br />
-                            имен<br />
-                            финалистов <br />
+                            <?=lang('ad');?><br />
+                            <?=lang('names');?><br />
+                            <?=lang('finalists');?><br />
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action small_padding">
                         <p class="black">
-                            Выставка<br />
-                            работ<br />
-                            финалистов<br />
-                            и награждение<br />
-                            победителей<br />
+                            <?=lang('exhibition');?><br />
+                            <?=lang('works');?><br />
+                            <?=lang('finalists');?><br />
+                            <?=lang('and');?>
+                            <?=lang('rewarding');?><br />
+                            <?=lang('winners');?><br />
                         </p>
                     </div>
                 </div>
@@ -124,9 +125,9 @@
                    </div>
                    <div class="action_title">
                        <span class="black">
-                           Старт <br />
-                            приема <br />
-                             работ
+                           <?=lang('start');?> <br />
+                            <?=lang('reception')?> <br />
+                             <?=lang('works');?>
                            </span>
                    </div>
                    <span class="date_line_mobile"></span>
@@ -137,9 +138,9 @@
                     </div>
                     <div class="action_title">
                         <span class="black">
-                            Окончание <br />
-                            приема <br />
-                            работ
+                           <?=lang('end');?> <br />
+                            <?=lang('reception');?> <br />
+                            <?=lang('works');?>
                         </span>
                     </div>
                 </div>
@@ -151,9 +152,9 @@
                     </div>
                     <div class="action_title">
                         <span class="black">
-                            Обьявление <br />
-                            Имен <br />
-                            победителей
+                            <?=lang('ad');?> <br />
+                            <?=lang('names');?> <br />
+                            <?=lang('winners');?>
                         </span>
                     </div>
                 </div>
@@ -167,11 +168,12 @@
                 <div class="col-xs-12 action_item">
                     <div class="action_title">
                         <span class="black">
-                            Выставка <br />
-                            работ <br />
-                            Финалистов <br />
-                            и награждение <br />
-                            победителей <br />
+                            <?=lang('exhibition');?> <br />
+                            <?=lang('works');?> <br />
+                            <?=lang('finalists');?> <br />
+                            <?=lang('and');?>
+                            <?=lang('rewarding');?> <br />
+                            <?=lang('winners');?> <br />
                         </span>
                     </div>
                 </div>

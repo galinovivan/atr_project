@@ -15,7 +15,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="up white">Работы <span class="up base_font"><span class="white">(Студенты)</span></span></h4>
+                        <h4 class="up white">
+                            <?=lang('works');?>
+                            <span class="up base_font"><span class="white">
+                                    (<?=lang('students');?>)
+                                </span></span></h4>
                     </div>
                 </div>
             </div>
@@ -27,13 +31,21 @@
                        <div class="dropdown">
                            <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                               <span class="black bold_font">Категория участников</span>
+                               <span class="black bold_font">
+                                   <?=lang('category of participants');?>
+                               </span>
                                <span class="dropdown_caret"></span>
                            </button>
                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                               <li><a href="">Студенты</a></li>
-                               <li><a href="/галерея-работ/выпускники/">Выпускники</a></li>
-                               <li><a href="/галерея-работ/финалисты-16/">Финалисты`16</a></li>
+                               <li><a href="">
+                                       <?=lang('students');?>
+                                   </a></li>
+                               <li><a href="/галерея-работ/выпускники/">
+                                       <?=lang('graduates');?>
+                                   </a></li>
+                               <li><a href="/галерея-работ/финалисты-16/">
+                                       <?=lang('finalists');?> `16
+                                   </a></li>
                            </ul>
                        </div>
                     </div>
@@ -41,14 +53,24 @@
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class="black bold_font">Номинация</span>
+                                <span class="black bold_font">
+                                    <?=lang('nomination');?>
+                                </span>
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#" class="nomination_filter_button" data-filter="Интерьер квартиры">Интерьер квартиры</a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Павильон/Беседка">Павильон/Беседка</a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Остановка транспорта">Остановка транспорта</a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Город на воде">Город на воде</a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Интерьер квартиры">
+                                        <?=lang('interior of apartament');?>
+                                    </a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Павильон/Беседка">
+                                        <?=lang('pavilion / arbor');?>
+                                    </a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Остановка транспорта">
+                                        <?=lang('bus station');?>
+                                    </a></li>
+                                <li><a href="#" class="nomination_filter_button" data-filter="Город на воде">
+                                        <?=lang('city on the water');?>
+                                    </a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,12 +78,18 @@
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="categoryDropdown"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class="black bold_font">Сортировка</span>
+                                <span class="black bold_font">
+                                    <?=lang('sort');?>
+                                </span>
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#">По дате загрузки</a></li>
-                                <li><a href="#">По популярности</a></li>
+                                <li><a href="#">
+                                        <?=lang('by upload date');?>
+                                    </a></li>
+                                <li><a href="#">
+                                        <?=lang('by upload date');?>
+                                    </a></li>
                             </ul>
                         </div>
                     </div>

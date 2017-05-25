@@ -16,7 +16,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
-                        <h4 class="up white">Работы <span class="up base_font white">(Финалисты '16')</span></h4>
+                        <h4 class="up white"><?=lang('works');?> <span class="up base_font white">
+                                (<?=lang('finalists');?> '16')
+                            </span></h4>
                     </div>
                 </div>
             </div>

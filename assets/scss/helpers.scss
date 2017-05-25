@@ -9,7 +9,7 @@
   z-index: 100000;
   @include align();
   * {
-    font-size: $baseFontSize + 1;
+      font-size: $baseFontSize + 1;
   }
   &.red {
     background: $helperRed;

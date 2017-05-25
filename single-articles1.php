@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4 class="up white"> Новости |
+                <h4 class="up white"> <?=lang('news');?> |
                     <?php wp_title('');?></h4>
             </div>
         </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-11">
             <div class="back_news_link text-right">
-                <a href="<?=get_page_link(175);?>" class="black">[К другим новостям]</a>
+                <a href="<?=get_page_link(175);?>" class="black">[<?=lang('to other news');?>]</a>
             </div>
         </div>
     </div>

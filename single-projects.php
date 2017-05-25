@@ -95,10 +95,18 @@
                             ?>
                         </div>
                         <div class="person_info">
-                            <p class="black"><strong>Место учёбы: </strong><?php echo do_shortcode('[wpuf-meta name="univer"]')?></p>
-                            <p class="black"><strong>Специальность: </strong><?php echo do_shortcode('[wpuf-meta name="spec"]')?></p>
-                            <p class="black"><strong>Год выпуска: </strong><?php echo do_shortcode('[wpuf-meta name="year"]')?></p>
-                            <p class="black"><strong>Руководитель: </strong><?php echo do_shortcode('[wpuf-meta name="team_lead"]')?></p>
+                            <p class="black"><strong>
+                                    <?=lang('place of study');?>:
+                                </strong><?php echo do_shortcode('[wpuf-meta name="univer"]')?></p>
+                            <p class="black"><strong>
+                                    <?=lang('specialty');?>:
+                                </strong><?php echo do_shortcode('[wpuf-meta name="spec"]')?></p>
+                            <p class="black"><strong>
+                                    <?=lang('year of issue');?>:
+                                </strong><?php echo do_shortcode('[wpuf-meta name="year"]')?></p>
+                            <p class="black"><strong>
+                                    <?=lang('leader');?>:
+                                </strong><?php echo do_shortcode('[wpuf-meta name="team_lead"]')?></p>
 
                         </div>
                     </div>
@@ -113,7 +121,9 @@
            <div class="row">
                <div class="col-md-12">
                    <div class="text_heading">
-                   <h5 class="black">Описание проекта:</h5>
+                   <h5 class="black">
+                       <?=lang('project description');?>
+                   </h5>
                        </div>
                    <div class="text">
                        <p class="black"><?=$projectDesc;?></p>

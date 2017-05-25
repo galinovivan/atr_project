@@ -22,7 +22,9 @@
                     <h4 class="up white"><?php wp_title('');?></h4>
                         </div>
                     <div class="pull-right logout_link">
-                        <a class="white" href="<?=wp_logout_url('/');?>">Выйти</a>
+                        <a class="white" href="<?=wp_logout_url('/');?>">
+                            <?=lang('logout');?>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -42,25 +44,30 @@
             $user = wp_get_current_user();
             $userUrl = $user->user_url;
             ?>
-            <h5>Здравствуйте, <?=$user->user_lastname;?> </h5>
+            <h5>
+                <?=lang('hello');?>
+                <?=$user->user_lastname;?> </h5>
             <p class="black">
-                Здесь вы можете загрузить свою работу для участия во Всероссийском профессиональном студенческом конкурсе
-                архитектурных и дизайнерских проектов «АРХпроект».
+                <?=lang('profile hello message');?>
             </p>
 
         </div>
         <div class="down_row">
-            <a href="<?=get_page_link(68);?>" class="button base medium black">Загрузить работу</a>
+            <a href="<?=get_page_link(68);?>" class="button base medium black">
+                <?=lang('download the work');?>
+            </a>
         </div>
     </div>
                 <div class="user_info_block">
                     <div class="block_heading">
-                    <h4 class="black">Активность:</h4>
+                    <h4 class="black">
+                        <?=lang('activity');?>
+                        :</h4>
                         </div>
                     <div class="info_list">
                         <ul>
                             <li class="black">
-                                Дата регистрации на сайте:
+                                <?=lang('date of registration on the site');?>:
                                 <span class="black data"><?=getUserRegistered($user->ID);?></span>
                             </li>
 
@@ -74,12 +81,17 @@
                               action="<?php echo esc_url(admin_url('admin-post.php'));?>">
                             <input type="hidden" value="update_user" name="action" id="formAction" />
                             <input type="hidden" value="<?=$user->ID;?>" name="user_id" id="userId" />
-                            <label for="userName">Ваше имя:</label>
-                            <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
-                            <label for="userUrl">Я в социальных сетях</label>
-                            <input type="text" placeholder="Ссылка на профиль в социальных сетях"
-                                   value="<?=$userUrl;?>" name="user_url" id="userUrl" />
-                            <button class="button base transparent medium black">Сохранить</button>
+
+                            <label for="userUrl">
+                                <?=lang('im in social networks');?>
+                            </label>
+                            <input type="text" placeholder="<?=lang('link to profile in social networks');?>"
+
+                   <input name="user_name" id="userName" type="text" value="<?=$user->user_lastname;?>" />
+                           
+                            <button class="button base transparent medium black">
+                                <?=lang('save');?>
+                            </button>
                         </form>
                     </div>
             </div>

@@ -53,7 +53,7 @@
                                         <p class="black"><?=the_excerpt();?></p>
                                         <a class="black news_link" href="<?php the_permalink();?>">
 
-                                      [Читать]
+                                      [<?=lang('read');?>]
                                         </a>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                     else:
                         ?>
                     <h4 class="black" style="margin-bottom: 50px;">
-                        Ни одной новости пока нет
+                        <?=lang('not found news');?>
                     </h4>
                     <?php endif; ?>
                 </div>

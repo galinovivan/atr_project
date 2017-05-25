@@ -8,6 +8,8 @@
  *
  * @package Arh_project
  */
+
+
 ?>
 
 <div class="pre_footer"></div>
@@ -43,7 +45,7 @@
                 <div class="about_cds_footer_mobile">
                     <div class="row">
                         <div class="col-xs-8">
-                            <h3 class="white up">Учредитель и организатор:</h3>
+                            <h3 class="white up"><?=lang('founder and organizer');?></h3>
                         </div>
                         <div class="col-xs-4">
                             <img src="<?=get_template_directory_uri();?>/assets/images/logo_cds.png"
@@ -55,7 +57,7 @@
             <div class="col-xs-12 visible-xs visible-sm">
                 <div class="row">
                     <div class="col-md-4 col-xs-4">
-                        <h3 class="white up">Партнеры</h3>
+                        <h3 class="white up"><?=lang('partners');?></h3>
                     </div>
                     <div class="col-md-4 col-xs-4 col-sm-2">
 
@@ -81,53 +83,55 @@
                         </div>
                         <div class="copyright bottom_separate_mobile">
                             <div class="copyright_mobile_text visible-xs visible-sm">
-                                <h3 class="white up">Сайт разработан:</h3>
+                                <h3 class="white up">
+                                    <?=lang('site developed by');?>
+                                </h3>
                             </div>
                             <div class="logo">
                             <a href="http://kira-all.ru/" target="_blank">
                                 </a>
                             </div>
                             <div class="text">
-                            <span class="small_text white"><span class="hidden-xs hidden-sm white small_text">Сайт разработан</span>
-                                Рекламным агентством Киры Аллейновой</span>
+                            <span class="small_text white"><span class="hidden-xs hidden-sm white small_text">
+                                    <?=lang('site developed by');?>:
+                                </span>
+                                <?=lang('advertising agency kira alleynova');?>
+                            </span>
                             </div>
                             <div class="rules_protection hidden-xs hidden-sm">
                                 <span class="white small_text" data-toggle="tooltip" data-placement="top"
-                                title="Перепечатка, копирование (в том числе запись на носители информации),
-воспроизведение, переработка, распространение, передача в эфир, иное
-использование статей и других материалов веб-сайта arhproekt.pro любым
-способом без письменного разрешения редакции запрещено и влечет
-ответственность, предусмотренную действующим законодательством РФ
-о защите авторских прав.">Все права защищены</span>
+                                title="<?=lang('kira footer copyright')?>">
+                                    <?=lang('all rights reserved');?>
+                                </span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 visible-xs visible-sm">
                         <div class="mobile_rules_protection text-center">
-                            <p class="white">Перепечатка, копирование (в том числе запись
-                                на носители информации), воспроизведение, переработка,
-                                распространение, передача в эфир, иное использование статей
-                                и других материалов веб-сайта arhproekt.pro любым способом
-                                без письменного разрешения редакции запрещено и влечет
-                                ответственность, предусмотренную действующим
-                                законодательством РФ о защите авторских прав.</p>
+                            <p class="white">
+                                <?=lang('kira footer copyright');?>
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-8 contact_block left_separate hidden-xs hidden-sm">
                         <div class="banner_heading">
-                            <h2 class="up white">Контакты</h2>
+                            <h2 class="up white">
+                                <?=lang('contacts');?>
+                            </h2>
                         </div>
                         <div class="top_text">
-                            <p class="white">С нами можно связаться по телефону:<br />
+                            <p class="white">
+                                <?=lang('you can contact us by phone');?>
+                                <br />
                                 8(800) 250 78 40</p>
                             <p class="white">
-                                Или написать на почту: <br />
+                                <?=lang('or write to mail');?>
+                                <br />
                                 pro@zvezdaudachi.com</p>
                         </div>
                         <div class="bottom_text">
                             <p class="white">
-                                Чтобы быть в курсе новостей проекта,
-                                подпишитесь на нас в соцсетях:
+                                <?=lang('to be aware of the news of the project, subscribe to us in social networks');?>
                             </p>
                         </div>
                         <div class="social_block">
@@ -148,7 +152,9 @@
             </div>
             <div class="col-md-6 partners_block left_separate hidden-xs hidden-sm">
                 <div class="banner_heading">
-                    <h2 class="up white">Учредитель и организатор</h2>
+                    <h2 class="up white">
+                        <?=lang('founder and organizer');?>
+                    </h2>
                 </div>
                 <div class="logo">
                     <a href="http://www.cds.spb.ru" target="_blank">
@@ -157,7 +163,7 @@
                 </div>
                 <div class="banner_heading">
                     <a href="<?=get_page_link(56)?>" >
-                    <h2 class="up white">Партнеры</h2>
+                    <h2 class="up white"><?=lang('partners');?></h2>
                         </a>
                 </div>
                 <div class="partners_list">
@@ -175,6 +181,11 @@
                                 <i class="partners_logo partners_logo-rockwol"></i>
                             </a></li>
                     </ul>
+                </div>
+                <div class="language_selector">
+                    <?php
+                    echo qtranxf_generateLanguageSelectCode('text');
+                    ?>
                 </div>
 <!--                <div class="banner_heading">-->
 <!--                  <h2 class="up white">При поддержке</h2>-->

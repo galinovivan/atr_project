@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-md-12 submit_row">
                     <a href="<?=get_field('template_link');?>" target="_blank" class="button base black medium">
-                        Скачать шаблон
+                        <?=lang('download template');?>
                     </a>
                 </div>
             </div>
