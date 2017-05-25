@@ -198,6 +198,7 @@
     left: 20px;
     top: 10px;
     i {
+      color: $white !important;
       @include transition(all 0.1s);
       &:hover {
         color: $white;
