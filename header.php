@@ -5,7 +5,8 @@
 
 //$lang = qtrans_getLanguage();
 
-loadTranslate(qtrans_getLanguage());
+$currentLang = qtrans_getLanguage();
+loadTranslate($currentLang);
 
 ?>
 <!DOCTYPE html>
