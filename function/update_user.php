@@ -18,7 +18,15 @@ function update_user() {
         $name = $_POST['user_name'];
         updateUserInfo($id, 'last_name', $name);
     }
-    echo "Данные успешно сохранены.";
+    $lang = $_POST['current_lang'];
+
+    if ($lang == 'ru') {
+        echo 'Данные успешно сохранены';
+    } elseif ($lang == 'en') {
+      echo 'data saved successfully';
+    } else {
+        echo 'data saved successfully';
+    }
     wp_die();
 }
 
