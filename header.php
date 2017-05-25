@@ -128,7 +128,7 @@ loadTranslate($currentLang);
         <?=lang('top helper not log');?>
         <a href="#registrationModal" data-toggle="modal">
             <?=lang('here');?>
-        </a>.</span>
+        </a></span>
     <a class="helper_close" href="#">
         <span></span><span></span>
     </a>
@@ -140,7 +140,7 @@ loadTranslate($currentLang);
         <?=lang('top helper log');?>
         <a href="<?=get_page_link(68);?>" data-toggle="modal">
             <?=lang('here');?>
-        </a>.</span>
+        </a></span>
 
 
             </div>
