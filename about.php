@@ -77,7 +77,7 @@
                         <p class="black">
                             <?=lang('start');?><br />
                             <?=lang('reception');?><br />
-                            <?=lang('works');?><br />
+                            <?=lang('works alt');?><br />
                         </p>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         <p class="black bold_font">
                             <?=lang('end');?><br />
                             <?=lang('reception');?><br />
-                            <?=lang('works');?><br />
+                            <?=lang('works alt');?><br />
                         </p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                         <p class="black">
                             <?=lang('ad');?><br />
                             <?=lang('names');?><br />
-                            <?=lang('finalists');?><br />
+                            <?=lang('finalists alt');?><br />
                         </p>
                     </div>
                 </div>
@@ -103,8 +103,8 @@
                     <div class="action small_padding">
                         <p class="black">
                             <?=lang('exhibition');?><br />
-                            <?=lang('works');?><br />
-                            <?=lang('finalists');?><br />
+                            <?=lang('works alt');?><br />
+                            <?=lang('finalists alt');?><br />
                             <?=lang('and');?>
                             <?=lang('rewarding');?><br />
                             <?=lang('winners');?><br />
@@ -127,7 +127,7 @@
                        <span class="black">
                            <?=lang('start');?> <br />
                             <?=lang('reception')?> <br />
-                             <?=lang('works');?>
+                             <?=lang('works alt');?>
                            </span>
                    </div>
                    <span class="date_line_mobile"></span>
@@ -140,7 +140,7 @@
                         <span class="black">
                            <?=lang('end');?> <br />
                             <?=lang('reception');?> <br />
-                            <?=lang('works');?>
+                            <?=lang('works alt');?>
                         </span>
                     </div>
                 </div>
@@ -169,8 +169,7 @@
                     <div class="action_title">
                         <span class="black">
                             <?=lang('exhibition');?> <br />
-                            <?=lang('works');?> <br />
-                            <?=lang('finalists');?> <br />
+                            <?=lang('works alt');?> <br />
                             <?=lang('and');?>
                             <?=lang('rewarding');?> <br />
                             <?=lang('winners');?> <br />
