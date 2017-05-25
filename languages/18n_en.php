@@ -100,4 +100,6 @@ return [
     'link to profile in social networks' => 'Link to profile in social networks',
     'your name' => 'Your name',
     'data saved successfully' => 'Data saved successfully',
+    'works alt' => 'Projects',
+    'finalists alt' => 'Finalists',
 ];
