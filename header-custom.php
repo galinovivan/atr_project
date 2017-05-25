@@ -2,7 +2,7 @@
 /**
 * @package Arh_project
 */
-$lang = qtrans_getLanguage();
+loadTranslate(qtrans_getLanguage());
 ?>
 
 <!doctype html>
@@ -48,7 +48,9 @@ $lang = qtrans_getLanguage();
 </div>
 
 <?php include ('template-parts/nav.php'); ?>
-<a href="#" class="top_link "><span class="hidden-xs hidden-sm white">Наверх</span></a>
+<a href="#" class="top_link "><span class="hidden-xs hidden-sm white">
+        <?=lang('up');?>
+    </span></a>
 <div class="helper_toggle orange">
     <a href="#" id="helperToggle">
         <i class="fa fa-toggle-down"></i>
@@ -56,55 +58,67 @@ $lang = qtrans_getLanguage();
 </div>
 <div class="helper red hidden-xs hidden-sm" id="topHelper">
     <?php if (!is_user_logged_in()): ?>
-        <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите
-        <a href="#registrationModal" data-toggle="modal"> здесь</a>.</span>
+        <span>
+        <?=lang('top helper not log');?>
+            <a href="#registrationModal" data-toggle="modal">
+            <?=lang('here');?>
+        </a>.</span>
         <a class="helper_close" href="#">
             <span></span><span></span>
         </a>
     <?php else: ?>
-    <div class="row loggined_helper">
-        <div class="col-md-8 col-md-offset-1">
-    <span>Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы отправить выполненный проект, нажмите
-        <a href="<?=get_page_link(68);?>" data-toggle="modal"> здесь</a>.</span>
+        <div class="row loggined_helper">
+            <div class="col-md-8 col-md-offset-1">
+    <span>
+        <?=lang('top helper log');?>
+        <a href="<?=get_page_link(68);?>" data-toggle="modal">
+            <?=lang('here');?>
+        </a>.</span>
 
             </div>
-        <div class="col-md-3 hidden-xs hidden-sm">
-            <?php
-            $user = wp_get_current_user();
-            ?>
-            <div class="helper_user_info">
+            <div class="col-md-3 hidden-xs hidden-sm">
+                <?php
+                $user = wp_get_current_user();
+                ?>
+                <div class="helper_user_info">
 
-                <ul class="user_info_list">
-                    <li class="dropdown">
-                    <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
-                       Вы вошли как: <?=$user->user_lastname;?>
-                    </a>
-                        <span class="caret"></span>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="<?=get_page_link(177);?>">Личный кабинет</a>
-                            </li>
-                            <li>
-                                <a href="<?=get_page_link(68);?>">
-                                    Загрузить работу
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?=wp_logout_url('/')?>">Выйти</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                    <ul class="user_info_list">
+                        <li class="dropdown">
+                            <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <?=lang('you loggined as');?> <?=$user->user_lastname;?>
+                            </a>
+                            <span class="caret"></span>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="<?=get_page_link(177);?>">
+                                        <?php echo lang('personal area');?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?=get_page_link(68);?>">
+                                        <?=lang('Download the work');?>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?=wp_logout_url('/')?>">
+                                        <?=lang('logout');?>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </div>
         <a class="helper_close" href="#">
             <span></span><span></span>
         </a>
-        <?php endif; ?>
+    <?php endif; ?>
 </div>
 <div class="helper red visible-xs visible-sm">
-    <span class="white">С 1 апреля до 15 сентября 2017 идёт приём работ.</span>
+    <span class="white">
+        <?=lang('top helper mobile');?>
+    </span>
 </div>
 <header class="light_header">
     <div class="container">
@@ -127,10 +141,11 @@ $lang = qtrans_getLanguage();
                 <div class="cds_heder_logo clearfix">
                     <a href="http://www.cds.spb.ru" target="_blank">
                     <img src="<?=get_template_directory_uri()?>/assets/images/logo_cds_color.png"
-                         class="img-responsive pull-right hidden-xs hidden-sm" title="Учредитель и организатор конкурса"
+                         class="img-responsive pull-right hidden-xs hidden-sm"
+                         title="<?=lang('founder and organizer of counkurse');?>"
                          data-toggle="tooltip" data-placement="bottom"/>
                         <div class="mobile_block_cds visible-xs visible-sm">
-                            <h5 class="black">Учредитель и организатор:</h5>
+                            <h5 class="black"><?=lang('founder and organizer');?>:</h5>
                             <img src="<?=get_template_directory_uri();?>/assets/images/mobile_cds_logo.png"
                                  class="img-responsive" />
                         </div>
