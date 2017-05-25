@@ -184,7 +184,7 @@
                 </div>
                 <div class="language_selector">
                     <?php
-                    echo qtranxf_generateLanguageSelectCode('text');
+                    //echo qtranxf_generateLanguageSelectCode('text');
                     ?>
                 </div>
 <!--                <div class="banner_heading">-->
