@@ -50,7 +50,7 @@ function project_sort() {
 
         wp_reset_postdata();
     } else {
-        echo 'post not found :('
+        echo 'post not found :(';
     }
     die();
 }
