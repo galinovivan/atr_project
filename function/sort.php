@@ -43,7 +43,7 @@ function project_sort() {
 
 
     if (isset($_POST['filter_nomination_query'])) {
-        $filterQuery = $_POST['filter_query'];
+        $filterQuery = $_POST['filter_nomination_query'];
 
         $args = [
             'post_type' => 'projects',
