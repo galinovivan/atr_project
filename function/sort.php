@@ -22,7 +22,7 @@ function project_sort() {
                 array(
                     'taxonomy' => 'projects_tax',
                     'field' => 'slug',
-                    'terms' => 'students_projects'
+                    'terms' => $terms
                 )
         )
     );
@@ -36,7 +36,7 @@ function project_sort() {
                 array (
                     'taxonomy' => 'projects_tax',
                     'field' => 'slug',
-                    'terms' => 'students_projects'
+                    'terms' => $terms
                 )
             ) );
     }
