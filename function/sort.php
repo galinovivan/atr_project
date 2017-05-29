@@ -14,14 +14,16 @@ function project_sort() {
 
     if ($sortType == '_liked') {
         $args = array(
+            'post_type' => 'projects',
             'orderby' => 'meta_value_num',
             'meta_key' => '_liked',
-            'post_type' => 'projects',
             'paged' => $paged,
             'tax_query' => array(
-                'taxonomy' => 'projects_tax',
-                'field' => 'slug',
-                'terms' => $terms
+                array(
+                    'taxonomy' => 'projects_tax',
+                    'field' => 'slug',
+                    'terms' => 'students_projects'
+                )
         )
     );
     } else {
