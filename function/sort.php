@@ -13,17 +13,17 @@ function project_sort() {
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
     if ($sortType == '_liked') {
-        $args = [
+        $args = array(
             'orderby' => 'meta_value_num',
             'meta_key' => '_liked',
             'post_type' => 'projects',
             'paged' => $paged,
-            'tax_query' => [
+            'tax_query' => array(
                 'taxonomy' => 'projects_tax',
                 'field' => 'slug',
                 'terms' => $terms
-            ]
-        ];
+        )
+    );
     } else {
 
 //        $args = [
