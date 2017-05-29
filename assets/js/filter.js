@@ -15,9 +15,10 @@
             var terms = $(this).attr('data-terms');
             var responseData = {
                 'action': 'myfilter',
-                filter_nomination_query: filterQuery,
+                'filter_nomination_query': filterQuery,
                 'terms': terms
             };
+            console.log(responseData);
             $.ajax({
                 url: window.wp_data.ajax_url,
                 data: responseData,
