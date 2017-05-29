@@ -137,18 +137,21 @@
                                 </a>
                         </div>
                         <div class="title text-center">
-                            <h3 class="white">Павильон/<br />беседка</h3>
+                            <h3 class="white">
+                                <?=lang('pavilion / arbor');?>
+                            </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
                             <p class="white">
-                                Лучшее предложение по дизайну
-                                общественного пространства – павильона
-                                или беседки в микрорайоне
+                                <?=lang('pavilion desc');?>
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center"><a href="<?=get_page_link(165);?>" target="_blank">Смотреть</a></button>
+                            <button class="button base medium white block_center">
+                                <a href="<?=get_page_link(165);?>" target="_blank">
+                                    <?=lang('watch');?>
+                                </a></button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
