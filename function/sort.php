@@ -77,7 +77,7 @@ function project_sort() {
 
         wp_reset_postdata();
     } else {
-        echo 'post not found :(';
+        echo "Работ пока нет :(";
     }
 
 
