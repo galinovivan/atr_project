@@ -210,3 +210,35 @@
     color: $white;
   }
 }
+
+.language_selector {
+  -webkit-appearance: none;
+  position: fixed;
+  top: 40px;
+  right: 10px;
+  z-index: 10000;
+  select {
+    color: $white;
+    background: none;
+    border: none;
+    outline: none !important;
+    option {
+      color: $white;
+      background: $transparent;
+      outline: none !important;
+      -webkit-appearance: none;
+    }
+    &:focus {
+      border-color: $white;
+      option {
+        background: $orange !important;
+        &:hover {
+          background: $orange !important;
+        }
+        &:focus {
+          background: $orange !important;
+        }
+      }
+    }
+  }
+}
