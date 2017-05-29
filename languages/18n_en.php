@@ -93,7 +93,7 @@ return [
     'project description' => 'Project description',
     'hello' => 'Hello',
     'profile hello message' => 'Here you can download your work for participation in the All-Russian professional student competitionArchitectural and design projects "ARHPROEKT',
-    'activity' => 'Activity',
+    'activity' => 'Activities',
     'date of registration on the site' => 'Date of registration on the site',
     'save' => 'Save',
     'im in social networks' => 'Im in social networks',
@@ -104,5 +104,7 @@ return [
     'finalists alt' => 'Finalists',
     'back' => 'Back',
     'pavilion desc' => 'The best proposal for design Public space - pavilion Or arbors in the microdistrict',
+    'work is loaded' => 'Work is loaded',
+    'in nomination' => 'in nomination',
 
 ];
