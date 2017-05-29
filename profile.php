@@ -83,9 +83,9 @@
                             <li class="black">
                                         <span class="black data">
                                             <?php the_date('d.m'); ?>
-                                            Загружена работа:
+                                                <?=lang('work is loaded');?>:
                                             <?=do_shortcode('[wpuf-meta name="project_name"]');?>
-                                            в номинацию:
+                                            <?=lang('in nomination');?>:
                                             <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                                         </span>
                             </li>
