@@ -104,4 +104,5 @@ return [
     'finalists alt' => 'Finalists',
     'back' => 'Back',
     'pavilion desc' => 'The best proposal for design Public space - pavilion Or arbors in the microdistrict',
+
 ];
