@@ -14,7 +14,6 @@ loadTranslate($currentLang);
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<meta name="viewport" content="width=1280">-->
 
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
     <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-106461-5F5Ub';</script>
@@ -112,7 +111,9 @@ loadTranslate($currentLang);
         </div>
     </div>
 </div>
-
+<div class="language_selector">
+<?php qtranxf_generateLanguageSelectCode('dropdown'); ?>
+</div>
 <?php include ('template-parts/nav.php'); ?>
 <a href="#" class="top_link"><span class="hidden-xs hidden-sm white">
         <?=lang('up');?>
@@ -123,6 +124,7 @@ loadTranslate($currentLang);
         </a>
 </div>
 <div class="helper red hidden-xs hidden-sm" id="topHelper">
+
     <?php if (!is_user_logged_in()): ?>
     <span>
         <?=lang('top helper not log');?>
@@ -201,6 +203,9 @@ loadTranslate($currentLang);
                 </div>
             </div>
             <div class="col-xs-6 col-md-6">
+                <div class="language_selector text-right">
+
+                </div>
                 <div class="header_logo text-right clearfix">
                     <a href="http://www.cds.spb.ru" target="_blank">
                     <i class="pull-right logo_header_icon hidden-xs hidden-sm"
