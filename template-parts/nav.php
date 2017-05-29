@@ -39,7 +39,8 @@
                                     <?=lang('interior of apartment');?>
                                 </a></li>
                             <li><a href="<?=get_page_link(165);?>" target="_blank">
-<?=__('[:ru]Павильон/беседка[:en]nothing');?></a></li>
+                                    <?=lang('pavilion / arbor');?>
+                                </a></li>
                             <li><a href="<?=get_page_link(168);?>" target="_blank">
                                     <?=lang('bus station');?>
                                 </a></li>
