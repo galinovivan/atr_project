@@ -26,23 +26,37 @@ function project_sort() {
         ];
     } else {
 
-        $args = [
-            'orderby' => $sortType,
-            'order' => 'DESC',
+//        $args = [
+//            'orderby' => $sortType,
+//            'order' => 'DESC',
+//            'post_type' => 'projects',
+//            'paged' => $paged,
+//            'tax_query' => [
+//                'taxonomy' => 'projects_tax',
+//                'field' => 'slug',
+//                'terms' => $terms
+//            ]
+//        ];
+
+        $args = array(
             'post_type' => 'projects',
             'paged' => $paged,
-            'tax_query' => [
-                'taxonomy' => 'projects_tax',
-                'field' => 'slug',
-                'terms' => $terms
-            ]
-        ];
+            'orderby' => $sortType,
+            'order' => 'DESC',
+            'tax_query'=> array (
+                array (
+                    'taxonomy' => 'projects_tax',
+                    'field' => 'slug',
+                    'terms' => 'students_projects'
+                )
+            ) );
     }
     $query = new WP_Query($args);
 
     if ($query->have_posts()) {
         while($query->have_posts()) {
             $query->the_post();
+            print_r($args);
              include (get_template_directory() . '/template-parts/project.php');
 
         }
