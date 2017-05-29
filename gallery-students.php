@@ -62,16 +62,24 @@
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#" class="nomination_filter_button" data-filter="Интерьер квартиры">
+                                <li>
+                                    <a href="#" class="nomination_filter_button filter_field"
+                                       data-filter="Интерьер квартиры" data-terms="students_projects">
                                         <?=lang('interior of apartament');?>
                                     </a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Павильон/Беседка">
+                                <li>
+                                    <a href="#" class="nomination_filter_button filter_field"
+                                       data-filter="Павильон/Беседка" data-terms="students_projects">
                                         <?=lang('pavilion / arbor');?>
                                     </a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Остановка транспорта">
+                                <li>
+                                    <a href="#" class="nomination_filter_button filter_field"
+                                       data-filter="Остановка транспорта" data-terms="students_projects">
                                         <?=lang('bus station');?>
                                     </a></li>
-                                <li><a href="#" class="nomination_filter_button" data-filter="Город на воде">
+                                <li>
+                                    <a href="#" class="nomination_filter_button filter_field"
+                                       data-filter="Город на воде" data-terms="students_projects">
                                         <?=lang('city on the water');?>
                                     </a></li>
                             </ul>
