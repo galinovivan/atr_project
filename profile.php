@@ -70,6 +70,28 @@
                                 <?=lang('date of registration on the site');?>:
                                 <span class="black data"><?=getUserRegistered($user->ID);?></span>
                             </li>
+                            <li class="black">
+                                <?php
+                                $args = [
+                                    'post_type' => 'projects',
+                                    'author' => $user->ID
+                                ];
+                                $query = new WP_Query($args);
+
+                                if ($query->have_posts()): ?>
+                                    <?php while($query->have_posts()): $query->the_post(); ?>
+                                        <span class="black data">
+                                            <?php the_date('d.m'); ?>
+                                            Загружена работа:
+                                            <?=do_shorcode('[wpuf-meta name="project_name"]');?>
+                                            в номинацию:
+                                            <?=do_shortcode('[wpuf-meta name="nomination"]');?>
+                                        </span>
+
+
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+                            </li>
 
                         </ul>
                     </div>
