@@ -25,19 +25,6 @@ function project_sort() {
         )
     );
     } else {
-
-//        $args = [
-//            'orderby' => $sortType,
-//            'order' => 'DESC',
-//            'post_type' => 'projects',
-//            'paged' => $paged,
-//            'tax_query' => [
-//                'taxonomy' => 'projects_tax',
-//                'field' => 'slug',
-//                'terms' => $terms
-//            ]
-//        ];
-
         $args = array(
             'post_type' => 'projects',
             'paged' => $paged,
@@ -63,7 +50,7 @@ function project_sort() {
 
         wp_reset_postdata();
     } else {
-        print_r($args);
+        echo 'post not found :('
     }
     die();
 }
