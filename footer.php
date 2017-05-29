@@ -182,11 +182,7 @@
                             </a></li>
                     </ul>
                 </div>
-                <div class="language_selector">
-                    <?php
-                    //echo qtranxf_generateLanguageSelectCode('text');
-                    ?>
-                </div>
+
 <!--                <div class="banner_heading">-->
 <!--                  <h2 class="up white">При поддержке</h2>-->
 <!--                </div>-->
