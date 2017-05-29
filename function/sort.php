@@ -40,6 +40,31 @@ function project_sort() {
                 )
             ) );
     }
+
+
+    if (isset($_POST['filter_nomination_query'])) {
+        $filterQuery = $_POST['filter_query'];
+
+        $args = [
+            'post_type' => 'projects',
+            'paged' => $paged,
+            'meta_query' => [
+                [
+                    'key' => 'nomination',
+                    'value' => $filterQuery
+                ]
+            ],
+            'tax_query' => [
+                [
+                    'taxonomy' => 'projects_tax',
+                    'field' => 'slug',
+                    'terms' => $terms
+                ]
+            ]
+
+        ];
+    }
+
     $query = new WP_Query($args);
 
     if ($query->have_posts()) {
@@ -54,6 +79,8 @@ function project_sort() {
     } else {
         echo 'post not found :(';
     }
+
+
     die();
 }
 
