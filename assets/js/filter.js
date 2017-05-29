@@ -18,7 +18,6 @@
                 'filter_nomination_query': filterQuery,
                 'terms': terms
             };
-            console.log(responseData);
             $.ajax({
                 url: window.wp_data.ajax_url,
                 data: responseData,
