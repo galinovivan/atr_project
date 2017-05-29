@@ -70,7 +70,7 @@
                                 <?=lang('date of registration on the site');?>:
                                 <span class="black data"><?=getUserRegistered($user->ID);?></span>
                             </li>
-                            <li class="black">
+
                                 <?php
                                 $args = [
                                     'post_type' => 'projects',
@@ -80,6 +80,7 @@
 
                                 if ($query->have_posts()): ?>
                                     <?php while($query->have_posts()): $query->the_post(); ?>
+                            <li class="black">
                                         <span class="black data">
                                             <?php the_date('d.m'); ?>
                                             Загружена работа:
@@ -87,11 +88,9 @@
                                             в номинацию:
                                             <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                                         </span>
-
-
+                            </li>
                                     <?php endwhile; ?>
                                 <?php endif; ?>
-                            </li>
 
                         </ul>
                     </div>
