@@ -87,11 +87,11 @@
                                 <span class="dropdown_caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                                <li><a href="#">
+                                <li><a href="#" data-sort="date" class="sort_field" data-terms="students_projects">
                                         <?=lang('by upload date');?>
                                     </a></li>
-                                <li><a href="#">
-                                        <?=lang('by upload date');?>
+                                <li><a href="#" data-sort="_liked" class="sort_field" data-terms="students_projects">
+                                        <?=lang('by popularity');?>
                                     </a></li>
                             </ul>
                         </div>
@@ -117,6 +117,9 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="gallery_list">
+                            <div class="sort_preloader">
+                                <div></div>
+                            </div>
                             <div class="gallery_item">
                                 <div class="item_thumb line_hover">
                                     <a href="<?=get_page_link(68);?>">
@@ -130,8 +133,10 @@
                                 </div>
                             </div>
                             <?php
+                            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                                 $works_students = new WP_Query( array(
                                     'post_type' => 'projects',
+                                    'paged' => $paged,
                                     'tax_query'=> array (
                                         array (
                                             'taxonomy' => 'projects_tax',
@@ -146,34 +151,30 @@
                                     $thumb_id = get_post_thumbnail_id();
                                     $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);                                    
                                 ?>
-                            <div class="gallery_item filterable" data-nomination="<?=do_shortcode('[wpuf-meta name="nomination"]');?>">
-                            <a href="<?php the_permalink(); ?>">
-                                <div class="item_thumb line_hover">
-                                    <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
-                                    <div class="thumb_overlay"></div>
-                                    <span class="separate_line_hover left"></span>
-                                    <span  class="separate_line_hover right"></span>
-                                    <span class="separate_line_hover top"></span>
-                                    <span class="separate_line_hover bottom"></span>
-                                </div>
-                                </a>
-                                <div class="item_text">
-                                    <p class="black name name"><?php the_title(); ?></p>
-                                    <p class="black project_name"><?php echo do_shortcode('[wpuf-meta name="project_name"]')?></p>
-                                    <?php
-                                    if (function_exists('wp_ulike')) {
-                                        wp_ulike('get');
-                                    }
-
-                                    ?>
-
-                                </div>
-                            </div>
+                            <?php include (get_template_directory() . '/template-parts/project.php'); ?>
 
                                 <?php endwhile; ?>
                                 <?php endif ?>
 
-                        
+                            <div class="col-md-12 col-xs-12">
+                                <div class="paginate">
+                                    <?php
+                                    $category = get_category(6);
+                                    $count = $category->category_count;
+
+                                    $paginationPaged = ceil($count / 10);
+                                    if ($paginationPaged < 1) $paginationPaged = 1;
+                                    ?>
+                                    <?php if (function_exists('wp_paginate')) {
+                                        wp_paginate(array(
+                                            'pages' => $paginationPaged,
+                                            'page' => $paged
+                                        ));
+                                    }
+                                    ?>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
