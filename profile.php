@@ -83,7 +83,7 @@
                                         <span class="black data">
                                             <?php the_date('d.m'); ?>
                                             Загружена работа:
-                                            <?=do_shorcode('[wpuf-meta name="project_name"]');?>
+                                            <?=do_shortcode('[wpuf-meta name="project_name"]');?>
                                             в номинацию:
                                             <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                                         </span>
