@@ -1,7 +1,7 @@
 /**
  * Created by root on 29.05.17.
  */
-'use strict';
+
 (function($) {
 
 
