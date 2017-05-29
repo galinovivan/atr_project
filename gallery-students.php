@@ -166,14 +166,7 @@
                                     }
 
                                     ?>
-                                    
-                                    <!--                                    <div class="like_box">-->
-<!--                                <span class="black">-->
-<!--                                    0-->
-<!--                                    <span class="like_icon">-->
-<!--                                <i class="like_sprite like_sprite-like_icon"></i>-->
-<!--                                    </span></span>-->
-<!--                                    </div>-->
+
                                 </div>
                             </div>
 
@@ -185,14 +178,7 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="paginate">-->
-<!--                <ul class="pagination">-->
-<!--                    <li><a href="#" class="active">1</a></li>-->
-<!--                    <li><a href="#">2</a></li>-->
-<!--                    <li><a href="#">3</a></li>-->
-<!--                    <li><a href="#" class="pag_btn">...</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
+
         </div>
 
 
