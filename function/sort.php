@@ -56,7 +56,7 @@ function project_sort() {
     if ($query->have_posts()) {
         while($query->have_posts()) {
             $query->the_post();
-            print_r($args);
+
              include (get_template_directory() . '/template-parts/project.php');
 
         }
