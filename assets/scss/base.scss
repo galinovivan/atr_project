@@ -72,6 +72,14 @@ a, button, input, textarea {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .header_logo {
+    img {
+      max-width: 60px;
+    }
+  }
+}
+
 //custom arh bootstrap end
 
 
