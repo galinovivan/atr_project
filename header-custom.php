@@ -137,9 +137,13 @@ loadTranslate($currentLang);
             <div class="col-xs-4 col-md-5 col-sm-5">
                 <div class="header_logo clearfix">
                     <a href="/">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png"
+                    <img src="<?php echo get_template_directory_uri() .
+                        ($currentLang == 'ru' ? '/assets/images/arh_logo.png' :
+                            '/assets/images/arh_logo_eng.png')?>"
                          class="img-responsive pull-left hidden-xs hidden-sm" />
-                        <img src="<?=get_template_directory_uri();?>/assets/images/mobile_arh_logo.png" class="visible-xs visible-sm" />
+                        <img src="<?php echo get_template_directory_uri() .
+                            ($currentLang == 'ru' ? '/assets/images/mobile_arh_logo.png' :
+                                '/assets/images/arh_mobile_en.png');?>" class="visible-xs visible-sm" />
                         </a>
                 </div>
             </div>
