@@ -80,7 +80,7 @@ return [
     'regulations on the competition' => 'Regulations on the competition',
     'competition rules' => 'Competition rules',
     'download' => 'Download',
-    'category of participants' => 'category of participants',
+    'category of participants' => 'category',
     'nomination' => 'Nomination',
     'pavilion / arbor' => 'Pavilion / arbor',
     'sort' => 'Sort',
