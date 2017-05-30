@@ -6,42 +6,29 @@
  * Time: 12:04
  */
 
+
 /**
  * @param $key
- * @return String
+ * @param bool $capitalize
+ * @return string
  */
-//function langs($key) {
-//    if (function_exists('qtrans_getLanguage')) {
-//        $lang = qtrans_getLanguage();
-//        $key = strtolower($key);
-//        $e = '';
-//        if ($lang == 'ru') {
-//           $e = require_once get_template_directory() . '/languages/!18n_ru.php';
-//        }
-//        elseif ($lang == 'en') {
-//           $e = require_once get_template_directory() . '/languages/!18n_en.php';
-//        }
-//
-//        else {
-//            $e = require_once get_template_directory() . '/languages/!18n_ru.php';
-//        }
-//        return $e[$key];
-//    }
-//
-//
-//    return $key;
-//}
-
-function lang($key) {
+function lang($key, $capitalize = false) {
     $key = strtolower($key);
     global $arhLang;
     if (!isset($arhLang[$key])) {
         return $key;
     }
 
+    if ($capitalize != false) {
+        return ucfirst($arhLang[$key]);
+    }
+
     return $arhLang[$key];
 }
 
+/**
+ * @param $lang
+ */
 function loadTranslate($lang) {
     global $arhLang;
     switch ($lang) {
