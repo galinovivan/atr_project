@@ -47,7 +47,6 @@
         var start = this.dateStart;
         var end = this.dateEnd;
         var current = this.currentDate;
-
         var startDelta = end - start;
         var currentDelta = current - start;
         var delta = (currentDelta * 100) / startDelta;
@@ -78,14 +77,14 @@
         var delta = this.getDateDelta();
        return delta + '%';
     };
-    
-    
+
+
     DateLine.prototype.setMobileHeight = function() {
         var height = this.calculateMobileHeight();
         console.log(height);
         this.mobileLine.css('height', height);
     };
-    
+
     DateLine.prototype.calculateMobileHeight = function() {
         var delta = this.getDateDelta();
         var parentHeight = this.mobileParentHeight;
