@@ -195,9 +195,14 @@ loadTranslate($currentLang);
             <div class="col-xs-6 col-md-6">
                 <div class="header_logo text-left">
                     <a href="/">
-                    <img src="<?=get_template_directory_uri()?>/assets/images/arh_logo.png"
+                    <img src="<?php echo get_template_directory_uri() .
+                    ($currentLang == 'ru' ? '/assets/images/arh_logo.png' :
+                        '/assets/images/arh_logo_eng.png')?>"
                          class="img-responsive hidden-xs hidden-sm" />
-                        <img src="<?=get_template_directory_uri();?>/assets/images/mobile_arh_logo.png" 
+                        <img
+                                src="<?php echo get_template_directory_uri() .
+                                ($currentLang == 'ru' ? '/assets/images/mobile_arh_logo.png' :
+                                    '/assets/images/arh_mobile_en.png');?>"
                              class="visible-xs visible-sm" />
                         </a>
                 </div>
