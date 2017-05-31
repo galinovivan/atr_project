@@ -77,10 +77,17 @@
             <div class="col-md-6 col-xs-12">
                 <div class="row">
                     <div class="col-md-4">
+                       <?php $lang = qtrans_getLanguage(); ?>
+                        <?php if ($lang == 'ru'): ?>
                         <div class="arh_logo hidden-xs hidden-sm">
-                        <a href="/">
-                        </a>
+                            <a href="/">
+                            </a>
                         </div>
+                            <?php elseif ($lang == 'en'): ?>
+                            <div class="arh_logo en hidden-xs hidden-sm">
+                                <a href="/"></a>
+                            </div>
+                            <?php endif; ?>
                         <div class="copyright bottom_separate_mobile">
                             <div class="copyright_mobile_text visible-xs visible-sm">
                                 <h3 class="white up">
