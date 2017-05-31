@@ -37,6 +37,12 @@ footer {
         background-size: contain;
       }
     }
+    &.en {
+      a {
+        background: url('../images/arh_mobile_en.png') no-repeat;
+        background-size: contain;
+      }
+    }
   }
   .copyright {
     padding-right: 50px;
