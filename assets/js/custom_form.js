@@ -4,10 +4,17 @@
 (function( $ ) {
 
     $(document).ready(function() {
+    var lang = document.documentElement.lang;
 
+    if (lang == 'ru-RU') {
         var loginLabel = 'Email',
             passLabel = 'Пароль',
             repeatPassLabel = 'Повторите пароль';
+    } else if (lang == 'en-US') {
+        var loginLabel = 'Email',
+            passLabel = 'Password',
+            repeatPassLabel = 'repeat password';
+    }
 
        var $loginField = $('#wpuf-user_login'),
            $passwordField = $('#wpuf-user_pass'),
