@@ -16,7 +16,7 @@
             repeatPassLabel = 'repeat password';
         $('#pass1').attr('placeholder', passLabel);
         $('#last_name').attr('placeholder', 'Name');
-        $('.wpuf-form-add input[type="submit"]').attr('placeholder', 'Registration');
+        $('.auth_form .wpuf-form li input[type=submit]').attr('placeholder', 'Registration');
     }
 
 
