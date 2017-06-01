@@ -324,8 +324,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row item_list">
-                <div class="col-xs-6 col-md-3">
+            <div class="row item_list clearfix">
+                <div class="grid_5 grid_xs_6">
                     <div class="item_wrapper">
                         <div class="icon">
                             <i class="win_sprite win_sprite-win_tabl hidden-xs hidden-sm"></i>
@@ -340,7 +340,20 @@
                         <span class="small_arrow"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="grid_5 grid_xs_6">
+                    <div class="item_wrapper">
+                        <div class="icon">
+                            <img src="<?=get_template_directory_uri();?>/assets/images/icon-registration.png" draggable="false" />
+                        </div>
+                        <div class="text text-center">
+                            <p class="black bold_font">
+                                <?=lang('registration on the site', true);?>
+                            </p>
+                        </div>
+                        <span class="small_arrow hidden-xs hidden-sm"></span>
+                    </div>
+                </div>
+                <div class="grid_5 grid_xs_6">
                     <div class="item_wrapper">
                         <div class="icon">
                             <i class="win_sprite win_sprite-win_cloud hidden-xs hidden-sm"></i>
@@ -351,10 +364,10 @@
                                 <?=lang('download the templates for implement the project');?>
                             </p>
                         </div>
-                        <span class="small_arrow hidden-xs hidden-sm"></span>
+                        <span class="small_arrow"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="grid_5 grid_xs_6">
                     <div class="item_wrapper">
                         <div class="icon">
                             <i class="win_sprite win_sprite-win_cloud_output hidden-xs hidden-sm"></i>
@@ -366,10 +379,10 @@
                                 <?=lang('upload your project to the site');?>
                             </p>
                         </div>
-                        <span class="small_arrow"></span>
+                        <span class="small_arrow hidden-xs hidden-sm"></span>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-3">
+                <div class="grid_5 grid_xs_6">
                     <div class="item_wrapper">
                         <div class="icon">
                             <i class="win_sprite win_sprite-win_prize hidden-xs hidden-sm"></i>
