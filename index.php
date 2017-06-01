@@ -509,7 +509,7 @@
                 <div class="contact_form">
     <?php $lang = qtrans_getLanguage(); ?>
 
-<!--                   <?php if ($lang == 'ru'): ?>
+                   <?php if ($lang == 'ru'): ?>
                     <?= do_shortcode('[contact-form-7 id="431" title="Контактная форма на главной"]'); ?>
                     <?php elseif ($lang == 'en'): ?>
                     <?= do_shortcode('[contact-form-7 id="644" title="eng_contact_form"]'); ?>
