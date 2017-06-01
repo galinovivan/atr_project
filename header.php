@@ -128,7 +128,7 @@ loadTranslate($currentLang);
     <?php if (!is_user_logged_in()): ?>
     <span>
         <?=lang('top helper not log');?>
-        <a href="#registrationModal" data-toggle="modal">
+        <a href="#registrationModal" data-toggle="modal" id="topActionForUnloggined">
             <?=lang('here');?>
         </a></span>
     <a class="helper_close" href="#">
@@ -194,7 +194,7 @@ loadTranslate($currentLang);
         <div class="row top_header_section">
             <div class="col-xs-6 col-md-6">
                 <div class="header_logo text-left">
-                    <a href="/">
+                    <a href="/"0>
                     <img src="<?php echo get_template_directory_uri() .
                     ($currentLang == 'ru' ? '/assets/images/arh_logo.png' :
                         '/assets/images/arh_logo_eng.png')?>"
@@ -245,7 +245,7 @@ loadTranslate($currentLang);
                     <img src="<?=get_template_directory_uri()?>/assets/images/cursor.png" class="img-responsive block_center"/>
                 </div>
                 <div class="button_more">
-                    <a href="<?=get_page_link(29)?>" class="button base medium block_center white">
+                    <a href="<?=get_page_link(29)?>" id="buttonLearnMore" class="button base medium block_center white">
                        <?=lang('learn more');?>
                     </a>
                 </div>
