@@ -15,6 +15,7 @@
             passLabel = 'Password',
             repeatPassLabel = 'repeat password';
         $('#pass1').attr('placeholder', passLabel);
+        $('#last_name').attr('placeholder', 'Name');
     }
 
 
