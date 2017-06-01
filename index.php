@@ -507,10 +507,11 @@
             </div>
             <div class="col-lg-8 col-md-offset-2 col-md-9 contact_form_wrapper">
                 <div class="contact_form">
-    <?php $currentLang = qtrans_getLanguage(); ?>
-<!--                   <?php if ($currentLang == 'ru'): ?>
+    <?php $lang = qtrans_getLanguage(); ?>
+
+<!--                   <?php if ($lang == 'ru'): ?>
                     <?= do_shortcode('[contact-form-7 id="431" title="Контактная форма на главной"]'); ?>
-                    <?php elseif ($currentLang == 'en'): ?>
+                    <?php elseif ($lang == 'en'): ?>
                     <?= do_shortcode('[contact-form-7 id="644" title="eng_contact_form"]'); ?>
                     <?php endif; ?>
             </div>
