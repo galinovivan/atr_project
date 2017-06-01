@@ -20,7 +20,7 @@ function lang($key, $capitalize = false) {
     }
 
     if ($capitalize != false) {
-        return ucfirst($arhLang[$key]);
+        return mbUcfirst($arhLang[$key]);
     }
 
     return $arhLang[$key];
@@ -42,4 +42,8 @@ function loadTranslate($lang) {
           $arhLang = require_once get_template_directory() . '/languages/18n_ru.php';
           break;
     }
+}
+
+function mbUcfirst($text) {
+    return mb_strtoupper(mb_substr($text, 0, 1)) . mb_substr($text, 1);
 }
