@@ -40,7 +40,8 @@
             </div>
             <div class="row">
                 <div class="col-md-12 submit_row">
-                    <a href="<?=get_field('template_link');?>" target="_blank" class="button base black medium">
+                    <a href="<?=get_field('template_link');?>" target="_blank"
+                       class="button base black medium" id="<?=get_field('ya_count_id');?>">
                         <?=lang('download template');?>
                     </a>
                 </div>
