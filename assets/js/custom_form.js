@@ -10,7 +10,13 @@
         var loginLabel = 'Email',
             passLabel = 'Пароль',
             repeatPassLabel = 'Повторите пароль';
+    } else if (lang == 'en-US') {
+        var loginLabel = 'Email',
+            passLabel = 'Password',
+            repeatPassLabel = 'repeat password';
+        $('#pass1').attr('placeholder', passLabel);
     }
+
 
        var $loginField = $('#wpuf-user_login'),
            $passwordField = $('#wpuf-user_pass'),
