@@ -405,7 +405,7 @@
                             </div>
                             <div class="registration_button">
                                 <button class="button base medium white revert_hover"
-                                        data-toggle="modal" data-target="#registrationModal">
+                                        data-toggle="modal" data-target="#registrationModal" id="buttonRegistrationOnButtom">
                                     <?=lang('registration');?>
                                 </button>
                             </div>
