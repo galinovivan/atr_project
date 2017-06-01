@@ -40,12 +40,12 @@
 
 
         if (lang == 'ru-RU') {
-            var categoryLabel = 'Категория';
+
             var thumbFieldLabel = 'Загрузить превью в jpg';
             var pdfFieldLabel = 'Загрузить работу в pdf';
 
+
         } else if (lang == 'en-US') {
-            var categoryLabel = 'Category';
             var thumbFieldLabel = 'Download preview in jpg';
             var pdfFieldLabel = 'Download the work in pdf';
         }
@@ -62,8 +62,15 @@
         $thumbField.text(thumbFieldLabel);
     });
 
-    var $categoryList = $('.wpuf_category_select_353_352 select')
+    var $categoryList = $('.wpuf_category_select_353_352 select');
 
+    var currentLang = document.documentElement.lang;
+
+    if (currentLang == 'ru-RU') {
+        var categoryLabel = 'Категория';
+    } else if (currentLang == 'en-US') {
+        var categoryLabel = 'Category';
+    }
 
     $categoryList = $categoryList.children(':first');
     $categoryList.text(categoryLabel);
