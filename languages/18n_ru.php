@@ -106,6 +106,9 @@ return [
     'pavilion desc' => 'Лучшее предложение по дизайну общественного пространства – павильона или беседки в микрорайоне',
     'work is loaded' => 'Загружена работа',
     'in nomination' => 'в номинация',
+    'lost password' => 'забыли пароль',
+    'please register to take part in a competition' => 'Пожалуйста, зарегистрируйтесь, чтобы принять участие в конкурсе',
+    'if you have already registered, sign in, so that we can recognize you' =>'Если вы уже зарегистрировались, войдите, чтобы мы вас узнали',
 
 ];
 
