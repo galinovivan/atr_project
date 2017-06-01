@@ -507,26 +507,11 @@
             </div>
             <div class="col-lg-8 col-md-offset-2 col-md-9 contact_form_wrapper">
                 <div class="contact_form">
-<!--                    <form action=""-->
-<!--                          class="base_form" id="contactForm" method="post">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-md-6 field_item text-left">-->
-<!--                                <input id="name" type="text" placeholder="Имя" name="first_name" required />-->
-<!--                                <input type="hidden" name="action" value="contact_form" />-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 field_item text-right">-->
-<!--                                <input id="email" type="email" placeholder="email" name="email" required />-->
-<!--                            </div>-->
-<!--                            <div class="col-md-12 field_item textarea">-->
-<!--                            <textarea name="message" id="message" cols="30" rows="5"-->
-<!--                                      placeholder="Текст сообщения" required></textarea>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-12 submit_field">-->
-<!--                                <button class="button base black medium block_center" type="submit">Отправить</button>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </form>-->
+<!--                   <?php if ($curerntLang == 'ru'): ?>
                     <?= do_shortcode('[contact-form-7 id="431" title="Контактная форма на главной"]'); ?>
+                    <?php elseif ($curerntLang == 'en'): ?>
+                    <?= do_shortcode('[contact-form-7 id="644" title="eng_contact_form"]'); ?>
+                    <?php endif; ?>
             </div>
             </div>
         </div>
