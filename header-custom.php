@@ -64,7 +64,7 @@ loadTranslate($currentLang);
     <?php if (!is_user_logged_in()): ?>
         <span>
         <?=lang('top helper not log');?>
-            <a href="#registrationModal" data-toggle="modal">
+            <a href="#registrationModal" data-toggle="modal" id="topActionForUnloggined">
             <?=lang('here');?>
         </a>.</span>
         <a class="helper_close" href="#">
