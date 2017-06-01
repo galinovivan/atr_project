@@ -109,5 +109,6 @@ return [
     'lost password' => 'lost password',
     'please register to take part in a competition' => 'please register to take part in a competition',
     'if you have already registered, sign in, so that we can recognize you' => 'if you have already registered, sign in, so that we can recognize you',
+    'registration on the site' => 'registration on the site',
 
 ];
