@@ -77,4 +77,37 @@
 
 
 
+
+
+
+
+
+})(jQuery);
+(function($) {
+
+    $(document).ready(function() {
+        currentLang = document.documentElement.lang;
+
+        var Select = {};
+        Select.finalist = 'Finalists 2016';
+        Select.students = 'students';
+        Select.graduate = 'Graduates';
+        Select.single = 'single';
+        Select.multiple = 'group';
+        Select.interior = 'INTERIOR OF APARTMENT';
+        Select.pavilon = 'PAVILION / ARBOR';
+        Select.busStation = 'Bus station';
+        Select.cityOnTheWater = 'Sity on the Water';
+        Select.nomination = 'Nomination';
+        Select.numbersOfPartners = 'Number of partners';
+
+        if (currentLang == 'en-US') {
+            console.log($('.wpuf_category_select_353_352 option:nth-of-type(2)'));
+            $('.wpuf_category_select_353_352 option:nth-of-type(2)').text(Select.finalist);
+
+        }
+
+    });
+
+
 })(jQuery);
