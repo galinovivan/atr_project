@@ -95,7 +95,7 @@
         Select.single = 'Single';
         Select.multiple = 'Group';
         Select.interior = 'Interior of apartment';
-        Select.pavilon = 'PAVILION / ARBOR Pavilion / arbor';
+        Select.pavilon = 'Pavilion / arbor';
         Select.busStation = 'Bus station';
         Select.cityOnTheWater = 'Sity on the Water';
         Select.nomination = 'Nomination';
