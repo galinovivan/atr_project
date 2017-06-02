@@ -102,8 +102,12 @@
         Select.numbersOfPartners = 'Number of partners';
 
         if (currentLang == 'en-US') {
-            console.log($('.wpuf_category_select_353_352 option:nth-of-type(2)'));
+
             $('.wpuf_category_select_353_352 option:nth-of-type(2)').text(Select.finalist);
+            $('.wpuf_category_select_353_352 option:nth-of-type(3)').text(Select.students);
+            $('.wpuf_category_select_353_352 option:nth-of-type(4)').text(Select.graduate);
+            $('select.wpuf__352 option:first-of-type').text(Select.numbersOfPartners);
+
 
         }
 
