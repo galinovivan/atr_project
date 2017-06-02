@@ -90,16 +90,27 @@
 
         var Select = {};
         Select.finalist = 'Finalists 2016';
-        Select.students = 'students';
+        Select.students = 'Students';
         Select.graduate = 'Graduates';
-        Select.single = 'single';
-        Select.multiple = 'group';
-        Select.interior = 'INTERIOR OF APARTMENT';
-        Select.pavilon = 'PAVILION / ARBOR';
+        Select.single = 'Single';
+        Select.multiple = 'Group';
+        Select.interior = 'Interior of apartment';
+        Select.pavilon = 'PAVILION / ARBOR Pavilion / arbor';
         Select.busStation = 'Bus station';
         Select.cityOnTheWater = 'Sity on the Water';
         Select.nomination = 'Nomination';
         Select.numbersOfPartners = 'Number of partners';
+
+        var textField = {};
+        textField.name = 'Full name';
+        textField.city = 'City';
+        textField.phoneNumber = 'Phone Number';
+        textField.univer = 'University';
+        textField.spec = 'Specialty';
+        textField.teamLead = 'Mentor';
+        textField.projectName = 'Project Name';
+        textField.projectDesc = 'Project description';
+        textField.submit = 'Send proect';
 
         if (currentLang == 'en-US') {
 
@@ -116,6 +127,23 @@
             $('select.wpuf_nomination_352 option:nth-of-type(3)').text(Select.pavilon);
             $('select.wpuf_nomination_352 option:nth-of-type(4)').text(Select.busStation);
             $('select.wpuf_nomination_352 option:nth-of-type(5)').text(Select.cityOnTheWater);
+
+            var wpUfForm = $('.wpuf-form-add');
+
+            wpUfForm.find('#post_title').attr('placeholder', textField.name);
+            wpUfForm.find('#city').attr('placeholder', textField.city);
+            wpUfForm.find('#phone_number').attr('placeholder', textField.phoneNumber);
+            wpUfForm.find('#univer').attr('placeholder', textField.univer);
+            wpUfForm.find('#spec').attr('placeholder', textField.spec);
+            wpUfForm.find('#team_lead').attr('placeholder', textField.teamLead);
+            wpUfForm.find('#project_name').attr('placeholder', textField.projectName);
+            wpUfForm.find('#project_desc').attr('placeholder', textField.projectDesc);
+            wpUfForm.find('input[type="submit"]').val(textField.submit);
+
+
+
+
+
 
 
 
