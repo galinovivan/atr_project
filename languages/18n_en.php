@@ -115,5 +115,6 @@ return [
     'pavilion title in nomination' => 'pavilion <br /> or arbor',
     'bus station title in nomination'=> 'bus <br /> station',
     'city on the water title in nomination' => 'city <br /> on the water',
+    'how to win title registration' => 'registration <br /> on the site',
 
 ];
