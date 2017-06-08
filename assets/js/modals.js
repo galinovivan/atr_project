@@ -18,7 +18,7 @@
             }
         });
 
-
+        console.log('status:' + window.sessionStorage.getItem('project-publish-status'));
     });
 
 
