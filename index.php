@@ -107,7 +107,7 @@
                                 </a>
                         </div>
                         <div class="title text-center"><h3 class="white">
-                               <?=lang('interior of apartament');?>
+                               <?=lang('interior title in nomination block', true);?>
                             </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="title text-center">
                             <h3 class="white">
-                                <?=lang('pavilion / arbor');?>
+                                <?=lang('pavilion title in nomination', true);?>
                             </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
@@ -168,7 +168,7 @@
                         </div>
                         <div class="title text-center">
                             <h3 class="white">
-                                <?=lang('bus station');?>
+                                <?=lang('bus station title in nomination', true);?>
                             </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
@@ -199,7 +199,7 @@
                         </div>
                         <div class="title text-center">
                             <h3 class="white">
-                                <?=lang('city on the water');?>
+                                <?=lang('city on the water title in nomination', true);?>
 </h3>
                             <span class="separate hidden-xs hidden-sm"></span>
                         </div>
