@@ -111,6 +111,10 @@ return [
     'if you have already registered, sign in, so that we can recognize you' =>'Если вы уже зарегистрировались, войдите, чтобы мы вас узнали',
     'registration on the site' => 'зарегистрироваться на сайте',
     'registration before template' => 'что бы скачать шаблон необходимо зарегистрироваться',
+    'interior title in nomination block' => 'интерьер <br /> квартиры',
+    'pavilion title in nomination' => 'павильон или <br /> беседка',
+    'bus station title in nomination' => 'остановка <br /> транспорта',
+    'city on the water title in nomination' => 'Город <br /> воде',
 
 ];
 
