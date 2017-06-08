@@ -117,7 +117,10 @@ loadTranslate($currentLang);
 <?php include ('template-parts/nav.php'); ?>
 <a href="#" class="top_link"><span class="hidden-xs hidden-sm white">
         <?=lang('up');?>
-    </span></a>
+    </span>
+    <img src="<?=get_template_directory_uri();?>/assets/images/arrow_top_redisign.png"
+         class="img-responsive top_arrow_image" />
+</a>
 <div class="helper_toggle">
     <a href="#" id="helperToggle">
         <i class="fa fa-toggle-down"></i>
