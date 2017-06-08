@@ -12,7 +12,10 @@
        var $createProjectForm = $('.wpuf-form-add');
 
         $createProjectForm.submit(function(event) {
-            Modals.successSendProject.modal('show');
+            var sessionStorage = window.sessionStorage;
+            if (sessionStorage) {
+              sessionStorage.setItem('project-publish-status', 'create');
+            }
         });
 
 
