@@ -70,7 +70,7 @@
     }
     & > li {
       &.sub_menu {
-        margin-bottom: 33px;
+        margin-bottom: 25px;
       }
       margin-bottom: 35px;
       &:last-child {
@@ -100,10 +100,11 @@
       }
       .sub_nav {
         li {
+          margin-bottom: 2px;
           a {
             font-size: $baseFontSize - 3;
             font-family: $baseFont;
-            //text-transform: capitalize;
+            text-transform: capitalize;
             padding: 10px 15px;
           }
           &:hover {
