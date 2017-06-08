@@ -52,9 +52,12 @@ loadTranslate($currentLang);
 <div class="language_selector black hidden-xs hidden-sm">
     <?php qtranxf_generateLanguageSelectCode('dropdown'); ?>
 </div>
-<a href="#" class="top_link "><span class="hidden-xs hidden-sm white">
+<a href="#" class="top_link"><span class="hidden-xs hidden-sm white">
         <?=lang('up');?>
-    </span></a>
+    </span>
+    <img src="<?=get_template_directory_uri();?>/assets/images/arrow_top_redisign.png"
+         class="img-responsive top_arrow_image" />
+</a>
 <div class="helper_toggle orange">
     <a href="#" id="helperToggle">
         <i class="fa fa-toggle-down"></i>
