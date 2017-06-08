@@ -21,6 +21,10 @@
     width: $mediumButtonWidth;
     height: $buttonHeight;
   }
+  &.small {
+    width: $smallButtonWidth;
+    height: $smallButtonHeight;
+  }
   &.revert_hover {
     @include revertButtonHover();
   }
@@ -33,7 +37,7 @@
 }
 a, input {
   &.button {
-    padding: 5px 0;
+    padding: 7px 0;
     text-decoration: none !important;
   }
 }
