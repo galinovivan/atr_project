@@ -115,6 +115,7 @@ return [
     'pavilion title in nomination' => 'павильон или <br /> беседка',
     'bus station title in nomination' => 'остановка <br /> транспорта',
     'city on the water title in nomination' => 'Город <br /> воде',
+    'how to win title registration' => 'Зарегистрироваться <br /> на сайте',
 
 ];
 
