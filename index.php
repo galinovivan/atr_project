@@ -347,7 +347,7 @@
                         </div>
                         <div class="text text-center">
                             <p class="black bold_font">
-                                <?=lang('registration on the site', true);?>
+                               <?=lang('how to win title registration', true);?>
                             </p>
                         </div>
                         <span class="small_arrow hidden-xs hidden-sm"></span>
