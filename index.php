@@ -117,7 +117,7 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center">
+                            <button class="button base small white block_center">
                                 <a href="<?=get_page_link(115);?>" target="_blank">
                                     <?=lang('watch');?>
                                 </a>
@@ -148,7 +148,7 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center">
+                            <button class="button base small white block_center">
                                 <a href="<?=get_page_link(165);?>" target="_blank">
                                     <?=lang('watch');?>
                                 </a></button>
@@ -179,7 +179,7 @@
 
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center">
+                            <button class="button base small white block_center">
                                 <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('watch');?></a></button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
@@ -209,7 +209,7 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base medium white block_center">
+                            <button class="button base small white block_center">
                                 <a href="<?=get_page_link(525);?>" target="_blank">
                                     <?=lang('watch');?>
                                 </a>
@@ -292,7 +292,7 @@
                                     ?>
 
                             <div>
-                                <a href="<?=get_page_link(40);?>" target="_blank">
+                                <a href="<?=get_page_link(40);?>">
                                 <div class="person_avatar">
                                   <img src="<?=$thumbURL?>" class="img-responsive" />
                                 </div>
@@ -374,7 +374,7 @@
                             <i class="mobile_win mobile_win-mibile_win_cloud_output visible-xs visible-sm"></i>
                         </div>
                         <div class="text text-center">
-                            <p class="black bold_font"><?=__('[:ru]Загрузить[:en]Upload')?>
+                            <p class="black bold_font">
                                 <br class="visible-xs visible-sm" />
                                 <?=lang('upload your project to the site');?>
                             </p>
