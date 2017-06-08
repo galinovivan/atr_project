@@ -97,10 +97,12 @@
                         <?php endif; ?>
 
                     </li>
-                    <li><a href="#contactForm" class="up white scroll_link">
+                    <li><a href="<?php is_home() ? print '#contactForm' : print '/#contactForm';?>"
+                           class="up white scroll_link">
                            <?=lang('Ask questions');?>
                         </a></li>
-                    <li><a href="#contactForm" class="up white scroll_link">
+                    <li><a href="<?php is_home() ? print '#contactForm' : print '/#contactForm';?>"
+                           class="up white scroll_link">
                          <?=lang('contacts');?>
                         </a></li>
                     <li>
