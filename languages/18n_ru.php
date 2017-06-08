@@ -62,7 +62,7 @@ return [
     'here' => 'Здесь',
     'top helper not log' => 'Приём работ открыт с 1 апреля до 15 сентября 2017. Чтобы принять участие, нажмите',
     'top helper mobile' => 'С 1 апреля до 15 сентября 2017 года идет приём работ.',
-    'founder and organizer of counkurse' => 'Учредитель и организатор',
+    'founder and organizer of counkurse' => 'Учредитель и организатор конкурса',
     'up' => 'Наверх',
     'start' => 'Старт',
     'reception' => 'Приема',
