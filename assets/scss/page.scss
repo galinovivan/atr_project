@@ -409,6 +409,9 @@ main {
     height: $bannerHeight;
     background: url('../images/abstract_contact.png') no-repeat right top;
     padding: 65px 0 55px 0;
+    @media screen and (min-width: 1350px) {
+      background: url('../images/abstract_new_bottom.png') no-repeat right top;
+    }
     .text {
       margin-bottom: 35px;
     }
