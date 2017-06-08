@@ -19,9 +19,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="up white">
-                            <?=lang('works');?>
+                            <?=lang('works', true);?>
                             <span class="up base_font"><span class="white">
-                                    (<?=lang('students');?>)
+                                    (<?=lang('students', true);?>)
                                 </span></span></h4>
                     </div>
                 </div>
