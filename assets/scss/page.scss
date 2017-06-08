@@ -17,6 +17,10 @@ main {
       .button_more {
         margin-top: 65px;
       }
+      @media screen and (min-width: 1350px) {
+        background-image: url('../images/abstract_new_middle.png');
+        background-position-x: 26%;
+      }
     }
     .thumb_block {
       height: $blockHeight;
