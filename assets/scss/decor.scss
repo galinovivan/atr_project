@@ -68,12 +68,18 @@
   padding-right: 15px;
   right: 30px;
   top: 100px;
-  background: url('../images/top_arrow.png') no-repeat right center;
+  //background: url('../images/top_arrow.png') no-repeat right center;
   color: $white !important;
   font-size: $baseFontSize - 1;
   text-shadow: 0px 0px 5px $black;
   z-index: 100000;
+  span {
+    text-shadow: 0px 0px 5px $black;
+  }
   @include transition();
+  img {
+    display: inline-block;
+  }
   &:hover {
     text-decoration: underline;
     color: $white;
