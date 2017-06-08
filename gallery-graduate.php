@@ -18,7 +18,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
-                        <h4 class="up white">Работы <span class="up base_font"><span class="white">(Выпускники)</span></span></h4>
+                        <h4 class="up white">
+                            <?=lang('works', true);?>
+                            <span class="up base_font"><span class="white">
+                                    (<?=lang('graduates', true);?>)
+                                </span></span></h4>
                     </div>
                 </div>
             </div>
