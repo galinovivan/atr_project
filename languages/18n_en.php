@@ -59,7 +59,7 @@ return [
     'or write to mail' => 'or write to mail:',
     'to be aware of the news of the project, subscribe to us in social networks' => 'To be aware of the news of the project, Subscribe to us in social networks:',
     'top helper log' => 'Acceptance of works is open from April 1 to September 15, 2017. To send the completed project, click',
-    'here' => 'Here',
+    'here' => 'here',
     'top helper not log' => 'Acceptance of works is open from 1 April to 15 September 2017. To participate, click',
     'top helper mobile' => 'From April 1 to September 15, 2017, the work is being accepted.',
     'founder and organizer of counkurse' => 'Founder and organizer of counkurse',
