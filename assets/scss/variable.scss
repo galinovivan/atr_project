@@ -53,9 +53,11 @@ $stickerFontSize: $smallFont;
 
 $buttonFontSize: $baseFontSize - 1;
 $buttonFont: $boldFont;
-$buttonHeight: 33px;
+$buttonHeight: 37px;
 $baseButtonBorder: 2px solid $white;
-$mediumButtonWidth: 184px;
+$mediumButtonWidth: 178px;
+$smallButtonWidth:  $mediumButtonWidth - 40;
+$smallButtonHeight: 34px;
 $mobileMediumButtomWith: $mediumButtonWidth - 40;
 $baseButtonBackground: $transparent;
 $mobileButtonFontSize: $buttonFontSize - 2;
