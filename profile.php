@@ -94,12 +94,12 @@
 
                                 if ($query->have_posts()): ?>
                                     <script>
-                                        $(document).ready(function () {
+                                        jQuery(document).ready(function () {
 
                                             var sessionStorage = window.sessionStorage;
                                             if (sessionStorage) {
                                                 if (sessionStorage.getItem('project-publish-status') === 'create') {
-                                                    $('#modalPublishProject').modal('show');
+                                                    jQuery('#modalPublishProject').modal('show');
                                                     sessionStorage.setItem('project-publish-status', '');
                                                     console.log(sessionStorage.getItem('project-publish-status'));
                                                 }
