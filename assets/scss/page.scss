@@ -198,6 +198,10 @@ main {
     //  padding-left: 5%;
     //}
 
+
+    @media screen and (min-width: 1350px) {
+      background-image: url('../images/abstract_top_new.png');
+    }
     @media screen and (max-width: $smScreen) {
       background-position: -171px 189px;
       height: auto;
