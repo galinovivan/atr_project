@@ -281,6 +281,9 @@ main {
         }
       }
       .text {
+        @media screen and (min-width: 1300px) {
+          //padding: 0 25px;
+        }
       }
       .small_arrow {
         position: absolute;
@@ -567,7 +570,7 @@ main {
   &.nomination_page {
     padding-bottom: 70px;
     .submit_row {
-      margin-top: 40px;
+      //margin-top: 40px;
     }
     @media screen and (max-width: $smScreen) {
       padding: 0 20px;
