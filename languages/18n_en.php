@@ -111,5 +111,9 @@ return [
     'if you have already registered, sign in, so that we can recognize you' => 'if you have already registered, sign in, so that we can recognize you',
     'registration on the site' => 'registration on the site',
     'registration before template' => 'to download the template you need to register',
+    'interior title in nomination block' => 'interior <br /> of apartament',
+    'pavilion title in nomination' => 'pavilion <br /> or arbor',
+    'bus station title in nomination'=> 'bus <br /> station',
+    'city on the water title in nomination' => 'city <br /> on the water',
 
 ];
