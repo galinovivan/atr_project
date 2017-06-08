@@ -9,6 +9,20 @@
 ?>
 
 <?php get_header('custom');?>
+    <div class="registration_modal modal fade" id="modalPublishProject">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" aria-hidden="true">
+                        <span></span><span></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   <p class="black">Спасибо, ваша работа отправлена на модерацию!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 <main>
     <?php if (!is_user_logged_in()) {
       wp_redirect('/');
@@ -79,6 +93,22 @@
                                 $query = new WP_Query($args);
 
                                 if ($query->have_posts()): ?>
+                                    <script>
+                                        $(document).ready(function () {
+
+                                            var sessionStorage = window.sessionStorage;
+                                            if (sessionStorage) {
+                                                if (sessionStorage.getItem('project-publish-status') === 'create') {
+                                                    $('#modalPublishProject').modal('show');
+                                                    sessionStorage.setItem('project-publish-status', '');
+                                                    console.log(sessionStorage.getItem('project-publish-status'));
+                                                }
+                                            }
+
+
+
+                                        })
+                                    </script>
                                     <?php while($query->have_posts()): $query->the_post(); ?>
                             <li class="black">
                                         <span class="black data">
