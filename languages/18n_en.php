@@ -36,8 +36,8 @@ return [
     'participate' => 'join the arhproekt',
     'orange banner not log desc' => 'Before uploading the project to the contest, we request you to write in a short registration form. You will be able to take part in the contest, and we will be able to find you when the time comes to award the prizes.',
     'registration' => 'register now',
-    'orange banner log desc' => 'Here you can send complited work in the competetion base of the ARHproect.Please read the rules again.',
-    'send work' => 'Send projects',
+    'orange banner log desc' => 'Here you can send complited work in the competetion base of the ARHproekt. Please read the rules again.',
+    'send work' => 'Submit the project',
     'have any questions' => 'Have any questions',
     'have any questions desc' => 'we are glad to answer all your questions about the competition. Just write your message in special form.',
     'about' => 'About',
@@ -119,5 +119,8 @@ return [
     'arh_title'=> 'ARHproekt',
     'log in' => 'log in',
     'toll free in Russia' => 'toll free in Russia',
+    'read the brief' => 'read the brief',
+    'submit now' => 'submit now',
+
 
 ];

@@ -118,6 +118,8 @@ return [
     'how to win title registration' => 'Зарегистрироваться <br /> на сайте',
     'arh_title' => 'АРХпроект',
     'log in' => 'войти',
+    'read the brief' => 'смотреть',
+    'submit now' => 'Отправить работу',
 
 ];
 

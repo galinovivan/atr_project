@@ -119,7 +119,7 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base small white block_center">
                                 <a href="<?=get_page_link(115);?>" target="_blank">
-                                    <?=lang('watch');?>
+                                    <?=lang('read the brief');?>
                                 </a>
                             </button>
                         </div>
@@ -150,7 +150,7 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base small white block_center">
                                 <a href="<?=get_page_link(165);?>" target="_blank">
-                                    <?=lang('watch');?>
+                                    <?=lang('read the brief');?>
                                 </a></button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base small white block_center">
-                                <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('watch');?></a></button>
+                                <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('read the brief');?></a></button>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -211,7 +211,7 @@
                         <div class="watch_button hidden-xs hidden-sm">
                             <button class="button base small white block_center">
                                 <a href="<?=get_page_link(525);?>" target="_blank">
-                                    <?=lang('watch');?>
+                                    <?=lang('read the brief');?>
                                 </a>
                             </button>
                         </div>
@@ -439,7 +439,7 @@
                                     <a class="button base medium white revert_hover"
                                             data-toggle="modal"
                                        href="<?=get_page_link(68);?>">
-                                      <?=lang('send work');?>
+                                      <?=lang('submit now');?>
                                     </a>
                                 </div>
                             </div>
