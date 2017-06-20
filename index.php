@@ -273,9 +273,11 @@
         <div class="container">
             <div class="row">
                 <div class="banner_heading">
+                    <a href="<?=get_page_link(40);?>">
                     <h2 class="white up text-center">
                         <?=lang('judge');?>
                     </h2>
+                    </a>
                 </div>
             </div>
             <div class="row">
