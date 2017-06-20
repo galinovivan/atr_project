@@ -59,8 +59,8 @@
             $userUrl = $user->user_url;
             ?>
             <h5>
-                <?=lang('hello');?>
-                <?=$user->user_lastname;?> </h5>
+                <?=lang('hello');?>,
+                <?=$user->user_lastname;?>!</h5>
             <p class="black">
                 <?=lang('profile hello message');?>
             </p>
