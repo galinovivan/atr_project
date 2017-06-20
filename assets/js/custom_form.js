@@ -17,8 +17,7 @@
         $('#pass1').attr('placeholder', passLabel);
         $('#last_name').attr('placeholder', 'Name');
         //$('.auth_form .wpuf-form li input[type=submit]').val('Registration');
-        $('#registrationModal').find('input[type="submit"]').first().val('Join');
-        console.log($('#registrationModal').find('input[type="submit"]').first().val());
+
     }
 
 
@@ -142,7 +141,8 @@
             wpUfForm.find('#project_desc').attr('placeholder', textField.projectDesc);
             wpUfForm.find('input[type="submit"]').val(textField.submit);
 
-
+            $('#registrationModal').find('input[type="submit"]').first().val('Join');
+            console.log($('#registrationModal').find('input[type="submit"]').first().val());
 
 
 
