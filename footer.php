@@ -130,7 +130,11 @@
                             <p class="white">
                                 <?=lang('you can contact us by phone');?>
                                 <br />
-                                8(800) 250 78 40</p>
+                                8(800) 250 78 40<br />
+                                <?php if ($lang == 'en'): ?>
+                                    (<?=lang('toll free in Russia');?>)
+                                <?php endif; ?>
+                            </p>
                             <p class="white">
                                 <?=lang('or write to mail');?>
                                 <br />

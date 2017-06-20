@@ -14,6 +14,7 @@ loadTranslate($currentLang);
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?=lang('arh_title');?></title>
 
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
     <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-106461-5F5Ub';</script>
@@ -142,7 +143,7 @@ loadTranslate($currentLang);
 
             <div class="col-md-9 col-md-offset-0 col-lg-8 col-lg-offset-1">
     <span>
-        <?=lang('top helper log');?>
+        <?=lang('top helper log', true);?>
         <a href="<?=get_page_link(68);?>" data-toggle="modal">
             <?=lang('here');?>
         </a></span>
@@ -158,23 +159,23 @@ loadTranslate($currentLang);
                     <ul class="user_info_list">
                         <li class="dropdown">
                             <a id="userInfoDropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <?=lang('you loggined as');?> <?=$user->user_lastname;?>
+                                <?=lang('you loggined as', true);?> <?=$user->user_lastname;?>
                             </a>
                             <span class="caret"></span>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="<?=get_page_link(177);?>">
-                                        <?php echo lang('personal area');?>
+                                        <?php echo lang('personal area', true);?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="<?=get_page_link(68);?>">
-                                        <?=lang('Download the work');?>
+                                        <?=lang('Download the work', true);?>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="<?=wp_logout_url('/')?>">
-                                        <?=lang('logout');?>
+                                        <?=lang('logout', true);?>
                                     </a>
                                 </li>
                             </ul>

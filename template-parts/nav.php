@@ -92,7 +92,7 @@
                             </a>
                         <?php else: ?>
                             <a href="#registrationModal" data-toggle="modal" class="up white">
-                                <?=lang('personal area');?>
+                                <?=lang('log in');?>
                             </a>
                         <?php endif; ?>
 

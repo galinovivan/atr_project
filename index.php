@@ -513,7 +513,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="text text-center">
                         <p class="black">
-                            <?=lang('have any questions desc');?>
+                            <?=lang('have any questions desc', true);?>
                         </p>
                     </div>
                 </div>
