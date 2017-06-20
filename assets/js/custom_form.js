@@ -7,16 +7,17 @@
     var lang = document.documentElement.lang;
 
     if (lang == 'ru-RU') {
-        var loginLabel = 'Email',
+        var loginLabel = 'E-mail',
             passLabel = 'Пароль',
             repeatPassLabel = 'Повторите пароль';
     } else if (lang == 'en-US') {
-        var loginLabel = 'Email',
+        var loginLabel = 'E-mail',
             passLabel = 'Password',
-            repeatPassLabel = 'repeat password';
+            repeatPassLabel = 'Repeat password';
         $('#pass1').attr('placeholder', passLabel);
         $('#last_name').attr('placeholder', 'Name');
-        $('.auth_form .wpuf-form li input[type=submit]').val('Registration');
+        //$('.auth_form .wpuf-form li input[type=submit]').val('Registration');
+        $('#registrationModal > div > div > div.modal-body > div.registration.auth_form > div.reg_form > form > ul > li.wpuf-submit > input[type="submit"]:nth-child(7)').val('Join');
     }
 
 
