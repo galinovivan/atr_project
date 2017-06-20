@@ -93,9 +93,9 @@
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action">
                         <p class="black">
-                            <?=lang('ad');?><br />
-                            <?=lang('names');?><br />
-                            <?=lang('finalists alt');?><br />
+                            <?=lang('ad', true);?><br />
+                            <?=lang('names', true);?><br />
+                            <?=lang('finalists alt', true);?><br />
                         </p>
                     </div>
                 </div>
