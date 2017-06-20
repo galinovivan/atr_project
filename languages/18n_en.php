@@ -92,7 +92,7 @@ return [
     'leader' => 'Leader',
     'project description' => 'Project description',
     'hello' => 'Hello',
-    'profile hello message' => 'Here you can upload your project for take part in the compitetion ARHproekt',
+    'profile hello message' => 'Here you can upload your project for take part in the competition ARHproekt.',
     'activity' => 'Activity on the site',
     'date of registration on the site' => 'Date of registration on the site',
     'save' => 'Save',
