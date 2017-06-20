@@ -92,7 +92,7 @@ return [
     'leader' => 'Leader',
     'project description' => 'Project description',
     'hello' => 'Hello',
-    'profile hello message' => 'Here you can download your work for participation in the All-Russian professional student competitionArchitectural and design projects "ARHPROEKT',
+    'profile hello message' => 'Here you can upload your project for take part in the compitetion ARHproekt',
     'activity' => 'Activity on the site',
     'date of registration on the site' => 'Date of registration on the site',
     'save' => 'Save',
