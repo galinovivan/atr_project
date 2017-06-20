@@ -121,6 +121,7 @@ return [
     'toll free in Russia' => 'toll free in Russia',
     'read the brief' => 'read the brief',
     'submit now' => 'submit now',
+    'modal log title' => 'join us or log in',
 
 
 ];

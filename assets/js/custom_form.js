@@ -17,7 +17,8 @@
         $('#pass1').attr('placeholder', passLabel);
         $('#last_name').attr('placeholder', 'Name');
         //$('.auth_form .wpuf-form li input[type=submit]').val('Registration');
-        $('#registrationModal > div > div > div.modal-body > div.registration.auth_form > div.reg_form > form > ul > li.wpuf-submit > input[type="submit"]:nth-child(7)').val('Join');
+        $('#registrationModal').find('input[type="submit"]').val('Join');
+        console.log($('#registrationModal').find('input[type="submit"]'));
     }
 
 

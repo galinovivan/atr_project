@@ -34,7 +34,7 @@ loadTranslate($currentLang);
                 <button class="close" data-dismiss="modal" aria-hidden="true">
                     <span></span><span></span>
                 </button>
-                <h4 class="white base_font">Войдите, чтобы загрузить работу</h4>
+                <h4 class="white base_font"><?=lang('modal log title', true);?></h4>
             </div>
             <div class="modal-body">
                 <?php  if (is_user_logged_in()): 
