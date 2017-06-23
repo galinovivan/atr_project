@@ -41,7 +41,7 @@ footer {
       a {
         background: url('../images/logo_arh_footer_whote_en.png') no-repeat;
         background-size: cover;
-        @include transition();
+        @include transition(all .1s);
         &:hover {
           background: url('../images/arh_logo_footer_en.png') no-repeat;
           background-size: contain;
