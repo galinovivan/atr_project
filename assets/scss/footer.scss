@@ -39,8 +39,13 @@ footer {
     }
     &.en {
       a {
-        background: url('../images/arh_mobile_en.png') no-repeat;
-        background-size: contain;
+        background: url('../images/logo_arh_footer_whote_en.png') no-repeat;
+        background-size: cover;
+        @include transition();
+        &:hover {
+          background: url('../images/arh_logo_footer_en.png') no-repeat;
+          background-size: contain;
+        }
       }
     }
   }

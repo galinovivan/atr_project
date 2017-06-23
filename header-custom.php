@@ -143,7 +143,7 @@ loadTranslate($currentLang);
                     <a href="/">
                     <img src="<?php echo get_template_directory_uri() .
                         ($currentLang == 'ru' ? '/assets/images/arh_logo.png' :
-                            '/assets/images/arh_logo_eng.png')?>"
+                            '/assets/images/new_en_logo.png')?>"
                          class="img-responsive pull-left hidden-xs hidden-sm" />
                         <img src="<?php echo get_template_directory_uri() .
                             ($currentLang == 'ru' ? '/assets/images/mobile_arh_logo.png' :
