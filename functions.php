@@ -184,6 +184,9 @@ function getUserRegistered($userId, $dateFormat = 'd.m') {
 
 add_action('wp_head','js_variables');
 
+ add_theme_support('post-thumbnails');
+set_post_thumbnail_size(150,150,TRUE); 
+
 require get_template_directory() . '/function/update_user.php';
 
 require get_template_directory() . '/function/judge.php';

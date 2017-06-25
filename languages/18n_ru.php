@@ -114,7 +114,7 @@ return [
     'interior title in nomination block' => 'интерьер <br /> квартиры',
     'pavilion title in nomination' => 'павильон или <br /> беседка',
     'bus station title in nomination' => 'остановка <br /> транспорта',
-    'city on the water title in nomination' => 'Город <br /> воде',
+    'city on the water title in nomination' => 'Город <br /> на воде',
     'how to win title registration' => 'Зарегистрироваться <br /> на сайте',
     'arh_title' => 'АРХпроект',
     'log in' => 'войти',

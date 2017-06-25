@@ -14,8 +14,13 @@ $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);
 <div class="gallery_item filterable" data-nomination="<?=do_shortcode('[wpuf-meta name="nomination"]');?>">
     <a href="<?php the_permalink(); ?>">
         <div class="item_thumb line_hover">
-            <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
-            <div class="thumb_overlay"></div>
+           <?php
+            $postId = get_the_ID();
+            ?>
+       <?php
+       echo get_the_post_thumbnail($postId, array(300, 300), array('class' => 'img-responsive'));
+       ?>
+                     <div class="thumb_overlay"></div>
             <span class="separate_line_hover left"></span>
             <span  class="separate_line_hover right"></span>
             <span class="separate_line_hover top"></span>

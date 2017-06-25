@@ -157,7 +157,8 @@
                                      while ($works_students->have_posts() ) : $works_students->the_post(); ?>
                                 <?php
                                     $thumb_id = get_post_thumbnail_id();
-                                    $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);                                    
+                                    $thumb_url = wp_get_attachment_image_src($thumb_id, array(300, 300), false);  
+                                
                                 ?>
                             <?php include (get_template_directory() . '/template-parts/project.php'); ?>
 
