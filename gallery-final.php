@@ -13,7 +13,7 @@
 <main>
 
         <div class="category_heading">
-            <a href="<?=$_SERVER['HTTP_REFERER'];?>" class="heading_back_link">
+            <a href="<?=$_SERVER['HTTP_REFERER'];?>" class="heading_back_link hidden-xs hidden-sm">
                 <i class="fa fa-arrow-left"></i>
             </a>
             <div class="container">
