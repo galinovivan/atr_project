@@ -248,7 +248,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-8 col-md-7 thumb_block">
-                    <h2 class="up white text-center visible-xs visible-sm">Призы</h2>
+                    <h2 class="up white text-center visible-xs visible-sm"><?=lang('prizes');?></h2>
                     <div class="bottom_separate_line visible-xs visible-sm"></div>
                 </div>
                 <div class="col-xs-12 visible-xs visible-sm about_prize fluid_wrapper">

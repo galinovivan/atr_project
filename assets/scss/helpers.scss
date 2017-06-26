@@ -35,6 +35,11 @@
     }
 
   }
+  @media screen and (max-width: 321px) {
+    * {
+      font-size: $baseMobileFontSize - 4 !important;
+    }
+  }
   @media screen and (min-width: $smScreen) {
     .loggined_helper {
       * {
