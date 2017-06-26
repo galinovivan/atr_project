@@ -120,7 +120,7 @@ loadTranslate($currentLang);
         <?=lang('up');?>
     </span>
     <img src="<?=get_template_directory_uri();?>/assets/images/arrow_top_redisign.png"
-         class="img-responsive top_arrow_image" />
+         class="img-responsive top_arrow_image hidden-xs hidden-sm" />
 </a>
 <div class="helper_toggle">
     <a href="#" id="helperToggle">
