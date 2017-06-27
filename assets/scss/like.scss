@@ -26,6 +26,7 @@
       padding: 0 !important;
       margin: 0 !important;
       min-width: 1px;
+      background-color: $transparent !important;
       &::before {
         display: none;
       }
