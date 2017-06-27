@@ -1,6 +1,11 @@
 header {
   padding: 73px 0;
   box-sizing: border-box;
+  .header_logo {
+    img {
+      max-height: 39px;
+    }
+  }
   .top_header_section {
     margin-bottom: 31px;
   }
