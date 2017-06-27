@@ -110,6 +110,16 @@
                                 title="<?=lang('kira footer copyright')?>">
                                     <?=lang('all rights reserved');?>
                                 </span>
+                                <?php
+                                $language = qtrans_getLanguage();
+                                ?>
+                                <br />
+                                <span class="white small_text kseniya_copy">
+                                    <?php if ($language == 'en'): ?>
+                                        Site translated by <a href="vk.com/bubenia" target="_blank" class="kseniya_copy orange_hover_link">
+                                            Ksenia Bubenina</a>
+                                    <?php endif; ?>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -128,7 +138,9 @@
                         </div>
                         <div class="top_text">
                             <p class="white">
+                                <strong>
                                 <?=lang('you can contact us by phone');?>
+                                </strong>
                                 <br />
                                 8(800) 250 78 40<br />
                                 <?php if ($lang == 'en'): ?>
@@ -136,13 +148,17 @@
                                 <?php endif; ?>
                             </p>
                             <p class="white">
+                                <strong>
                                 <?=lang('or write to mail');?>
+                                </strong>
                                 <br />
                                 pro@zvezdaudachi.com</p>
                         </div>
                         <div class="bottom_text">
                             <p class="white">
+                                <strong>
                                 <?=lang('to be aware of the news of the project, subscribe to us in social networks');?>
+                                </strong>
                             </p>
                         </div>
                         <div class="social_block">

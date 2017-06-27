@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <h4 class="up white"><?=lang('works');?> <span class="up base_font white">
-                                (<?=lang('finalists');?> '16')
+                                (<?=lang('finalists');?>)
                             </span></h4>
                     </div>
                 </div>

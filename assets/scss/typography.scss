@@ -128,3 +128,14 @@ h5 {
 .orange_text {
   color: $orange !important;
 }
+
+.orange_hover_link {
+  @include textHover();
+}
+
+/* custom */
+.kseniya_copy {
+  font-size: $baseMobileFontSize - 4;
+  color: $white;
+}
+/* end custom */

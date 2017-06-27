@@ -47,7 +47,7 @@ return [
     'works' => 'Работы',
     'students' => 'Студенты',
     'graduates' => 'Выпускники',
-    'finalists' => 'Финалисты',
+    'finalists' => 'Финалисты \'16',
     'ask questions' => 'Задать вопрос',
     'contacts' => 'Контакты',
     'founder and organizer' => 'Учредитель и организатор',
