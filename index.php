@@ -205,7 +205,7 @@
                         </div>
                         <div class="text text-center hidden-xs hidden-sm">
                             <p class="white">
-                                <?=lang('city on the water desc');?>
+                                <?=lang('city on the water desc', true);?>
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
