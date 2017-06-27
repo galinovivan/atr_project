@@ -116,7 +116,7 @@
                                 <br />
                                 <span class="white small_text kseniya_copy">
                                     <?php if ($language == 'en'): ?>
-                                        Site translated by <a href="vk.com/bubenia" target="_blank" class="kseniya_copy orange_hover_link">
+                                        Site translated by <a href="http://vk.com/bubenia" target="_blank" class="kseniya_copy orange_hover_link">
                                             Ksenia Bubenina</a>
                                     <?php endif; ?>
                                 </span>
