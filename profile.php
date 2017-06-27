@@ -88,7 +88,8 @@
                                 <?php
                                 $args = [
                                     'post_type' => 'projects',
-                                    'author' => $user->ID
+                                    'author' => $user->ID,
+                                    'post_status' => array('future', 'pending', 'publish', 'draft')
                                 ];
                                 $query = new WP_Query($args);
 
