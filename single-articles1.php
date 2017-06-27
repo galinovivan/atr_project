@@ -26,7 +26,7 @@
             ?>
             <div class="head" style="margin-bottom: 15px;">
                <h3 class="up black"><?php the_title();?></h3>
-            </div>(952) 357-8858
+            </div>
             <div class="news_thumb_full">
                 <img src="<?=$thumbURL?>" class="img-responsive"/>
             </div>
