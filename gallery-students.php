@@ -47,7 +47,7 @@
                                        <?=lang('graduates');?>
                                    </a></li>
                                <li><a href="/галерея-работ/финалисты-16/">
-                                       <?=lang('finalists');?> `16
+                                       <?=lang('finalists');?>
                                    </a></li>
                            </ul>
                        </div>
