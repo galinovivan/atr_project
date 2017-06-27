@@ -12,8 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4 class="up white"> <?=lang('news');?> |
-                    <?php wp_title('');?></h4>
+                <h4 class="up white"> <?=lang('news');?></h4>
             </div>
         </div>
     </div>
@@ -27,7 +26,7 @@
             ?>
             <div class="head" style="margin-bottom: 15px;">
                <h3 class="up black"><?php the_title();?></h3>
-            </div>
+            </div>(952) 357-8858
             <div class="news_thumb_full">
                 <img src="<?=$thumbURL?>" class="img-responsive"/>
             </div>
