@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
-                    <div class="action small_padding">
+                    <div class="action">
                         <p class="black">
                             <?=lang('exhibition');?><br />
                             <?=lang('works alt');?><br />
