@@ -102,7 +102,7 @@
                            <?=lang('Ask questions');?>
                         </a></li>
                     <li><a href="<?php is_home() ? print '#contactForm' : print '/#contactForm';?>"
-                           class="up white scroll_link">
+                           class="up white <?php is_home() ? print 'scroll_link' : print '';?>">
                          <?=lang('contacts');?>
                         </a></li>
                     <li>
