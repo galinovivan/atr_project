@@ -10,6 +10,6 @@ $result = mail('ivan.galinov28@gmail.com', 'subject', 'message');
 if ($result) {
     echo 'ok';
 } else {
-    'mal error';
+    'error';
 }
 ?>
