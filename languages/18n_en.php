@@ -103,7 +103,7 @@ return [
     'works alt' => 'Projects',
     'finalists alt' => ' Of finalists',
     'back' => 'Back',
-    'pavilion desc' => 'Best project of public space &ndash; pavilion or arbor',
+    'pavilion desc' => 'Best project of an element of public space &ndash; a pavilion or an arbor',
     'work is loaded' => 'Work is loaded',
     'in nomination' => 'in category',
     'lost password' => 'lost password',
