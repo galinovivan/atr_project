@@ -256,3 +256,9 @@
     }
   }
 }
+
+@media screen and (max-width: 1085px) {
+  .heading_back_link {
+    display: none !important;
+  }
+}
