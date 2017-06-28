@@ -100,7 +100,7 @@
                             </div>
                             <div class="text">
                             <span class="small_text white"><span class="hidden-xs hidden-sm white small_text">
-                                    <?=lang('site developed by');?>:
+                                    <?=lang('site developed by');?>
                                 </span>
                                 <?=lang('advertising agency kira alleynova');?>
                             </span>

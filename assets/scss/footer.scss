@@ -103,7 +103,7 @@ footer {
   .partners_block {
     padding-left: 40px;
     .logo {
-      margin-bottom: 55px;
+      margin-bottom: 25px;
     }
     .partners_list {
       ul {
@@ -115,6 +115,9 @@ footer {
            a {
              display: block;
            }
+          &:nth-child(2) {
+            margin-top: -6px;
+          }
           &:nth-child(3) {
             margin-top: -5px;
           }
