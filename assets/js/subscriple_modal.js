@@ -6,10 +6,9 @@
         var subscribleModal = $('#subscribleModal');
         if (!uniqeCookieIdenfer) {
             Cookie.setCookie('visited', 'true', {expires: 604800});
-            subscribleModal.modal('show');
+         //  subscribleModal.modal('show');
         }
         console.log(document.cookie);
-        subscribleModal.modal('show');
     });
     /**
      * @type {{setCookie: Cookie.setCookie, getCookie: Cookie.getCookie, deleteCookie: Cookie.deleteCookie}}
