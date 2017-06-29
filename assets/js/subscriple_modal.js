@@ -16,7 +16,6 @@
      */
     Cookie = {
         /**
-         *
          * @param name
          * @param value
          * @param options
