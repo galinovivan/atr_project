@@ -205,5 +205,7 @@ require get_template_directory() . '/function/language.php';
 
 require get_template_directory() . '/function/sort.php';
 
+require get_template_directory() . '/function/cookie.php';
+
 
 
