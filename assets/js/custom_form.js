@@ -55,6 +55,9 @@
         var $pdfField = $('#wpuf-___________________pdf-pickfiles');
         var $fileListComponent = $('#post-68 > div > form > ul > li.wpuf-submit');
         var htmlString = '<span>Нажимая на кнопку отправить, я подтверждаю свою дееспособность и даю согласие на обработку персональных данных.</span>';
+        var htmlStringReg = '<span>Нажимая на кнопку регистрация, я подтверждаю свою дееспособность и даю согласие на обработку персональных данных.</span>';
+        var regInputField = $('#registrationModal > div > div > div.modal-body > div.registration.auth_form > div.reg_form > form > ul > li.wpuf-submit');
+        regInputField.prepend(htmlStringReg);
         $fileListComponent.prepend(htmlString);
         $pdfField.text(pdfFieldLabel);
 
