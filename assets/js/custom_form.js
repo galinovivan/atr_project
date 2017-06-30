@@ -53,8 +53,9 @@
 
 
         var $pdfField = $('#wpuf-___________________pdf-pickfiles');
-
-
+        var $fileListComponent = $('.wpuf-el.featured_image.file_field');
+        var htmlString = '<span>Нажимая на кнопку отправить, я подтверждаю свою дееспособность и даю согласие на обработку персональных данных.</span>';
+        $fileListComponent.append(htmlString);
         $pdfField.text(pdfFieldLabel);
 
         var $thumbField = $('#wpuf-featured_image-pickfiles');
