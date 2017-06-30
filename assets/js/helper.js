@@ -6,7 +6,7 @@
 
     $(document).ready(function() {
 
-      var $helper = $('.helper');
+      var $helper = $('#topHelper');
       var $closeToggle = $helper.find('.helper_close');
       var $helperToggle = $('#helperToggle');
 
