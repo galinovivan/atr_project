@@ -7,6 +7,7 @@
         if (!uniqeCookieIdenfer) {
             Cookie.setCookie('visited', 'true', {expires: 604800});
          //  subscribleModal.modal('show');
+            console.log(document.cookie);
         }
         console.log(document.cookie);
     });
