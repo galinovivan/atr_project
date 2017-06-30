@@ -1,20 +1,30 @@
 ;
 (function($) {
-
     $(document).ready(function() {
-        var uniqeCookieIdenfer = Cookie.getCookie('visited');
-        var subscribleModal = $('#subscribleModal');
-        if (!uniqeCookieIdenfer) {
-            Cookie.setCookie('visited', 'true', {expires: 604800});
-         //  subscribleModal.modal('show');
+        var subscribleHelper = $('#subscribleHelper');
+        if (document.cookie) {
+            var uniqeCookieIdenfer = Cookie.getCookie('user_is_visited');
+            if (!uniqeCookieIdenfer) {
+                Cookie.setCookie('user_is_visited', 'true', {expires: 604800});
+                 subscribleHelper.show();
+                console.log(document.cookie);
+            }
             console.log(document.cookie);
+        } else {
+            subscribleHelper.show();
         }
-        console.log(document.cookie);
+        // для отладки
+       // subscribleHelper.show();
+        var closeToggle = $('#subscribleCloseButton');
+        closeToggle.click(function(event) {
+            event.preventDefault();
+            subscribleHelper.slideToggle('fast');
+        });
     });
     /**
      * @type {{setCookie: Cookie.setCookie, getCookie: Cookie.getCookie, deleteCookie: Cookie.deleteCookie}}
      */
-    Cookie = {
+   var Cookie = {
         /**
          * @param name
          * @param value
@@ -63,5 +73,6 @@
                 expires: -1
             })
         }
-    }
+    };
+
 })(jQuery);

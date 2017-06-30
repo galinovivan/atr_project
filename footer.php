@@ -221,6 +221,7 @@
     </div>
 </footer>
 <?php wp_footer(); ?>
+<?php include('template-parts/subscrible-helper.php') ?>
 <script src="<?=get_template_directory_uri()?>/assets/js/dist/scripts.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
