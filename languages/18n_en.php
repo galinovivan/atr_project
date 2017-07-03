@@ -122,6 +122,7 @@ return [
     'read the brief' => 'read the brief',
     'submit now' => 'submit now',
     'modal log title' => 'join us or log in',
+    'subscrible text' => 'The site uses cookies, geodata and IP to improve the interface. If you do not agree to the collection of metadata, you should leave this site.',
 
 
 ];
