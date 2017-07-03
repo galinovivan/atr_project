@@ -117,7 +117,8 @@
                                 <span class="white small_text kseniya_copy">
                                     <?php if ($language == 'en'): ?>
                                         Site translated by <a href="http://vk.com/bubenia" target="_blank" class="kseniya_copy orange_hover_link">
-                                            Ksenia Bubenina</a>
+                                            Ksenia Dragunskaya</a> <br />
+                                            <a href="mailto:ksenia.bubenia@gmail.com" target="_blank" class="kseniya_copy orange_hover_link">ksenia.bubenia@gmail.com</a>
                                     <?php endif; ?>
                                 </span>
                             </div>
