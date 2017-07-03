@@ -32,26 +32,30 @@
          */
         setCookie: function(name, value, options) {
             options = options || {};
+
             var expires = options.expires;
-            if (typeof expires == 'number' && expires) {
-                var date = new Date();
-                date.setDate(date.getTime() + expires * 1000);
-                expires = options.expires = date;
+
+            if (typeof expires == "number" && expires) {
+                var d = new Date();
+                d.setTime(d.getTime() + expires * 1000);
+                expires = options.expires = d;
             }
-            if (expires && expires.toUTCString()) {
+            if (expires && expires.toUTCString) {
                 options.expires = expires.toUTCString();
             }
+
             value = encodeURIComponent(value);
-            var updatedCookie = name + '=' + value;
+
+            var updatedCookie = name + "=" + value;
 
             for (var propName in options) {
-                updatedCookie += '; ' + propName;
+                updatedCookie += "; " + propName;
                 var propValue = options[propName];
                 if (propValue !== true) {
-                    updatedCookie += '=' + propValue;
+                    updatedCookie += "=" + propValue;
                 }
             }
-
+            console.log(options.expires);
             document.cookie = updatedCookie;
         },
         /**
