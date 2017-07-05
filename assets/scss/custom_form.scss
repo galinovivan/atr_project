@@ -268,4 +268,13 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
     }
   }
 
+  #post-259 {
+    #wpuf-login-form > a:nth-child(4) {
+      display: none !important;
+    }
+    #wpuf-login-form > a:nth-child(5) {
+      display: none !important;
+    }
+  }
+
 
