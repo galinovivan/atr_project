@@ -47,8 +47,8 @@
 
 
         } else if (lang == 'en-US') {
-            var thumbFieldLabel = 'Download preview in jpg';
-            var pdfFieldLabel = 'Download the work in pdf';
+            var thumbFieldLabel = 'Upload the preview in .jpg';
+            var pdfFieldLabel = 'Upload the project in .pdf';
         }
 
 
@@ -78,7 +78,7 @@
     if (currentLang == 'ru-RU') {
         var categoryLabel = 'Категория';
     } else if (currentLang == 'en-US') {
-        var categoryLabel = 'Category';
+        var categoryLabel = 'Type of parficipant';
     }
 
     $categoryList = $categoryList.children(':first');
@@ -107,15 +107,16 @@
         Select.pavilon = 'Pavilion / arbor';
         Select.busStation = 'Bus station';
         Select.cityOnTheWater = 'Sity on the Water';
-        Select.nomination = 'Nomination';
+        Select.nomination = 'Category';
         Select.numbersOfPartners = 'Number of partners';
 
         var textField = {};
         textField.name = 'Full name';
-        textField.city = 'City';
+        textField.city = 'Region/State';
         textField.phoneNumber = 'Phone Number';
-        textField.univer = 'University';
+        textField.univer = 'Institution';
         textField.spec = 'Specialty';
+        textField.Year = 'Year of graduate';
         textField.teamLead = 'Mentor';
         textField.projectName = 'Project Name';
         textField.projectDesc = 'Project description';
@@ -138,7 +139,7 @@
             $('select.wpuf_nomination_352 option:nth-of-type(5)').text(Select.cityOnTheWater);
 
             var wpUfForm = $('.wpuf-form-add');
-
+            $('#year').attr('placeholder', textField.Year);
             wpUfForm.find('#post_title').attr('placeholder', textField.name);
             wpUfForm.find('#city').attr('placeholder', textField.city);
             wpUfForm.find('#phone_number').attr('placeholder', textField.phoneNumber);

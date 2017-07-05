@@ -11,7 +11,7 @@ return [
     'personal area' => 'My profile',
     'download the work' => 'submit the project',
     'logout' => 'log out',
-    'main header description' => 'ARCHPROJECT —open architectural design competition for students and young specialists',
+    'main header description' => 'ARCHPROJECT — open architectural design competition for students and young specialists',
     'learn more' => 'learn more',
     'the terms of partication' => ' TERMS & CONDITIONS',
     'partication main descript' => 'Students of universities and secondary specialized education institutions (above 16 years old), bachelors, masters, graduates and postgraduates  of 2011-2017 are allowed to the competition. We accept entries from individual authors and creative teams of up to 3 people.',

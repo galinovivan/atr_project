@@ -145,7 +145,7 @@
                                 <br />
                                 8(800) 250 78 40<br />
                                 <?php if ($lang == 'en'): ?>
-                                    (toll free in Russia)
+                                    (Toll Free in Russia)
                                 <?php endif; ?>
                             </p>
                             <p class="white">
