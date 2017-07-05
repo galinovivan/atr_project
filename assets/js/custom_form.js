@@ -58,7 +58,7 @@
         var htmlStringReg = '<span>Нажимая на кнопку регистрация, я подтверждаю свою дееспособность и даю согласие на обработку персональных данных.</span>';
         var regInputField = $('#registrationModal > div > div > div.modal-body > div.registration.auth_form > div.reg_form > form > ul > li.wpuf-submit');
         if (lang == 'en-US' ) {
-            htmlStringReg = '<span>Pressing REGISTER one confirms their capacity and agrees to handling of their personal data.</span>';
+            htmlStringReg = '<span>Pressing JOIN one confirms their capacity and agrees to handling of their personal data.</span>';
             htmlString = '<span>Pressing SEND one confirms their capacity and agrees to handling of their personal data.</span>'
         }
         regInputField.prepend(htmlStringReg);
