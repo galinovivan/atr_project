@@ -277,4 +277,14 @@ ul.wpuf-form li .wpuf-fields a.file-selector {
     }
   }
 
+  #post-259 {
+    .arh_custom_block {
+      width: auto;
+      &.custom_forgot_link {
+        text-align: left;
+        margin-left: 20px;
+      }
+    }
+  }
+
 
