@@ -25,7 +25,7 @@ return [
     'city on the water' => 'Floating city',
     'city on the water desc' => 'best project of creating a unique image of urban space',
     'prizes' => 'Awards',
-    'prizes banner desc' => 'The capital prize of the competition is internship in one of the largest construction companies of St. Petersburg — Group of Companies \"ЦДС\". The finalists of the contest will be awarded 3D-printers, digital art boards and other useful valuable prizes.',
+    'prizes banner desc' => 'The capital prize of the competition is internship in one of the largest construction companies of St. Petersburg — Group of Companies "ЦДС". The finalists of the contest will be awarded 3D-printers, digital art boards and other useful valuable prizes.',
     'more' => 'more',
     'judge' => 'Judges',
     'how to win' => 'How to win',
