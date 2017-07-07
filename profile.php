@@ -115,7 +115,7 @@
                                         <span class="black data">
                                             <?php the_date('d.m'); ?>
                                                 <?=lang('work is loaded');?>:
-                                            <?=do_shortcode('[wpuf-meta name="project_name"]');?>
+                                            <?=do_shortcode('[wpuf-meta name="project_name"]');?> <br />
                                             <?=lang('in nomination');?>:
                                             <?=do_shortcode('[wpuf-meta name="nomination"]');?>
                                         </span>
