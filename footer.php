@@ -111,7 +111,7 @@
                                     <?=lang('all rights reserved');?>
                                 </span>
                                 <br />
-                                <a href="<?=get_template_directory_uri();?>/assets/docs/polity.docx" class="white small_text policy">
+                                <a href="<?=get_template_directory_uri();?>/assets/docs/policy.docx" class="white small_text policy">
                                     <?=lang('private policy', true);?>
                                 </a>
                                 <?php
