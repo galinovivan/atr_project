@@ -7,9 +7,7 @@
             if (!uniqeCookieIdenfer) {
                 Cookie.setCookie('user_is_visited', 'true', {expires: 604800});
                  subscribleHelper.show();
-                console.log(document.cookie);
             }
-            console.log(document.cookie);
         } else {
             subscribleHelper.show();
         }
