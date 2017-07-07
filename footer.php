@@ -110,6 +110,10 @@
                                 title="<?=lang('kira footer copyright')?>">
                                     <?=lang('all rights reserved');?>
                                 </span>
+                                <br />
+                                <a href="<?=get_template_directory_uri();?>/assets/docs/polity.docx" class="white small_text policy">
+                                    <?=lang('private policy', true);?>
+                                </a>
                                 <?php
                                 $language = qtrans_getLanguage();
                                 ?>

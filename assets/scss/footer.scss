@@ -209,3 +209,8 @@ footer {
     }
   }
 }
+
+.policy {
+  font-size: $smallFont - 2;
+  @include textHover();
+}
