@@ -144,10 +144,7 @@ loadTranslate($currentLang);
 
             <div class="col-md-9 col-md-offset-0 col-lg-8 col-lg-offset-1">
     <span>
-<!--        --><?//=lang('top helper log', true);?>
-<!--        <a href="--><?//=get_page_link(68);?><!--" data-toggle="modal">-->
-<!--            --><?//=lang('here');?>
-<!--        </a></span>-->
+
         <?php if ($currentLang == 'en'): ?>
             Contest entry period is open from April 1 to September 15, 2017. <a href="<?=get_page_link(68);?>"> Click here</a> to send the completed project.
             <?php else: ?>

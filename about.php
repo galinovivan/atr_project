@@ -68,7 +68,7 @@
     </div>
     <div class="fluid_separate">
     </div>
-
+    <?php $currentLang = qtrans_getLanguage(); ?>
     <div class="action_row">
         <div class="container">
             <div class="row">
@@ -77,7 +77,10 @@
                         <p class="black">
                             <?=lang('start');?><br />
                             <?=lang('reception');?><br />
-                            <?=lang('works alt');?><br />
+                            <?php if ($currentLang == 'ru'): ?>
+                                <?=lang('works alt');?>
+                            <?php endif; ?>
+
                         </p>
                     </div>
                 </div>
@@ -86,28 +89,39 @@
                         <p class="black bold_font">
                             <?=lang('end');?><br />
                             <?=lang('reception');?><br />
-                            <?=lang('works alt');?><br />
+                            <?php if ($currentLang == 'ru'): ?>
+                                <?=lang('works alt');?>
+                            <?php endif; ?>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action">
                         <p class="black">
+
+                            <?php if ($currentLang == 'ru'): ?>
                             <?=lang('ad', true);?><br />
                             <?=lang('names', true);?><br />
                             <?=lang('finalists alt', true);?><br />
+                            <?php else: ?>
+                                Announcing <br /> the Finalists
+                            <?php endif;?>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-2 left_separate black">
                     <div class="action">
                         <p class="black">
+                            <?php if ($currentLang == 'ru'): ?>
                             <?=lang('exhibition');?><br />
                             <?=lang('works alt');?><br />
                             <?=lang('finalists alt');?><br />
                             <?=lang('and');?>
                             <?=lang('rewarding');?><br />
                             <?=lang('winners');?><br />
+                            <?php else: ?>
+                                Exhibition of Finalist<br /> Projects <br /> and the Awarding Ceremony
+                            <?php endif; ?>
                         </p>
                     </div>
                 </div>
