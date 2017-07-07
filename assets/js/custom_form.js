@@ -78,7 +78,7 @@
     if (currentLang == 'ru-RU') {
         var categoryLabel = 'Категория';
     } else if (currentLang == 'en-US') {
-        var categoryLabel = 'Type of parficipant';
+        var categoryLabel = 'Type of participant';
     }
 
     $categoryList = $categoryList.children(':first');
@@ -106,7 +106,7 @@
         Select.interior = 'Interior of apartment';
         Select.pavilon = 'Pavilion / arbor';
         Select.busStation = 'Bus station';
-        Select.cityOnTheWater = 'Sity on the Water';
+        Select.cityOnTheWater = 'Floating city';
         Select.nomination = 'Category';
         Select.numbersOfPartners = 'Number of partners';
 

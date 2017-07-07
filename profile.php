@@ -18,7 +18,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                   <p class="black">Спасибо, ваша работа отправлена на модерацию!</p>
+                   <p class="black"><?=lang('submit project text', true);?></p>
                 </div>
             </div>
         </div>
