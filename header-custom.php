@@ -51,7 +51,7 @@ loadTranslate($currentLang);
 </div>
 
 <?php include ('template-parts/nav.php'); ?>
-<div class="language_selector black hidden-xs hidden-sm">
+<div class="language_selector black">
     <?php qtranxf_generateLanguageSelectCode('dropdown'); ?>
 </div>
 <a href="#" class="top_link"><span class="hidden-xs hidden-sm white">
