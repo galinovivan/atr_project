@@ -122,7 +122,7 @@ return [
     'read the brief' => 'read the brief',
     'submit now' => 'submit now',
     'modal log title' => 'join us or log in',
-    'subscrible text' => 'The site uses cookies, geodata and IP to improve the interface. If you do not <a href="<?=get_template_directory_uri();?>/assets/docs/subscrible.docx" style="font-size: inherit;" class="white policy">agree</a> to the collection of metadata, you should leave this site.',
+    'subscrible text' => 'The site uses cookies, geodata and IP to improve the interface. If you do not <a href="http://arhproekt.pto/wp-content/themes/atr_project/assets/docs/subscrible.docx" style="font-size: inherit;" class="white policy">agree</a> to the collection of metadata, you should leave this site.',
     'submit project text' => 'Thank you! Your project has been sent for moderation! We are checking the projects on weekdays from 10:00 to 18:00 by Moscow time',
     'privacy policy' => 'privacy policy',
     'privaty subscrible' => 'Consent to the processing of personal data',
