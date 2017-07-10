@@ -121,7 +121,7 @@ return [
     'read the brief' => 'смотреть',
     'submit now' => 'Отправить работу',
     'modal log title' => 'Войдите, чтобы загрузить работу',
-    'subscrible text' => 'Сайт использует cookies, геоданные и IP, чтобы улучшить интерфейс. Если вы не даете  <a href="http://arhproekt.pto/wp-content/themes/atr_project/assets/docs/subscrible.docx" style="font-size: inherit;" class="white policy">согласие</a> на сбор метаданных, следует покинуть данный сайт.',
+    'subscrible text' => 'Сайт использует cookies, геоданные и IP, чтобы улучшить интерфейс. Если вы не даете  <a href="http://arhproekt.pro/wp-content/themes/atr_project/assets/docs/subscrible.docx" style="font-size: inherit;" class="white policy">согласие</a> на сбор метаданных, следует покинуть данный сайт.',
     'submit project text' => 'Спасибо, ваша работа отправлена на модерацию. Мы проверяем работы по будням с 10:00 до 18:00 (по МСК). Как только проект будет проверен, на вашу почту поступит уведомление.',
     'private policy' => 'политика конфидициальности',
     'privaty subscrible' => 'Согласие на обработку персональных данных',
