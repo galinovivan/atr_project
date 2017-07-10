@@ -516,6 +516,9 @@ main {
           background: url(../images/arh_background.png);
           opacity: 0.2;
         }
+        img {
+          min-width: 100%;
+        }
       }
       .project_desc {
         float: left;
