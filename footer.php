@@ -113,7 +113,8 @@
                                 <br />
                                 <a href="<?=get_template_directory_uri();?>/assets/docs/policy.docx" class="white small_text policy">
                                     <?=lang('private policy', true);?>
-                                </a>
+                                </a> <br />
+                                <a href="<?=get_template_directory_uri();?>/assets/docs/subscrible.docx" class="white small_text policy"><?=lang('privaty subscrible', true);?></a>
                                 <?php
                                 $language = qtrans_getLanguage();
                                 ?>
