@@ -111,7 +111,7 @@
                                     <?=lang('all rights reserved');?>
                                 </span>
                                 <br />
-                                <a href="<?=get_template_directory_uri();?>/assets/docs/policy.docx" class="white small_text policy">
+                                <a href="#policyModal" class="white small_text policy" data-toggle="modal">
                                     <?=lang('private policy', true);?>
                                 </a> <br />
                                 <a href="<?=get_template_directory_uri();?>/assets/docs/subscrible.docx" class="white small_text policy"><?=lang('privaty subscrible', true);?></a>

@@ -38,6 +38,11 @@
       }
     }
   }
+  &.big_modal {
+    .modal-dialog {
+      width: 75%;
+    }
+  }
 }
 
 .subscrible_modal {

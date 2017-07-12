@@ -23,6 +23,7 @@ loadTranslate($currentLang);
         <img src="<?=get_template_directory_uri();?>/assets/images/preloader.gif" />
     </div>
 </div>
+<?php include('template-parts/policy-modal.php'); ?>
 <?php //include('template-parts/subscriple.php');?>
 <div class="registration_modal modal fade" id="registrationModal">
     <div class="modal-dialog">
