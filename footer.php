@@ -114,7 +114,7 @@
                                 <a href="#policyModal" class="white small_text policy" data-toggle="modal">
                                     <?=lang('private policy', true);?>
                                 </a> <br />
-                                <a href="<?=get_template_directory_uri();?>/assets/docs/subscrible.docx" class="white small_text policy"><?=lang('privaty subscrible', true);?></a>
+                                <a href="#subscribleTextModal" data-toggle="modal" class="white small_text policy"><?=lang('privaty subscrible', true);?></a>
                                 <?php
                                 $language = qtrans_getLanguage();
                                 ?>

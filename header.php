@@ -28,6 +28,7 @@ loadTranslate($currentLang);
     </div>
 </div>
 <?php include('template-parts/policy-modal.php'); ?>
+<?php include ('template-parts/subscrible-modal.php'); ?>
 <?php //include('template-parts/subscriple.php');?>
 <div class="registration_modal modal fade" id="registrationModal">
     <div class="modal-dialog">
