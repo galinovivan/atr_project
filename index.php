@@ -116,11 +116,11 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base small white block_center">
+                            <p class="button base small white block_center">
                                 <a href="<?=get_page_link(115);?>" target="_blank">
                                     <?=lang('read the brief');?>
                                 </a>
-                            </button>
+                            </p>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -147,10 +147,10 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base small white block_center">
+                            <p class="button base small white block_center">
                                 <a href="<?=get_page_link(165);?>" target="_blank">
                                     <?=lang('read the brief');?>
-                                </a></button>
+                                </a></p>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -178,8 +178,8 @@
 
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base small white block_center">
-                                <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('read the brief');?></a></button>
+                            <p class="button base small white block_center">
+                                <a href="<?=get_page_link(168);?>" target="_blank"><?=lang('read the brief');?></a></p>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
@@ -208,11 +208,11 @@
                             </p>
                         </div>
                         <div class="watch_button hidden-xs hidden-sm">
-                            <button class="button base small white block_center">
+                            <p class="button base small white block_center">
                                 <a href="<?=get_page_link(525);?>" target="_blank">
                                     <?=lang('read the brief');?>
                                 </a>
-                            </button>
+                            </p>
                         </div>
                         <span class="separate_line_hover left hidden-xs hidden-sm"></span>
                         <span  class="separate_line_hover right hidden-xs hidden-sm"></span>
