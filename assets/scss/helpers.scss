@@ -117,7 +117,7 @@
   background-color: $orange;
   background-image: url('../images/cookie.png');
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: 17px center;
   .close_button {
     @include closeToggle(20px, $white);
     top: 6px;
