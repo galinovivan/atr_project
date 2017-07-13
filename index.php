@@ -18,7 +18,6 @@
             </div>
         </div>
     </div>
-
     <div class="participation_banner light_background">
         <div class="container-fluid">
             <div class="row">
