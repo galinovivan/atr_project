@@ -27,15 +27,30 @@ class UserFilter
         $this->setIgnoreUsersList($projectList);
     }
 
+    /**
+     * @param $users
+     */
     public function setIgnoreUsers($users) {
         $this->ignoreUsers = $users;
     }
+
+    /**
+     * @param $userId
+     */
     public function pushIgnoreList($userId) {
         $this->ignoreUsers[] = $userId;
     }
+
+    /**
+     * @return array
+     */
     public function getIgnoreUsers() {
         return $this->ignoreUsers;
     }
+
+    /**
+     * @param $projectList
+     */
     public function setIgnoreUsersList($projectList) {
         $projectList = $projectList->posts;
         foreach ($projectList as $project) {
@@ -56,9 +71,12 @@ class UserFilter
     public function getUsers() {
         return $this->users;
     }
+
+    /**
+     *
+     */
     public function filterUsers() {
         $users = $this->getUsers();
-
         for ($i = 0; $i <= count($users); $i++) {
             $userData = $users[$i]->data;
             if (in_array($userData->ID, $this->getIgnoreUsers())) {
@@ -66,8 +84,8 @@ class UserFilter
             }
 
             $this->textWritter->write($userData->user_email);
-            echo $userData->user_email;
         }
     }
+
 
 }

@@ -12,11 +12,20 @@ use classes\UserFilter\AbstractTextWritter;
 class UsersEmailTextWritter extends AbstractTextWritter
 {
     private $filename;
+
+    /**
+     * UsersEmailTextWritter constructor.
+     * @param $fileName
+     */
     public function __construct($fileName)
     {
         $this->filename = $fileName;
     }
 
+    /**
+     * @param $content
+     * @throws \Exception
+     */
     public function write($content)
     {
         if (!file_exists($this->filename)) {

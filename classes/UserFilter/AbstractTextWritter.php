@@ -11,6 +11,10 @@ namespace classes\UserFilter;
 
 abstract class AbstractTextWritter
 {
+    /**
+     * @param $content
+     * @return mixed
+     */
     abstract function write($content);
 
 }

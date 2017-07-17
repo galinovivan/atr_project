@@ -9,9 +9,10 @@
 $users = get_users(['has_publised_posts' => null]);
 ?>
 <?php
+wp_reset_query();
 $count = 0;
 $authors = [];
-$args = ['post_type' => 'projects'];
+$args = ['post_type' => 'projects', 'posts_per_page' => -1];
 $projects = new WP_Query($args);
 ?>
 
@@ -25,7 +26,7 @@ use classes\UserFilter\UserFilter;
 
 $filter = new UserFilter($projects);
 $list = $filter->getIgnoreUsers();?>
-<pre><?php print_r($filter->getIgnoreUsers());?></pre>
+<!--<pre>--><?php ///print_r($projects);?><!--</pre>-->
 <?php
 
 $users = get_users();
