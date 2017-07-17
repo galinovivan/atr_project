@@ -258,5 +258,10 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/44245474" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+    $users = get_users(['has_publised_posts' => null]);
+    ?>
+<?php foreach ($users as $user): ?>
+    <pre><?php print_r($users);?></pre> <br />
+<?php endforeach; ?>
 </body>
 </html>
