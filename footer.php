@@ -270,11 +270,5 @@
 <!-- /Yandex.Metrika counter -->
 <script src="<?=get_template_directory_uri();?>/libs/slick/js/slick.min.js"></script>
 <script src="<?=get_template_directory_uri();?>/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script>
-    VK.init({
-        apiId: 6120491,
-        onlyWidgets: true
-    });
-</script>
 </body>
 </html>
