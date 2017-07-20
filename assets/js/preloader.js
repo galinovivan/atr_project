@@ -17,7 +17,7 @@
             $spinner = $preloader.find('.spinner');
 
         $spinner.fadeOut();
-        $preloader.delay(350).fadeOut('slow');
+        $preloader.fadeOut('fast');
     }
 
 })(jQuery);
