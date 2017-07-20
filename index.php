@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-xs-6 col-md-3 wrapper">
                     <div class="namination_item line_hover relative">
-                        <span class="sticker orange text-center">new</span>
+                        <!--<span class="sticker orange text-center">new</span>-->
                         <div class="icon">
                             <a href="<?=get_page_link(525);?>">
                            <img src="<?=get_template_directory_uri();?>/assets/images/last_namination.png"
