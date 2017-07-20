@@ -268,5 +268,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/44245474" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script src="<?=get_template_directory_uri();?>/libs/slick/js/slick.min.js"></script>
+<script src="<?=get_template_directory_uri();?>/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 </body>
 </html>

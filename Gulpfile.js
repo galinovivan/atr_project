@@ -44,10 +44,10 @@ var config = {
 gulp.task('js:build', function() {
 
     gulp.src(path.src.js)
-        .pipe(sourceMaps.init())
+       // .pipe(sourceMaps.init())
         .pipe(concat('scripts.js'))
         .pipe(uglify())
-        .pipe(sourceMaps.write())
+       // .pipe(sourceMaps.write())
         .pipe(gulp.dest(path.build.js))
 
 });
@@ -55,11 +55,11 @@ gulp.task('js:build', function() {
 gulp.task('style:build', function() {
 
     gulp.src(path.src.style)
-        .pipe(sourceMaps.init())
+      //  .pipe(sourceMaps.init())
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(cssmin())
-        .pipe(sourceMaps.write())
+      //  .pipe(sourceMaps.write())
         .pipe(gulp.dest(path.build.css))
 
 });
