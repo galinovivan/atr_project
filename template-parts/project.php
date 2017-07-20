@@ -34,6 +34,7 @@ $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);
         if (function_exists('wp_ulike')) {
             wp_ulike('get');
         }
+        $imageId = get_post_thumbnail_id();
         ?>
         <script>
             document.write(VK.Share.button({
@@ -41,8 +42,8 @@ $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);
                 image: '<?=wp_get_attachment_image_url($imageId)?>',
             },
                 {
-                    type: 'round',
-                    text: 'Поделиться'
+                    type: 'custom',
+                    text: '<span class="share_button black" title="Поделиться в контакте"><i class="fa fa-share" aria-hidden="true"></i></span>',
                 }));
         </script>
 
