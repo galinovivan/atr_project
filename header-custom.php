@@ -15,7 +15,7 @@ loadTranslate($currentLang);
     <title><?=lang('arh_title');?></title>
     <link rel="shortcut icon" href="<?=get_template_directory_uri();?>/assets/images/fav.ico" type="image/ico">
     <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-106461-5F5Ub';</script>
-    <!--<script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>-->
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
     <script src="https://vk.com/js/api/openapi.js?146" type="text/javascript"></script>
     <?php wp_head(); ?>
 </head>
