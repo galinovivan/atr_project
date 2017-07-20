@@ -36,16 +36,7 @@ $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true);
         }
        // $imageId = get_post_thumbnail_id();
         ?>
-        <script>
-           // document.write(VK.Share.button({
-             //   title: '<?=//get_the_title();?>',
-              //  image: '<?=//wp_get_attachment_image_url($imageId)?>',
-            //},
-                //{
-                //    type: 'custom',
-                  //  text: '<span class="share_button black" title="Поделиться в контакте"><i class="fa fa-share" aria-hidden="true"></i></span>',
-                //}));
-        </script>
+
 
     </div>
 </div>
