@@ -125,7 +125,7 @@
                                         image: '<?=wp_get_attachment_image_url($imageId)?>',
                                     },
                                     {
-                                        type: 'round',
+                                        type: 'round_nocount',
                                         text: '<span class="share_button black" title="Поделиться в контакте">Поделиться</span>',
                                     }));
                             </script>
