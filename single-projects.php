@@ -116,6 +116,19 @@
                             <p class="black"><strong>
                                     <?=lang('leader');?>:
                                 </strong><?php echo do_shortcode('[wpuf-meta name="team_lead"]')?></p>
+                           <?php
+                           $imageId = get_post_thumbnail_id();
+                            ?>
+                            <script>
+                                document.write(VK.Share.button({
+                                        title: '<?=get_the_title();?>',
+                                        image: '<?=wp_get_attachment_image_url($imageId)?>',
+                                    },
+                                    {
+                                        type: 'round',
+                                        text: '<span class="share_button black" title="Поделиться в контакте">Поделиться</span>',
+                                    }));
+                            </script>
 
                         </div>
                     </div>
