@@ -126,7 +126,7 @@
                                     },
                                     {
                                         type: 'round_nocount',
-                                        text: '<span class="share_button black" title="Поделиться в контакте">Поделиться</span>',
+                                        text: 'Поделиться',
                                     }));
                             </script>
 
