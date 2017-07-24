@@ -110,27 +110,7 @@
                                     $thumb_id = get_post_thumbnail_id();
                                     $thumb_url = wp_get_attachment_image_src($thumb_id, array(300, 300), false);
                                 ?>
-                            <div class="gallery_item">
-                            <a href="<?php the_permalink(); ?>">
-                                <div class="item_thumb line_hover">
-                                    <img src="<?php echo $thumb_url[0]; ?>" class="img-responsive" />
-                                    <span class="separate_line_hover left"></span>
-                                    <span  class="separate_line_hover right"></span>
-                                    <span class="separate_line_hover top"></span>
-                                    <span class="separate_line_hover bottom"></span>
-                                </div>
-                                </a>
-                                <div class="item_text">
-                                    <p class="black name name"><?php the_title(); ?></p>
-                                    <p class="black project_name"><?php echo do_shortcode('[wpuf-meta name="project_name"]')?></p>
-                              <?php
-                                if (function_exists('wp_ulike')) {
-                                        wp_ulike('get');
-                                        };
-                                    ?>
-
-                            </div>
-                                </div>
+                                         <?php include (get_template_directory() . '/template-parts/project.php'); ?>
 
 
                                 <?php endwhile; ?>
