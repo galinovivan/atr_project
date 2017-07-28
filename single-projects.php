@@ -26,53 +26,6 @@
     </div>
 </div>
 <main class="project_page">
-<!--    <div class="category_filter">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-3">-->
-<!--                    <div class="dropdown">-->
-<!--                        <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
-<!--                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
-<!--                            <span class="black bold_font">Категория участников</span>-->
-<!--                            <span class="dropdown_caret"></span>-->
-<!--                        </button>-->
-<!--                        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
-<!--                            <li><a href="#">Студенты</a></li>-->
-<!--                            <li><a href="#">Выпускники</a></li>-->
-<!--                            <li><a href="#">Финалисты`16</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-3">-->
-<!--                    <div class="dropdown">-->
-<!--                        <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
-<!--                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
-<!--                            <span class="black bold_font">Категория участников</span>-->
-<!--                            <span class="dropdown_caret"></span>-->
-<!--                        </button>-->
-<!--                        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
-<!--                            <li><a href="#">Студенты</a></li>-->
-<!--                            <li><a href="#">Выпускники</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-3">-->
-<!--                    <div class="dropdown">-->
-<!--                        <button class="btn dropdown-toggle" type="button" id="categoryDropdown"-->
-<!--                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">-->
-<!--                            <span class="black bold_font">Категория участников</span>-->
-<!--                            <span class="dropdown_caret"></span>-->
-<!--                        </button>-->
-<!--                        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">-->
-<!--                            <li><a href="#">Студенты</a></li>-->
-<!--                            <li><a href="#">Выпускники</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
     <div class="project">
         <div class="container">
             <div class="row">
@@ -158,9 +111,6 @@
    </div>
     <?php endif; ?>
 
-<!--    <div class="back_button">-->
-<!--        <button class="button base medium black block_center" href="/галерея-работ/">Вернуться в галерею</button>-->
-<!--    </div>-->
 </main>
 
 
