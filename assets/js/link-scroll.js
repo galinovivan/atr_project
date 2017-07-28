@@ -37,7 +37,6 @@
         }
 
         /**
-         * 
          * @param {jQuery} $el
          * @returns {Integer}
          */
