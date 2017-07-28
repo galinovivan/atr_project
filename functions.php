@@ -197,8 +197,6 @@ require get_template_directory() . '/function/projects.php';
 
 require get_template_directory() . '/function/articles.php';
 
-require get_template_directory() . '/function/contact-form.php';
-
 require get_template_directory() . '/function/reg_setting.php';
 
 require get_template_directory() . '/function/language.php';
