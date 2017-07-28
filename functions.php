@@ -139,11 +139,8 @@ function updateUserInfo($userId, $field, $value) {
     if (is_wp_error($userId)) {
         return 'some problem';
     }
-}
-/**
- * Implement the Custom Header feature.
- */
-//
+};
+
 
 add_filter('show_admin_bar', '__return_false');
 
