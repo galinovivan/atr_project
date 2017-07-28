@@ -96,9 +96,6 @@ function arh_project_scripts() {
 
 	wp_enqueue_script('jquery_custom', get_template_directory_uri() . '/node_modules/jquery/dist/jquery.min.js');
 	wp_enqueue_script('jquery_forms', get_template_directory_uri() . '/libs/jquery-form/jquery-form.js');
-	//wp_enqueue_script('bootstrap_custom', get_template_directory_uri() .
-      //  '/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js');
-	//wp_enqueue_script('slick_script', get_template_directory_uri() . '/libs/slick/js/slick.min.js');
 
 	wp_localize_script('jquery_custom', 'ajax_var',
 		array(
