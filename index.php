@@ -403,7 +403,7 @@
     <div class="registration_banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7 info_block hidden-xs hidden-sm">
+                <div class="col-md-7 info_block hidden-xs hidden-sm" id="mainInfoBlock">
                     <div class="base_color_background">
                         <?php if (!is_user_logged_in()): ?>
                         <div class="fluid_wrapper">
