@@ -40,22 +40,9 @@
             </div>
             <div class="row">
                 <div class="col-md-12 submit_row">
-
-                    <?php if (!is_user_logged_in()): ?>
-                        <p class="black">
-                            <?=lang('registration before template', true);?>:
-                        </p>
-                    <a href="#registrationModal" data-toggle="modal"
-                       class="button base black medium">
-                        <?=lang('registration');?>
+                    <a href="<?=get_field('template_link');?>" target="_blank" class="button base black medium" id="<?=get_field('ya_count_id');?>">
+                        <?=lang('download template');?>
                     </a>
-
-                    <?php else: ?>
-                        <a href="<?=get_field('template_link');?>" target="_blank"
-                           class="button base black medium" id="<?=get_field('ya_count_id');?>">
-                            <?=lang('download template');?>
-                        </a>
-                    <?php endif; ?>
                 </div>
             </div>
         </div>
